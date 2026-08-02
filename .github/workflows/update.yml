@@ -23,6 +23,10 @@ jobs:
 
       - name: Run tracker
         run: python tracker.py
+        - name: Post to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python discord_post.py
 
       - name: Commit and push results
         run: |
