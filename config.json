@@ -1,0 +1,42 @@
+{
+  "_comment": "Playoff tracker configuration. Edit the 'teams' list once seeds are known, then commit. Everything else can stay as-is.",
+  "leagueId": "et5c14rlmm9mb3pl",
+  "leagueName": "League of Lords",
+  "timezone": "America/Los_Angeles",
+
+  "_comment_teams": "Replace every TBD below. 'teamId' is the Fantrax team id (e.g. bnhdr2afmm9mb3pv), 'name' is the display name, 'seed' 1-7 (1 = best). Seeds 1-2 are protected from elimination after Week 1.",
+  "teams": [
+    {"teamId": "TBD", "name": "TBD", "seed": 1},
+    {"teamId": "TBD", "name": "TBD", "seed": 2},
+    {"teamId": "TBD", "name": "TBD", "seed": 3},
+    {"teamId": "TBD", "name": "TBD", "seed": 4},
+    {"teamId": "TBD", "name": "TBD", "seed": 5},
+    {"teamId": "TBD", "name": "TBD", "seed": 6},
+    {"teamId": "TBD", "name": "TBD", "seed": 7}
+  ],
+
+  "_comment_weeks": "Playoff schedule: each week maps to Fantrax lineup periods with real calendar date ranges. Championship week has 'championship': true — its records reset and all its periods score as one combined block.",
+  "weeks": [
+    {"label": "Week 1", "periods": [
+      {"period": 39, "start": "2026-08-03", "end": "2026-08-06"},
+      {"period": 40, "start": "2026-08-07", "end": "2026-08-09"}
+    ]},
+    {"label": "Week 2", "periods": [
+      {"period": 41, "start": "2026-08-10", "end": "2026-08-13"},
+      {"period": 42, "start": "2026-08-14", "end": "2026-08-16"}
+    ]},
+    {"label": "Week 3", "periods": [
+      {"period": 43, "start": "2026-08-17", "end": "2026-08-20"},
+      {"period": 44, "start": "2026-08-21", "end": "2026-08-23"}
+    ]},
+    {"label": "Championship", "championship": true, "periods": [
+      {"period": 45, "start": "2026-08-24", "end": "2026-08-27"},
+      {"period": 46, "start": "2026-08-28", "end": "2026-08-30"},
+      {"period": 47, "start": "2026-08-31", "end": "2026-09-03"},
+      {"period": 48, "start": "2026-09-04", "end": "2026-09-06"}
+    ]}
+  ],
+
+  "_comment_eliminatedOverrides": "Optional manual corrections. Map a teamId to the week label AFTER which it was eliminated, e.g. {\"bnhdr2afmm9mb3pv\": \"Week 1\"}. When set for a week, the override replaces the computed elimination for that week.",
+  "eliminatedOverrides": {}
+}
