@@ -28,6 +28,8 @@ DOCS_DIR = os.path.join(BASE_DIR, "docs")
 DATA_DIR = os.path.join(DOCS_DIR, "data")
 HISTORY_PATH = os.path.join(DOCS_DIR, "history.json")
 INDEX_PATH = os.path.join(DOCS_DIR, "index.html")
+STATE_PATH = os.path.join(DOCS_DIR, "state.json")
+COMMENTARY_PATH = os.path.join(DOCS_DIR, "commentary.json")
 
 FANTRAX_BASE = "https://www.fantrax.com/fxea/general"
 MLB_BASE = "https://statsapi.mlb.com/api/v1"
@@ -291,10 +293,12 @@ class StatFetcher:
             f"{FANTRAX_BASE}/getTeamRosters?leagueId={self.cfg['leagueId']}"
             f"&period={n}").get("rosters", {})
         teams = {}
+        players = {}
         for team in self.cfg["teams"]:
             tid = team["teamId"]
             total = zero_raw()
             teams[tid] = total
+            players[tid] = {}
             roster = rosters.get(tid)
             if not roster:
                 log(f"  ! no roster returned for team {tid} ({team['name']})")
@@ -309,15 +313,23 @@ class StatFetcher:
                     continue
                 try:
                     if pos in PITCHER_POSITIONS:
-                        add_raw(total, self._pitcher_raw(info["mlbId"], start, end))
+                        pr = self._pitcher_raw(info["mlbId"], start, end)
+                        add_raw(total, pr)
+                        players[tid][fid] = {"name": info.get("name"),
+                                             "mlbId": info["mlbId"],
+                                             "pos": pos, "side": "P", "raw": pr}
                     else:
-                        add_raw(total, self._hitter_raw(info["mlbId"], start, end))
+                        hr_ = self._hitter_raw(info["mlbId"], start, end)
+                        add_raw(total, hr_)
+                        players[tid][fid] = {"name": info.get("name"),
+                                             "mlbId": info["mlbId"],
+                                             "pos": pos, "side": "H", "raw": hr_}
                 except Exception as e:  # noqa: BLE001 - one player never kills the run
                     log(f"  ! stats failed for {info.get('name', fid)}: {e}")
             log(f"  {team['name']}: {len(actives)} active players tallied")
         save_json(cache_path, {"period": n, "start": start, "end": end,
                                "complete": parse_date(end) < self.today,
-                               "teams": teams})
+                               "teams": teams, "players": players})
         return teams
 
 
@@ -522,6 +534,17 @@ tr.out td{color:var(--red)}tr.out td:first-child{text-decoration:line-through}
 .wrap{overflow-x:auto;margin-bottom:8px}
 footer{text-align:center;color:var(--dim);font-size:12px;margin-top:34px;
 border-top:1px solid var(--line);padding-top:14px}
+.commentary{background:var(--card);border:1px solid var(--line);border-radius:10px;
+padding:16px 20px;margin:0 0 22px;max-width:1000px}
+.commentary h3{margin:0 0 4px;font-size:13px;letter-spacing:.10em;
+text-transform:uppercase;color:var(--accent)}
+.commentary .cmeta{color:var(--dim);font-size:11px;margin-bottom:10px}
+.commentary p{margin:0 0 10px;line-height:1.55;font-size:14px}
+.commentary p:last-child{margin-bottom:0}
+.commentary strong{color:#e6edf3}
+.commentary .tag{display:inline-block;font-size:10px;letter-spacing:.08em;
+text-transform:uppercase;background:#1f2d3d;color:var(--accent);
+border-radius:4px;padding:2px 7px;margin-left:8px;vertical-align:middle}
 """
 
 HEAT_JS = """
@@ -689,6 +712,7 @@ def generate_html(cfg, state, now):
             f"<h1>2026 FANTASY BASEBALL PLAYOFFS — "
             f"{esc(cfg['leagueName'])}</h1>"
             f"<div class='updated'>Updated {ts}</div>"
+            "<!--COMMENTARY-->"
             f"<div class='bracket'>{''.join(cards)}</div>"
             f"{''.join(tables)}"
             "<footer>Auto-updated 3x daily · Fantrax lineups × MLB live "
@@ -717,6 +741,36 @@ def append_history(state, now):
                  "week": label, "records": recs})
     save_json(HISTORY_PATH, hist)
     log(f"history.json: appended snapshot ({label})")
+
+
+def export_state(cfg, state, now):
+    """Dump a JSON-serializable summary of this run for commentary.py."""
+    teams = state["teams"]
+    cur = None
+    for stg in state["stages"]:
+        if stg["started"]:
+            cur = stg
+    champ = state["champ"]
+    active = champ if champ.get("started") else cur
+    out = {
+        "generated": now.isoformat(timespec="seconds"),
+        "leagueName": cfg.get("leagueName"),
+        "teams": {tid: {"name": t["name"], "seed": t["seed"]}
+                  for tid, t in teams.items()},
+        "currentWeek": (active["week"]["label"] if active else "pre-playoffs"),
+        "isChampionship": bool(champ.get("started")),
+        "periods": ([p for p in active["week"]["periods"]] if active else []),
+        "participants": (list(active.get("participants", [])) if active else []),
+        "weekRecords": ({t: list(r) for t, r in active["records"].items()}
+                        if active and active.get("records") else {}),
+        "weekValues": ({t: v for t, v in (active.get("values") or {}).items()}
+                       if active else {}),
+        "cumulative": {t: list(r) for t, r in state["cumulative"].items()},
+        "eliminated": [stg.get("eliminated") for stg in state["stages"]
+                       if stg.get("eliminated")],
+    }
+    save_json(STATE_PATH, out, indent=1)
+    log(f"wrote docs/state.json")
 
 
 # ---------------------------------------------------------------- main
@@ -754,6 +808,7 @@ def main():
         f.write(html)
     log(f"wrote docs/index.html ({len(html)} bytes)")
     append_history(state, now)
+    export_state(cfg, state, now)
     log("=== run complete ===")
     return 0
 
