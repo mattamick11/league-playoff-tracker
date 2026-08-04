@@ -2,22 +2,22 @@ name: Update playoff tracker
 
 on:
   schedule:
-    # Stats-only refreshes: 1pm, 5pm, 10pm Pacific (PDT = UTC-7)
+    # All times Pacific (PDT = UTC-7).
+    # 9:30pm — the big nightly update, WITH commentary. Games are essentially final.
+    - cron: '30 4 * * *'
+    # 10:00pm — stats-only sweep, catches any late West Coast game.
+    - cron: '0 5 * * *'
+    # 1:00pm and 5:00pm — stats-only refreshes during the day.
     - cron: '0 20 * * *'
     - cron: '0 0 * * *'
-    - cron: '0 5 * * *'
-    # Morning preview: 8:05am Pacific
-    - cron: '5 15 * * *'
-    # Nightly recap: 11:35pm Pacific (most games final)
-    - cron: '35 6 * * *'
   workflow_dispatch:
     inputs:
       commentary:
-        description: 'Commentary to generate with this run'
+        description: 'Also write the nightly commentary?'
         required: false
         default: 'none'
         type: choice
-        options: [none, preview, recap]
+        options: [none, nightly]
 
 permissions:
   contents: write
@@ -37,33 +37,30 @@ jobs:
       - name: Run tracker
         run: python tracker.py
 
-      # Decide whether this run also writes commentary, and which kind.
-      # Scheduled runs are chosen by cron; manual runs use the dropdown.
+      # Only the 9:30pm run writes commentary. Manual runs use the dropdown.
       - name: Pick commentary mode
         id: mode
         run: |
           MODE="none"
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             MODE="${{ github.event.inputs.commentary }}"
-          elif [ "${{ github.event.schedule }}" = "5 15 * * *" ]; then
-            MODE="preview"
-          elif [ "${{ github.event.schedule }}" = "35 6 * * *" ]; then
-            MODE="recap"
+          elif [ "${{ github.event.schedule }}" = "30 4 * * *" ]; then
+            MODE="nightly"
           fi
           echo "mode=$MODE" >> "$GITHUB_OUTPUT"
           echo "commentary mode: $MODE"
 
       - name: Generate commentary
-        if: steps.mode.outputs.mode != 'none'
+        if: steps.mode.outputs.mode == 'nightly'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python commentary.py --mode "${{ steps.mode.outputs.mode }}"
+        run: python commentary.py --mode nightly
 
       - name: Commit and push results
         run: |
           git config user.name "tracker-bot"
           git config user.email "tracker-bot@users.noreply.github.com"
           git add docs/ player_map.json
-          git commit -m "auto-update${{ steps.mode.outputs.mode != 'none' && format(' + {0}', steps.mode.outputs.mode) || '' }}" || echo "nothing to commit"
+          git commit -m "auto-update${{ steps.mode.outputs.mode == 'nightly' && ' + nightly commentary' || '' }}" || echo "nothing to commit"
           git push
