@@ -271,8 +271,183 @@ def probable_starters(cfg, state, resolver, target, period_n):
     return out
 
 
+def remaining_pitching(cfg, state, resolver, today):
+    """Probable starts still to come for each team in the current scoring week.
+
+    This is the number that matters. Category totals are settled at the END of
+    the week, so it is irrelevant whether a team's starts land Monday or
+    Saturday. A team can be last in IP on Tuesday and win it comfortably. Only a
+    thin slate of REMAINING starts late in the week is a real problem.
+    """
+    pers = state.get("periods") or []
+    if not pers:
+        return {}
+    week_end = T.parse_date(pers[-1]["end"])
+    days = []
+    d = today
+    while d <= week_end:
+        days.append(d)
+        d = d + timedelta(days=1)
+    if not days:
+        return {}
+    prob = {}   # mlbId -> list of {date, mlbTeam, opponent}
+    for d in days:
+        try:
+            data = T.mlb_get(f"{T.MLB_BASE}/schedule?sportId=1&date={d.isoformat()}"
+                             f"&hydrate=probablePitcher,team")
+        except Exception as e:
+            log(f"  ! schedule fetch failed for {d}: {e}")
+            continue
+        for day in data.get("dates", []):
+            for g in day.get("games", []):
+                for side in ("away", "home"):
+                    t = (g.get("teams") or {}).get(side) or {}
+                    pp = t.get("probablePitcher") or {}
+                    if not pp.get("id"):
+                        continue
+                    opp = "home" if side == "away" else "away"
+                    prob.setdefault(pp["id"], []).append({
+                        "date": d.isoformat(),
+                        "player": pp.get("fullName"),
+                        "mlbTeam": (t.get("team") or {}).get("name"),
+                        "opponent": ((g.get("teams") or {}).get(opp, {})
+                                     .get("team") or {}).get("name")})
+    # map onto fantasy rosters using the period covering each date
+    out = {}
+    for team in cfg["teams"]:
+        out[team["name"]] = {"seed": team["seed"], "starts": []}
+    seen = set()
+    for per in pers:
+        p_start, p_end = T.parse_date(per["start"]), T.parse_date(per["end"])
+        if p_end < today:
+            continue
+        rosters = active_rosters(cfg, per["period"])
+        for team in cfg["teams"]:
+            for item in rosters.get(team["teamId"], []):
+                if item.get("position") not in T.PITCHER_POSITIONS:
+                    continue
+                info = resolver.resolve(item.get("id"))
+                if not info:
+                    continue
+                for st in prob.get(info["mlbId"], []):
+                    if not (p_start.isoformat() <= st["date"] <= p_end.isoformat()):
+                        continue
+                    k = (team["name"], st["player"], st["date"])
+                    if k in seen:
+                        continue
+                    seen.add(k)
+                    out[team["name"]]["starts"].append(st)
+    for v in out.values():
+        v["starts"].sort(key=lambda x: x["date"])
+        v["remainingStarts"] = len(v["starts"])
+    return out
+
+
+def team_day_report(cfg, state, resolver, target, period_n):
+    """Per-team breakdown of one day. This is the spine of the write-up.
+
+    Built the way a manager actually reads a day:
+      1. every active player's line, so the standouts are FOUND not guessed;
+      2. each team's own hitting day, including what the team hit WITHOUT its
+         best performer -- "Burleson carried him" is only visible that way;
+      3. every STARTING pitcher appearance in full. A team gets 7-10 starts a
+         week, so one start moves IP/QS/K/ERA far more than any hitter moves a
+         hitting category. Near-miss quality starts are flagged explicitly
+         because 5.2 innings with 3 ER is the classic gut punch.
+      4. bench players who produced, so "good call sitting him" is checkable.
+    """
+    fetcher = T.StatFetcher(cfg, resolver, date.today())
+    d = target.isoformat()
+    try:
+        data = T.http_get_json(
+            f"{T.FANTRAX_BASE}/getTeamRosters?leagueId={cfg['leagueId']}"
+            f"&period={period_n}")
+        rosters = data.get("rosters") or {}
+    except Exception as e:
+        log(f"  ! roster fetch failed: {e}")
+        return {}
+
+    report = {}
+    for team in cfg["teams"]:
+        tid = team["teamId"]
+        items = (rosters.get(tid) or {}).get("rosterItems", [])
+        hitters, starters, relievers, bench = [], [], [], []
+        tot = {"ab": 0, "h": 0, "r": 0, "hr": 0, "rbi": 0, "sb": 0, "so": 0, "tb": 0}
+        for item in items:
+            fid, pos = item.get("id"), item.get("position", "")
+            status = item.get("status")
+            info = resolver.resolve(fid)
+            if not info:
+                continue
+            is_p = pos in T.PITCHER_POSITIONS
+            try:
+                raw = (fetcher._pitcher_raw(info["mlbId"], d, d) if is_p
+                       else fetcher._hitter_raw(info["mlbId"], d, d))
+            except Exception as e:
+                log(f"  ! {info.get('name')}: {e}")
+                continue
+            active = status == "ACTIVE"
+            if is_p:
+                if raw["OUTS"] == 0:
+                    continue
+                era = 27.0 * raw["ER"] / raw["OUTS"]
+                rec = {"player": info["name"], "ip": T.outs_to_ip_str(raw["OUTS"]),
+                       "outs": raw["OUTS"], "er": raw["ER"], "h": raw["HA"],
+                       "bb": raw["BBA"], "k": raw["K"], "qs": raw["QS"],
+                       "era": round(era, 2), "started": raw["QS"] > 0 or raw["OUTS"] >= 9,
+                       "svh3": raw["SV"] + 0.5 * raw["HLD"], "status": status}
+                # a start that fell one or two outs short of a QS, or had the
+                # innings but gave up 4+ -- both worth calling out by name
+                if raw["OUTS"] >= 14 and raw["OUTS"] < 18 and raw["ER"] <= 3:
+                    rec["nearMissQS"] = f"{18 - raw['OUTS']} out(s) short of a QS"
+                elif raw["OUTS"] >= 18 and raw["ER"] >= 4:
+                    rec["nearMissQS"] = f"went {T.outs_to_ip_str(raw['OUTS'])} but allowed {raw['ER']} ER"
+                (starters if rec["started"] else relievers).append(rec) if active \
+                    else bench.append({**rec, "side": "P"})
+            else:
+                if raw["AB"] == 0 and raw["BB"] == 0:
+                    continue
+                tb = raw["H"] + raw["D2"] + 2 * raw["D3"] + 3 * raw["HR"]
+                rec = {"player": info["name"], "ab": raw["AB"], "h": raw["H"],
+                       "r": raw["R"], "hr": raw["HR"], "rbi": raw["RBI"],
+                       "sb": raw["SB"], "so": raw["SO"], "tb": tb,
+                       "bb": raw["BB"], "status": status}
+                if active:
+                    hitters.append(rec)
+                    for k, kk in (("ab","AB"),("h","H"),("r","R"),("hr","HR"),
+                                  ("rbi","RBI"),("sb","SB"),("so","SO")):
+                        tot[k] += raw[kk]
+                    tot["tb"] += tb
+                else:
+                    bench.append({**rec, "side": "H"})
+        hitters.sort(key=lambda x: -(x["tb"] + x["r"] + x["rbi"] + 1.5 * x["sb"]))
+        starters.sort(key=lambda x: -x["outs"])
+        avg = round(tot["h"] / tot["ab"], 3) if tot["ab"] else None
+        # what the team hit WITHOUT its best bat -- shows who carried whom
+        rest_avg = None
+        if hitters and tot["ab"] - hitters[0]["ab"] > 0:
+            rest_avg = round((tot["h"] - hitters[0]["h"])
+                             / (tot["ab"] - hitters[0]["ab"]), 3)
+        report[team["name"]] = {
+            "seed": team["seed"],
+            "teamHitting": {**tot, "avg": avg, "restOfTeamAvg": rest_avg,
+                            "topBat": hitters[0]["player"] if hitters else None},
+            "hitters": hitters[:8],
+            "startingPitchers": starters,
+            "relievers": relievers,
+            "benchProduced": [b for b in bench
+                              if (b.get("hr") or b.get("sb") or b.get("outs", 0) >= 9)][:4],
+        }
+    return report
+
+
 def day_standouts(cfg, state, resolver, target, period_n, limit=6):
-    """Best and worst single-day performances among ACTIVE players."""
+    """Best and worst single-day performances among ACTIVE players.
+
+    This scans EVERY active player on every team and ranks them. It must never
+    be short-circuited by guessing at likely names — a 3-homer game from a $9
+    outfielder is exactly the sort of thing a guess misses.
+    """
     fetcher = T.StatFetcher(cfg, resolver, date.today())
     d = target.isoformat()
     rosters = active_rosters(cfg, period_n)
@@ -323,77 +498,217 @@ def day_standouts(cfg, state, resolver, target, period_n, limit=6):
 
 
 # ------------------------------------------------------------------ the brief
+def season_context(resolver, names_ids, season=2026):
+    """Season-to-date lines for the day's notable players only (cheap: ~10 calls).
+
+    Lets the write-up say "one of the best hitters in baseball this year" or note
+    a guy's homer total, instead of treating every performance as context-free.
+    """
+    out = {}
+    for name, mlb_id, side in names_ids:
+        try:
+            grp = "pitching" if side == "P" else "hitting"
+            data = T.mlb_get(f"{T.MLB_BASE}/people/{mlb_id}/stats"
+                             f"?stats=season&group={grp}&season={season}")
+            sp = (data.get("stats") or [{}])[0].get("splits") or []
+            if not sp:
+                continue
+            st = sp[0].get("stat", {})
+            if side == "P":
+                out[name] = {"w": st.get("wins"), "l": st.get("losses"),
+                             "era": st.get("era"), "ip": st.get("inningsPitched"),
+                             "k": st.get("strikeOuts"), "whip": st.get("whip"),
+                             "gs": st.get("gamesStarted")}
+            else:
+                out[name] = {"avg": st.get("avg"), "hr": st.get("homeRuns"),
+                             "rbi": st.get("rbi"), "r": st.get("runs"),
+                             "sb": st.get("stolenBases"), "ops": st.get("ops"),
+                             "team": (sp[0].get("team") or {}).get("name")}
+        except Exception as e:
+            log(f"  ! season stats failed for {name}: {e}")
+    return out
+
+
 def build_brief(mode, cfg, state, resolver, tz):
+    """One nightly brief: what happened today, where the week stands, what's left."""
     now = datetime.now(tz)
     today = now.date()
-    yesterday = today - timedelta(days=1)
-    target = today if mode == "preview" else yesterday
-    per = period_for(state, target) or period_for(state, today)
+    per = period_for(state, today)
     period_n = per["period"] if per else None
+    pers = state.get("periods") or []
+    week_end = T.parse_date(pers[-1]["end"]) if pers else today
+    days_left = max(0, (week_end - today).days)
 
     brief = {
         "mode": mode,
         "league": state.get("leagueName"),
         "generatedLocal": now.strftime("%A %B %-d, %Y %-I:%M %p Pacific"),
-        "targetDate": target.isoformat(),
+        "resultsThrough": today.isoformat(),
         "currentWeek": state.get("currentWeek"),
         "isChampionship": state.get("isChampionship"),
-        "format": ("All-play: every team plays every other team each week across "
-                   "16 categories. A category win is 1 point, a tie 0.5. "
-                   "Seeds 1-2 are protected from elimination after Week 1."),
-        "standings": [{"team": n, "seed": s, "record": f"{w}-{l}-{t}",
-                       "points": p} for _, n, s, w, l, t, p in standings(state)],
+        "weekEnds": week_end.isoformat(),
+        "daysRemainingInWeek": days_left,
+        "weekProgress": round(week_progress(state, today), 2),
+        "format": (
+            "All-play: every team plays every other team each week across 16 "
+            "categories. A category win is 1 point, a tie 0.5, so with 7 teams "
+            "each manager has 6 head-to-heads and 96 category decisions a week. "
+            "Category totals are settled at the END of the week."),
+        "seedRules": (
+            "Seeds 1 and 2 are protected from elimination after Week 1, but "
+            "their records still carry into the following weeks, so a bad week "
+            "still costs them."),
+        "standings": [{"team": n, "seed": s_, "record": f"{w}-{l}-{t}",
+                       "points": p} for _, n, s_, w, l, t, p in standings(state)],
         "eliminated": [team_name(state, t) for t in state.get("eliminated", [])],
     }
     if period_n is None:
-        brief["note"] = "No active lineup period covers the target date."
+        brief["note"] = "No active lineup period covers today."
         return brief
 
-    if mode == "preview":
-        log("building preview: probable starters + close categories")
-        brief["probableStarters"] = probable_starters(cfg, state, resolver,
-                                                     target, period_n)
-        brief["closeCategories"] = close_categories(state, today)
-    else:
-        log("building recap: standouts + movers + close categories")
-        brief["standouts"] = day_standouts(cfg, state, resolver, target, period_n)
-        brief["movers"] = movers(state, tz)
-        brief["closeCategories"] = close_categories(state, today)
+    log("scanning every player for today's lines, team by team")
+    brief["teamDayReports"] = team_day_report(cfg, state, resolver, today, period_n)
+    log("ranking league-wide standouts")
+    brief["todayStandouts"] = day_standouts(cfg, state, resolver, today, period_n)
+    # season-to-date context for just the players who mattered today
+    notable = []
+    seen_n = set()
+    for tr in (brief["teamDayReports"] or {}).values():
+        for h in tr["hitters"][:2]:
+            if h["player"] not in seen_n and (h["hr"] or h["tb"] >= 4):
+                seen_n.add(h["player"]); notable.append((h["player"], None, "H"))
+        for sp_ in tr["startingPitchers"]:
+            if sp_["player"] not in seen_n:
+                seen_n.add(sp_["player"]); notable.append((sp_["player"], None, "P"))
+    resolved = []
+    pl = resolver.pmap.get("players", {})
+    byname = {v.get("name"): v.get("mlbId") for v in pl.values()}
+    for nm, _, side in notable[:16]:
+        if byname.get(nm):
+            resolved.append((nm, byname[nm], side))
+    log(f"fetching season context for {len(resolved)} notable players")
+    brief["seasonContext"] = season_context(resolver, resolved)
+    lc = T.load_json(os.path.join(BASE_DIR, "league_context.json"), {}) or {}
+    # trim provenance to the players who actually appear today, so the model sees
+    # "this guy was a $9 trade pickup" only for people it is going to write about
+    prov_all = lc.pop("acquisitionProvenance", {})
+    mentioned = set()
+    for tr in (brief.get("teamDayReports") or {}).values():
+        for h in tr["hitters"][:4]:
+            mentioned.add(h["player"])
+        for sp_ in tr["startingPitchers"]:
+            mentioned.add(sp_["player"])
+        for b in tr.get("benchProduced", []):
+            mentioned.add(b["player"])
+    for t in (brief.get("remainingPitching") or {}).values():
+        for st in t.get("starts", []):
+            mentioned.add(st["player"])
+    lc["acquisitionProvenance"] = {k: v for k, v in prov_all.items() if k in mentioned}
+    brief["leagueContext"] = lc
+    log(f"league context: {len(lc.get('acquisitionProvenance', {}))} provenance entries "
+        f"for today's named players")
+    log("computing standings movement")
+    brief["movers"] = movers(state, tz)
+    log("computing close categories")
+    brief["closeCategories"] = close_categories(state, today)
+    log("fetching remaining probable starts for the rest of the week")
+    brief["remainingPitching"] = remaining_pitching(cfg, state, resolver, today)
+    # team-level week totals so the model can see context, not just deltas
+    vals = state.get("weekValues") or {}
+    brief["weekTotals"] = {}
+    for tid in state.get("participants", []):
+        v = vals.get(tid) or {}
+        brief["weekTotals"][team_name(state, tid)] = {
+            "R": v.get("R"), "HR": v.get("HR"), "RBI": v.get("RBI"),
+            "SB": v.get("SB"), "SO": v.get("SO"),
+            "AVG": round(v["AVG"], 3) if v.get("AVG") is not None else None,
+            "OPS": round(v["OPS"], 3) if v.get("OPS") is not None else None,
+            "IP": round(v["IP"] / 3.0, 1) if v.get("IP") is not None else None,
+            "QS": v.get("QS"), "K": v.get("K"),
+            "H_allowed": v.get("HA"), "BB_allowed": v.get("BBA"),
+            "ERA": round(v["ERA"], 2) if v.get("ERA") is not None else None,
+            "SVH3": v.get("SVH3"),
+        }
     return brief
 
 
 # ------------------------------------------------------------------ the writer
-SYSTEM = """You write the daily commentary for a 12-team fantasy baseball league
-called The League of Lords, now in its 2026 playoffs. You are writing for the
-seven managers still alive, who have played together for eleven years and give
-each other a lot of grief.
+SYSTEM = """You write the nightly update for The League of Lords, a 12-team
+fantasy baseball league now in its 2026 playoffs. Seven managers are alive. They
+have played together eleven years, know the game cold, and read this for the
+detail — not for a summary.
 
-Voice: a sharp beat writer who actually watches the games. Dry, confident, a
-little needling. Name managers and teams directly. Short paragraphs. No preamble,
-no "here's your update", no bullet lists, no emoji, no headings.
+STRUCTURE — follow this, it is the whole point
+Go TEAM BY TEAM, in current standings order, one short paragraph each. Open with
+a line setting the scene (which day of the week it is, how much is left). Close
+with a one-line sign-off. For each team cover, in roughly this order:
+  1. the day's best bat on that team, with the actual line;
+  2. how the REST of the team hit -- use teamHitting.restOfTeamAvg. "X carried
+     him" is only true if the rest of the roster was quiet, so check;
+  3. every STARTING PITCHER who threw, by name, with the line. This matters more
+     than any hitter. A team gets only 7-10 starts a week, so one bad start
+     wrecks IP, K and ERA together. Always mention a nearMissQS by name -- 5.2
+     innings one out short of a quality start is a genuine gut punch and the
+     league will feel it.
+  4. who they have on the mound over the NEXT day or two, from remainingPitching,
+     and whether the slate is thin.
+Do not write a standings table. Do not write bullet lists.
 
-Hard rules:
-- Every number you cite must come from the JSON provided. Never invent or round
-  in a way that changes a value.
-- If a fact isn't in the JSON, don't assert it. No made-up injuries, no
-  speculation about trades or lineups you can't see.
-- Team names are the fantasy team names in the JSON. Use them.
-- 'All-play' means each team faces all others weekly, so one category can swing
-  several points at once. Treat close categories as genuinely consequential.
-- Lower is better for SO (hitting), H allowed, BB allowed, and ERA.
+VOICE
+Warm, funny, conversational, like a friend who watched every game. First names or
+league nicknames (Cwill, Soy, Con, Cousin, Burz). Dry asides are good. You may
+tease a bad day. You are NOT dramatic and NOT a hype man.
 
-Length: 150-220 words. Two or three paragraphs. Lead with the single most
-interesting thing, not a summary."""
+HOW TO READ A YOUNG WEEK
+Check daysRemainingInWeek and weekProgress first. Early in a week almost nothing
+is settled -- say someone is off to a nice start, never that anyone is running
+away with it or in trouble. A big early lead in IP, K or QS just means those
+starters pitched first; it evens out, so do not call it an advantage. If teams are
+TIED in a category, say tied -- check weekTotals before claiming anyone leads.
+AVG and OPS on a few dozen at-bats mean very little yet.
 
-PREVIEW_HINT = """Write the MORNING PREVIEW for today. Focus on: who has pitching
-going today and who doesn't (a team with two probable starters has a real edge in
-IP, QS and K), and which categories are close enough that today decides them.
-Call out any team with zero probable starters."""
+PITCHING, PROPERLY
+Category totals settle at the END of the week. It does not matter whether starts
+land Monday or Saturday. Use remainingPitching. A team light on innings with
+starts still coming is fine -- do not imply otherwise. Only call it a problem if
+they are well behind AND nearly out of remaining starts. A thin slate for the next
+couple of days is worth a passing note, not alarm.
 
-RECAP_HINT = """Write the NIGHTLY RECAP for yesterday. Focus on: the best
-individual performances and who they belong to, who gained or lost ground in the
-standings, and which categories are still on a knife edge. If someone had a
-disaster outing, say so."""
+CONTEXT YOU MAY USE — this is what separates a good write-up from a box score
+- seasonContext: season-to-date lines for the players you are naming. Use it to
+  size a performance: "one of the best hitters in baseball this year", "that's 32
+  on the season".
+- leagueContext.playoffField: seed, regular-season record, and how each team got
+  in. Keller finished EIGHTH and made it only by winning the July-only roto
+  challenge, and he is the defending champion — both worth using.
+- leagueContext.seasonTeamProfiles: each team's league rank (of 12) in every
+  category across the whole season. This is how you describe a team's identity
+  rather than just its day: Soy led the league in innings and quality starts but
+  was last in hits and walks allowed, so he is a volume-starts team; Ryan had the
+  best ERA in the league while sitting 5th in innings, so his staff is genuinely
+  good; Tory and Cwill finished 1-2 in SVH3, so both have real bullpens; Will led
+  in HR, RBI and OPS. Use a team's season identity to frame whether a day is
+  normal or surprising for them.
+- leagueContext.acquisitionProvenance: how each named player was acquired —
+  draft price and pick, keeper price, a trade, or a waiver claim. When someone has
+  a big game, check it. A $9 draft pick acquired in a trade, or a $1 waiver claim
+  going off in the playoffs, is a genuinely fun thing to point out.
+Only use what is in the JSON. Do not invent a trade, a price, or a rank.
+
+HARD RULES
+- Every number must come from the JSON. Never invent one, never round in a way
+  that changes it. If a fact is not there, do not assert it.
+- Lower is better for SO (hitting), H allowed, BB allowed, ERA.
+- Seeds 1 and 2 cannot be eliminated after Week 1, but their records carry into
+  later weeks, so a bad week still costs them. Mention protection only where it
+  is relevant.
+- Never claim a real-world trade, injury or call-up unless it is in the JSON.
+
+LENGTH: 450-650 words. Seven short team paragraphs plus an opener and a sign-off."""
+
+NIGHTLY_HINT = """Write tonight's update. It is about 9:30pm Pacific and today's
+games are final. Remember the reader sees this tonight, so pitchers listed in
+remainingPitching for tomorrow's date go "tomorrow", not "today"."""
 
 
 def write_commentary(brief):
@@ -401,7 +716,7 @@ def write_commentary(brief):
     if not key:
         log("  ! ANTHROPIC_API_KEY not set — falling back to a plain summary")
         return fallback_text(brief), "fallback"
-    hint = PREVIEW_HINT if brief["mode"] == "preview" else RECAP_HINT
+    hint = NIGHTLY_HINT
     body = json.dumps({
         "model": MODEL,
         "max_tokens": 900,
@@ -432,44 +747,47 @@ def write_commentary(brief):
 
 
 def fallback_text(brief):
-    """Deterministic prose if the model is unavailable. Never blocks a run."""
-    s = brief.get("standings") or []
+    """Deterministic prose if the model is unavailable. Never blocks a run.
+
+    Follows the same discipline as the prompt: lead with the best individual
+    performance, and do not imply anything is decided while the week is young.
+    """
     bits = []
-    if s:
-        bits.append(f"{s[0]['team']} leads {brief.get('currentWeek','the week')} "
-                    f"at {s[0]['record']}, with {s[-1]['team']} last at "
-                    f"{s[-1]['record']}.")
-    if brief["mode"] == "preview":
-        ps = brief.get("probableStarters") or []
-        have = [p for p in ps if p["count"]]
-        none = [p["team"] for p in ps if not p["count"]]
-        if have:
-            top = have[0]
-            names = ", ".join(x["player"] for x in top["probableStarters"])
-            bits.append(f"{top['team']} has {top['count']} probable starter"
-                        f"{'s' if top['count'] != 1 else ''} today ({names}).")
-        if none:
-            bits.append("No probable starters for " + ", ".join(none) + ".")
-    else:
-        so = (brief.get("standouts") or {})
-        th = so.get("topHitters") or []
-        tp = so.get("topPitchers") or []
-        if th:
-            h = th[0]
-            bits.append(f"{h['player']} ({h['team']}) went {h['h']}-for-{h['ab']}"
-                        f" with {h['hr']} HR and {h['rbi']} RBI.")
-        if tp:
-            p = tp[0]
-            bits.append(f"{p['player']} ({p['team']}) threw {p['ip']} IP with "
-                        f"{p['k']} K and {p['er']} ER.")
-        mv = brief.get("movers") or []
-        if mv and mv[0]["pointsGained"]:
-            bits.append(f"{mv[0]['team']} gained the most ground "
-                        f"({mv[0]['pointsGained']:+} pts).")
-    cc = brief.get("closeCategories") or []
-    if cc:
-        bits.append(f"{cc[0]['category']} is the tightest category, with "
-                    f"{cc[0]['closePairs']} matchups within a hair.")
+    so = brief.get("todayStandouts") or {}
+    th = (so.get("topHitters") or [])
+    tp = (so.get("topPitchers") or [])
+    if th:
+        h = th[0]
+        line = f"{h['player']} ({h['team']}) went {h['h']}-for-{h['ab']}"
+        extra = []
+        if h.get("hr"):
+            extra.append(f"{h['hr']} HR")
+        if h.get("rbi"):
+            extra.append(f"{h['rbi']} RBI")
+        if h.get("r"):
+            extra.append(f"{h['r']} R")
+        if h.get("sb"):
+            extra.append(f"{h['sb']} SB")
+        if extra:
+            line += " with " + ", ".join(extra)
+        bits.append(line + ".")
+    if tp:
+        p = tp[0]
+        bits.append(f"{p['player']} ({p['team']}) threw {p['ip']} IP, "
+                    f"{p['k']} K, {p['er']} ER.")
+    s_ = brief.get("standings") or []
+    if s_:
+        bits.append(f"{s_[0]['team']} leads {brief.get('currentWeek','the week')} "
+                    f"at {s_[0]['record']}.")
+    dl = brief.get("daysRemainingInWeek")
+    if dl is not None and dl >= 4:
+        bits.append(f"{dl} days still to play, so little is settled.")
+    rp = brief.get("remainingPitching") or {}
+    if rp:
+        ranked = sorted(rp.items(), key=lambda kv: -kv[1].get("remainingStarts", 0))
+        top, low = ranked[0], ranked[-1]
+        bits.append(f"{top[0]} has the most starts left ({top[1]['remainingStarts']}), "
+                    f"{low[0]} the fewest ({low[1]['remainingStarts']}).")
     return " ".join(bits) or "No commentary available for this run."
 
 
@@ -482,7 +800,7 @@ def inject_into_page(text, mode, brief):
     if "<!--COMMENTARY-->" not in html:
         log("  ! placeholder <!--COMMENTARY--> not found in index.html")
         return False
-    title = "Morning Preview" if mode == "preview" else "Nightly Recap"
+    title = "Nightly Update"
     paras = "".join(f"<p>{T.esc(p)}</p>" for p in text.split("\n\n") if p.strip())
     tag = "" if brief.get("_model") != "fallback" else \
         '<span class="tag">auto</span>'
@@ -500,7 +818,7 @@ def post_discord(text, mode, brief):
     if not url:
         log("  ! DISCORD_WEBHOOK_URL not set — skipping Discord")
         return False
-    head = ("**Morning Preview**" if mode == "preview" else "**Nightly Recap**")
+    head = "**Nightly Update**"
     week = brief.get("currentWeek", "")
     page = "https://mattamick11.github.io/league-playoff-tracker/"
     msg = f"{head} — {week}\n\n{text}\n\n<{page}>"
@@ -521,7 +839,7 @@ def post_discord(text, mode, brief):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--mode", choices=["preview", "recap"], required=True)
+    ap.add_argument("--mode", choices=["nightly"], default="nightly")
     ap.add_argument("--no-discord", action="store_true")
     ap.add_argument("--dry-run", action="store_true",
                     help="build the brief and print it; no model call, no publish")

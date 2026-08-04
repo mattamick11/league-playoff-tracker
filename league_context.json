@@ -1,0 +1,4658 @@
+{
+ "_comment": "League context for the commentary writer. Generated 2026-08-03 from League History Database + sidecar. Regenerate once a season, or after major trades.",
+ "season": 2026,
+ "leagueName": "League of Lords",
+ "format": "12-team head-to-head all categories on Fantrax since 2016. 16 categories. 7-team playoff.",
+ "playoffField": {
+  "Yordan Redemption Tour": {
+   "seed": 1,
+   "owner": "Will",
+   "regularSeason": "141-88-43, 1st \u2014 won the regular season",
+   "note": "Protected from elimination in Week 1."
+  },
+  "hubba hubba bubba bubba": {
+   "seed": 2,
+   "owner": "Bryce",
+   "regularSeason": "133-96-43, 2nd",
+   "note": "Protected from elimination in Week 1."
+  },
+  "Small Balls": {
+   "seed": 3,
+   "owner": "Ryan",
+   "regularSeason": "126-104-42, 3rd"
+  },
+  "Nick Kurtz in Paris": {
+   "seed": 4,
+   "owner": "Tory",
+   "regularSeason": "117-117-38, 4th \u2014 exactly .500"
+  },
+  "Landen Poop": {
+   "seed": 5,
+   "owner": "Cwill",
+   "regularSeason": "114-115-43, 5th"
+  },
+  "Chase Sapphire": {
+   "seed": 6,
+   "owner": "Soy",
+   "regularSeason": "114-117-41, 6th \u2014 snuck in"
+  },
+  "Return of Belt to Ass": {
+   "seed": 7,
+   "owner": "Keller",
+   "regularSeason": "112-117-43, finished 8th in the standings",
+   "note": "Did NOT qualify on record. Got the last spot by winning the July-only roto standings challenge. Also the DEFENDING CHAMPION (2025)."
+  }
+ },
+ "seedRules": "Seeds 1 and 2 are protected from elimination after Week 1, but their records carry into later weeks, so a bad week still costs them.",
+ "seasonTeamProfiles": {
+  "Landen Poop": {
+   "owner": "Corey Williamson",
+   "leagueRanksOf12": {
+    "HR": 5,
+    "RBI": 5,
+    "R": 1,
+    "OPS": 2,
+    "AVG": 1,
+    "SB": 9,
+    "hitter SO": 3,
+    "IP": 4,
+    "QS": 10,
+    "K": 5,
+    "ERA": 7,
+    "H allowed": 7,
+    "BB allowed": 10,
+    "SVH3": 2
+   },
+   "seasonValues": {
+    "HR": 201,
+    "RBI": 689,
+    "R": 768,
+    "OPS": 0.791,
+    "AVG": 0.269,
+    "SB": 87,
+    "hitter SO": 1099,
+    "IP": 1024.7,
+    "QS": 56,
+    "K": 1047,
+    "ERA": 3.82,
+    "H allowed": 892,
+    "BB allowed": 355,
+    "SVH3": 90.0
+   },
+   "strengths": [
+    "R #1",
+    "OPS #2",
+    "AVG #1",
+    "SVH3 #2"
+   ],
+   "weaknesses": []
+  },
+  "Return of Belt to Ass": {
+   "owner": "Keller Ewing",
+   "leagueRanksOf12": {
+    "HR": 3,
+    "RBI": 4,
+    "R": 7,
+    "OPS": 5,
+    "AVG": 8,
+    "SB": 8,
+    "hitter SO": 11,
+    "IP": 8,
+    "QS": 9,
+    "K": 8,
+    "ERA": 8,
+    "H allowed": 9,
+    "BB allowed": 5,
+    "SVH3": 6
+   },
+   "seasonValues": {
+    "HR": 211,
+    "RBI": 718,
+    "R": 691,
+    "OPS": 0.753,
+    "AVG": 0.248,
+    "SB": 97,
+    "hitter SO": 1311,
+    "IP": 985.7,
+    "QS": 62,
+    "K": 963,
+    "ERA": 3.83,
+    "H allowed": 910,
+    "BB allowed": 332,
+    "SVH3": 63.0
+   },
+   "strengths": [],
+   "weaknesses": [
+    "hitter SO #11"
+   ]
+  },
+  "Yordan Redemption Tour": {
+   "owner": "Will O'Neil",
+   "leagueRanksOf12": {
+    "HR": 1,
+    "RBI": 1,
+    "R": 3,
+    "OPS": 1,
+    "AVG": 2,
+    "SB": 12,
+    "hitter SO": 4,
+    "IP": 6,
+    "QS": 5,
+    "K": 4,
+    "ERA": 4,
+    "H allowed": 4,
+    "BB allowed": 9,
+    "SVH3": 5
+   },
+   "seasonValues": {
+    "HR": 226,
+    "RBI": 742,
+    "R": 757,
+    "OPS": 0.796,
+    "AVG": 0.257,
+    "SB": 82,
+    "hitter SO": 1174,
+    "IP": 1005.3,
+    "QS": 67,
+    "K": 1058,
+    "ERA": 3.7,
+    "H allowed": 861,
+    "BB allowed": 350,
+    "SVH3": 64.5
+   },
+   "strengths": [
+    "HR #1",
+    "RBI #1",
+    "OPS #1",
+    "AVG #2"
+   ],
+   "weaknesses": [
+    "SB #12"
+   ]
+  },
+  "Chase Sapphire": {
+   "owner": "Sawyer Auer",
+   "leagueRanksOf12": {
+    "HR": 2,
+    "RBI": 3,
+    "R": 2,
+    "OPS": 3,
+    "AVG": 4,
+    "SB": 10,
+    "hitter SO": 12,
+    "IP": 1,
+    "QS": 1,
+    "K": 2,
+    "ERA": 5,
+    "H allowed": 12,
+    "BB allowed": 12,
+    "SVH3": 4
+   },
+   "seasonValues": {
+    "HR": 216,
+    "RBI": 719,
+    "R": 760,
+    "OPS": 0.774,
+    "AVG": 0.254,
+    "SB": 85,
+    "hitter SO": 1362,
+    "IP": 1096.3,
+    "QS": 74,
+    "K": 1124,
+    "ERA": 3.8,
+    "H allowed": 948,
+    "BB allowed": 384,
+    "SVH3": 66.5
+   },
+   "strengths": [
+    "HR #2",
+    "R #2",
+    "IP #1",
+    "QS #1",
+    "K #2"
+   ],
+   "weaknesses": [
+    "hitter SO #12",
+    "H allowed #12",
+    "BB allowed #12"
+   ]
+  },
+  "Small Balls": {
+   "owner": "Ryan Morgan",
+   "leagueRanksOf12": {
+    "HR": 9,
+    "RBI": 6,
+    "R": 8,
+    "OPS": 7,
+    "AVG": 6,
+    "SB": 7,
+    "hitter SO": 5,
+    "IP": 5,
+    "QS": 3,
+    "K": 7,
+    "ERA": 1,
+    "H allowed": 2,
+    "BB allowed": 6,
+    "SVH3": 3
+   },
+   "seasonValues": {
+    "HR": 189,
+    "RBI": 668,
+    "R": 687,
+    "OPS": 0.746,
+    "AVG": 0.252,
+    "SB": 101,
+    "hitter SO": 1185,
+    "IP": 1014.3,
+    "QS": 70,
+    "K": 995,
+    "ERA": 3.36,
+    "H allowed": 811,
+    "BB allowed": 346,
+    "SVH3": 67.5
+   },
+   "strengths": [
+    "ERA #1",
+    "H allowed #2"
+   ],
+   "weaknesses": []
+  },
+  "hubba hubba bubba bubba": {
+   "owner": "Bryce Morgan",
+   "leagueRanksOf12": {
+    "HR": 7,
+    "RBI": 2,
+    "R": 6,
+    "OPS": 8,
+    "AVG": 5,
+    "SB": 3,
+    "hitter SO": 6,
+    "IP": 11,
+    "QS": 12,
+    "K": 9,
+    "ERA": 9,
+    "H allowed": 3,
+    "BB allowed": 4,
+    "SVH3": 7
+   },
+   "seasonValues": {
+    "HR": 195,
+    "RBI": 735,
+    "R": 716,
+    "OPS": 0.744,
+    "AVG": 0.253,
+    "SB": 126,
+    "hitter SO": 1211,
+    "IP": 928.3,
+    "QS": 51,
+    "K": 942,
+    "ERA": 3.95,
+    "H allowed": 848,
+    "BB allowed": 322,
+    "SVH3": 58.0
+   },
+   "strengths": [
+    "RBI #2"
+   ],
+   "weaknesses": [
+    "IP #11",
+    "QS #12"
+   ]
+  },
+  "Nick Kurtz in Paris": {
+   "owner": "Tory Goranson",
+   "leagueRanksOf12": {
+    "HR": 8,
+    "RBI": 7,
+    "R": 5,
+    "OPS": 4,
+    "AVG": 3,
+    "SB": 6,
+    "hitter SO": 9,
+    "IP": 9,
+    "QS": 11,
+    "K": 6,
+    "ERA": 12,
+    "H allowed": 5,
+    "BB allowed": 11,
+    "SVH3": 1
+   },
+   "seasonValues": {
+    "HR": 192,
+    "RBI": 639,
+    "R": 718,
+    "OPS": 0.77,
+    "AVG": 0.255,
+    "SB": 105,
+    "hitter SO": 1259,
+    "IP": 962.3,
+    "QS": 53,
+    "K": 1018,
+    "ERA": 4.13,
+    "H allowed": 876,
+    "BB allowed": 360,
+    "SVH3": 110.5
+   },
+   "strengths": [
+    "SVH3 #1"
+   ],
+   "weaknesses": [
+    "QS #11",
+    "ERA #12",
+    "BB allowed #11"
+   ]
+  }
+ },
+ "profileHowToRead": "leagueRanksOf12: 1 = best in the 12-team league for that category, 12 = worst. For hitter SO, H allowed, BB allowed and ERA, lower raw values are better, and the rank already accounts for that (rank 1 = fewest/best).",
+ "acquisitionProvenance": {
+  "Owen Caissie": {
+   "origin": "PRESEASON_NONDRAFT",
+   "price": 1.0
+  },
+  "Max Muncy": {
+   "origin": "DRAFT",
+   "price": 5.0,
+   "draftPick": 167
+  },
+  "Dylan Beavers": {
+   "origin": "PRESEASON_NONDRAFT",
+   "price": 1.0
+  },
+  "Joey Cantillo": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 219,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-06-28",
+     "bid": 2.0
+    },
+    {
+     "by": "Conner Mullan",
+     "date": "2026-06-28",
+     "bid": 4.0
+    }
+   ]
+  },
+  "Mick Abel": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 172,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-06-22",
+     "bid": null
+    },
+    {
+     "by": "Nick Conrad",
+     "date": "2026-06-21",
+     "bid": 2.0
+    }
+   ]
+  },
+  "Kyle Manzardo": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 119,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-03-29",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Jac Caglianone": {
+   "origin": "DRAFT",
+   "price": 6.0,
+   "draftPick": 136
+  },
+  "Connelly Early": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 230
+  },
+  "Cody Bellinger": {
+   "origin": "DRAFT",
+   "price": 26.0,
+   "draftPick": 46
+  },
+  "Bryan Reynolds": {
+   "origin": "DRAFT",
+   "price": 4.0,
+   "draftPick": 137
+  },
+  "Clayton Beeter": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 184,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-05-31",
+     "bid": null
+    }
+   ]
+  },
+  "Caleb Durbin": {
+   "origin": "DRAFT",
+   "price": 6.0,
+   "draftPick": 109,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-06-28",
+     "bid": 0.0
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-06-28",
+     "bid": 2.0
+    }
+   ]
+  },
+  "Christian Walker": {
+   "origin": "DRAFT",
+   "price": 3.0,
+   "draftPick": 149
+  },
+  "Isaac Paredes": {
+   "origin": "DRAFT",
+   "price": 8.0,
+   "draftPick": 87
+  },
+  "Sal Stewart": {
+   "origin": "DRAFT",
+   "price": 7.0,
+   "draftPick": 151
+  },
+  "Yordan Alvarez": {
+   "origin": "DRAFT",
+   "price": 45.0,
+   "draftPick": 30
+  },
+  "Zach Neto": {
+   "origin": "KEEPER",
+   "price": 9.0
+  },
+  "J.T. Realmuto": {
+   "origin": "DRAFT",
+   "price": 2.0,
+   "draftPick": 81,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-07-26",
+     "bid": 0.0
+    },
+    {
+     "by": "Jack DeShaw",
+     "date": "2026-04-05",
+     "bid": null
+    }
+   ]
+  },
+  "Nathan Eovaldi": {
+   "origin": "KEEPER",
+   "price": 8.0
+  },
+  "Geraldo Perdomo": {
+   "origin": "KEEPER",
+   "price": 8.0
+  },
+  "Ketel Marte": {
+   "origin": "DRAFT",
+   "price": 36.0,
+   "draftPick": 21
+  },
+  "Hogan Harris": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 262,
+   "waiverClaims": [
+    {
+     "by": "Keller Ewing",
+     "date": "2026-05-31",
+     "bid": null
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-18",
+     "bid": null
+    }
+   ]
+  },
+  "Chris Sale": {
+   "origin": "DRAFT",
+   "price": 26.0,
+   "draftPick": 18
+  },
+  "Isaac Collins": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 252
+  },
+  "Edwin Diaz": {
+   "origin": "KEEPER",
+   "price": 19.0
+  },
+  "Emmet Sheehan": {
+   "origin": "DRAFT",
+   "price": 7.0,
+   "draftPick": 124
+  },
+  "Emilio Pagan": {
+   "origin": "DRAFT",
+   "price": 3.0,
+   "draftPick": 160,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-05-24",
+     "bid": null
+    }
+   ]
+  },
+  "Nolan McLean": {
+   "origin": "KEEPER",
+   "price": 8.0
+  },
+  "Trevor Megill": {
+   "origin": "DRAFT",
+   "price": 2.0,
+   "draftPick": 153
+  },
+  "Kris Bubic": {
+   "origin": "KEEPER",
+   "price": 8.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-07-12",
+     "bid": null
+    }
+   ]
+  },
+  "Gabriel Moreno": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 287,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-05-04",
+     "bid": null
+    },
+    {
+     "by": "Will O'Neil",
+     "date": "2026-03-29",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Brandon Woodruff": {
+   "origin": "DRAFT",
+   "price": 4.0,
+   "draftPick": 131
+  },
+  "Brenton Doyle": {
+   "origin": "DRAFT",
+   "price": 2.0,
+   "draftPick": 208,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-04-06",
+     "bid": null
+    }
+   ]
+  },
+  "Chad Patrick": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-04-06",
+     "bid": null
+    }
+   ]
+  },
+  "TJ Friedl": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 226,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-04-12",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Ryan Jeffers": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-07-12",
+     "bid": 0.0
+    },
+    {
+     "by": "Will O'Neil",
+     "date": "2026-04-12",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Yainer Diaz": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 198,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-04-19",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Grant Holmes": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-13",
+     "bid": null
+    },
+    {
+     "by": "Corey Williamson",
+     "date": "2026-04-06",
+     "bid": null
+    }
+   ]
+  },
+  "Ben Brown": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-04-27",
+     "bid": null
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-26",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Gus Varland": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-04-26",
+     "bid": 3.0
+    }
+   ]
+  },
+  "Nathaniel Lowe": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-05-03",
+     "bid": 1.0
+    },
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-05-03",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Jameson Taillon": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-05-03",
+     "bid": null
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-05-03",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Jack Perkins": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-05-03",
+     "bid": 11.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-03",
+     "bid": 3.0
+    }
+   ]
+  },
+  "Spencer Jones": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Matt Amick",
+     "date": "2026-08-02",
+     "bid": null
+    },
+    {
+     "by": "Will O'Neil",
+     "date": "2026-05-10",
+     "bid": null
+    }
+   ]
+  },
+  "Evan Carter": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 201,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-05-10",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Lawrence Butler": {
+   "origin": "KEEPER",
+   "price": 15.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-06-21",
+     "bid": 1.0
+    },
+    {
+     "by": "Will O'Neil",
+     "date": "2026-05-10",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Bryan King": {
+   "origin": "PRESEASON_NONDRAFT",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Nick Conrad",
+     "date": "2026-06-29",
+     "bid": null
+    },
+    {
+     "by": "Will O'Neil",
+     "date": "2026-05-10",
+     "bid": null
+    }
+   ]
+  },
+  "Antonio Senzatela": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-05-17",
+     "bid": 1.0
+    },
+    {
+     "by": "Matt Amick",
+     "date": "2026-04-27",
+     "bid": null
+    }
+   ]
+  },
+  "Sean Burke": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-05-24",
+     "bid": 0.0
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-05-03",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Anthony Nunez": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-05-25",
+     "bid": null
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-19",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Jesus Sanchez": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-05-24",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Jung Hoo Lee": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 236,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-04-19",
+     "bid": null
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-03-30",
+     "bid": null
+    }
+   ]
+  },
+  "Alex Lange": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-06-07",
+     "bid": 0.0
+    },
+    {
+     "by": "Will O'Neil",
+     "date": "2026-06-07",
+     "bid": 5.0
+    }
+   ]
+  },
+  "Elvis Alvarado": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-06-14",
+     "bid": null
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-06-14",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Peter Lambert": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-06-14",
+     "bid": null
+    },
+    {
+     "by": "Corey Williamson",
+     "date": "2026-05-11",
+     "bid": null
+    }
+   ]
+  },
+  "Erik Sabrowski": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-04-05",
+     "bid": 0.0
+    },
+    {
+     "by": "Nick Conrad",
+     "date": "2026-04-05",
+     "bid": 3.0
+    }
+   ]
+  },
+  "Henry Bolte": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-06-28",
+     "bid": 0.0
+    },
+    {
+     "by": "Nick Conrad",
+     "date": "2026-05-11",
+     "bid": null
+    }
+   ]
+  },
+  "Heliot Ramos": {
+   "origin": "DRAFT",
+   "price": 3.0,
+   "draftPick": 166,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-06-28",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Eric Lauer": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Nick Conrad",
+     "date": "2026-07-27",
+     "bid": null
+    },
+    {
+     "by": "Will O'Neil",
+     "date": "2026-07-06",
+     "bid": null
+    }
+   ]
+  },
+  "Tyler Wells": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-07-12",
+     "bid": null
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-07-05",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Jacob Webb": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-07-12",
+     "bid": null
+    }
+   ]
+  },
+  "Andrew Abbott": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 191,
+   "tradedTo": [
+    {
+     "to": "Nick Conrad",
+     "date": "2026-07-16"
+    },
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-04-17"
+    },
+    {
+     "to": "Bryce Morgan",
+     "date": "2026-03-25"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-05-10",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Jordan Lawlar": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 231,
+   "tradedTo": [
+    {
+     "to": "Drew Burza",
+     "date": "2026-07-24"
+    }
+   ]
+  },
+  "Ernie Clement": {
+   "origin": "DRAFT",
+   "price": 2.0,
+   "draftPick": 98
+  },
+  "Cole Sands": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-03-29",
+     "bid": 0.0
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-03-29",
+     "bid": 5.0
+    }
+   ]
+  },
+  "Trevor Story": {
+   "origin": "DRAFT",
+   "price": 8.0,
+   "draftPick": 114
+  },
+  "Jazz Chisholm Jr.": {
+   "origin": "DRAFT",
+   "price": 23.0,
+   "draftPick": 9
+  },
+  "Freddy Peralta": {
+   "origin": "DRAFT",
+   "price": 21.0,
+   "draftPick": 41,
+   "tradedTo": [
+    {
+     "to": "Keller Ewing",
+     "date": "2026-07-28"
+    }
+   ]
+  },
+  "Christian Yelich": {
+   "origin": "DRAFT",
+   "price": 16.0,
+   "draftPick": 86,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-05-29"
+    }
+   ]
+  },
+  "Daylen Lile": {
+   "origin": "DRAFT",
+   "price": 3.0,
+   "draftPick": 196,
+   "tradedTo": [
+    {
+     "to": "Conner Mullan",
+     "date": "2026-07-22"
+    }
+   ]
+  },
+  "Nico Hoerner": {
+   "origin": "KEEPER",
+   "price": 14.0,
+   "tradedTo": [
+    {
+     "to": "Bryce Morgan",
+     "date": "2026-03-25"
+    }
+   ]
+  },
+  "Joe Ryan": {
+   "origin": "DRAFT",
+   "price": 20.0,
+   "draftPick": 54
+  },
+  "Willson Contreras": {
+   "origin": "DRAFT",
+   "price": 4.0,
+   "draftPick": 138
+  },
+  "Alec Burleson": {
+   "origin": "DRAFT",
+   "price": 9.0,
+   "draftPick": 148,
+   "tradedTo": [
+    {
+     "to": "Corey Williamson",
+     "date": "2026-04-03"
+    }
+   ]
+  },
+  "Andy Pages": {
+   "origin": "KEEPER",
+   "price": 8.0,
+   "tradedTo": [
+    {
+     "to": "Drew Burza",
+     "date": "2026-07-24"
+    }
+   ]
+  },
+  "Nolan Arenado": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 242,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-07-26",
+     "bid": 1.0
+    },
+    {
+     "by": "Conner Mullan",
+     "date": "2026-04-05",
+     "bid": null
+    }
+   ]
+  },
+  "Teoscar Hernandez": {
+   "origin": "DRAFT",
+   "price": 13.0,
+   "draftPick": 88
+  },
+  "Cam Schlittler": {
+   "origin": "DRAFT",
+   "price": 10.0,
+   "draftPick": 112
+  },
+  "Pete Fairbanks": {
+   "origin": "DRAFT",
+   "price": 6.0,
+   "draftPick": 164
+  },
+  "Ronald Acuna Jr.": {
+   "origin": "DRAFT",
+   "price": 53.0,
+   "draftPick": 6
+  },
+  "Salvador Perez": {
+   "origin": "DRAFT",
+   "price": 11.0,
+   "draftPick": 45,
+   "waiverClaims": [
+    {
+     "by": "Corey Williamson",
+     "date": "2026-07-12",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Matt Brash": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 174,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-05-17",
+     "bid": 7.0
+    }
+   ]
+  },
+  "Kevin Ginkel": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 272,
+   "waiverClaims": [
+    {
+     "by": "Drew Burza",
+     "date": "2026-03-29",
+     "bid": null
+    }
+   ]
+  },
+  "Will Warren": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 280,
+   "waiverClaims": [
+    {
+     "by": "Nick Conrad",
+     "date": "2026-03-30",
+     "bid": null
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-03-29",
+     "bid": null
+    }
+   ]
+  },
+  "Shane Baz": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 186
+  },
+  "Daniel Palencia": {
+   "origin": "DRAFT",
+   "price": 9.0,
+   "draftPick": 126,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-07-12",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Jordan Walker": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-03-29",
+     "bid": 0.0
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-03-29",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Luis Castillo": {
+   "origin": "DRAFT",
+   "price": 13.0,
+   "draftPick": 62,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-06-28",
+     "bid": 0.0
+    },
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-06-01",
+     "bid": null
+    }
+   ]
+  },
+  "Bubba Chandler": {
+   "origin": "DRAFT",
+   "price": 6.0,
+   "draftPick": 63,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-06-07",
+     "bid": 2.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-06-07",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Liam Hicks": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Keller Ewing",
+     "date": "2026-04-05",
+     "bid": 4.0
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-04-05",
+     "bid": 11.0
+    }
+   ]
+  },
+  "Seiya Suzuki": {
+   "origin": "DRAFT",
+   "price": 13.0,
+   "draftPick": 118,
+   "tradedTo": [
+    {
+     "to": "Bryce Morgan",
+     "date": "2026-04-03"
+    }
+   ]
+  },
+  "T.J. Rumfield": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-05",
+     "bid": 1.0
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-04-05",
+     "bid": 8.0
+    }
+   ]
+  },
+  "Mark Vientos": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Nick Conrad",
+     "date": "2026-05-10",
+     "bid": null
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-04-05",
+     "bid": 3.0
+    }
+   ]
+  },
+  "Mauricio Dubon": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-04-12",
+     "bid": 0.0
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-04-05",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Merrill Kelly": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 220,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-05-17",
+     "bid": 0.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-17",
+     "bid": 4.0
+    }
+   ]
+  },
+  "Jason Adam": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-04-12",
+     "bid": 5.0
+    }
+   ]
+  },
+  "Ryan Walker": {
+   "origin": "DRAFT",
+   "price": 3.0,
+   "draftPick": 169,
+   "tradedTo": [
+    {
+     "to": "Bryce Morgan",
+     "date": "2026-04-17"
+    },
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-03-30"
+    }
+   ]
+  },
+  "Chase Silseth": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-04-19",
+     "bid": null
+    }
+   ]
+  },
+  "Brayan Rocchio": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-04-27",
+     "bid": null
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-04-19",
+     "bid": null
+    }
+   ]
+  },
+  "Jack Kochanowicz": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-05-03",
+     "bid": 0.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-03",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Jake Latz": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-03",
+     "bid": 3.0
+    },
+    {
+     "by": "Nick Conrad",
+     "date": "2026-04-26",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Juan Morillo": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "tradedTo": [
+    {
+     "to": "Tory Goranson",
+     "date": "2026-04-13"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-05-03",
+     "bid": 1.0
+    },
+    {
+     "by": "Nick Conrad",
+     "date": "2026-04-13",
+     "bid": null
+    }
+   ]
+  },
+  "Adolis Garcia": {
+   "origin": "DRAFT",
+   "price": 2.0,
+   "draftPick": 182,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-10",
+     "bid": 0.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-03",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Bryson Stott": {
+   "origin": "DRAFT",
+   "price": 3.0,
+   "draftPick": 134,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-05-29"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-05-10",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Christian Scott": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-10",
+     "bid": 3.0
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-05-10",
+     "bid": 6.0
+    }
+   ]
+  },
+  "J.P. Crawford": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-05-31",
+     "bid": 0.0
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-05-17",
+     "bid": 0.0
+    }
+   ]
+  },
+  "J.T. Ginn": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-05-17",
+     "bid": null
+    }
+   ]
+  },
+  "Ezequiel Duran": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Nick Conrad",
+     "date": "2026-05-11",
+     "bid": null
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-05-10",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Jared Jones": {
+   "origin": "PRESEASON_NONDRAFT",
+   "price": 1.0,
+   "tradedTo": [
+    {
+     "to": "Conner Mullan",
+     "date": "2026-07-22"
+    }
+   ]
+  },
+  "Steven Matz": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Nick Conrad",
+     "date": "2026-04-13",
+     "bid": null
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-12",
+     "bid": null
+    }
+   ]
+  },
+  "Eugenio Suarez": {
+   "origin": "DRAFT",
+   "price": 9.0,
+   "draftPick": 33,
+   "tradedTo": [
+    {
+     "to": "Bryce Morgan",
+     "date": "2026-05-29"
+    },
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-03-30"
+    }
+   ]
+  },
+  "Ian Happ": {
+   "origin": "DRAFT",
+   "price": 7.0,
+   "draftPick": 94,
+   "tradedTo": [
+    {
+     "to": "Bryce Morgan",
+     "date": "2026-05-29"
+    },
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-03-25"
+    }
+   ]
+  },
+  "Noelvi Marte": {
+   "origin": "DRAFT",
+   "price": 3.0,
+   "draftPick": 99,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-05-24",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Curtis Mead": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-05-31",
+     "bid": 0.0
+    },
+    {
+     "by": "Matt Amick",
+     "date": "2026-04-13",
+     "bid": null
+    }
+   ]
+  },
+  "Mitch Keller": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 234,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-06-01",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Trevor Larnach": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-06-21",
+     "bid": null
+    }
+   ]
+  },
+  "Nick Gonzales": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Matt Amick",
+     "date": "2026-05-10",
+     "bid": null
+    },
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-05-03",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Jack Flaherty": {
+   "origin": "DRAFT",
+   "price": 6.0,
+   "draftPick": 111,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-10",
+     "bid": 0.0
+    },
+    {
+     "by": "Keller Ewing",
+     "date": "2026-05-10",
+     "bid": 2.0
+    }
+   ]
+  },
+  "Kyle Karros": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "tradedTo": [
+    {
+     "to": "Drew Burza",
+     "date": "2026-07-24"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-07-05",
+     "bid": 0.0
+    },
+    {
+     "by": "Nick Conrad",
+     "date": "2026-06-29",
+     "bid": null
+    }
+   ]
+  },
+  "Reynaldo Lopez": {
+   "origin": "PRESEASON_NONDRAFT",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-07-05",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Gleyber Torres": {
+   "origin": "DRAFT",
+   "price": 4.0,
+   "draftPick": 150,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-06-29",
+     "bid": null
+    }
+   ]
+  },
+  "Bailey Ober": {
+   "origin": "PRESEASON_NONDRAFT",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-05-17",
+     "bid": 2.0
+    },
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-04-26",
+     "bid": null
+    }
+   ]
+  },
+  "Mookie Betts": {
+   "origin": "DRAFT",
+   "price": 32.0,
+   "draftPick": 23,
+   "tradedTo": [
+    {
+     "to": "Bryce Morgan",
+     "date": "2026-07-22"
+    }
+   ]
+  },
+  "Yoshinobu Yamamoto": {
+   "origin": "KEEPER",
+   "price": 32.0,
+   "tradedTo": [
+    {
+     "to": "Drew Burza",
+     "date": "2026-03-25"
+    },
+    {
+     "to": "Bryce Morgan",
+     "date": "2026-07-24"
+    }
+   ]
+  },
+  "Kevin Gausman": {
+   "origin": "DRAFT",
+   "price": 16.0,
+   "draftPick": 57,
+   "tradedTo": [
+    {
+     "to": "Bryce Morgan",
+     "date": "2026-07-24"
+    }
+   ]
+  },
+  "Sandy Alcantara": {
+   "origin": "DRAFT",
+   "price": 12.0,
+   "draftPick": 66,
+   "tradedTo": [
+    {
+     "to": "Bryce Morgan",
+     "date": "2026-07-22"
+    }
+   ]
+  },
+  "Jeremiah Estrada": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 210,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-07-19",
+     "bid": 0.0
+    },
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-05-03",
+     "bid": 4.0
+    }
+   ]
+  },
+  "David Bednar": {
+   "origin": "KEEPER",
+   "price": 11.0,
+   "tradedTo": [
+    {
+     "to": "Bryce Morgan",
+     "date": "2026-07-28"
+    }
+   ]
+  },
+  "George Springer": {
+   "origin": "KEEPER",
+   "price": 10.0,
+   "tradedTo": [
+    {
+     "to": "Bryce Morgan",
+     "date": "2026-07-28"
+    }
+   ]
+  },
+  "Camilo Doval": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 187
+  },
+  "Luis Garcia Jr.": {
+   "origin": "DRAFT",
+   "price": 5.0,
+   "draftPick": 163
+  },
+  "Robert Suarez": {
+   "origin": "DRAFT",
+   "price": 2.0,
+   "draftPick": 159
+  },
+  "Rhett Lowder": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 254
+  },
+  "Logan Webb": {
+   "origin": "DRAFT",
+   "price": 24.0,
+   "draftPick": 28
+  },
+  "Willy Adames": {
+   "origin": "DRAFT",
+   "price": 9.0,
+   "draftPick": 82
+  },
+  "Francisco Lindor": {
+   "origin": "DRAFT",
+   "price": 34.0,
+   "draftPick": 17
+  },
+  "Chase Meidroth": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 243,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-05-24",
+     "bid": 0.0
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-05-17",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Byron Buxton": {
+   "origin": "KEEPER",
+   "price": 12.0
+  },
+  "Jo Adell": {
+   "origin": "KEEPER",
+   "price": 8.0
+  },
+  "Jose Soriano": {
+   "origin": "PRESEASON_NONDRAFT",
+   "price": 1.0
+  },
+  "Tarik Skubal": {
+   "origin": "KEEPER",
+   "price": 26.0
+  },
+  "Ivan Herrera": {
+   "origin": "KEEPER",
+   "price": 8.0
+  },
+  "Chase DeLauter": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 232
+  },
+  "Randy Arozarena": {
+   "origin": "DRAFT",
+   "price": 10.0,
+   "draftPick": 13
+  },
+  "Robbie Ray": {
+   "origin": "DRAFT",
+   "price": 4.0,
+   "draftPick": 113
+  },
+  "Brent Rooker": {
+   "origin": "KEEPER",
+   "price": 15.0
+  },
+  "Otto Lopez": {
+   "origin": "DRAFT",
+   "price": 3.0,
+   "draftPick": 79
+  },
+  "Austin Riley": {
+   "origin": "DRAFT",
+   "price": 21.0,
+   "draftPick": 48,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-07-19",
+     "bid": 0.0
+    },
+    {
+     "by": "Conner Mullan",
+     "date": "2026-07-19",
+     "bid": 7.0
+    }
+   ]
+  },
+  "Vinnie Pasquantino": {
+   "origin": "DRAFT",
+   "price": 27.0,
+   "draftPick": 19
+  },
+  "Kenley Jansen": {
+   "origin": "DRAFT",
+   "price": 6.0,
+   "draftPick": 85
+  },
+  "Seranthony Dominguez": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 175
+  },
+  "Shota Imanaga": {
+   "origin": "DRAFT",
+   "price": 8.0,
+   "draftPick": 102
+  },
+  "Noah Cameron": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 221,
+   "waiverClaims": [
+    {
+     "by": "Corey Williamson",
+     "date": "2026-04-27",
+     "bid": null
+    }
+   ]
+  },
+  "Hunter Gaddis": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-04-12",
+     "bid": null
+    },
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-04-12",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Jakob Junis": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-04-12",
+     "bid": 3.0
+    },
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-04-12",
+     "bid": 4.0
+    }
+   ]
+  },
+  "Marcell Ozuna": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 260,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-04-19",
+     "bid": 3.0
+    }
+   ]
+  },
+  "Zack Wheeler": {
+   "origin": "DRAFT",
+   "price": 14.0,
+   "draftPick": 103
+  },
+  "Austin Martin": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-04-27",
+     "bid": null
+    }
+   ]
+  },
+  "Hyeseong Kim": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-04-26",
+     "bid": null
+    }
+   ]
+  },
+  "Andrew Vaughn": {
+   "origin": "DRAFT",
+   "price": 2.0,
+   "draftPick": 199,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-05-03",
+     "bid": 6.0
+    }
+   ]
+  },
+  "Carlos Rodon": {
+   "origin": "DRAFT",
+   "price": 3.0,
+   "draftPick": 127
+  },
+  "Jake McCarthy": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 289,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-05-10",
+     "bid": null
+    },
+    {
+     "by": "Will O'Neil",
+     "date": "2026-04-05",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Ha-seong Kim": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-05-11",
+     "bid": null
+    }
+   ]
+  },
+  "Grayson Rodriguez": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 115
+  },
+  "Erik Miller": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-08-02",
+     "bid": 0.0
+    },
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-05-03",
+     "bid": 4.0
+    }
+   ]
+  },
+  "A.J. Ewing": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-07-27"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-17",
+     "bid": 1.0
+    },
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-05-17",
+     "bid": 9.0
+    }
+   ]
+  },
+  "Ty Madden": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-06-01",
+     "bid": null
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-10",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Luke Raley": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Matt Amick",
+     "date": "2026-03-29",
+     "bid": 1.0
+    },
+    {
+     "by": "Keller Ewing",
+     "date": "2026-03-29",
+     "bid": 2.0
+    }
+   ]
+  },
+  "Josh Hader": {
+   "origin": "DRAFT",
+   "price": 9.0,
+   "draftPick": 64
+  },
+  "Bryan Abreu": {
+   "origin": "DRAFT",
+   "price": 3.0,
+   "draftPick": 145,
+   "tradedTo": [
+    {
+     "to": "Corey Williamson",
+     "date": "2026-03-30"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-08-02",
+     "bid": 0.0
+    },
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-06-07",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Jasson Dominguez": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 263,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-06-07",
+     "bid": 0.0
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-26",
+     "bid": null
+    }
+   ]
+  },
+  "Blaze Jordan": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Nick Conrad",
+     "date": "2026-06-14",
+     "bid": 0.0
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-06-14",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Eury Perez": {
+   "origin": "KEEPER",
+   "price": 8.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-06-21",
+     "bid": 2.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-06-07",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Denzer Guzman": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-06-22",
+     "bid": null
+    }
+   ]
+  },
+  "Blaze Alexander": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-06-21",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Garrett Whitlock": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 259,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-06-29",
+     "bid": null
+    }
+   ]
+  },
+  "Michael Petersen": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-06-28",
+     "bid": null
+    }
+   ]
+  },
+  "Esmerlyn Valdez": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-07-05",
+     "bid": 0.0
+    },
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-07-05",
+     "bid": 5.0
+    }
+   ]
+  },
+  "Jake Mangum": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-07-12",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Tommy White": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-07-15",
+     "bid": null
+    }
+   ]
+  },
+  "Coby Mayo": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 245,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-07-19",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Brandyn Garcia": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-07-20",
+     "bid": null
+    }
+   ]
+  },
+  "Zac Thornton": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-07-12",
+     "bid": null
+    }
+   ]
+  },
+  "Ryne Nelson": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 176,
+   "waiverClaims": [
+    {
+     "by": "Nick Conrad",
+     "date": "2026-05-03",
+     "bid": 0.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-05",
+     "bid": null
+    }
+   ]
+  },
+  "Matt Svanson": {
+   "origin": "PRESEASON_NONDRAFT",
+   "price": 1.0
+  },
+  "James Wood": {
+   "origin": "KEEPER",
+   "price": 12.0,
+   "tradedTo": [
+    {
+     "to": "Corey Williamson",
+     "date": "2026-03-30"
+    }
+   ]
+  },
+  "Jake Burger": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 244
+  },
+  "Paul Sewald": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 188,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-04-09"
+    }
+   ]
+  },
+  "Parker Messick": {
+   "origin": "DRAFT",
+   "price": 2.0,
+   "draftPick": 162,
+   "tradedTo": [
+    {
+     "to": "Drew Burza",
+     "date": "2026-07-24"
+    },
+    {
+     "to": "Nick Conrad",
+     "date": "2026-04-13"
+    },
+    {
+     "to": "Tory Goranson",
+     "date": "2026-03-25"
+    }
+   ]
+  },
+  "Samuel Basallo": {
+   "origin": "DRAFT",
+   "price": 3.0,
+   "draftPick": 212
+  },
+  "Riley OBrien": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 213
+  },
+  "Addison Barger": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 200,
+   "waiverClaims": [
+    {
+     "by": "Jack DeShaw",
+     "date": "2026-06-21",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Pete Alonso": {
+   "origin": "KEEPER",
+   "price": 33.0
+  },
+  "Trevor Rogers": {
+   "origin": "DRAFT",
+   "price": 6.0,
+   "draftPick": 101
+  },
+  "Aroldis Chapman": {
+   "origin": "KEEPER",
+   "price": 8.0
+  },
+  "Kevin McGonigle": {
+   "origin": "DRAFT",
+   "price": 8.0,
+   "draftPick": 51
+  },
+  "Roman Anthony": {
+   "origin": "KEEPER",
+   "price": 17.0,
+   "tradedTo": [
+    {
+     "to": "Nick Conrad",
+     "date": "2026-04-13"
+    }
+   ]
+  },
+  "Wilyer Abreu": {
+   "origin": "DRAFT",
+   "price": 2.0,
+   "draftPick": 190
+  },
+  "Corbin Carroll": {
+   "origin": "DRAFT",
+   "price": 41.0,
+   "draftPick": 12
+  },
+  "Jeff Hoffman": {
+   "origin": "DRAFT",
+   "price": 9.0,
+   "draftPick": 32,
+   "waiverClaims": [
+    {
+     "by": "Keller Ewing",
+     "date": "2026-05-24",
+     "bid": 1.0
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-05-03",
+     "bid": null
+    }
+   ]
+  },
+  "Kazuma Okamoto": {
+   "origin": "DRAFT",
+   "price": 10.0,
+   "draftPick": 7
+  },
+  "Nick Kurtz": {
+   "origin": "KEEPER",
+   "price": 17.0
+  },
+  "Hunter Goodman": {
+   "origin": "KEEPER",
+   "price": 8.0,
+   "tradedTo": [
+    {
+     "to": "Nick Conrad",
+     "date": "2026-04-13"
+    }
+   ]
+  },
+  "Xavier Edwards": {
+   "origin": "DRAFT",
+   "price": 14.0,
+   "draftPick": 68
+  },
+  "Jeremy Pena": {
+   "origin": "DRAFT",
+   "price": 12.0,
+   "draftPick": 133
+  },
+  "Kyle Bradish": {
+   "origin": "KEEPER",
+   "price": 8.0
+  },
+  "MacKenzie Gore": {
+   "origin": "DRAFT",
+   "price": 7.0,
+   "draftPick": 141
+  },
+  "Cody Ponce": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 211
+  },
+  "Luis Robert Jr.": {
+   "origin": "DRAFT",
+   "price": 6.0,
+   "draftPick": 95,
+   "tradedTo": [
+    {
+     "to": "Tory Goranson",
+     "date": "2026-03-30"
+    }
+   ]
+  },
+  "Jacob deGrom": {
+   "origin": "KEEPER",
+   "price": 15.0,
+   "tradedTo": [
+    {
+     "to": "Nick Conrad",
+     "date": "2026-04-13"
+    }
+   ]
+  },
+  "Zach Eflin": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 222
+  },
+  "Ryan Helsley": {
+   "origin": "DRAFT",
+   "price": 8.0,
+   "draftPick": 65,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-04-09"
+    },
+    {
+     "to": "Tory Goranson",
+     "date": "2026-03-30"
+    }
+   ]
+  },
+  "Bryan Baker": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-03-29",
+     "bid": null
+    }
+   ]
+  },
+  "Cam Smith": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 235,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-05",
+     "bid": 1.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-05",
+     "bid": 2.0
+    }
+   ]
+  },
+  "Lance McCullers Jr.": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-04-05",
+     "bid": 0.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-05",
+     "bid": 2.0
+    }
+   ]
+  },
+  "Brett Baty": {
+   "origin": "PRESEASON_NONDRAFT",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-12",
+     "bid": 0.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-12",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Spencer Arrighetti": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-13",
+     "bid": null
+    },
+    {
+     "by": "Nick Conrad",
+     "date": "2026-04-12",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Kyle Stowers": {
+   "origin": "KEEPER",
+   "price": 8.0
+  },
+  "Jose Fernandez": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-04-15"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-04-12",
+     "bid": 1.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-05",
+     "bid": 2.0
+    }
+   ]
+  },
+  "Jeffrey Springs": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-12",
+     "bid": 2.0
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-04-12",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Devin Williams": {
+   "origin": "DRAFT",
+   "price": 15.0,
+   "draftPick": 29,
+   "tradedTo": [
+    {
+     "to": "Tory Goranson",
+     "date": "2026-04-09"
+    }
+   ]
+  },
+  "Chandler Simpson": {
+   "origin": "DRAFT",
+   "price": 8.0,
+   "draftPick": 92,
+   "tradedTo": [
+    {
+     "to": "Tory Goranson",
+     "date": "2026-04-13"
+    }
+   ]
+  },
+  "Shea Langeliers": {
+   "origin": "KEEPER",
+   "price": 12.0,
+   "tradedTo": [
+    {
+     "to": "Tory Goranson",
+     "date": "2026-04-13"
+    }
+   ]
+  },
+  "Bryan Woo": {
+   "origin": "KEEPER",
+   "price": 16.0,
+   "tradedTo": [
+    {
+     "to": "Tory Goranson",
+     "date": "2026-04-13"
+    }
+   ]
+  },
+  "Justin Wrobleski": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-19",
+     "bid": 1.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-19",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Reid Detmers": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 206,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-19",
+     "bid": 2.0
+    },
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-04-19",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Eduardo Rodriguez": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "tradedTo": [
+    {
+     "to": "Tory Goranson",
+     "date": "2026-04-15"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Jack DeShaw",
+     "date": "2026-05-17",
+     "bid": 1.0
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-05",
+     "bid": null
+    }
+   ]
+  },
+  "Max Meyer": {
+   "origin": "PRESEASON_NONDRAFT",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-26",
+     "bid": 3.0
+    }
+   ]
+  },
+  "J.R. Ritchie": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-26",
+     "bid": 6.0
+    },
+    {
+     "by": "Conner Mullan",
+     "date": "2026-04-05",
+     "bid": null
+    }
+   ]
+  },
+  "Casey Schmitt": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-03",
+     "bid": null
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-03",
+     "bid": 2.0
+    }
+   ]
+  },
+  "Logan Henderson": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-03",
+     "bid": 5.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-12",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Trevor McDonald": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-10",
+     "bid": 0.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-10",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Tatsuya Imai": {
+   "origin": "DRAFT",
+   "price": 4.0,
+   "draftPick": 117,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-10",
+     "bid": 0.0
+    },
+    {
+     "by": "Corey Williamson",
+     "date": "2026-04-27",
+     "bid": null
+    }
+   ]
+  },
+  "Gage Jump": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Corey Williamson",
+     "date": "2026-05-31",
+     "bid": 3.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-31",
+     "bid": 3.0
+    }
+   ]
+  },
+  "Yoendrys Gomez": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-06-07",
+     "bid": null
+    },
+    {
+     "by": "Will O'Neil",
+     "date": "2026-06-07",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Cole Carrigg": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Nick Conrad",
+     "date": "2026-06-14",
+     "bid": 0.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-06-14",
+     "bid": 4.0
+    }
+   ]
+  },
+  "Dennis Santana": {
+   "origin": "DRAFT",
+   "price": 3.0,
+   "draftPick": 158,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-04-20"
+    }
+   ]
+  },
+  "Garrett Cleavinger": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 185,
+   "waiverClaims": [
+    {
+     "by": "Nick Conrad",
+     "date": "2026-06-28",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Colt Keith": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 197
+  },
+  "Marcus Semien": {
+   "origin": "DRAFT",
+   "price": 3.0,
+   "draftPick": 168,
+   "waiverClaims": [
+    {
+     "by": "Conner Mullan",
+     "date": "2026-05-31",
+     "bid": null
+    },
+    {
+     "by": "Jack DeShaw",
+     "date": "2026-05-17",
+     "bid": null
+    }
+   ]
+  },
+  "Mickey Moniak": {
+   "origin": "DRAFT",
+   "price": 3.0,
+   "draftPick": 192
+  },
+  "Tyler Mahle": {
+   "origin": "PRESEASON_NONDRAFT",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Nick Conrad",
+     "date": "2026-05-04",
+     "bid": null
+    }
+   ]
+  },
+  "Griffin Jax": {
+   "origin": "KEEPER",
+   "price": 8.0,
+   "tradedTo": [
+    {
+     "to": "Corey Williamson",
+     "date": "2026-03-14"
+    }
+   ]
+  },
+  "Ben Rice": {
+   "origin": "DRAFT",
+   "price": 11.0,
+   "draftPick": 36
+  },
+  "Luis Arraez": {
+   "origin": "DRAFT",
+   "price": 6.0,
+   "draftPick": 105
+  },
+  "Sal Frelick": {
+   "origin": "DRAFT",
+   "price": 2.0,
+   "draftPick": 123,
+   "waiverClaims": [
+    {
+     "by": "Matt Amick",
+     "date": "2026-05-04",
+     "bid": null
+    }
+   ]
+  },
+  "Royce Lewis": {
+   "origin": "DRAFT",
+   "price": 2.0,
+   "draftPick": 155,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-06-07",
+     "bid": 0.0
+    },
+    {
+     "by": "Matt Amick",
+     "date": "2026-06-07",
+     "bid": 6.0
+    }
+   ]
+  },
+  "Jose Altuve": {
+   "origin": "DRAFT",
+   "price": 15.0,
+   "draftPick": 50,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-07-23"
+    }
+   ]
+  },
+  "Riley Greene": {
+   "origin": "KEEPER",
+   "price": 21.0,
+   "tradedTo": [
+    {
+     "to": "Nick Conrad",
+     "date": "2026-07-22"
+    },
+    {
+     "to": "Corey Williamson",
+     "date": "2026-03-22"
+    }
+   ]
+  },
+  "Jhoan Duran": {
+   "origin": "KEEPER",
+   "price": 14.0
+  },
+  "Kyle Schwarber": {
+   "origin": "KEEPER",
+   "price": 31.0,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-04-20"
+    },
+    {
+     "to": "Corey Williamson",
+     "date": "2026-03-21"
+    }
+   ]
+  },
+  "Yandy Diaz": {
+   "origin": "DRAFT",
+   "price": 15.0,
+   "draftPick": 128
+  },
+  "Cade Smith": {
+   "origin": "KEEPER",
+   "price": 8.0
+  },
+  "Jacob Wilson": {
+   "origin": "KEEPER",
+   "price": 8.0
+  },
+  "Maikel Garcia": {
+   "origin": "KEEPER",
+   "price": 11.0
+  },
+  "Ozzie Albies": {
+   "origin": "DRAFT",
+   "price": 6.0,
+   "draftPick": 76
+  },
+  "Mason Miller": {
+   "origin": "KEEPER",
+   "price": 20.0
+  },
+  "Chase Burns": {
+   "origin": "DRAFT",
+   "price": 8.0,
+   "draftPick": 3,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-04-20"
+    }
+   ]
+  },
+  "Steven Kwan": {
+   "origin": "DRAFT",
+   "price": 14.0,
+   "draftPick": 93,
+   "tradedTo": [
+    {
+     "to": "Corey Williamson",
+     "date": "2026-03-30"
+    }
+   ]
+  },
+  "Shane McClanahan": {
+   "origin": "DRAFT",
+   "price": 14.0,
+   "draftPick": 44,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-07-23"
+    }
+   ]
+  },
+  "Matthew Boyd": {
+   "origin": "DRAFT",
+   "price": 2.0,
+   "draftPick": 202,
+   "tradedTo": [
+    {
+     "to": "Corey Williamson",
+     "date": "2026-03-30"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Corey Williamson",
+     "date": "2026-05-17",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Emerson Hancock": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Corey Williamson",
+     "date": "2026-03-29",
+     "bid": null
+    }
+   ]
+  },
+  "Landen Roupp": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-12",
+     "bid": 2.0
+    },
+    {
+     "by": "Corey Williamson",
+     "date": "2026-04-12",
+     "bid": 3.0
+    }
+   ]
+  },
+  "Janson Junk": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-12",
+     "bid": 0.0
+    },
+    {
+     "by": "Corey Williamson",
+     "date": "2026-04-12",
+     "bid": 4.0
+    }
+   ]
+  },
+  "Bobby Witt Jr.": {
+   "origin": "KEEPER",
+   "price": 41.0,
+   "tradedTo": [
+    {
+     "to": "Corey Williamson",
+     "date": "2026-04-20"
+    }
+   ]
+  },
+  "Kodai Senga": {
+   "origin": "DRAFT",
+   "price": 3.0,
+   "draftPick": 179,
+   "tradedTo": [
+    {
+     "to": "Corey Williamson",
+     "date": "2026-04-20"
+    }
+   ]
+  },
+  "Lourdes Gurriel Jr.": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Corey Williamson",
+     "date": "2026-04-26",
+     "bid": 2.0
+    }
+   ]
+  },
+  "Payton Tolle": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-04-26",
+     "bid": 4.0
+    },
+    {
+     "by": "Corey Williamson",
+     "date": "2026-04-26",
+     "bid": 26.0
+    }
+   ]
+  },
+  "Andrew Painter": {
+   "origin": "DRAFT",
+   "price": 2.0,
+   "draftPick": 80,
+   "waiverClaims": [
+    {
+     "by": "Corey Williamson",
+     "date": "2026-05-03",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Tyler Phillips": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Corey Williamson",
+     "date": "2026-05-04",
+     "bid": null
+    }
+   ]
+  },
+  "Jackson Holliday": {
+   "origin": "DRAFT",
+   "price": 2.0,
+   "draftPick": 157
+  },
+  "Dylan Crews": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-05-24",
+     "bid": 2.0
+    },
+    {
+     "by": "Corey Williamson",
+     "date": "2026-05-24",
+     "bid": 2.0
+    }
+   ]
+  },
+  "Bryce Eldridge": {
+   "origin": "DRAFT",
+   "price": 3.0,
+   "draftPick": 43,
+   "tradedTo": [
+    {
+     "to": "Corey Williamson",
+     "date": "2026-07-27"
+    },
+    {
+     "to": "Drew Burza",
+     "date": "2026-07-27"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Corey Williamson",
+     "date": "2026-06-01",
+     "bid": null
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-12",
+     "bid": null
+    }
+   ]
+  },
+  "David Sandlin": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Corey Williamson",
+     "date": "2026-05-31",
+     "bid": null
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-31",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Jacob Gonzalez": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Corey Williamson",
+     "date": "2026-05-31",
+     "bid": null
+    }
+   ]
+  },
+  "Kumar Rocker": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Corey Williamson",
+     "date": "2026-06-07",
+     "bid": null
+    },
+    {
+     "by": "Matt Amick",
+     "date": "2026-05-03",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Andre Pallante": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Corey Williamson",
+     "date": "2026-06-14",
+     "bid": null
+    }
+   ]
+  },
+  "Walker Buehler": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-06-14",
+     "bid": 0.0
+    },
+    {
+     "by": "Drew Burza",
+     "date": "2026-04-19",
+     "bid": null
+    }
+   ]
+  },
+  "Shane Bieber": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 173
+  },
+  "Ian Seymour": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 203,
+   "waiverClaims": [
+    {
+     "by": "Corey Williamson",
+     "date": "2026-06-28",
+     "bid": null
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-06-28",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Jake Bennett": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Corey Williamson",
+     "date": "2026-06-28",
+     "bid": 3.0
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-05-03",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Kyle Tucker": {
+   "origin": "DRAFT",
+   "price": 44.0,
+   "draftPick": 10,
+   "tradedTo": [
+    {
+     "to": "Corey Williamson",
+     "date": "2026-07-23"
+    }
+   ]
+  },
+  "Vladimir Guerrero Jr.": {
+   "origin": "DRAFT",
+   "price": 49.0,
+   "draftPick": 16,
+   "tradedTo": [
+    {
+     "to": "Corey Williamson",
+     "date": "2026-07-22"
+    }
+   ]
+  },
+  "Jarren Duran": {
+   "origin": "DRAFT",
+   "price": 21.0,
+   "draftPick": 47,
+   "tradedTo": [
+    {
+     "to": "Conner Mullan",
+     "date": "2026-03-22"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Corey Williamson",
+     "date": "2026-07-26",
+     "bid": null
+    }
+   ]
+  },
+  "Brady Singer": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 204,
+   "waiverClaims": [
+    {
+     "by": "Corey Williamson",
+     "date": "2026-07-27",
+     "bid": null
+    }
+   ]
+  },
+  "Moises Ballesteros": {
+   "origin": "DRAFT",
+   "price": 2.0,
+   "draftPick": 241,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-12",
+     "bid": 3.0
+    },
+    {
+     "by": "Conner Mullan",
+     "date": "2026-04-12",
+     "bid": 3.0
+    }
+   ]
+  },
+  "Chris Martin": {
+   "origin": "PRESEASON_NONDRAFT",
+   "price": 1.0
+  },
+  "Mike Burrows": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 225
+  },
+  "Lucas Erceg": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 266,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-03-29",
+     "bid": 7.0
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-03-29",
+     "bid": 9.0
+    }
+   ]
+  },
+  "Gavin Williams": {
+   "origin": "DRAFT",
+   "price": 7.0,
+   "draftPick": 83
+  },
+  "Brandon Lowe": {
+   "origin": "DRAFT",
+   "price": 6.0,
+   "draftPick": 132,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-03-25"
+    }
+   ]
+  },
+  "Dansby Swanson": {
+   "origin": "DRAFT",
+   "price": 4.0,
+   "draftPick": 108,
+   "tradedTo": [
+    {
+     "to": "Jack DeShaw",
+     "date": "2026-04-27"
+    }
+   ]
+  },
+  "Brandon Nimmo": {
+   "origin": "DRAFT",
+   "price": 7.0,
+   "draftPick": 96,
+   "tradedTo": [
+    {
+     "to": "Nick Conrad",
+     "date": "2026-05-18"
+    }
+   ]
+  },
+  "Drew Rasmussen": {
+   "origin": "KEEPER",
+   "price": 8.0
+  },
+  "Jonathan Aranda": {
+   "origin": "KEEPER",
+   "price": 8.0,
+   "tradedTo": [
+    {
+     "to": "Nick Conrad",
+     "date": "2026-06-15"
+    },
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-03-14"
+    }
+   ]
+  },
+  "Junior Caminero": {
+   "origin": "KEEPER",
+   "price": 15.0
+  },
+  "Agustin Ramirez": {
+   "origin": "DRAFT",
+   "price": 8.0,
+   "draftPick": 58,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-03-21"
+    }
+   ]
+  },
+  "Cole Ragans": {
+   "origin": "DRAFT",
+   "price": 20.0,
+   "draftPick": 53,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-03-22"
+    }
+   ]
+  },
+  "Michael Harris II": {
+   "origin": "DRAFT",
+   "price": 14.0,
+   "draftPick": 74
+  },
+  "Framber Valdez": {
+   "origin": "DRAFT",
+   "price": 20.0,
+   "draftPick": 52
+  },
+  "Phil Maton": {
+   "origin": "PRESEASON_NONDRAFT",
+   "price": 1.0
+  },
+  "Chris Bassitt": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 257
+  },
+  "Braxton Ashcraft": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 214,
+   "tradedTo": [
+    {
+     "to": "Nick Conrad",
+     "date": "2026-05-18"
+    }
+   ]
+  },
+  "Jacob Lopez": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 275
+  },
+  "Kyle Harrison": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "tradedTo": [
+    {
+     "to": "Conner Mullan",
+     "date": "2026-07-27"
+    },
+    {
+     "to": "Nick Conrad",
+     "date": "2026-05-12"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-03-29",
+     "bid": 2.0
+    }
+   ]
+  },
+  "Nolan Schanuel": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-03-29",
+     "bid": 3.0
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-03-29",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Cole Young": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 261,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-07-11"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-05",
+     "bid": 0.0
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-04-05",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Graham Ashcraft": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Keller Ewing",
+     "date": "2026-04-19",
+     "bid": 3.0
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-05",
+     "bid": null
+    }
+   ]
+  },
+  "Nasim Nunez": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Matt Amick",
+     "date": "2026-04-27",
+     "bid": null
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-05",
+     "bid": null
+    }
+   ]
+  },
+  "Michael Wacha": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-05",
+     "bid": 3.0
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-03-29",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Garrett Mitchell": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-05",
+     "bid": 1.0
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-05",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Sam Antonacci": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-12",
+     "bid": null
+    }
+   ]
+  },
+  "Colson Montgomery": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 104,
+   "tradedTo": [
+    {
+     "to": "Jack DeShaw",
+     "date": "2026-07-11"
+    },
+    {
+     "to": "Nick Conrad",
+     "date": "2026-03-25"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-13",
+     "bid": 5.0
+    }
+   ]
+  },
+  "Didier Fuentes": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-12",
+     "bid": 0.0
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-12",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Tanner Scott": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 122,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-04-19",
+     "bid": 0.0
+    },
+    {
+     "by": "Drew Burza",
+     "date": "2026-04-12",
+     "bid": null
+    }
+   ]
+  },
+  "Chase Dollander": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-26",
+     "bid": 4.0
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-19",
+     "bid": null
+    }
+   ]
+  },
+  "Carlos Correa": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 205,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-04-27"
+    }
+   ]
+  },
+  "Carson Kelly": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-27",
+     "bid": null
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-04-12",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Kyle Finnegan": {
+   "origin": "PRESEASON_NONDRAFT",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-05-03",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Ryan Waldschmidt": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-05-10",
+     "bid": 2.0
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-05-10",
+     "bid": 2.0
+    }
+   ]
+  },
+  "Aaron Ashby": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Matt Amick",
+     "date": "2026-06-21",
+     "bid": null
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-05-10",
+     "bid": null
+    }
+   ]
+  },
+  "JJ Bleday": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "tradedTo": [
+    {
+     "to": "Jack DeShaw",
+     "date": "2026-07-11"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-05-10",
+     "bid": 0.0
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-05-10",
+     "bid": 3.0
+    }
+   ]
+  },
+  "Carter Jensen": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 224,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-05-12"
+    }
+   ]
+  },
+  "Luke Keaschall": {
+   "origin": "KEEPER",
+   "price": 8.0,
+   "tradedTo": [
+    {
+     "to": "Matt Amick",
+     "date": "2026-07-24"
+    },
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-05-18"
+    }
+   ]
+  },
+  "Walbert Urena": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-05-18",
+     "bid": null
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-17",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Matt McLain": {
+   "origin": "DRAFT",
+   "price": 4.0,
+   "draftPick": 143,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-05-18"
+    }
+   ]
+  },
+  "Jake Bauers": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "tradedTo": [
+    {
+     "to": "Nick Conrad",
+     "date": "2026-07-27"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-05-10",
+     "bid": 1.0
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-04-19",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Noah Schultz": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-05-18"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-12",
+     "bid": 0.0
+    },
+    {
+     "by": "Nick Conrad",
+     "date": "2026-04-12",
+     "bid": 9.0
+    }
+   ]
+  },
+  "Grant Taylor": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 282,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-05-24",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Jonah Tong": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-05-24",
+     "bid": 2.0
+    }
+   ]
+  },
+  "Brandon Young": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-06-14",
+     "bid": 1.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-06-14",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Sonny Gray": {
+   "origin": "DRAFT",
+   "price": 10.0,
+   "draftPick": 89,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-06-15"
+    }
+   ]
+  },
+  "Kyle Teel": {
+   "origin": "PRESEASON_NONDRAFT",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Will O'Neil",
+     "date": "2026-04-06",
+     "bid": 0.0
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-04-06",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Joc Pederson": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-07-16"
+    }
+   ],
+   "waiverClaims": [
+    {
+     "by": "Nick Conrad",
+     "date": "2026-06-01",
+     "bid": null
+    }
+   ]
+  },
+  "Rico Garcia": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Nick Conrad",
+     "date": "2026-05-03",
+     "bid": 1.0
+    },
+    {
+     "by": "Nick Conrad",
+     "date": "2026-04-13",
+     "bid": null
+    }
+   ]
+  },
+  "Andres Munoz": {
+   "origin": "KEEPER",
+   "price": 18.0,
+   "tradedTo": [
+    {
+     "to": "Matt Amick",
+     "date": "2026-07-24"
+    },
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-07-11"
+    }
+   ]
+  },
+  "Hao-Yu Lee": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-07-26",
+     "bid": null
+    }
+   ]
+  },
+  "Brent Headrick": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-07-26",
+     "bid": null
+    }
+   ]
+  },
+  "Carson Benge": {
+   "origin": "DRAFT",
+   "price": 2.0,
+   "draftPick": 247,
+   "tradedTo": [
+    {
+     "to": "Sawyer Auer",
+     "date": "2026-07-27"
+    },
+    {
+     "to": "Nick Conrad",
+     "date": "2026-03-25"
+    }
+   ]
+  },
+  "Ryan OHearn": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 237
+  },
+  "Sean Manaea": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 248,
+   "waiverClaims": [
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-06-07",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Jose Ferrer": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 180,
+   "waiverClaims": [
+    {
+     "by": "Jack DeShaw",
+     "date": "2026-05-17",
+     "bid": 1.0
+    }
+   ]
+  },
+  "Giancarlo Stanton": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 215
+  },
+  "Mason Montgomery": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 283
+  },
+  "CJ Abrams": {
+   "origin": "DRAFT",
+   "price": 18.0,
+   "draftPick": 60
+  },
+  "Adley Rutschman": {
+   "origin": "DRAFT",
+   "price": 2.0,
+   "draftPick": 195
+  },
+  "Gunnar Henderson": {
+   "origin": "KEEPER",
+   "price": 41.0
+  },
+  "Taylor Ward": {
+   "origin": "DRAFT",
+   "price": 7.0,
+   "draftPick": 106
+  },
+  "Ceddanne Rafaela": {
+   "origin": "DRAFT",
+   "price": 4.0,
+   "draftPick": 130
+  },
+  "Hunter Brown": {
+   "origin": "KEEPER",
+   "price": 18.0
+  },
+  "Manny Machado": {
+   "origin": "DRAFT",
+   "price": 24.0,
+   "draftPick": 14
+  },
+  "Spencer Torkelson": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 120
+  },
+  "Freddie Freeman": {
+   "origin": "DRAFT",
+   "price": 31.0,
+   "draftPick": 35
+  },
+  "Cal Raleigh": {
+   "origin": "KEEPER",
+   "price": 16.0
+  },
+  "Logan Gilbert": {
+   "origin": "DRAFT",
+   "price": 25.0,
+   "draftPick": 11
+  },
+  "Yusei Kikuchi": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 276
+  },
+  "Dylan Cease": {
+   "origin": "DRAFT",
+   "price": 17.0,
+   "draftPick": 42
+  },
+  "David Peterson": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 288
+  },
+  "Tony Santillan": {
+   "origin": "PRESEASON_NONDRAFT",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Keller Ewing",
+     "date": "2026-06-21",
+     "bid": 4.0
+    }
+   ]
+  },
+  "Raisel Iglesias": {
+   "origin": "DRAFT",
+   "price": 5.0,
+   "draftPick": 125
+  },
+  "Casey Mize": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 258
+  },
+  "Michael McGreevy": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Keller Ewing",
+     "date": "2026-03-30",
+     "bid": null
+    }
+   ]
+  },
+  "Randy Vasquez": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-03-29",
+     "bid": 0.0
+    },
+    {
+     "by": "Keller Ewing",
+     "date": "2026-03-29",
+     "bid": 3.0
+    }
+   ]
+  },
+  "Tyler Alexander": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Keller Ewing",
+     "date": "2026-04-06",
+     "bid": null
+    }
+   ]
+  },
+  "Bryce Elder": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Keller Ewing",
+     "date": "2026-04-05",
+     "bid": 3.0
+    }
+   ]
+  },
+  "Angel Martinez": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Ryan Morgan",
+     "date": "2026-04-12",
+     "bid": 1.0
+    },
+    {
+     "by": "Keller Ewing",
+     "date": "2026-04-12",
+     "bid": 4.0
+    }
+   ]
+  },
+  "Jeremiah Jackson": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Keller Ewing",
+     "date": "2026-04-19",
+     "bid": 4.0
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-04-19",
+     "bid": 2.0
+    }
+   ]
+  },
+  "Travis Bazzana": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Conner Mullan",
+     "date": "2026-04-19",
+     "bid": null
+    },
+    {
+     "by": "Sawyer Auer",
+     "date": "2026-03-29",
+     "bid": null
+    }
+   ]
+  },
+  "Jackson Chourio": {
+   "origin": "KEEPER",
+   "price": 15.0
+  },
+  "Kirby Yates": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 183,
+   "waiverClaims": [
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-04-26",
+     "bid": 0.0
+    },
+    {
+     "by": "Keller Ewing",
+     "date": "2026-04-26",
+     "bid": 2.0
+    }
+   ]
+  },
+  "Luis Severino": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-10",
+     "bid": 0.0
+    },
+    {
+     "by": "Conner Mullan",
+     "date": "2026-03-30",
+     "bid": null
+    }
+   ]
+  },
+  "Stephen Kolek": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-31",
+     "bid": 0.0
+    },
+    {
+     "by": "Will O'Neil",
+     "date": "2026-05-24",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Matthew Liberatore": {
+   "origin": "DRAFT",
+   "price": 1.0,
+   "draftPick": 171,
+   "waiverClaims": [
+    {
+     "by": "Keller Ewing",
+     "date": "2026-05-31",
+     "bid": null
+    },
+    {
+     "by": "Tory Goranson",
+     "date": "2026-05-31",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Yennier Cano": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Keller Ewing",
+     "date": "2026-06-21",
+     "bid": 2.0
+    }
+   ]
+  },
+  "Cooper Ingle": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Keller Ewing",
+     "date": "2026-06-29",
+     "bid": null
+    },
+    {
+     "by": "Bryce Morgan",
+     "date": "2026-06-28",
+     "bid": 0.0
+    }
+   ]
+  },
+  "Eduard Bazardo": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Keller Ewing",
+     "date": "2026-06-29",
+     "bid": null
+    }
+   ]
+  },
+  "Brandon Sproat": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Nick Conrad",
+     "date": "2026-06-28",
+     "bid": 1.0
+    },
+    {
+     "by": "Keller Ewing",
+     "date": "2026-06-28",
+     "bid": 3.0
+    }
+   ]
+  },
+  "Ty France": {
+   "origin": "IN_SEASON_ACQUISITION",
+   "price": 1.0,
+   "waiverClaims": [
+    {
+     "by": "Keller Ewing",
+     "date": "2026-07-19",
+     "bid": null
+    }
+   ]
+  }
+ },
+ "provenanceHowToRead": "Keyed by player name. origin = how they entered 2026 (DRAFT with price and pick, KEEPER with price, IN_SEASON_ACQUISITION, PRESEASON_NONDRAFT). tradedTo/waiverClaims record in-season movement. Use this to credit a shrewd trade or a cheap waiver pickup when that player has a big game.",
+ "ownerNicknames": {
+  "Corey Williamson": "Cwill",
+  "Sawyer Auer": "Soy",
+  "Conner Mullan": "Con",
+  "Nick Conrad": "Cousin",
+  "Drew Burza": "Burz",
+  "Will O'Neil": "Will",
+  "Bryce Morgan": "Bryce",
+  "Ryan Morgan": "Ryan",
+  "Tory Goranson": "Tory",
+  "Keller Ewing": "Keller",
+  "Matt Amick": "Matt"
+ },
+ "careerTitles": {
+  "Will": 2,
+  "Ropeti": 2,
+  "Matt": 2,
+  "Tory": 1,
+  "Soy": 1,
+  "Mike Register": 1,
+  "Keller": 1
+ },
+ "notes": [
+  "Matt (Julio's Last Hurrah) is the commissioner and missed the 2026 playoffs, finishing 9th.",
+  "2025 was the league's first unlimited-keeper season.",
+  "SVH3 = saves + 0.5 x holds."
+ ]
+}
