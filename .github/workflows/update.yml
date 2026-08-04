@@ -4,7 +4,7 @@ on:
   schedule:
     # All times Pacific (PDT = UTC-7).
     # 9:30pm — the big nightly update, WITH commentary. Games are essentially final.
-    - cron: '30 4 * * *'
+    # DISABLED 2026-08-04 (Option C: no auto-commentary) - cron: '30 4 * * *'
     # 10:00pm — stats-only sweep, catches any late West Coast game.
     - cron: '0 5 * * *'
     # 1:00pm and 5:00pm — stats-only refreshes during the day.
