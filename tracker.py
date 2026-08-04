@@ -129,13 +129,14 @@ class PlayerResolver:
         self.failed = set()  # don't retry same id twice per run
 
     def _load_fantrax_names(self):
-        log("Fetching Fantrax player id map (getPlayerIds)...")
+        log("Fetching Fantrax player id map (getPlayerIds?sport=MLB)...")
         self.fantrax_names = {}
         try:
             data = http_get_json(
-                f"{FANTRAX_BASE}/getPlayerIds?leagueId={self.league_id}")
+                f"{FANTRAX_BASE}/getPlayerIds?sport=MLB")
         except Exception as e:  # noqa: BLE001
-            log(f"  ! getPlayerIds failed: {e}")
+            log(f"  !! getPlayerIds FAILED: {e} -- every unmapped player will "
+                f"score ZERO. Check player_map.json coverage.")
             return
         # Parse defensively: expect a dict keyed by fantrax id (possibly
         # nested under a wrapper key), values being dicts with a name field.
@@ -490,73 +491,37 @@ def run_playoffs(cfg, fetcher, today):
 
 # ---------------------------------------------------------------- HTML
 CSS = """
-:root{--bg:#0a0f16;--panel:#151d29;--panel2:#111823;--accent:#4dd0c4;
---accent-dim:rgba(77,208,196,.13);--blue:#6cb2ff;--text:#dce5f0;
---dim:#8d99a9;--red:#f87171;--line:#26313f;--line2:#1d2734}
-*{box-sizing:border-box}
-body{background:var(--bg);color:var(--text);
-background-image:radial-gradient(1100px 520px at 50% -160px,#14283e 0%,rgba(10,15,22,0) 70%);
-background-repeat:no-repeat;
+:root{--bg:#0d1117;--panel:#161d26;--accent:#4dd0c4;--blue:#58a6ff;
+--text:#c9d1d9;--dim:#8b949e;--red:#f85149;--line:#2b3542}
+*{box-sizing:border-box}body{background:var(--bg);color:var(--text);
 font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-margin:0 auto;padding:32px 20px 24px;max-width:1280px}
-h1{color:var(--accent);font-size:26px;font-weight:800;letter-spacing:2px;
-text-align:center;margin:8px 0 6px}
-@supports(-webkit-background-clip:text){
-h1{background:linear-gradient(90deg,var(--accent) 20%,var(--blue) 85%);
--webkit-background-clip:text;-webkit-text-fill-color:transparent}}
-.updated{text-align:center;color:var(--dim);font-size:12px;
-letter-spacing:.4px;margin-bottom:26px}
-h2{color:var(--blue);font-size:13px;font-weight:700;letter-spacing:2px;
-text-transform:uppercase;margin:36px 0 12px;display:flex;
-align-items:center;gap:12px}
-h2::after{content:'';flex:1;height:1px;
-background:linear-gradient(90deg,var(--line),transparent)}
-.bracket{display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
-.stage{background:linear-gradient(180deg,var(--panel),var(--panel2));
-border:1px solid var(--line);border-radius:14px;padding:14px 16px 12px;
-min-width:205px;flex:1 1 205px;max-width:255px;
-box-shadow:0 8px 24px rgba(0,0,0,.35);
-transition:transform .15s ease,border-color .15s ease}
-.stage:hover{transform:translateY(-3px);border-color:#35455c}
-.stage h3{color:var(--blue);font-size:11px;font-weight:700;
-text-transform:uppercase;letter-spacing:1.5px;margin:0 0 10px;
-border-bottom:1px solid var(--line2);padding-bottom:8px}
-.stage .tm{display:flex;justify-content:space-between;align-items:center;
-gap:8px;font-size:13px;padding:5px 0;
-border-bottom:1px dashed rgba(255,255,255,.05)}
-.stage .tm:last-child{border-bottom:none}
-.stage .tm .rec{color:var(--dim);font-size:12px;
-font-variant-numeric:tabular-nums}
-.stage .out{text-decoration:line-through;color:var(--red);opacity:.75}
+margin:0;padding:24px 16px;max-width:1280px;margin:0 auto}
+h1{color:var(--accent);font-size:22px;letter-spacing:1px;text-align:center;
+margin:8px 0 4px}.updated{text-align:center;color:var(--dim);font-size:12px;
+margin-bottom:22px}h2{color:var(--blue);font-size:15px;letter-spacing:1px;
+text-transform:uppercase;margin:28px 0 10px}
+.bracket{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.stage{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:12px 14px;min-width:200px;flex:1 1 200px;max-width:250px}
+.stage h3{color:var(--blue);font-size:12px;text-transform:uppercase;
+letter-spacing:1px;margin:0 0 8px;border-bottom:1px solid var(--line);
+padding-bottom:6px}.stage .tm{display:flex;justify-content:space-between;
+font-size:13px;padding:3px 0}.stage .tm .rec{color:var(--dim)}
+.stage .out{text-decoration:line-through;color:var(--red)}
 .stage .out .rec{color:var(--red)}
-.seed{display:inline-flex;justify-content:center;align-items:center;
-min-width:20px;height:18px;background:var(--accent-dim);
-color:var(--accent);font-weight:700;font-size:11px;border-radius:5px;
-padding:0 4px;margin-right:8px;font-variant-numeric:tabular-nums}
-.champbox{border-color:rgba(77,208,196,.45);
-box-shadow:0 0 0 1px rgba(77,208,196,.2),0 0 30px rgba(77,208,196,.12),
-0 8px 24px rgba(0,0,0,.35)}
-.champbox h3{color:var(--accent)}
-.champbox .winner{color:var(--accent);font-size:17px;font-weight:800;
-letter-spacing:.5px;text-align:center;padding:18px 0}
-.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;
-box-shadow:0 8px 24px rgba(0,0,0,.3);margin-bottom:10px}
+.seed{color:var(--accent);font-weight:600;margin-right:6px}
+.champbox{border-color:var(--accent)}.champbox .winner{color:var(--accent);
+font-size:16px;font-weight:700;text-align:center;padding:14px 0}
 table{border-collapse:collapse;width:100%;background:var(--panel);
-font-size:13px}
-th{background:#0e1621;color:var(--blue);padding:10px 7px;text-align:right;
-font-size:10.5px;font-weight:700;text-transform:uppercase;
-letter-spacing:.8px;white-space:nowrap}
-th:first-child,td:first-child{text-align:left;padding-left:14px}
-td{padding:8px 7px;text-align:right;border-top:1px solid var(--line2);
-font-variant-numeric:tabular-nums;white-space:nowrap}
-td:first-child{font-weight:600}
-tbody tr:nth-child(even) td{background:rgba(255,255,255,.015)}
-tbody tr:hover td{background:rgba(108,178,255,.06)}
+border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:13px}
+th{background:#101720;color:var(--blue);padding:8px 6px;text-align:right;
+font-size:11px;text-transform:uppercase;letter-spacing:.5px}
+th:first-child,td:first-child{text-align:left;padding-left:12px}
+td{padding:7px 6px;text-align:right;border-top:1px solid var(--line)}
 tr.out td{color:var(--red)}tr.out td:first-child{text-decoration:line-through}
-footer{text-align:center;color:var(--dim);font-size:12px;margin-top:40px;
-border-top:1px solid var(--line);padding-top:16px;letter-spacing:.3px}
-@media(max-width:640px){body{padding:20px 12px}
-h1{font-size:20px;letter-spacing:1px}.stage{max-width:none}}
+.wrap{overflow-x:auto;margin-bottom:8px}
+footer{text-align:center;color:var(--dim);font-size:12px;margin-top:34px;
+border-top:1px solid var(--line);padding-top:14px}
 """
 
 HEAT_JS = """
