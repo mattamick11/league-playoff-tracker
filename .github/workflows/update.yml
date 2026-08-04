@@ -13,11 +13,17 @@ on:
   workflow_dispatch:
     inputs:
       commentary:
-        description: 'Also write the nightly commentary?'
+        description: 'Also write the nightly commentary? (leave none while disabled)'
         required: false
         default: 'none'
         type: choice
         options: [none, nightly]
+      post_recap:
+        description: 'Post the committed recap.md to Discord?'
+        required: false
+        default: 'no'
+        type: choice
+        options: [no, dry-run, post]
 
 permissions:
   contents: write
@@ -56,6 +62,17 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python commentary.py --mode nightly
+
+      # Manual-only. Posts the reviewed recap.md. Fails closed on anything odd.
+      - name: Preview recap (no posting)
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.post_recap == 'dry-run'
+        run: python post_recap.py --dry-run
+
+      - name: Post recap to Discord
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.post_recap == 'post'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python post_recap.py
 
       - name: Commit and push results
         run: |
