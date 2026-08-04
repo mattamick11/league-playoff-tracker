@@ -1,0 +1,83 @@
+name: Update playoff tracker
+
+on:
+  schedule:
+    # All times Pacific (PDT = UTC-7).
+    # 9:30pm — the big nightly update, WITH commentary. Games are essentially final.
+    # DISABLED 2026-08-04 (Option C: no auto-commentary) - cron: '30 4 * * *'
+    # 10:00pm — stats-only sweep, catches any late West Coast game.
+    - cron: '0 5 * * *'
+    # 1:00pm and 5:00pm — stats-only refreshes during the day.
+    - cron: '0 20 * * *'
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    inputs:
+      commentary:
+        description: 'Also write the nightly commentary? (leave none while disabled)'
+        required: false
+        default: 'none'
+        type: choice
+        options: [none, nightly]
+      post_recap:
+        description: 'Post the committed recap.md to Discord?'
+        required: false
+        default: 'no'
+        type: choice
+        options: [no, dry-run, post]
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run tracker
+        run: python tracker.py
+
+      # Only the 9:30pm run writes commentary. Manual runs use the dropdown.
+      - name: Pick commentary mode
+        id: mode
+        run: |
+          MODE="none"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            MODE="${{ github.event.inputs.commentary }}"
+          elif [ "${{ github.event.schedule }}" = "30 4 * * *" ]; then
+            MODE="nightly"
+          fi
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          echo "commentary mode: $MODE"
+
+      - name: Generate commentary
+        if: steps.mode.outputs.mode == 'nightly'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python commentary.py --mode nightly
+
+      # Manual-only. Posts the reviewed recap.md. Fails closed on anything odd.
+      - name: Preview recap (no posting)
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.post_recap == 'dry-run'
+        run: python post_recap.py --dry-run
+
+      - name: Post recap to Discord
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.post_recap == 'post'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python post_recap.py
+
+      - name: Commit and push results
+        run: |
+          git config user.name "tracker-bot"
+          git config user.email "tracker-bot@users.noreply.github.com"
+          git add docs/ player_map.json
+          git commit -m "auto-update${{ steps.mode.outputs.mode == 'nightly' && ' + nightly commentary' || '' }}" || echo "nothing to commit"
+          git push
