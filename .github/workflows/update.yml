@@ -17,13 +17,13 @@ on:
         required: false
         default: 'none'
         type: choice
-        options: [none, nightly]
+        options: ['none', 'nightly']
       post_recap:
         description: 'Post the committed recap.md to Discord?'
         required: false
-        default: 'no'
+        default: 'off'
         type: choice
-        options: [no, dry-run, post]
+        options: ['off', 'dry-run', 'post']
 
 permissions:
   contents: write
@@ -63,6 +63,16 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python commentary.py --mode nightly
 
+      # Commit BEFORE the recap steps. A recap failure must never cost us the
+      # stats update that tracker.py just spent a minute producing.
+      - name: Commit and push results
+        run: |
+          git config user.name "tracker-bot"
+          git config user.email "tracker-bot@users.noreply.github.com"
+          git add docs/ player_map.json
+          git commit -m "auto-update${{ steps.mode.outputs.mode == 'nightly' && ' + nightly commentary' || '' }}" || echo "nothing to commit"
+          git push
+
       # Manual-only. Posts the reviewed recap.md. Fails closed on anything odd.
       - name: Preview recap (no posting)
         if: github.event_name == 'workflow_dispatch' && github.event.inputs.post_recap == 'dry-run'
@@ -73,11 +83,3 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python post_recap.py
-
-      - name: Commit and push results
-        run: |
-          git config user.name "tracker-bot"
-          git config user.email "tracker-bot@users.noreply.github.com"
-          git add docs/ player_map.json
-          git commit -m "auto-update${{ steps.mode.outputs.mode == 'nightly' && ' + nightly commentary' || '' }}" || echo "nothing to commit"
-          git push
