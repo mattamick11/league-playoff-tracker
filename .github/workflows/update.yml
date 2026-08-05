@@ -1,15 +1,21 @@
 name: Update playoff tracker
 
+# Queue overlapping runs instead of racing them. GitHub's scheduler can deliver a
+# run 90+ minutes late (measured), so at a 30-minute cadence two runs can overlap
+# and both try to push, failing the second on a non-fast-forward.
+concurrency:
+  group: tracker
+  cancel-in-progress: false
+
 on:
   schedule:
-    # All times Pacific (PDT = UTC-7).
-    # 9:30pm — the big nightly update, WITH commentary. Games are essentially final.
-    # DISABLED 2026-08-04 (Option C: no auto-commentary) - cron: '30 4 * * *'
-    # 10:00pm — stats-only sweep, catches any late West Coast game.
-    - cron: '0 5 * * *'
-    # 1:00pm and 5:00pm — stats-only refreshes during the day.
-    - cron: '0 20 * * *'
-    - cron: '0 0 * * *'
+    # Every 30 minutes across the MLB day, in UTC.
+    # Verified against the real Aug 5-11 2026 schedule: earliest first pitch
+    # 16:15 UTC (Sunday), latest game ends about 05:45 UTC the next day.
+    # That is 9:00am to 11:00pm Pacific.
+    - cron: '*/30 16-23 * * *'
+    - cron: '*/30 0-6 * * *'
+    # DISABLED 2026-08-04 (no auto-commentary until the API key exists) - cron: '30 4 * * *'
   workflow_dispatch:
     inputs:
       commentary:
@@ -43,15 +49,22 @@ jobs:
       - name: Run tracker
         run: python tracker.py
 
-      # Only the 9:30pm run writes commentary. Manual runs use the dropdown.
+      # Standings snapshot. Runs on EVERY run, but discord_post.py self-gates to
+      # four slots a day (1pm/4pm/7pm/10pm Pacific) via docs/last_discord_post.json.
+      # It must run BEFORE the commit so that marker file is persisted, otherwise
+      # the next run would post the same slot again.
+      - name: Post standings to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python discord_post.py
+
+      # Commentary is disabled; manual runs can still force it via the dropdown.
       - name: Pick commentary mode
         id: mode
         run: |
           MODE="none"
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             MODE="${{ github.event.inputs.commentary }}"
-          elif [ "${{ github.event.schedule }}" = "30 4 * * *" ]; then
-            MODE="nightly"
           fi
           echo "mode=$MODE" >> "$GITHUB_OUTPUT"
           echo "commentary mode: $MODE"
@@ -69,6 +82,7 @@ jobs:
         run: |
           git config user.name "tracker-bot"
           git config user.email "tracker-bot@users.noreply.github.com"
+          git pull --rebase --autostash || true
           git add docs/ player_map.json
           git commit -m "auto-update${{ steps.mode.outputs.mode == 'nightly' && ' + nightly commentary' || '' }}" || echo "nothing to commit"
           git push
