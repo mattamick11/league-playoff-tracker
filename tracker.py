@@ -715,7 +715,7 @@ def generate_html(cfg, state, now):
             "<!--COMMENTARY-->"
             f"<div class='bracket'>{''.join(cards)}</div>"
             f"{''.join(tables)}"
-            "<footer>Auto-updated 3x daily · Fantrax lineups × MLB live "
+            "<footer>Auto-updated through the day · Fantrax lineups × MLB live "
             "stats</footer>"
             f"<script>{HEAT_JS}</script></body></html>")
     return html
