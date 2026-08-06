@@ -5,7 +5,7 @@ name: Update playoff tracker
 # and both try to push, failing the second on a non-fast-forward.
 concurrency:
   group: tracker
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 on:
   schedule:
@@ -47,7 +47,29 @@ jobs:
           python-version: '3.11'
 
       - name: Run tracker
-        run: python tracker.py
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          git config user.name "tracker-bot"
+          git config user.email "tracker-bot@users.noreply.github.com"
+          END=$(( $(date +%s) + 3300 ))
+          PASS=0
+          while :; do
+            PASS=$((PASS+1))
+            echo "--- pass $PASS ---"
+            python tracker.py || echo "tracker failed this pass"
+            python discord_post.py || echo "discord skipped this pass"
+            git add docs/ player_map.json
+            if git commit -m "auto-update (pass $PASS)"; then
+              git pull --rebase --autostash || true
+              git push || echo "push failed this pass"
+            else
+              echo "nothing to commit"
+            fi
+            if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then break; fi
+            if [ $(date +%s) -ge $END ]; then break; fi
+            sleep 600
+          done
 
       # Standings snapshot. Runs on EVERY run, but discord_post.py self-gates to
       # four slots a day (1pm/4pm/7pm/10pm Pacific) via docs/last_discord_post.json.
