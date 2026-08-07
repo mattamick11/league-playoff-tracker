@@ -1,3157 +1,3161 @@
 {
- "_meta": {
-  "leagueId": "et5c14rlmm9mb3pl",
-  "generated": "2026-08-03",
-  "source": "League History Database/sidecar/league_player_game_history.LEAN.sqlite -> player_pool (2026 primary, 2025 fallback), merged over the previous week-17 test map",
-  "svh3_formula": "SVH3 = 1.0*SV + 0.5*HLD",
-  "playoff_teams": {
-   "71lgikv0mm9mb3pu": "Yordan Redemption Tour",
-   "o6otuk5lmm9mb3pv": "hubba hubba bubba bubba",
-   "zwna71lqmm9mb3pv": "Small Balls",
-   "urshjvwwmm9mb3pv": "Nick Kurtz in Paris",
-   "tvfy2y7hmm9mb3pv": "Landen Poop",
-   "d49e5b6bmm9mb3pv": "Chase Sapphire",
-   "dyfhxlh1mm9mb3pu": "Return of Belt to Ass"
-  },
-  "note": "Rebuilt 2026-08-03. The previous map held only 61 players covering the week-17 test pair (Julio's Last Hurrah + Chase Sapphire). Matt's team missed the playoffs, so 6 of the 7 playoff teams had ZERO mapped players and therefore zero stats. This map covers the full 2026 league player pool.",
-  "manual_additions": {
-   "06rkk": "Eduardo Valencia, MLB 680664, C-DET, debuted 2026-07-09. Added to Small Balls 2026-08-02 (dropped Jo Adell). Absent from the Aug 2 player_pool snapshot because he debuted after it. Identified from Matt's Fantrax transaction screenshot + UT lineup slot (only hitter among the three adds).",
-   "04y9f": "Ryan Zeferjahn, MLB 666171, RP-CHC, debuted 2024-08-25. Added to Small Balls 2026-08-03 2:13PM (dropped Robert Suarez). RP slot, RESERVE."
-  },
-  "players_total": 783
- },
- "players": {
-  "04efa": {
-   "name": "Daulton Varsho",
-   "mlbId": 662139
-  },
-  "02w7p": {
-   "name": "Alex Bregman",
-   "mlbId": 608324
-  },
-  "05gtn": {
-   "name": "Tyler Soderstrom",
-   "mlbId": 691016
-  },
-  "04rzp": {
-   "name": "Rico Garcia",
-   "mlbId": 670329
-  },
-  "03pit": {
-   "name": "Trent Grisham",
-   "mlbId": 663757
-  },
-  "05udp": {
-   "name": "Elly De La Cruz",
-   "mlbId": 682829
-  },
-  "04aeb": {
-   "name": "Royce Lewis",
-   "mlbId": 668904
-  },
-  "061yu": {
-   "name": "Jacob Misiorowski",
-   "mlbId": 694819
-  },
-  "02mwm": {
-   "name": "Matt Olson",
-   "mlbId": 621566
-  },
-  "05zh9": {
-   "name": "Luke Keaschall",
-   "mlbId": 807712
-  },
-  "05uc4": {
-   "name": "Troy Melton",
-   "mlbId": 675512
-  },
-  "03zbh": {
-   "name": "Fernando Tatis Jr.",
-   "mlbId": 665487
-  },
-  "052c8": {
-   "name": "Cristopher Sanchez",
-   "mlbId": 650911
-  },
-  "0403o": {
-   "name": "Andres Munoz",
-   "mlbId": 662253
-  },
-  "02i3o": {
-   "name": "Aaron Nola",
-   "mlbId": 605400
-  },
-  "04ru7": {
-   "name": "Miguel Vargas",
-   "mlbId": 678246
-  },
-  "04en7": {
-   "name": "Garrett Mitchell",
-   "mlbId": 669003
-  },
-  "05y23": {
-   "name": "Tanner Bibee",
-   "mlbId": 676440
-  },
-  "04qnc": {
-   "name": "Francisco Alvarez",
-   "mlbId": 682626
-  },
-  "051bm": {
-   "name": "Louis Varland",
-   "mlbId": 686973
-  },
-  "06ktn": {
-   "name": "Tatsuya Imai",
-   "mlbId": 837227
-  },
-  "04pr8": {
-   "name": "Taj Bradley",
-   "mlbId": 671737
-  },
-  "04aea": {
-   "name": "Hunter Greene",
-   "mlbId": 668881
-  },
-  "04fhb": {
-   "name": "Julio Rodriguez",
-   "mlbId": 677594
-  },
-  "0596e": {
-   "name": "Dylan Crews",
-   "mlbId": 686611
-  },
-  "03di6": {
-   "name": "Jordan Romano",
-   "mlbId": 605447
-  },
-  "05y7x": {
-   "name": "Cole Young",
-   "mlbId": 702284
-  },
-  "05jp7": {
-   "name": "Gavin Williams",
-   "mlbId": 668909
-  },
-  "05rb3": {
-   "name": "Chase Burns",
-   "mlbId": 695505
-  },
-  "04eee": {
-   "name": "Drew Rasmussen",
-   "mlbId": 656876
-  },
-  "05y4b": {
-   "name": "Caleb Durbin",
-   "mlbId": 702332
-  },
-  "03cag": {
-   "name": "Kyle Schwarber",
-   "mlbId": 656941
-  },
-  "0516x": {
-   "name": "Brent Headrick",
-   "mlbId": 687396
-  },
-  "04p10": {
-   "name": "Bryson Stott",
-   "mlbId": 681082
-  },
-  "05r3a": {
-   "name": "Brandon Young",
-   "mlbId": 687064
-  },
-  "0629b": {
-   "name": "Walbert Urena",
-   "mlbId": 700712
-  },
-  "025dn": {
-   "name": "Christian Yelich",
-   "mlbId": 592885
-  },
-  "03qjy": {
-   "name": "Brandon Lowe",
-   "mlbId": 664040
-  },
-  "04auj": {
-   "name": "Framber Valdez",
-   "mlbId": 664285
-  },
-  "0512v": {
-   "name": "Michael Harris II",
-   "mlbId": 671739
-  },
-  "026qc": {
-   "name": "Joc Pederson",
-   "mlbId": 592626
-  },
-  "066er": {
-   "name": "Grant Taylor",
-   "mlbId": 691799
-  },
-  "06aly": {
-   "name": "Carson Benge",
-   "mlbId": 701807
-  },
-  "04mlt": {
-   "name": "Shane McClanahan",
-   "mlbId": 663556
-  },
-  "05yb0": {
-   "name": "TJ Rumfield",
-   "mlbId": 681198
-  },
-  "05xch": {
-   "name": "Junior Caminero",
-   "mlbId": 691406
-  },
-  "05vy5": {
-   "name": "Carter Jensen",
-   "mlbId": 695600
-  },
-  "02n2x": {
-   "name": "Paul Sewald",
-   "mlbId": 623149
-  },
-  "06plc": {
-   "name": "Sam Antonacci",
-   "mlbId": 803011
-  },
-  "03dfa": {
-   "name": "Tanner Scott",
-   "mlbId": 656945
-  },
-  "06dn7": {
-   "name": "A.J. Ewing",
-   "mlbId": 805999
-  },
-  "0260v": {
-   "name": "Sonny Gray",
-   "mlbId": 543243
-  },
-  "03ann": {
-   "name": "Jeff Hoffman",
-   "mlbId": 656546
-  },
-  "041rj": {
-   "name": "JoJo Romero",
-   "mlbId": 668941
-  },
-  "05ras": {
-   "name": "Colton Cowser",
-   "mlbId": 681297
-  },
-  "04pma": {
-   "name": "Daniel Lynch IV",
-   "mlbId": 663738
-  },
-  "025gb": {
-   "name": "Xander Bogaerts",
-   "mlbId": 593428
-  },
-  "05ub0": {
-   "name": "Zack Gelof",
-   "mlbId": 680869
-  },
-  "04ew7": {
-   "name": "Aaron Ashby",
-   "mlbId": 676879
-  },
-  "02c68": {
-   "name": "Trea Turner",
-   "mlbId": 607208
-  },
-  "04y44": {
-   "name": "Josh Jung",
-   "mlbId": 673962
-  },
-  "01cdf": {
-   "name": "Giancarlo Stanton",
-   "mlbId": 519317
-  },
-  "01cgo": {
-   "name": "Freddie Freeman",
-   "mlbId": 518692
-  },
-  "01fh9": {
-   "name": "Bryce Harper",
-   "mlbId": 547180
-  },
-  "01gya": {
-   "name": "Aroldis Chapman",
-   "mlbId": 547973
-  },
-  "01s8u": {
-   "name": "Mike Trout",
-   "mlbId": 545361
-  },
-  "01sb3": {
-   "name": "Zack Wheeler",
-   "mlbId": 554430
-  },
-  "01spo": {
-   "name": "Gerrit Cole",
-   "mlbId": 543037
-  },
-  "01srb": {
-   "name": "Jameson Taillon",
-   "mlbId": 592791
-  },
-  "01svq": {
-   "name": "Manny Machado",
-   "mlbId": 592518
-  },
-  "01svz": {
-   "name": "Kenley Jansen",
-   "mlbId": 445276
-  },
-  "01sy3": {
-   "name": "Nolan Arenado",
-   "mlbId": 571448
-  },
-  "01t9q": {
-   "name": "Gary Sanchez",
-   "mlbId": 596142
-  },
-  "01u75": {
-   "name": "Salvador Perez",
-   "mlbId": 521692
-  },
-  "01ual": {
-   "name": "Paul Goldschmidt",
-   "mlbId": 502671
-  },
-  "01ub6": {
-   "name": "Jose Ramirez",
-   "mlbId": 608070
-  },
-  "01uc9": {
-   "name": "Nick Castellanos",
-   "mlbId": 592206
-  },
-  "01uca": {
-   "name": "Chris Sale",
-   "mlbId": 519242
-  },
-  "01usi": {
-   "name": "Marcell Ozuna",
-   "mlbId": 542303
-  },
-  "01ut7": {
-   "name": "Nathan Eovaldi",
-   "mlbId": 543135
-  },
-  "024m0": {
-   "name": "Jose Altuve",
-   "mlbId": 514888
-  },
-  "025he": {
-   "name": "George Springer",
-   "mlbId": 543807
-  },
-  "025i9": {
-   "name": "J.T. Realmuto",
-   "mlbId": 592663
-  },
-  "025it": {
-   "name": "Jason Adam",
-   "mlbId": 592094
-  },
-  "025j1": {
-   "name": "Robbie Ray",
-   "mlbId": 592662
-  },
-  "02611": {
-   "name": "Francisco Lindor",
-   "mlbId": 596019
-  },
-  "026l1": {
-   "name": "Lance McCullers Jr.",
-   "mlbId": 621121
-  },
-  "026lz": {
-   "name": "Josh Bell",
-   "mlbId": 605137
-  },
-  "026t9": {
-   "name": "Tyron Guerrero",
-   "mlbId": 594027
-  },
-  "029si": {
-   "name": "Eduardo Rodriguez",
-   "mlbId": 593958
-  },
-  "02bq2": {
-   "name": "Brandon Nimmo",
-   "mlbId": 607043
-  },
-  "02bqh": {
-   "name": "Trevor Story",
-   "mlbId": 596115
-  },
-  "02bqr": {
-   "name": "Blake Snell",
-   "mlbId": 605483
-  },
-  "02bqy": {
-   "name": "Joe Musgrove",
-   "mlbId": 605397
-  },
-  "02btf": {
-   "name": "Mookie Betts",
-   "mlbId": 605141
-  },
-  "02btx": {
-   "name": "Tyler Glasnow",
-   "mlbId": 607192
-  },
-  "02bu3": {
-   "name": "Brandon Woodruff",
-   "mlbId": 605540
-  },
-  "02bu9": {
-   "name": "Marcus Semien",
-   "mlbId": 543760
-  },
-  "02bx4": {
-   "name": "Clay Holmes",
-   "mlbId": 605280
-  },
-  "02c2h": {
-   "name": "Chris Bassitt",
-   "mlbId": 605135
-  },
-  "02c2r": {
-   "name": "Carlos Rodon",
-   "mlbId": 607074
-  },
-  "02c4q": {
-   "name": "Nick Martinez",
-   "mlbId": 607259
-  },
-  "02c5l": {
-   "name": "Luke Weaver",
-   "mlbId": 596133
-  },
-  "02f9m": {
-   "name": "Jakob Junis",
-   "mlbId": 596001
-  },
-  "02h8d": {
-   "name": "Steven Matz",
-   "mlbId": 571927
-  },
-  "02hfr": {
-   "name": "Caleb Thielbar",
-   "mlbId": 573204
-  },
-  "02hhj": {
-   "name": "Ryne Stanek",
-   "mlbId": 592773
-  },
-  "02hi7": {
-   "name": "Kevin Gausman",
-   "mlbId": 592332
-  },
-  "02hj7": {
-   "name": "Merrill Kelly",
-   "mlbId": 518876
-  },
-  "02hjp": {
-   "name": "Jacob deGrom",
-   "mlbId": 594798
-  },
-  "02i11": {
-   "name": "Jorge Soler",
-   "mlbId": 624585
-  },
-  "02i2j": {
-   "name": "Max Fried",
-   "mlbId": 608331
-  },
-  "02i2k": {
-   "name": "Byron Buxton",
-   "mlbId": 621439
-  },
-  "02i2q": {
-   "name": "Carlos Correa",
-   "mlbId": 621043
-  },
-  "02i37": {
-   "name": "Lucas Giolito",
-   "mlbId": 608337
-  },
-  "02i3l": {
-   "name": "Miguel Andujar",
-   "mlbId": 609280
-  },
-  "02iug": {
-   "name": "Michael Wacha",
-   "mlbId": 608379
-  },
-  "02j77": {
-   "name": "Chris Martin",
-   "mlbId": 455119
-  },
-  "02jh6": {
-   "name": "Eugenio Suarez",
-   "mlbId": 553993
-  },
-  "02mw3": {
-   "name": "Christian Walker",
-   "mlbId": 572233
-  },
-  "02mw6": {
-   "name": "Corey Seager",
-   "mlbId": 608369
-  },
-  "02mwq": {
-   "name": "Zach Eflin",
-   "mlbId": 621107
-  },
-  "02mxf": {
-   "name": "Carson Kelly",
-   "mlbId": 608348
-  },
-  "02my5": {
-   "name": "Edwin Diaz",
-   "mlbId": 621242
-  },
-  "02mzg": {
-   "name": "Max Muncy",
-   "mlbId": 571970
-  },
-  "02n4s": {
-   "name": "Matthew Boyd",
-   "mlbId": 571510
-  },
-  "02n96": {
-   "name": "Josh Hader",
-   "mlbId": 623352
-  },
-  "02nax": {
-   "name": "Matt Strahm",
-   "mlbId": 621381
-  },
-  "02x0f": {
-   "name": "Sean Manaea",
-   "mlbId": 640455
-  },
-  "02xic": {
-   "name": "Teoscar Hernandez",
-   "mlbId": 606192
-  },
-  "02yc4": {
-   "name": "Shohei Ohtani",
-   "mlbId": 660271
-  },
-  "02yd1": {
-   "name": "Jorge Polanco",
-   "mlbId": 593871
-  },
-  "02z0s": {
-   "name": "Aaron Judge",
-   "mlbId": 592450
-  },
-  "02z96": {
-   "name": "Dominic Smith",
-   "mlbId": 642086
-  },
-  "02zoa": {
-   "name": "Antonio Senzatela",
-   "mlbId": 622608
-  },
-  "030uc": {
-   "name": "Rafael Devers",
-   "mlbId": 646240
-  },
-  "030vs": {
-   "name": "Kirby Yates",
-   "mlbId": 489446
-  },
-  "0310z": {
-   "name": "J.P. Crawford",
-   "mlbId": 641487
-  },
-  "0311c": {
-   "name": "Devin Williams",
-   "mlbId": 642207
-  },
-  "03120": {
-   "name": "Cody Bellinger",
-   "mlbId": 641355
-  },
-  "0312g": {
-   "name": "Tyler Mahle",
-   "mlbId": 641816
-  },
-  "0312l": {
-   "name": "Brad Keller",
-   "mlbId": 641745
-  },
-  "0316j": {
-   "name": "Nick Pivetta",
-   "mlbId": 601713
-  },
-  "0316v": {
-   "name": "Jake Bauers",
-   "mlbId": 641343
-  },
-  "0317q": {
-   "name": "Griffin Jax",
-   "mlbId": 643377
-  },
-  "031bl": {
-   "name": "Kyle Finnegan",
-   "mlbId": 640448
-  },
-  "031cy": {
-   "name": "Emilio Pagan",
-   "mlbId": 641941
-  },
-  "031d4": {
-   "name": "Zack Littell",
-   "mlbId": 641793
-  },
-  "031ey": {
-   "name": "Eric Lauer",
-   "mlbId": 641778
-  },
-  "031t0": {
-   "name": "Gleyber Torres",
-   "mlbId": 650402
-  },
-  "0326s": {
-   "name": "Ketel Marte",
-   "mlbId": 606466
-  },
-  "0374m": {
-   "name": "Tyler Rogers",
-   "mlbId": 643511
-  },
-  "0376h": {
-   "name": "Tyler Alexander",
-   "mlbId": 641302
-  },
-  "03aac": {
-   "name": "Walker Buehler",
-   "mlbId": 621111
-  },
-  "03ab0": {
-   "name": "Luis Severino",
-   "mlbId": 622663
-  },
-  "03ae8": {
-   "name": "Dansby Swanson",
-   "mlbId": 621020
-  },
-  "03aqv": {
-   "name": "Raisel Iglesias",
-   "mlbId": 628452
-  },
-  "03aqw": {
-   "name": "Mauricio Dubon",
-   "mlbId": 643289
-  },
-  "03atq": {
-   "name": "Willy Adames",
-   "mlbId": 642715
-  },
-  "03btu": {
-   "name": "Willi Castro",
-   "mlbId": 650489
-  },
-  "03btv": {
-   "name": "Sandy Alcantara",
-   "mlbId": 645261
-  },
-  "03caf": {
-   "name": "Foster Griffin",
-   "mlbId": 656492
-  },
-  "03d6p": {
-   "name": "Grant Holmes",
-   "mlbId": 656550
-  },
-  "03d6s": {
-   "name": "Matt Chapman",
-   "mlbId": 656305
-  },
-  "03d6w": {
-   "name": "Jack Flaherty",
-   "mlbId": 656427
-  },
-  "03d7h": {
-   "name": "Mitch Keller",
-   "mlbId": 656605
-  },
-  "03dau": {
-   "name": "Trevor Megill",
-   "mlbId": 656730
-  },
-  "03db4": {
-   "name": "Jonathan Loaisiga",
-   "mlbId": 642528
-  },
-  "03dbm": {
-   "name": "Logan Webb",
-   "mlbId": 657277
-  },
-  "03dc4": {
-   "name": "Freddy Peralta",
-   "mlbId": 642547
-  },
-  "03de9": {
-   "name": "Rhys Hoskins",
-   "mlbId": 656555
-  },
-  "03deg": {
-   "name": "Justin Steele",
-   "mlbId": 657006
-  },
-  "03dei": {
-   "name": "Lane Thomas",
-   "mlbId": 657041
-  },
-  "03df2": {
-   "name": "Dylan Cease",
-   "mlbId": 656302
-  },
-  "03dgq": {
-   "name": "Ryan OHearn",
-   "mlbId": 656811
-  },
-  "03div": {
-   "name": "Jake Latz",
-   "mlbId": 656641
-  },
-  "03dp8": {
-   "name": "Ramon Laureano",
-   "mlbId": 657656
-  },
-  "03dpg": {
-   "name": "Kevin Ginkel",
-   "mlbId": 656464
-  },
-  "03e5m": {
-   "name": "Bryan Reynolds",
-   "mlbId": 668804
-  },
-  "03et8": {
-   "name": "Ranger Suarez",
-   "mlbId": 624133
-  },
-  "03fi0": {
-   "name": "Ozzie Albies",
-   "mlbId": 645277
-  },
-  "03i81": {
-   "name": "Reynaldo Lopez",
-   "mlbId": 625643
-  },
-  "03m6o": {
-   "name": "Yandy Diaz",
-   "mlbId": 650490
-  },
-  "03mew": {
-   "name": "Luis Arraez",
-   "mlbId": 650333
-  },
-  "03mnq": {
-   "name": "Carlos Estevez",
-   "mlbId": 608032
-  },
-  "03nmw": {
-   "name": "Ian Happ",
-   "mlbId": 664023
-  },
-  "03nri": {
-   "name": "Lourdes Gurriel Jr.",
-   "mlbId": 666971
-  },
-  "03nru": {
-   "name": "Jesus Sanchez",
-   "mlbId": 660821
-  },
-  "03nuc": {
-   "name": "Luis Castillo",
-   "mlbId": 622491
-  },
-  "03oh0": {
-   "name": "Willson Contreras",
-   "mlbId": 575929
-  },
-  "03ojr": {
-   "name": "Vladimir Guerrero Jr.",
-   "mlbId": 665489
-  },
-  "03pdw": {
-   "name": "Andrew Benintendi",
-   "mlbId": 643217
-  },
-  "03pir": {
-   "name": "Kyle Tucker",
-   "mlbId": 663656
-  },
-  "03pj4": {
-   "name": "Cody Ponce",
-   "mlbId": 664074
-  },
-  "03pjd": {
-   "name": "Josh Naylor",
-   "mlbId": 647304
-  },
-  "03pje": {
-   "name": "Taylor Ward",
-   "mlbId": 621493
-  },
-  "03pjf": {
-   "name": "Michael Soroka",
-   "mlbId": 647336
-  },
-  "03pom": {
-   "name": "Austin Riley",
-   "mlbId": 663586
-  },
-  "03poo": {
-   "name": "Peter Lambert",
-   "mlbId": 663567
-  },
-  "03poq": {
-   "name": "Tony Santillan",
-   "mlbId": 663574
-  },
-  "03pov": {
-   "name": "Brady Singer",
-   "mlbId": 663903
-  },
-  "03pzn": {
-   "name": "Andres Gimenez",
-   "mlbId": 665926
-  },
-  "03qju": {
-   "name": "Garrett Cleavinger",
-   "mlbId": 664076
-  },
-  "03qjv": {
-   "name": "Harrison Bader",
-   "mlbId": 664056
-  },
-  "03qjz": {
-   "name": "Taylor Clarke",
-   "mlbId": 664199
-  },
-  "03ql5": {
-   "name": "Ryan Helsley",
-   "mlbId": 664854
-  },
-  "03qo0": {
-   "name": "Pete Fairbanks",
-   "mlbId": 664126
-  },
-  "03qr0": {
-   "name": "Cedric Mullins",
-   "mlbId": 656775
-  },
-  "03qt6": {
-   "name": "Tyler Phillips",
-   "mlbId": 663969
-  },
-  "03qwa": {
-   "name": "Phil Maton",
-   "mlbId": 664208
-  },
-  "03qxr": {
-   "name": "Cole Sands",
-   "mlbId": 663485
-  },
-  "03qyv": {
-   "name": "Jake McCarthy",
-   "mlbId": 664983
-  },
-  "03sef": {
-   "name": "Seth Lugo",
-   "mlbId": 607625
-  },
-  "03svw": {
-   "name": "Bryan Hudson",
-   "mlbId": 663542
-  },
-  "03wha": {
-   "name": "Ronald Acuna Jr.",
-   "mlbId": 660670
-  },
-  "03whq": {
-   "name": "Ty France",
-   "mlbId": 664034
-  },
-  "03y4y": {
-   "name": "Enyel De Los Santos",
-   "mlbId": 660853
-  },
-  "03ynj": {
-   "name": "Juan Soto",
-   "mlbId": 665742
-  },
-  "03yrz": {
-   "name": "William Contreras",
-   "mlbId": 661388
-  },
-  "03yui": {
-   "name": "Alex Lange",
-   "mlbId": 656638
-  },
-  "03zcy": {
-   "name": "Mark Vientos",
-   "mlbId": 668901
-  },
-  "03zlh": {
-   "name": "Oneil Cruz",
-   "mlbId": 665833
-  },
-  "04022": {
-   "name": "Tim Hill",
-   "mlbId": 657612
-  },
-  "0406v": {
-   "name": "Esteury Ruiz",
-   "mlbId": 665923
-  },
-  "04071": {
-   "name": "Isaac Paredes",
-   "mlbId": 670623
-  },
-  "040b5": {
-   "name": "Randy Arozarena",
-   "mlbId": 668227
-  },
-  "0414g": {
-   "name": "Luis Garcia Jr.",
-   "mlbId": 671277
-  },
-  "041am": {
-   "name": "Lucas Erceg",
-   "mlbId": 668674
-  },
-  "041e2": {
-   "name": "Mickey Moniak",
-   "mlbId": 666160
-  },
-  "041g5": {
-   "name": "Elvis Alvarado",
-   "mlbId": 665660
-  },
-  "041ma": {
-   "name": "Cole Ragans",
-   "mlbId": 666142
-  },
-  "041mb": {
-   "name": "Anthony Kay",
-   "mlbId": 641743
-  },
-  "041ps": {
-   "name": "Nick Lodolo",
-   "mlbId": 666157
-  },
-  "041pz": {
-   "name": "Pete Alonso",
-   "mlbId": 624413
-  },
-  "041q8": {
-   "name": "Brandon Marsh",
-   "mlbId": 669016
-  },
-  "041qb": {
-   "name": "Bo Bichette",
-   "mlbId": 666182
-  },
-  "041qo": {
-   "name": "Zac Gallen",
-   "mlbId": 668678
-  },
-  "041r1": {
-   "name": "Jesus Luzardo",
-   "mlbId": 666200
-  },
-  "041r5": {
-   "name": "Dustin May",
-   "mlbId": 669160
-  },
-  "041rd": {
-   "name": "Corbin Burnes",
-   "mlbId": 669203
-  },
-  "041rf": {
-   "name": "Shane Bieber",
-   "mlbId": 669456
-  },
-  "041sq": {
-   "name": "Tommy Edman",
-   "mlbId": 669242
-  },
-  "041ts": {
-   "name": "Luke Raley",
-   "mlbId": 670042
-  },
-  "041vm": {
-   "name": "Dylan Lee",
-   "mlbId": 669276
-  },
-  "041w4": {
-   "name": "Bryan Baker",
-   "mlbId": 641329
-  },
-  "041wc": {
-   "name": "Joel Kuhnel",
-   "mlbId": 669270
-  },
-  "041wv": {
-   "name": "Michael King",
-   "mlbId": 650633
-  },
-  "041x9": {
-   "name": "Graham Ashcraft",
-   "mlbId": 668933
-  },
-  "041xv": {
-   "name": "Nathaniel Lowe",
-   "mlbId": 663993
-  },
-  "041yb": {
-   "name": "Dean Kremer",
-   "mlbId": 665152
-  },
-  "0423c": {
-   "name": "Carlos Cortes",
-   "mlbId": 666126
-  },
-  "0425t": {
-   "name": "Bailey Ober",
-   "mlbId": 641927
-  },
-  "042sz": {
-   "name": "Will Smith",
-   "mlbId": 669257
-  },
-  "0433b": {
-   "name": "Ildemaro Vargas",
-   "mlbId": 545121
-  },
-  "04355": {
-   "name": "Yordan Alvarez",
-   "mlbId": 670541
-  },
-  "043ia": {
-   "name": "Adrian Morejon",
-   "mlbId": 670970
-  },
-  "045gu": {
-   "name": "TJ Friedl",
-   "mlbId": 670770
-  },
-  "045qo": {
-   "name": "Jazz Chisholm Jr.",
-   "mlbId": 665862
-  },
-  "046yd": {
-   "name": "Dennis Santana",
-   "mlbId": 642701
-  },
-  "0473n": {
-   "name": "Tyler Wells",
-   "mlbId": 669330
-  },
-  "047l7": {
-   "name": "Luis Robert Jr.",
-   "mlbId": 673357
-  },
-  "04a2t": {
-   "name": "Kodai Senga",
-   "mlbId": 673540
-  },
-  "04aee": {
-   "name": "Jo Adell",
-   "mlbId": 666176
-  },
-  "04ai4": {
-   "name": "Nolan Gorman",
-   "mlbId": 669357
-  },
-  "04ak5": {
-   "name": "Trevor Rogers",
-   "mlbId": 669432
-  },
-  "04ali": {
-   "name": "Edward Cabrera",
-   "mlbId": 665795
-  },
-  "04alp": {
-   "name": "Ernie Clement",
-   "mlbId": 676391
-  },
-  "04aok": {
-   "name": "Gregory Soto",
-   "mlbId": 642397
-  },
-  "04apj": {
-   "name": "Jhoan Duran",
-   "mlbId": 661395
-  },
-  "04aq4": {
-   "name": "Adolis Garcia",
-   "mlbId": 666969
-  },
-  "04aqc": {
-   "name": "David Bednar",
-   "mlbId": 670280
-  },
-  "04auk": {
-   "name": "Seranthony Dominguez",
-   "mlbId": 622554
-  },
-  "04azu": {
-   "name": "Kumar Rocker",
-   "mlbId": 677958
-  },
-  "04azv": {
-   "name": "Jake Burger",
-   "mlbId": 669394
-  },
-  "04b00": {
-   "name": "Brice Turang",
-   "mlbId": 668930
-  },
-  "04b02": {
-   "name": "Seiya Suzuki",
-   "mlbId": 673548
-  },
-  "04c0o": {
-   "name": "Jose Soriano",
-   "mlbId": 667755
-  },
-  "04cd5": {
-   "name": "MacKenzie Gore",
-   "mlbId": 669022
-  },
-  "04cwf": {
-   "name": "Shane Baz",
-   "mlbId": 669358
-  },
-  "04e2u": {
-   "name": "Brent Rooker",
-   "mlbId": 667670
-  },
-  "04ee8": {
-   "name": "Heliot Ramos",
-   "mlbId": 671218
-  },
-  "04eej": {
-   "name": "Gavin Sheets",
-   "mlbId": 657757
-  },
-  "04ehz": {
-   "name": "Jeremiah Estrada",
-   "mlbId": 669093
-  },
-  "04eig": {
-   "name": "Jose Caballero",
-   "mlbId": 676609
-  },
-  "04ej3": {
-   "name": "Riley OBrien",
-   "mlbId": 676617
-  },
-  "04em6": {
-   "name": "Will Vest",
-   "mlbId": 676684
-  },
-  "04enz": {
-   "name": "Robert Garcia",
-   "mlbId": 676395
-  },
-  "04eor": {
-   "name": "Cade Smith",
-   "mlbId": 671922
-  },
-  "04eos": {
-   "name": "Joey Cantillo",
-   "mlbId": 676282
-  },
-  "04eqa": {
-   "name": "Garrett Whitlock",
-   "mlbId": 676477
-  },
-  "04etg": {
-   "name": "Janson Junk",
-   "mlbId": 676083
-  },
-  "04eud": {
-   "name": "Shane Drohan",
-   "mlbId": 675660
-  },
-  "04fq2": {
-   "name": "Javier Assad",
-   "mlbId": 665871
-  },
-  "04g1x": {
-   "name": "David Peterson",
-   "mlbId": 656849
-  },
-  "04ggi": {
-   "name": "Andrew Kittredge",
-   "mlbId": 552640
-  },
-  "04hyc": {
-   "name": "Ivan Herrera",
-   "mlbId": 671056
-  },
-  "04k0w": {
-   "name": "Camilo Doval",
-   "mlbId": 666808
-  },
-  "04lgp": {
-   "name": "Bobby Witt Jr.",
-   "mlbId": 677951
-  },
-  "04mjn": {
-   "name": "Eduard Bazardo",
-   "mlbId": 660825
-  },
-  "04ml0": {
-   "name": "Yusei Kikuchi",
-   "mlbId": 579328
-  },
-  "04mlf": {
-   "name": "Casey Mize",
-   "mlbId": 663554
-  },
-  "04mlr": {
-   "name": "Jeffrey Springs",
-   "mlbId": 605488
-  },
-  "04mlx": {
-   "name": "Matthew Liberatore",
-   "mlbId": 669461
-  },
-  "04mn5": {
-   "name": "Alec Bohm",
-   "mlbId": 664761
-  },
-  "04mnw": {
-   "name": "Ryan Weathers",
-   "mlbId": 677960
-  },
-  "04mra": {
-   "name": "Ezequiel Tovar",
-   "mlbId": 678662
-  },
-  "04my4": {
-   "name": "Cal Raleigh",
-   "mlbId": 663728
-  },
-  "04n0m": {
-   "name": "Logan Gilbert",
-   "mlbId": 669302
-  },
-  "04n8z": {
-   "name": "Xavier Edwards",
-   "mlbId": 669364
-  },
-  "04nb2": {
-   "name": "Riley Greene",
-   "mlbId": 682985
-  },
-  "04nky": {
-   "name": "Trevor Larnach",
-   "mlbId": 663616
-  },
-  "04nq4": {
-   "name": "Blaze Jordan",
-   "mlbId": 691458
-  },
-  "04nqx": {
-   "name": "Ezequiel Duran",
-   "mlbId": 677649
-  },
-  "04nx3": {
-   "name": "Jonathan India",
-   "mlbId": 663697
-  },
-  "04o2w": {
-   "name": "Ben Brown",
-   "mlbId": 676962
-  },
-  "04o4s": {
-   "name": "Shea Langeliers",
-   "mlbId": 669127
-  },
-  "04o78": {
-   "name": "Matt Wallner",
-   "mlbId": 670242
-  },
-  "04paj": {
-   "name": "Cole Winn",
-   "mlbId": 668390
-  },
-  "04pbq": {
-   "name": "Geraldo Perdomo",
-   "mlbId": 672695
-  },
-  "04pko": {
-   "name": "Grayson Rodriguez",
-   "mlbId": 680570
-  },
-  "04pkr": {
-   "name": "Nico Hoerner",
-   "mlbId": 663538
-  },
-  "04pks": {
-   "name": "Matt McLain",
-   "mlbId": 680574
-  },
-  "04pkt": {
-   "name": "J.T. Ginn",
-   "mlbId": 669372
-  },
-  "04pmb": {
-   "name": "Kris Bubic",
-   "mlbId": 663460
-  },
-  "04pmq": {
-   "name": "Braxton Ashcraft",
-   "mlbId": 677952
-  },
-  "04pmt": {
-   "name": "Jeremiah Jackson",
-   "mlbId": 669236
-  },
-  "04pmu": {
-   "name": "Ryan Jeffers",
-   "mlbId": 680777
-  },
-  "04ppi": {
-   "name": "Kody Clemens",
-   "mlbId": 665019
-  },
-  "04ppj": {
-   "name": "Jeremy Pena",
-   "mlbId": 665161
-  },
-  "04pps": {
-   "name": "Hogan Harris",
-   "mlbId": 663687
-  },
-  "04pq4": {
-   "name": "Kyle Bradish",
-   "mlbId": 680694
-  },
-  "04pr1": {
-   "name": "Steven Kwan",
-   "mlbId": 680757
-  },
-  "04prt": {
-   "name": "Lawrence Butler",
-   "mlbId": 671732
-  },
-  "04ps7": {
-   "name": "Joe Ryan",
-   "mlbId": 657746
-  },
-  "04pse": {
-   "name": "Brendan Donovan",
-   "mlbId": 680977
-  },
-  "04pst": {
-   "name": "Jarren Duran",
-   "mlbId": 680776
-  },
-  "04pt2": {
-   "name": "Lars Nootbaar",
-   "mlbId": 663457
-  },
-  "04ptt": {
-   "name": "Tarik Skubal",
-   "mlbId": 669373
-  },
-  "04pvl": {
-   "name": "Mike Burrows",
-   "mlbId": 681347
-  },
-  "04pvs": {
-   "name": "Blaze Alexander",
-   "mlbId": 677942
-  },
-  "04pvu": {
-   "name": "Stephen Kolek",
-   "mlbId": 663568
-  },
-  "04pxf": {
-   "name": "Davis Martin",
-   "mlbId": 663436
-  },
-  "04pxo": {
-   "name": "Erik Sabrowski",
-   "mlbId": 681870
-  },
-  "04pxp": {
-   "name": "Victor Vodnik",
-   "mlbId": 680767
-  },
-  "04pxq": {
-   "name": "Gus Varland",
-   "mlbId": 681402
-  },
-  "04q05": {
-   "name": "Alex Vesia",
-   "mlbId": 681911
-  },
-  "04q1w": {
-   "name": "Caleb Kilian",
-   "mlbId": 668873
-  },
-  "04q2n": {
-   "name": "Adley Rutschman",
-   "mlbId": 668939
-  },
-  "04qii": {
-   "name": "Addison Barger",
-   "mlbId": 680718
-  },
-  "04qk8": {
-   "name": "CJ Abrams",
-   "mlbId": 682928
-  },
-  "04qnd": {
-   "name": "Noelvi Marte",
-   "mlbId": 682622
-  },
-  "04ru5": {
-   "name": "Andy Pages",
-   "mlbId": 681624
-  },
-  "04s1g": {
-   "name": "Gabriel Moreno",
-   "mlbId": 672515
-  },
-  "04s1h": {
-   "name": "Luis Gil",
-   "mlbId": 661563
-  },
-  "04si2": {
-   "name": "Andrew Vaughn",
-   "mlbId": 683734
-  },
-  "04si3": {
-   "name": "Brayan Rocchio",
-   "mlbId": 677587
-  },
-  "04t3y": {
-   "name": "Alejandro Kirk",
-   "mlbId": 672386
-  },
-  "04t40": {
-   "name": "Brayan Bello",
-   "mlbId": 678394
-  },
-  "04t9b": {
-   "name": "Michael Busch",
-   "mlbId": 683737
-  },
-  "04tji": {
-   "name": "Edwin Uceta",
-   "mlbId": 670955
-  },
-  "04tjl": {
-   "name": "Otto Lopez",
-   "mlbId": 672640
-  },
-  "04tlv": {
-   "name": "Bryan Abreu",
-   "mlbId": 650556
-  },
-  "04up9": {
-   "name": "Heriberto Hernandez",
-   "mlbId": 681715
-  },
-  "04xne": {
-   "name": "Yoendrys Gomez",
-   "mlbId": 672782
-  },
-  "04y4e": {
-   "name": "Corbin Carroll",
-   "mlbId": 682998
-  },
-  "04y76": {
-   "name": "Jacob Webb",
-   "mlbId": 657097
-  },
-  "04y8z": {
-   "name": "Erik Miller",
-   "mlbId": 669062
-  },
-  "04y95": {
-   "name": "JJ Bleday",
-   "mlbId": 668709
-  },
-  "04y97": {
-   "name": "Kyle Stowers",
-   "mlbId": 669065
-  },
-  "04y9o": {
-   "name": "Jack Leiter",
-   "mlbId": 683004
-  },
-  "04y9p": {
-   "name": "Anthony Volpe",
-   "mlbId": 683011
-  },
-  "04ya4": {
-   "name": "Nasim Nunez",
-   "mlbId": 683083
-  },
-  "04ydd": {
-   "name": "Angel Martinez",
-   "mlbId": 682657
-  },
-  "04yi8": {
-   "name": "Spencer Jones",
-   "mlbId": 682987
-  },
-  "04yib": {
-   "name": "Brett Baty",
-   "mlbId": 683146
-  },
-  "04yid": {
-   "name": "Ryne Nelson",
-   "mlbId": 669194
-  },
-  "04yie": {
-   "name": "George Kirby",
-   "mlbId": 669923
-  },
-  "04yig": {
-   "name": "Brooks Lee",
-   "mlbId": 686797
-  },
-  "04yk2": {
-   "name": "Spencer Torkelson",
-   "mlbId": 679529
-  },
-  "04z6m": {
-   "name": "Agustin Ramirez",
-   "mlbId": 682663
-  },
-  "050c3": {
-   "name": "Jasson Dominguez",
-   "mlbId": 691176
-  },
-  "050ok": {
-   "name": "Yennier Cano",
-   "mlbId": 666974
-  },
-  "050w9": {
-   "name": "Gunnar Henderson",
-   "mlbId": 683002
-  },
-  "0510l": {
-   "name": "Emerson Hancock",
-   "mlbId": 676106
-  },
-  "0512e": {
-   "name": "Spencer Steer",
-   "mlbId": 668715
-  },
-  "0512m": {
-   "name": "Ryan Pepiot",
-   "mlbId": 686752
-  },
-  "0512u": {
-   "name": "Jack Kochanowicz",
-   "mlbId": 686799
-  },
-  "05133": {
-   "name": "Andre Pallante",
-   "mlbId": 669467
-  },
-  "05135": {
-   "name": "Jake Mangum",
-   "mlbId": 663968
-  },
-  "05138": {
-   "name": "Matt Brash",
-   "mlbId": 666374
-  },
-  "0513c": {
-   "name": "Joey Ortiz",
-   "mlbId": 687401
-  },
-  "0513l": {
-   "name": "Brenton Doyle",
-   "mlbId": 686668
-  },
-  "05143": {
-   "name": "Hunter Gaddis",
-   "mlbId": 683769
-  },
-  "05144": {
-   "name": "Hunter Brown",
-   "mlbId": 686613
-  },
-  "0515o": {
-   "name": "Brandon Sproat",
-   "mlbId": 687075
-  },
-  "05161": {
-   "name": "Dominic Canzone",
-   "mlbId": 686527
-  },
-  "0516n": {
-   "name": "Isaac Collins",
-   "mlbId": 686555
-  },
-  "05184": {
-   "name": "Vinnie Pasquantino",
-   "mlbId": 686469
-  },
-  "0518g": {
-   "name": "Trevor McDonald",
-   "mlbId": 686790
-  },
-  "051b4": {
-   "name": "Jordan Beck",
-   "mlbId": 687597
-  },
-  "051d0": {
-   "name": "Troy Johnston",
-   "mlbId": 687859
-  },
-  "051eh": {
-   "name": "Kevin Kelly",
-   "mlbId": 687330
-  },
-  "051em": {
-   "name": "Kerry Carpenter",
-   "mlbId": 681481
-  },
-  "051ia": {
-   "name": "Spencer Horwitz",
-   "mlbId": 687462
-  },
-  "051ui": {
-   "name": "Jacob Lopez",
-   "mlbId": 682052
-  },
-  "051wv": {
-   "name": "Pete Crow-Armstrong",
-   "mlbId": 691718
-  },
-  "05249": {
-   "name": "Austin Martin",
-   "mlbId": 668885
-  },
-  "0524l": {
-   "name": "Yainer Diaz",
-   "mlbId": 673237
-  },
-  "057n0": {
-   "name": "Anthony Nunez",
-   "mlbId": 689296
-  },
-  "0596g": {
-   "name": "Reid Detmers",
-   "mlbId": 672282
-  },
-  "0597k": {
-   "name": "Nick Gonzales",
-   "mlbId": 693304
-  },
-  "059bx": {
-   "name": "Brady House",
-   "mlbId": 691781
-  },
-  "05a1v": {
-   "name": "Keider Montero",
-   "mlbId": 672456
-  },
-  "05a2d": {
-   "name": "Max Meyer",
-   "mlbId": 676974
-  },
-  "05ahe": {
-   "name": "Curtis Mead",
-   "mlbId": 678554
-  },
-  "05ahg": {
-   "name": "Austin Wells",
-   "mlbId": 669224
-  },
-  "05ajg": {
-   "name": "Ha-seong Kim",
-   "mlbId": 673490
-  },
-  "05ajh": {
-   "name": "Garrett Crochet",
-   "mlbId": 676979
-  },
-  "05aoc": {
-   "name": "Eury Perez",
-   "mlbId": 691587
-  },
-  "05g3x": {
-   "name": "Maikel Garcia",
-   "mlbId": 672580
-  },
-  "05g4k": {
-   "name": "Mick Abel",
-   "mlbId": 690953
-  },
-  "05gbf": {
-   "name": "Jordan Walker",
-   "mlbId": 691023
-  },
-  "05gdz": {
-   "name": "Roki Sasaki",
-   "mlbId": 808963
-  },
-  "05ge9": {
-   "name": "Shota Imanaga",
-   "mlbId": 684007
-  },
-  "05gef": {
-   "name": "Cade Cavalli",
-   "mlbId": 676917
-  },
-  "05gsc": {
-   "name": "Jordan Westburg",
-   "mlbId": 676059
-  },
-  "05gsi": {
-   "name": "Ceddanne Rafaela",
-   "mlbId": 678882
-  },
-  "05gww": {
-   "name": "Cade Horton",
-   "mlbId": 690990
-  },
-  "05gwy": {
-   "name": "Masyn Winn",
-   "mlbId": 691026
-  },
-  "05gx4": {
-   "name": "Dillon Dingler",
-   "mlbId": 693307
-  },
-  "05h2u": {
-   "name": "Jared Jones",
-   "mlbId": 683003
-  },
-  "05itb": {
-   "name": "Randy Vasquez",
-   "mlbId": 681190
-  },
-  "05jnq": {
-   "name": "Clayton Beeter",
-   "mlbId": 690925
-  },
-  "05joq": {
-   "name": "Connor Prielipp",
-   "mlbId": 687570
-  },
-  "05jp4": {
-   "name": "Casey Schmitt",
-   "mlbId": 669477
-  },
-  "05jp9": {
-   "name": "Bryce Elder",
-   "mlbId": 693821
-  },
-  "05jpd": {
-   "name": "Ian Seymour",
-   "mlbId": 693855
-  },
-  "05jpk": {
-   "name": "Joe Boyle",
-   "mlbId": 671212
-  },
-  "05jq2": {
-   "name": "Andrew Abbott",
-   "mlbId": 671096
-  },
-  "05jq3": {
-   "name": "Joey Wiemer",
-   "mlbId": 686894
-  },
-  "05jr0": {
-   "name": "Alec Burleson",
-   "mlbId": 676475
-  },
-  "05jrh": {
-   "name": "Colt Keith",
-   "mlbId": 690993
-  },
-  "05js3": {
-   "name": "Kyle Harrison",
-   "mlbId": 690986
-  },
-  "05js4": {
-   "name": "Yohandy Morales",
-   "mlbId": 691002
-  },
-  "05js5": {
-   "name": "Coby Mayo",
-   "mlbId": 691723
-  },
-  "05jsg": {
-   "name": "Owen Caissie",
-   "mlbId": 683357
-  },
-  "05lg3": {
-   "name": "Brandon Pfaadt",
-   "mlbId": 694297
-  },
-  "05m1b": {
-   "name": "Denzer Guzman",
-   "mlbId": 694203
-  },
-  "05m1e": {
-   "name": "Jackson Chourio",
-   "mlbId": 694192
-  },
-  "05m49": {
-   "name": "Jung Hoo Lee",
-   "mlbId": 808982
-  },
-  "05mdt": {
-   "name": "Evan Carter",
-   "mlbId": 694497
-  },
-  "05mre": {
-   "name": "Spencer Strider",
-   "mlbId": 675911
-  },
-  "05nso": {
-   "name": "Abner Uribe",
-   "mlbId": 682842
-  },
-  "05oqe": {
-   "name": "Ty Madden",
-   "mlbId": 680744
-  },
-  "05r01": {
-   "name": "Robert Suarez",
-   "mlbId": 663158
-  },
-  "05r1m": {
-   "name": "Jordan Lawlar",
-   "mlbId": 691783
-  },
-  "05r3i": {
-   "name": "Andrew Painter",
-   "mlbId": 691725
-  },
-  "05r8n": {
-   "name": "Yoshinobu Yamamoto",
-   "mlbId": 808967
-  },
-  "05r9j": {
-   "name": "Marcelo Mayer",
-   "mlbId": 691785
-  },
-  "05rat": {
-   "name": "James Wood",
-   "mlbId": 695578
-  },
-  "05rau": {
-   "name": "Kahlil Watson",
-   "mlbId": 696135
-  },
-  "05rb0": {
-   "name": "Jackson Jobe",
-   "mlbId": 695549
-  },
-  "05rb1": {
-   "name": "Sal Frelick",
-   "mlbId": 686217
-  },
-  "05rbs": {
-   "name": "Moises Ballesteros",
-   "mlbId": 694208
-  },
-  "05rbv": {
-   "name": "Samuel Basallo",
-   "mlbId": 694212
-  },
-  "05rbw": {
-   "name": "Esmerlyn Valdez",
-   "mlbId": 699013
-  },
-  "05rcd": {
-   "name": "Joe Mack",
-   "mlbId": 691788
-  },
-  "05rcf": {
-   "name": "Joshua Baez",
-   "mlbId": 695491
-  },
-  "05rcg": {
-   "name": "Braden Montgomery",
-   "mlbId": 695731
-  },
-  "05rch": {
-   "name": "Colson Montgomery",
-   "mlbId": 695657
-  },
-  "05rcj": {
-   "name": "Edwin Arroyo",
-   "mlbId": 695490
-  },
-  "05rfu": {
-   "name": "Kyle Manzardo",
-   "mlbId": 700932
-  },
-  "05rik": {
-   "name": "Bubba Chandler",
-   "mlbId": 696149
-  },
-  "05rkq": {
-   "name": "Jose Fernandez",
-   "mlbId": 699912
-  },
-  "05sr2": {
-   "name": "Michael McGreevy",
-   "mlbId": 700241
-  },
-  "05t2b": {
-   "name": "Daylen Lile",
-   "mlbId": 695734
-  },
-  "05t9g": {
-   "name": "Gage Jump",
-   "mlbId": 695611
-  },
-  "05t9l": {
-   "name": "Max Muncy",
-   "mlbId": 691777
-  },
-  "05t9n": {
-   "name": "Carson Williams",
-   "mlbId": 700246
-  },
-  "05t9v": {
-   "name": "Jonathan Aranda",
-   "mlbId": 666018
-  },
-  "05tp7": {
-   "name": "Tommy White",
-   "mlbId": 695720
-  },
-  "05tq1": {
-   "name": "Spencer Schwellenbach",
-   "mlbId": 680885
-  },
-  "05tzn": {
-   "name": "Parker Messick",
-   "mlbId": 800048
-  },
-  "05tzo": {
-   "name": "J.R. Ritchie",
-   "mlbId": 702275
-  },
-  "05tzp": {
-   "name": "Jacob Gonzalez",
-   "mlbId": 694378
-  },
-  "05u2k": {
-   "name": "Hao-Yu Lee",
-   "mlbId": 701678
-  },
-  "05u2v": {
-   "name": "Hunter Goodman",
-   "mlbId": 696100
-  },
-  "05u3u": {
-   "name": "Konnor Griffin",
-   "mlbId": 804606
-  },
-  "05u3v": {
-   "name": "Walker Jenkins",
-   "mlbId": 805805
-  },
-  "05u4l": {
-   "name": "Daniel Palencia",
-   "mlbId": 694037
-  },
-  "05u6q": {
-   "name": "Cam Schlittler",
-   "mlbId": 693645
-  },
-  "05u6r": {
-   "name": "Robert Gasser",
-   "mlbId": 688107
-  },
-  "05u96": {
-   "name": "Bryce Eldridge",
-   "mlbId": 805811
-  },
-  "05u9o": {
-   "name": "Sal Stewart",
-   "mlbId": 701398
-  },
-  "05u9q": {
-   "name": "Jac Caglianone",
-   "mlbId": 695506
-  },
-  "05u9y": {
-   "name": "Max Clark",
-   "mlbId": 703601
-  },
-  "05u9z": {
-   "name": "Roman Anthony",
-   "mlbId": 701350
-  },
-  "05ua7": {
-   "name": "Jackson Merrill",
-   "mlbId": 701538
-  },
-  "05uc7": {
-   "name": "Noah Schultz",
-   "mlbId": 702273
-  },
-  "05ucd": {
-   "name": "Mason Miller",
-   "mlbId": 695243
-  },
-  "05uei": {
-   "name": "Chase DeLauter",
-   "mlbId": 800050
-  },
-  "05uo2": {
-   "name": "Logan Henderson",
-   "mlbId": 701656
-  },
-  "05vy6": {
-   "name": "Bryce Miller",
-   "mlbId": 682243
-  },
-  "05wru": {
-   "name": "Paul Skenes",
-   "mlbId": 694973
-  },
-  "05wxy": {
-   "name": "Kyle Teel",
-   "mlbId": 691019
-  },
-  "05xod": {
-   "name": "Sean Burke",
-   "mlbId": 680732
-  },
-  "05xor": {
-   "name": "Christian Encarnacion-Strand",
-   "mlbId": 687952
-  },
-  "05xpq": {
-   "name": "Christian Scott",
-   "mlbId": 681035
-  },
-  "05xsm": {
-   "name": "Chase Silseth",
-   "mlbId": 681217
-  },
-  "05xty": {
-   "name": "Dylan Beavers",
-   "mlbId": 687637
-  },
-  "05xtz": {
-   "name": "Dalton Rushing",
-   "mlbId": 687221
-  },
-  "05xu5": {
-   "name": "Zach Neto",
-   "mlbId": 687263
-  },
-  "05xu8": {
-   "name": "Tyler Locklear",
-   "mlbId": 682988
-  },
-  "05xz4": {
-   "name": "Michael Petersen",
-   "mlbId": 656848
-  },
-  "05y0j": {
-   "name": "Spencer Arrighetti",
-   "mlbId": 681293
-  },
-  "05y2k": {
-   "name": "Mason Montgomery",
-   "mlbId": 682254
-  },
-  "05y2l": {
-   "name": "Emmet Sheehan",
-   "mlbId": 686218
-  },
-  "05y30": {
-   "name": "Justin Crawford",
-   "mlbId": 702222
-  },
-  "05y3u": {
-   "name": "Munetaka Murakami",
-   "mlbId": 808959
-  },
-  "05y62": {
-   "name": "Bryan Woo",
-   "mlbId": 693433
-  },
-  "05y72": {
-   "name": "Landen Roupp",
-   "mlbId": 694738
-  },
-  "05y7s": {
-   "name": "Nolan McLean",
-   "mlbId": 690997
-  },
-  "05y7t": {
-   "name": "Henry Bolte",
-   "mlbId": 703607
-  },
-  "05y9r": {
-   "name": "Justin Wrobleski",
-   "mlbId": 680736
-  },
-  "05yaz": {
-   "name": "Will Warren",
-   "mlbId": 701542
-  },
-  "05yb8": {
-   "name": "Chad Patrick",
-   "mlbId": 694477
-  },
-  "05ybv": {
-   "name": "Jackson Holliday",
-   "mlbId": 702616
-  },
-  "05yby": {
-   "name": "Kevin McGonigle",
-   "mlbId": 805808
-  },
-  "05ycf": {
-   "name": "Noah Cameron",
-   "mlbId": 702070
-  },
-  "05ydo": {
-   "name": "Juan Morillo",
-   "mlbId": 666661
-  },
-  "05ydp": {
-   "name": "Kade Anderson",
-   "mlbId": 807739
-  },
-  "05ydz": {
-   "name": "Tristan Peters",
-   "mlbId": 671976
-  },
-  "05yj0": {
-   "name": "Chase Dollander",
-   "mlbId": 801403
-  },
-  "05yj1": {
-   "name": "Nolan Schanuel",
-   "mlbId": 694384
-  },
-  "05ylp": {
-   "name": "Jared Koenig",
-   "mlbId": 657649
-  },
-  "05ynb": {
-   "name": "Liam Hicks",
-   "mlbId": 689414
-  },
-  "05yo5": {
-   "name": "Ben Rice",
-   "mlbId": 700250
-  },
-  "05zde": {
-   "name": "Travis Bazzana",
-   "mlbId": 683953
-  },
-  "060eu": {
-   "name": "Ben Joyce",
-   "mlbId": 690829
-  },
-  "060i2": {
-   "name": "Jake Bennett",
-   "mlbId": 687562
-  },
-  "060jo": {
-   "name": "Cam Smith",
-   "mlbId": 701358
-  },
-  "060la": {
-   "name": "Jett Williams",
-   "mlbId": 702518
-  },
-  "060pm": {
-   "name": "Wyatt Langford",
-   "mlbId": 694671
-  },
-  "060ub": {
-   "name": "Colt Emerson",
-   "mlbId": 806068
-  },
-  "060x1": {
-   "name": "Wilyer Abreu",
-   "mlbId": 677800
-  },
-  "061bo": {
-   "name": "Rhett Lowder",
-   "mlbId": 695076
-  },
-  "061mh": {
-   "name": "Robby Snelling",
-   "mlbId": 702281
-  },
-  "061zv": {
-   "name": "Josue De Paula",
-   "mlbId": 800543
-  },
-  "0622t": {
-   "name": "Jacob Wilson",
-   "mlbId": 805779
-  },
-  "0622w": {
-   "name": "Chandler Simpson",
-   "mlbId": 802415
-  },
-  "062cx": {
-   "name": "Ethan Holliday",
-   "mlbId": 815787
-  },
-  "062k5": {
-   "name": "Nick Kurtz",
-   "mlbId": 701762
-  },
-  "062ob": {
-   "name": "Jose Ferrer",
-   "mlbId": 678606
-  },
-  "062pm": {
-   "name": "Owen Murphy",
-   "mlbId": 702566
-  },
-  "062pn": {
-   "name": "David Sandlin",
-   "mlbId": 689818
-  },
-  "0630d": {
-   "name": "Drake Baldwin",
-   "mlbId": 686948
-  },
-  "063vu": {
-   "name": "Matt Shaw",
-   "mlbId": 807713
-  },
-  "0648n": {
-   "name": "Chase Meidroth",
-   "mlbId": 805367
-  },
-  "0648z": {
-   "name": "Victor Scott",
-   "mlbId": 687363
-  },
-  "064n8": {
-   "name": "Nathan Church",
-   "mlbId": 701675
-  },
-  "064zm": {
-   "name": "Didier Fuentes",
-   "mlbId": 800311
-  },
-  "0657l": {
-   "name": "Jack Perkins",
-   "mlbId": 678022
-  },
-  "0658b": {
-   "name": "Jonah Tong",
-   "mlbId": 804636
-  },
-  "065ji": {
-   "name": "Jakob Marsee",
-   "mlbId": 805300
-  },
-  "066cf": {
-   "name": "Zebby Matthews",
-   "mlbId": 805673
-  },
-  "066eo": {
-   "name": "Cole Carrigg",
-   "mlbId": 694249
-  },
-  "066ir": {
-   "name": "James Tibbs III",
-   "mlbId": 696486
-  },
-  "066n3": {
-   "name": "Ryan Walker",
-   "mlbId": 676254
-  },
-  "067xj": {
-   "name": "Cooper Pratt",
-   "mlbId": 806198
-  },
-  "067yc": {
-   "name": "Leo De Vries",
-   "mlbId": 815888
-  },
-  "06alk": {
-   "name": "Charlie Condon",
-   "mlbId": 809707
-  },
-  "06apx": {
-   "name": "Trey Yesavage",
-   "mlbId": 702056
-  },
-  "06aw3": {
-   "name": "JJ Wetherholt",
-   "mlbId": 802139
-  },
-  "06dlz": {
-   "name": "Ryan Waldschmidt",
-   "mlbId": 814439
-  },
-  "06dqb": {
-   "name": "Shane Smith",
-   "mlbId": 681343
-  },
-  "06dsa": {
-   "name": "Kyle Karros",
-   "mlbId": 691720
-  },
-  "06ekq": {
-   "name": "Zac Thornton",
-   "mlbId": 804267
-  },
-  "06elo": {
-   "name": "Matt Svanson",
-   "mlbId": 694335
-  },
-  "06f0p": {
-   "name": "Cooper Ingle",
-   "mlbId": 694876
-  },
-  "06f1r": {
-   "name": "Connelly Early",
-   "mlbId": 813349
-  },
-  "06fzu": {
-   "name": "Kazuma Okamoto",
-   "mlbId": 672960
-  },
-  "06guh": {
-   "name": "Brandyn Garcia",
-   "mlbId": 805299
-  },
-  "06gwk": {
-   "name": "Payton Tolle",
-   "mlbId": 801139
-  },
-  "06ibv": {
-   "name": "Jesus Made",
-   "mlbId": 815908
-  },
-  "06in4": {
-   "name": "Hyeseong Kim",
-   "mlbId": 808975
-  },
-  "06mi0": {
-   "name": "Bryan King",
-   "mlbId": 687911
-  },
-  "06nue": {
-   "name": "Joshua Kuroda-Grauer",
-   "mlbId": 811965
-  },
-  "000dp": {
-   "name": "Justin Verlander",
-   "mlbId": 434378
-  },
-  "004ee": {
-   "name": "Max Scherzer",
-   "mlbId": 453286
-  },
-  "005ih": {
-   "name": "Clayton Kershaw",
-   "mlbId": 477132
-  },
-  "005jn": {
-   "name": "Charlie Morton",
-   "mlbId": 450203
-  },
-  "01c5l": {
-   "name": "Yu Darvish",
-   "mlbId": 506433
-  },
-  "01cfr": {
-   "name": "Carlos Santana",
-   "mlbId": 467793
-  },
-  "01cgt": {
-   "name": "Wilmer Flores",
-   "mlbId": 527038
-  },
-  "01fhm": {
-   "name": "Martin Perez",
-   "mlbId": 527048
-  },
-  "01sbv": {
-   "name": "Shelby Miller",
-   "mlbId": 571946
-  },
-  "01sfi": {
-   "name": "DJ LeMahieu",
-   "mlbId": 518934
-  },
-  "01spl": {
-   "name": "Jurickson Profar",
-   "mlbId": 595777
-  },
-  "01t5w": {
-   "name": "Miguel Rojas",
-   "mlbId": 500743
-  },
-  "01ub8": {
-   "name": "Liam Hendriks",
-   "mlbId": 521230
-  },
-  "01ucb": {
-   "name": "Drew Pomeranz",
-   "mlbId": 519141
-  },
-  "01vja": {
-   "name": "Max Kepler",
-   "mlbId": 596146
-  },
-  "025ey": {
-   "name": "Luke Jackson",
-   "mlbId": 592426
-  },
-  "025kd": {
-   "name": "Jose Quintana",
-   "mlbId": 500779
-  },
-  "026mn": {
-   "name": "Javier Baez",
-   "mlbId": 595879
-  },
-  "026mq": {
-   "name": "Tyler Anderson",
-   "mlbId": 542881
-  },
-  "02brc": {
-   "name": "Adrian Houser",
-   "mlbId": 605288
-  },
-  "02bsw": {
-   "name": "Mike Clevinger",
-   "mlbId": 605182
-  },
-  "02buh": {
-   "name": "Scott Barlow",
-   "mlbId": 605130
-  },
-  "02bve": {
-   "name": "Blake Treinen",
-   "mlbId": 595014
-  },
-  "02ccf": {
-   "name": "Tommy Kahnle",
-   "mlbId": 592454
-  },
-  "02hir": {
-   "name": "Michael Lorenzen",
-   "mlbId": 547179
-  },
-  "02i1q": {
-   "name": "Orlando Arcia",
-   "mlbId": 606115
-  },
-  "02mv0": {
-   "name": "Andrew Heaney",
-   "mlbId": 571760
-  },
-  "02mwk": {
-   "name": "Jose Berrios",
-   "mlbId": 621244
-  },
-  "02myt": {
-   "name": "Steven Okert",
-   "mlbId": 595345
-  },
-  "02n3l": {
-   "name": "Taylor Rogers",
-   "mlbId": 573124
-  },
-  "02n9l": {
-   "name": "Dietrich Enns",
-   "mlbId": 608650
-  },
-  "02w16": {
-   "name": "Anthony Santander",
-   "mlbId": 623993
-  },
-  "02yh5": {
-   "name": "Amed Rosario",
-   "mlbId": 642708
-  },
-  "02yk4": {
-   "name": "Tyler ONeill",
-   "mlbId": 641933
-  },
-  "02z0e": {
-   "name": "Yimi Garcia",
-   "mlbId": 554340
-  },
-  "02z0t": {
-   "name": "Michael Conforto",
-   "mlbId": 624424
-  },
-  "02zif": {
-   "name": "Ryan Pressly",
-   "mlbId": 519151
-  },
-  "0310n": {
-   "name": "Ryan McMahon",
-   "mlbId": 641857
-  },
-  "0314j": {
-   "name": "Ryan Yarbrough",
-   "mlbId": 642232
-  },
-  "0317o": {
-   "name": "Jeff McNeil",
-   "mlbId": 643446
-  },
-  "0319c": {
-   "name": "Mark Leiter Jr.",
-   "mlbId": 643410
-  },
-  "031b2": {
-   "name": "Jonah Heim",
-   "mlbId": 641680
-  },
-  "031dw": {
-   "name": "Mike Yastrzemski",
-   "mlbId": 573262
-  },
-  "0374o": {
-   "name": "Chad Green",
-   "mlbId": 643338
-  },
-  "03aay": {
-   "name": "Thairo Estrada",
-   "mlbId": 642731
-  },
-  "03aoy": {
-   "name": "Sean Murphy",
-   "mlbId": 669221
-  },
-  "03avk": {
-   "name": "Luis Rengifo",
-   "mlbId": 650859
-  },
-  "03bin": {
-   "name": "Nestor Cortes Jr.",
-   "mlbId": 641482
-  },
-  "03btm": {
-   "name": "Jose Alvarado",
-   "mlbId": 621237
-  },
-  "03c65": {
-   "name": "Victor Robles",
-   "mlbId": 645302
-  },
-  "03d6n": {
-   "name": "Erick Fedde",
-   "mlbId": 607200
-  },
-  "03d6v": {
-   "name": "Michael Kopech",
-   "mlbId": 656629
-  },
-  "03djk": {
-   "name": "Tanner Houck",
-   "mlbId": 656557
-  },
-  "03dpt": {
-   "name": "Reed Garrett",
-   "mlbId": 657585
-  },
-  "03lua": {
-   "name": "Brendan Rodgers",
-   "mlbId": 663898
-  },
-  "03moe": {
-   "name": "Jesus Tinoco",
-   "mlbId": 622786
-  },
-  "03pix": {
-   "name": "Tyler Stephenson",
-   "mlbId": 663886
-  },
-  "03pjl": {
-   "name": "Ryan Mountcastle",
-   "mlbId": 663624
-  },
-  "03ql8": {
-   "name": "Bailey Falter",
-   "mlbId": 663559
-  },
-  "03qmh": {
-   "name": "Jake Cronenworth",
-   "mlbId": 630105
-  },
-  "03qml": {
-   "name": "Dylan Moore",
-   "mlbId": 664238
-  },
-  "03qne": {
-   "name": "Chris Paddack",
-   "mlbId": 663978
-  },
-  "03qqf": {
-   "name": "Alexis Diaz",
-   "mlbId": 664747
-  },
-  "03qto": {
-   "name": "Evan Phillips",
-   "mlbId": 623465
-  },
-  "03rmz": {
-   "name": "Keibert Ruiz",
-   "mlbId": 660688
-  },
-  "03vcw": {
-   "name": "Jordan Hicks",
-   "mlbId": 663855
-  },
-  "03yso": {
-   "name": "A.J. Puk",
-   "mlbId": 640462
-  },
-  "03zcx": {
-   "name": "Will Benson",
-   "mlbId": 666181
-  },
-  "0414h": {
-   "name": "Gabriel Arias",
-   "mlbId": 672356
-  },
-  "041ah": {
-   "name": "Josh Lowe",
-   "mlbId": 666139
-  },
-  "041ai": {
-   "name": "Gavin Lux",
-   "mlbId": 666158
-  },
-  "041q6": {
-   "name": "Nolan Jones",
-   "mlbId": 666134
-  },
-  "041qs": {
-   "name": "Austin Hays",
-   "mlbId": 669720
-  },
-  "041sz": {
-   "name": "Tobias Myers",
-   "mlbId": 668964
-  },
-  "041v6": {
-   "name": "Tony Gonsolin",
-   "mlbId": 664062
-  },
-  "041w3": {
-   "name": "Eli White",
-   "mlbId": 642201
-  },
-  "0421k": {
-   "name": "Bowden Francis",
-   "mlbId": 670102
-  },
-  "0421q": {
-   "name": "Greg Weissert",
-   "mlbId": 669711
-  },
-  "0423e": {
-   "name": "Anthony Bender",
-   "mlbId": 669622
-  },
-  "043f9": {
-   "name": "Pablo Lopez",
-   "mlbId": 641154
-  },
-  "045kb": {
-   "name": "Cristian Javier",
-   "mlbId": 664299
-  },
-  "0473m": {
-   "name": "Zach McKinstry",
-   "mlbId": 656716
-  },
-  "048tn": {
-   "name": "Carlos Narvaez",
-   "mlbId": 665966
-  },
-  "04alq": {
-   "name": "Pavin Smith",
-   "mlbId": 656976
-  },
-  "04aoq": {
-   "name": "Jason Foley",
-   "mlbId": 671345
-  },
-  "04b01": {
-   "name": "Tomoyuki Sugano",
-   "mlbId": 608372
-  },
-  "04de1": {
-   "name": "Triston Casas",
-   "mlbId": 671213
-  },
-  "04ee7": {
-   "name": "Clarke Schmidt",
-   "mlbId": 657376
-  },
-  "04eek": {
-   "name": "Griffin Canning",
-   "mlbId": 656288
-  },
-  "04efc": {
-   "name": "Tyler Freeman",
-   "mlbId": 671289
-  },
-  "04ehj": {
-   "name": "Dane Myers",
-   "mlbId": 667472
-  },
-  "04ekf": {
-   "name": "Calvin Faucher",
-   "mlbId": 676534
-  },
-  "04eld": {
-   "name": "J.P. Sears",
-   "mlbId": 676664
-  },
-  "04emt": {
-   "name": "Jake Meyers",
-   "mlbId": 676694
-  },
-  "04emu": {
-   "name": "Eric Wagaman",
-   "mlbId": 676572
-  },
-  "04ep8": {
-   "name": "Kutter Crawford",
-   "mlbId": 676710
-  },
-  "04fqi": {
-   "name": "George Valera",
-   "mlbId": 671655
-  },
-  "04fyo": {
-   "name": "Ronny Mauricio",
-   "mlbId": 677595
-  },
-  "04mn4": {
-   "name": "Joey Bart",
-   "mlbId": 663698
-  },
-  "04naz": {
-   "name": "Tyler Holton",
-   "mlbId": 663947
-  },
-  "04ok3": {
-   "name": "Michael Toglia",
-   "mlbId": 669911
-  },
-  "04pbp": {
-   "name": "Christopher Morel",
-   "mlbId": 666624
-  },
-  "04pmn": {
-   "name": "Parker Meadows",
-   "mlbId": 678009
-  },
-  "04ppz": {
-   "name": "Jake Irvin",
-   "mlbId": 663623
-  },
-  "04pqq": {
-   "name": "Matt Vierling",
-   "mlbId": 663837
-  },
-  "04px8": {
-   "name": "Reese Olson",
-   "mlbId": 681857
-  },
-  "04q08": {
-   "name": "Kyle Leahy",
-   "mlbId": 681517
-  },
-  "04q56": {
-   "name": "Logan OHoppe",
-   "mlbId": 681351
-  },
-  "04qow": {
-   "name": "Kevin Alcantara",
-   "mlbId": 682634
-  },
-  "04tk1": {
-   "name": "Slade Cecconi",
-   "mlbId": 677944
-  },
-  "04tzu": {
-   "name": "Ronny Henriquez",
-   "mlbId": 678692
-  },
-  "04ug5": {
-   "name": "Emmanuel Clase",
-   "mlbId": 661403
-  },
-  "04y9h": {
-   "name": "Kameron Misner",
-   "mlbId": 670224
-  },
-  "04ya2": {
-   "name": "Daniel Espino",
-   "mlbId": 682982
-  },
-  "04ydi": {
-   "name": "Ronel Blanco",
-   "mlbId": 669854
-  },
-  "04yi7": {
-   "name": "Matt Allan",
-   "mlbId": 682929
-  },
-  "04yrs": {
-   "name": "Jhonkensy Noel",
-   "mlbId": 678877
-  },
-  "04ysv": {
-   "name": "Adael Amador",
-   "mlbId": 691182
-  },
-  "04ywk": {
-   "name": "Tylor Megill",
-   "mlbId": 656731
-  },
-  "04z6k": {
-   "name": "Luisangel Acuna",
-   "mlbId": 682668
-  },
-  "050s0": {
-   "name": "Kyren Paris",
-   "mlbId": 677347
-  },
-  "050vn": {
-   "name": "Quinn Priester",
-   "mlbId": 682990
-  },
-  "05110": {
-   "name": "Yiddi Cappe",
-   "mlbId": 691268
-  },
-  "0512q": {
-   "name": "Justin Slaten",
-   "mlbId": 686580
-  },
-  "05131": {
-   "name": "Tyler Fitzgerald",
-   "mlbId": 666149
-  },
-  "0514f": {
-   "name": "Hayden Wesneski",
-   "mlbId": 669713
-  },
-  "0515v": {
-   "name": "David Hamilton",
-   "mlbId": 666152
-  },
-  "0518s": {
-   "name": "Ryan Gusto",
-   "mlbId": 687473
-  },
-  "051aa": {
-   "name": "Porter Hodge",
-   "mlbId": 687863
-  },
-  "051am": {
-   "name": "Easton Lucas",
-   "mlbId": 687922
-  },
-  "052ru": {
-   "name": "Josh Smith",
-   "mlbId": 669701
-  },
-  "054p6": {
-   "name": "Emmanuel Rodriguez",
-   "mlbId": 691181
-  },
-  "0596f": {
-   "name": "Heston Kjerstad",
-   "mlbId": 677008
-  },
-  "05acp": {
-   "name": "Justin Martinez",
-   "mlbId": 679885
-  },
-  "05gbg": {
-   "name": "Zac Veen",
-   "mlbId": 691728
-  },
-  "05gss": {
-   "name": "Jeferson Quero",
-   "mlbId": 691620
-  },
-  "05jpx": {
-   "name": "Tink Hence",
-   "mlbId": 693311
-  },
-  "05jqy": {
-   "name": "Mitchell Parker",
-   "mlbId": 680730
-  },
-  "05mx9": {
-   "name": "Felnin Celesten",
-   "mlbId": 806958
-  },
-  "05nsq": {
-   "name": "Deyvison De Los Santos",
-   "mlbId": 691277
-  },
-  "05oek": {
-   "name": "Elijah Green",
-   "mlbId": 701327
-  },
-  "05ojj": {
-   "name": "Matt Mervis",
-   "mlbId": 670223
-  },
-  "05oz7": {
-   "name": "Jose Butto",
-   "mlbId": 676130
-  },
-  "05r5e": {
-   "name": "Angel Genao",
-   "mlbId": 694197
-  },
-  "05rav": {
-   "name": "Richard Fitts",
-   "mlbId": 690916
-  },
-  "05rc3": {
-   "name": "Masataka Yoshida",
-   "mlbId": 807799
-  },
-  "05rc5": {
-   "name": "Termarr Johnson",
-   "mlbId": 702261
-  },
-  "05rfc": {
-   "name": "Lazaro Montes",
-   "mlbId": 703155
-  },
-  "05rk4": {
-   "name": "Brandon Walter",
-   "mlbId": 687888
-  },
-  "05t64": {
-   "name": "Felix Bautista",
-   "mlbId": 642585
-  },
-  "05t6u": {
-   "name": "Beau Brieske",
-   "mlbId": 689225
-  },
-  "05tce": {
-   "name": "Connor Norby",
-   "mlbId": 681393
-  },
-  "05tdk": {
-   "name": "Druw Jones",
-   "mlbId": 702258
-  },
-  "05u1y": {
-   "name": "Cam Collier",
-   "mlbId": 702253
-  },
-  "05u36": {
-   "name": "Aidan Miller",
-   "mlbId": 805795
-  },
-  "05uy5": {
-   "name": "AJ Smith-Shawver",
-   "mlbId": 700363
-  },
-  "05w9g": {
-   "name": "Randy Rodriguez",
-   "mlbId": 678495
-  },
-  "05wy1": {
-   "name": "Brayden Taylor",
-   "mlbId": 694966
-  },
-  "05xsq": {
-   "name": "Luis Ortiz",
-   "mlbId": 682847
-  },
-  "05y3p": {
-   "name": "Arjun Nimmala",
-   "mlbId": 805796
-  },
-  "05y4k": {
-   "name": "Ben Casparius",
-   "mlbId": 676508
-  },
-  "05y7n": {
-   "name": "Jarlin Susana",
-   "mlbId": 703186
-  },
-  "05ybr": {
-   "name": "Ethan Salas",
-   "mlbId": 806956
-  },
-  "05yid": {
-   "name": "Michael Arroyo",
-   "mlbId": 703197
-  },
-  "05yix": {
-   "name": "Jaison Chourio",
-   "mlbId": 702693
-  },
-  "05ym7": {
-   "name": "Fernando Cruz",
-   "mlbId": 518585
-  },
-  "05zd4": {
-   "name": "Hagen Smith",
-   "mlbId": 696146
-  },
-  "05zq4": {
-   "name": "Ryan Johnson",
-   "mlbId": 696270
-  },
-  "060gd": {
-   "name": "Quinn Mathews",
-   "mlbId": 687273
-  },
-  "060ml": {
-   "name": "Huascar Brazoban",
-   "mlbId": 623211
-  },
-  "061wi": {
-   "name": "Yu-Min Lin",
-   "mlbId": 801179
-  },
-  "0637j": {
-   "name": "Josue Briceno",
-   "mlbId": 800522
-  },
-  "06491": {
-   "name": "Orion Kerkering",
-   "mlbId": 689147
-  },
-  "0662o": {
-   "name": "Sebastian Walcott",
-   "mlbId": 806964
-  },
-  "06650": {
-   "name": "Hayden Birdsong",
-   "mlbId": 806185
-  },
-  "066ip": {
-   "name": "Mike Sirota",
-   "mlbId": 701527
-  },
-  "066mz": {
-   "name": "Brailer Guerrero",
-   "mlbId": 806967
-  },
-  "066sx": {
-   "name": "Jonny Farmelo",
-   "mlbId": 806071
-  },
-  "067zb": {
-   "name": "Jace LaViolette",
-   "mlbId": 702593
-  },
-  "06b72": {
-   "name": "George Lombard Jr.",
-   "mlbId": 806146
-  },
-  "06bs4": {
-   "name": "Daniel Schneemann",
-   "mlbId": 682177
-  },
-  "06c79": {
-   "name": "Eduardo Quintero",
-   "mlbId": 808234
-  },
-  "06c7i": {
-   "name": "Tai Peete",
-   "mlbId": 806191
-  },
-  "06cq8": {
-   "name": "Christian Moore",
-   "mlbId": 695681
-  },
-  "06eyu": {
-   "name": "Zyhir Hope",
-   "mlbId": 814307
-  },
-  "06f0q": {
-   "name": "Kristian Campbell",
-   "mlbId": 692225
-  },
-  "06fqx": {
-   "name": "Seth Halvorsen",
-   "mlbId": 678020
-  },
-  "06ho7": {
-   "name": "Paulino Santana",
-   "mlbId": 815889
-  },
-  "06hv8": {
-   "name": "Logan Evans",
-   "mlbId": 688138
-  },
-  "06j3f": {
-   "name": "Luis Pena",
-   "mlbId": 821270
-  },
-  "06kkf": {
-   "name": "Braylon Payne",
-   "mlbId": 815520
-  },
-  "06mh4": {
-   "name": "Edward Florentino",
-   "mlbId": 821273
-  },
-  "06nv7": {
-   "name": "Victor Figueroa",
-   "mlbId": 809372
-  },
-  "06psm": {
-   "name": "Andrew Salas",
-   "mlbId": 829035
-  },
-  "06rkk": {
-   "name": "Eduardo Valencia",
-   "mlbId": 680664
-  },
-  "04y9f": {
-   "name": "Ryan Zeferjahn",
-   "mlbId": 666171
+  "_meta": {
+    "leagueId": "et5c14rlmm9mb3pl",
+    "generated": "2026-08-03",
+    "source": "League History Database/sidecar/league_player_game_history.LEAN.sqlite -> player_pool (2026 primary, 2025 fallback), merged over the previous week-17 test map",
+    "svh3_formula": "SVH3 = 1.0*SV + 0.5*HLD",
+    "playoff_teams": {
+      "71lgikv0mm9mb3pu": "Yordan Redemption Tour",
+      "o6otuk5lmm9mb3pv": "hubba hubba bubba bubba",
+      "zwna71lqmm9mb3pv": "Small Balls",
+      "urshjvwwmm9mb3pv": "Nick Kurtz in Paris",
+      "tvfy2y7hmm9mb3pv": "Landen Poop",
+      "d49e5b6bmm9mb3pv": "Chase Sapphire",
+      "dyfhxlh1mm9mb3pu": "Return of Belt to Ass"
+    },
+    "note": "Rebuilt 2026-08-03. The previous map held only 61 players covering the week-17 test pair (Julio's Last Hurrah + Chase Sapphire). Matt's team missed the playoffs, so 6 of the 7 playoff teams had ZERO mapped players and therefore zero stats. This map covers the full 2026 league player pool.",
+    "manual_additions": {
+      "06rkk": "Eduardo Valencia, MLB 680664, C-DET, debuted 2026-07-09. Added to Small Balls 2026-08-02 (dropped Jo Adell). Absent from the Aug 2 player_pool snapshot because he debuted after it. Identified from Matt's Fantrax transaction screenshot + UT lineup slot (only hitter among the three adds).",
+      "04y9f": "Ryan Zeferjahn, MLB 666171, RP-CHC, debuted 2024-08-25. Added to Small Balls 2026-08-03 2:13PM (dropped Robert Suarez). RP slot, RESERVE."
+    },
+    "players_total": 783
+  },
+  "players": {
+    "04efa": {
+      "name": "Daulton Varsho",
+      "mlbId": 662139
+    },
+    "02w7p": {
+      "name": "Alex Bregman",
+      "mlbId": 608324
+    },
+    "05gtn": {
+      "name": "Tyler Soderstrom",
+      "mlbId": 691016
+    },
+    "04rzp": {
+      "name": "Rico Garcia",
+      "mlbId": 670329
+    },
+    "03pit": {
+      "name": "Trent Grisham",
+      "mlbId": 663757
+    },
+    "05udp": {
+      "name": "Elly De La Cruz",
+      "mlbId": 682829
+    },
+    "04aeb": {
+      "name": "Royce Lewis",
+      "mlbId": 668904
+    },
+    "061yu": {
+      "name": "Jacob Misiorowski",
+      "mlbId": 694819
+    },
+    "02mwm": {
+      "name": "Matt Olson",
+      "mlbId": 621566
+    },
+    "05zh9": {
+      "name": "Luke Keaschall",
+      "mlbId": 807712
+    },
+    "05uc4": {
+      "name": "Troy Melton",
+      "mlbId": 675512
+    },
+    "03zbh": {
+      "name": "Fernando Tatis Jr.",
+      "mlbId": 665487
+    },
+    "052c8": {
+      "name": "Cristopher Sanchez",
+      "mlbId": 650911
+    },
+    "0403o": {
+      "name": "Andres Munoz",
+      "mlbId": 662253
+    },
+    "02i3o": {
+      "name": "Aaron Nola",
+      "mlbId": 605400
+    },
+    "04ru7": {
+      "name": "Miguel Vargas",
+      "mlbId": 678246
+    },
+    "04en7": {
+      "name": "Garrett Mitchell",
+      "mlbId": 669003
+    },
+    "05y23": {
+      "name": "Tanner Bibee",
+      "mlbId": 676440
+    },
+    "04qnc": {
+      "name": "Francisco Alvarez",
+      "mlbId": 682626
+    },
+    "051bm": {
+      "name": "Louis Varland",
+      "mlbId": 686973
+    },
+    "06ktn": {
+      "name": "Tatsuya Imai",
+      "mlbId": 837227
+    },
+    "04pr8": {
+      "name": "Taj Bradley",
+      "mlbId": 671737
+    },
+    "04aea": {
+      "name": "Hunter Greene",
+      "mlbId": 668881
+    },
+    "04fhb": {
+      "name": "Julio Rodriguez",
+      "mlbId": 677594
+    },
+    "0596e": {
+      "name": "Dylan Crews",
+      "mlbId": 686611
+    },
+    "03di6": {
+      "name": "Jordan Romano",
+      "mlbId": 605447
+    },
+    "05y7x": {
+      "name": "Cole Young",
+      "mlbId": 702284
+    },
+    "05jp7": {
+      "name": "Gavin Williams",
+      "mlbId": 668909
+    },
+    "05rb3": {
+      "name": "Chase Burns",
+      "mlbId": 695505
+    },
+    "04eee": {
+      "name": "Drew Rasmussen",
+      "mlbId": 656876
+    },
+    "05y4b": {
+      "name": "Caleb Durbin",
+      "mlbId": 702332
+    },
+    "03cag": {
+      "name": "Kyle Schwarber",
+      "mlbId": 656941
+    },
+    "0516x": {
+      "name": "Brent Headrick",
+      "mlbId": 687396
+    },
+    "04p10": {
+      "name": "Bryson Stott",
+      "mlbId": 681082
+    },
+    "05r3a": {
+      "name": "Brandon Young",
+      "mlbId": 687064
+    },
+    "0629b": {
+      "name": "Walbert Urena",
+      "mlbId": 700712
+    },
+    "025dn": {
+      "name": "Christian Yelich",
+      "mlbId": 592885
+    },
+    "03qjy": {
+      "name": "Brandon Lowe",
+      "mlbId": 664040
+    },
+    "04auj": {
+      "name": "Framber Valdez",
+      "mlbId": 664285
+    },
+    "0512v": {
+      "name": "Michael Harris II",
+      "mlbId": 671739
+    },
+    "026qc": {
+      "name": "Joc Pederson",
+      "mlbId": 592626
+    },
+    "066er": {
+      "name": "Grant Taylor",
+      "mlbId": 691799
+    },
+    "06aly": {
+      "name": "Carson Benge",
+      "mlbId": 701807
+    },
+    "04mlt": {
+      "name": "Shane McClanahan",
+      "mlbId": 663556
+    },
+    "05yb0": {
+      "name": "TJ Rumfield",
+      "mlbId": 681198
+    },
+    "05xch": {
+      "name": "Junior Caminero",
+      "mlbId": 691406
+    },
+    "05vy5": {
+      "name": "Carter Jensen",
+      "mlbId": 695600
+    },
+    "02n2x": {
+      "name": "Paul Sewald",
+      "mlbId": 623149
+    },
+    "06plc": {
+      "name": "Sam Antonacci",
+      "mlbId": 803011
+    },
+    "03dfa": {
+      "name": "Tanner Scott",
+      "mlbId": 656945
+    },
+    "06dn7": {
+      "name": "A.J. Ewing",
+      "mlbId": 805999
+    },
+    "0260v": {
+      "name": "Sonny Gray",
+      "mlbId": 543243
+    },
+    "03ann": {
+      "name": "Jeff Hoffman",
+      "mlbId": 656546
+    },
+    "041rj": {
+      "name": "JoJo Romero",
+      "mlbId": 668941
+    },
+    "05ras": {
+      "name": "Colton Cowser",
+      "mlbId": 681297
+    },
+    "04pma": {
+      "name": "Daniel Lynch IV",
+      "mlbId": 663738
+    },
+    "025gb": {
+      "name": "Xander Bogaerts",
+      "mlbId": 593428
+    },
+    "05ub0": {
+      "name": "Zack Gelof",
+      "mlbId": 680869
+    },
+    "04ew7": {
+      "name": "Aaron Ashby",
+      "mlbId": 676879
+    },
+    "02c68": {
+      "name": "Trea Turner",
+      "mlbId": 607208
+    },
+    "04y44": {
+      "name": "Josh Jung",
+      "mlbId": 673962
+    },
+    "01cdf": {
+      "name": "Giancarlo Stanton",
+      "mlbId": 519317
+    },
+    "01cgo": {
+      "name": "Freddie Freeman",
+      "mlbId": 518692
+    },
+    "01fh9": {
+      "name": "Bryce Harper",
+      "mlbId": 547180
+    },
+    "01gya": {
+      "name": "Aroldis Chapman",
+      "mlbId": 547973
+    },
+    "01s8u": {
+      "name": "Mike Trout",
+      "mlbId": 545361
+    },
+    "01sb3": {
+      "name": "Zack Wheeler",
+      "mlbId": 554430
+    },
+    "01spo": {
+      "name": "Gerrit Cole",
+      "mlbId": 543037
+    },
+    "01srb": {
+      "name": "Jameson Taillon",
+      "mlbId": 592791
+    },
+    "01svq": {
+      "name": "Manny Machado",
+      "mlbId": 592518
+    },
+    "01svz": {
+      "name": "Kenley Jansen",
+      "mlbId": 445276
+    },
+    "01sy3": {
+      "name": "Nolan Arenado",
+      "mlbId": 571448
+    },
+    "01t9q": {
+      "name": "Gary Sanchez",
+      "mlbId": 596142
+    },
+    "01u75": {
+      "name": "Salvador Perez",
+      "mlbId": 521692
+    },
+    "01ual": {
+      "name": "Paul Goldschmidt",
+      "mlbId": 502671
+    },
+    "01ub6": {
+      "name": "Jose Ramirez",
+      "mlbId": 608070
+    },
+    "01uc9": {
+      "name": "Nick Castellanos",
+      "mlbId": 592206
+    },
+    "01uca": {
+      "name": "Chris Sale",
+      "mlbId": 519242
+    },
+    "01usi": {
+      "name": "Marcell Ozuna",
+      "mlbId": 542303
+    },
+    "01ut7": {
+      "name": "Nathan Eovaldi",
+      "mlbId": 543135
+    },
+    "024m0": {
+      "name": "Jose Altuve",
+      "mlbId": 514888
+    },
+    "025he": {
+      "name": "George Springer",
+      "mlbId": 543807
+    },
+    "025i9": {
+      "name": "J.T. Realmuto",
+      "mlbId": 592663
+    },
+    "025it": {
+      "name": "Jason Adam",
+      "mlbId": 592094
+    },
+    "025j1": {
+      "name": "Robbie Ray",
+      "mlbId": 592662
+    },
+    "02611": {
+      "name": "Francisco Lindor",
+      "mlbId": 596019
+    },
+    "026l1": {
+      "name": "Lance McCullers Jr.",
+      "mlbId": 621121
+    },
+    "026lz": {
+      "name": "Josh Bell",
+      "mlbId": 605137
+    },
+    "026t9": {
+      "name": "Tyron Guerrero",
+      "mlbId": 594027
+    },
+    "029si": {
+      "name": "Eduardo Rodriguez",
+      "mlbId": 593958
+    },
+    "02bq2": {
+      "name": "Brandon Nimmo",
+      "mlbId": 607043
+    },
+    "02bqh": {
+      "name": "Trevor Story",
+      "mlbId": 596115
+    },
+    "02bqr": {
+      "name": "Blake Snell",
+      "mlbId": 605483
+    },
+    "02bqy": {
+      "name": "Joe Musgrove",
+      "mlbId": 605397
+    },
+    "02btf": {
+      "name": "Mookie Betts",
+      "mlbId": 605141
+    },
+    "02btx": {
+      "name": "Tyler Glasnow",
+      "mlbId": 607192
+    },
+    "02bu3": {
+      "name": "Brandon Woodruff",
+      "mlbId": 605540
+    },
+    "02bu9": {
+      "name": "Marcus Semien",
+      "mlbId": 543760
+    },
+    "02bx4": {
+      "name": "Clay Holmes",
+      "mlbId": 605280
+    },
+    "02c2h": {
+      "name": "Chris Bassitt",
+      "mlbId": 605135
+    },
+    "02c2r": {
+      "name": "Carlos Rodon",
+      "mlbId": 607074
+    },
+    "02c4q": {
+      "name": "Nick Martinez",
+      "mlbId": 607259
+    },
+    "02c5l": {
+      "name": "Luke Weaver",
+      "mlbId": 596133
+    },
+    "02f9m": {
+      "name": "Jakob Junis",
+      "mlbId": 596001
+    },
+    "02h8d": {
+      "name": "Steven Matz",
+      "mlbId": 571927
+    },
+    "02hfr": {
+      "name": "Caleb Thielbar",
+      "mlbId": 573204
+    },
+    "02hhj": {
+      "name": "Ryne Stanek",
+      "mlbId": 592773
+    },
+    "02hi7": {
+      "name": "Kevin Gausman",
+      "mlbId": 592332
+    },
+    "02hj7": {
+      "name": "Merrill Kelly",
+      "mlbId": 518876
+    },
+    "02hjp": {
+      "name": "Jacob deGrom",
+      "mlbId": 594798
+    },
+    "02i11": {
+      "name": "Jorge Soler",
+      "mlbId": 624585
+    },
+    "02i2j": {
+      "name": "Max Fried",
+      "mlbId": 608331
+    },
+    "02i2k": {
+      "name": "Byron Buxton",
+      "mlbId": 621439
+    },
+    "02i2q": {
+      "name": "Carlos Correa",
+      "mlbId": 621043
+    },
+    "02i37": {
+      "name": "Lucas Giolito",
+      "mlbId": 608337
+    },
+    "02i3l": {
+      "name": "Miguel Andujar",
+      "mlbId": 609280
+    },
+    "02iug": {
+      "name": "Michael Wacha",
+      "mlbId": 608379
+    },
+    "02j77": {
+      "name": "Chris Martin",
+      "mlbId": 455119
+    },
+    "02jh6": {
+      "name": "Eugenio Suarez",
+      "mlbId": 553993
+    },
+    "02mw3": {
+      "name": "Christian Walker",
+      "mlbId": 572233
+    },
+    "02mw6": {
+      "name": "Corey Seager",
+      "mlbId": 608369
+    },
+    "02mwq": {
+      "name": "Zach Eflin",
+      "mlbId": 621107
+    },
+    "02mxf": {
+      "name": "Carson Kelly",
+      "mlbId": 608348
+    },
+    "02my5": {
+      "name": "Edwin Diaz",
+      "mlbId": 621242
+    },
+    "02mzg": {
+      "name": "Max Muncy",
+      "mlbId": 571970
+    },
+    "02n4s": {
+      "name": "Matthew Boyd",
+      "mlbId": 571510
+    },
+    "02n96": {
+      "name": "Josh Hader",
+      "mlbId": 623352
+    },
+    "02nax": {
+      "name": "Matt Strahm",
+      "mlbId": 621381
+    },
+    "02x0f": {
+      "name": "Sean Manaea",
+      "mlbId": 640455
+    },
+    "02xic": {
+      "name": "Teoscar Hernandez",
+      "mlbId": 606192
+    },
+    "02yc4": {
+      "name": "Shohei Ohtani",
+      "mlbId": 660271
+    },
+    "02yd1": {
+      "name": "Jorge Polanco",
+      "mlbId": 593871
+    },
+    "02z0s": {
+      "name": "Aaron Judge",
+      "mlbId": 592450
+    },
+    "02z96": {
+      "name": "Dominic Smith",
+      "mlbId": 642086
+    },
+    "02zoa": {
+      "name": "Antonio Senzatela",
+      "mlbId": 622608
+    },
+    "030uc": {
+      "name": "Rafael Devers",
+      "mlbId": 646240
+    },
+    "030vs": {
+      "name": "Kirby Yates",
+      "mlbId": 489446
+    },
+    "0310z": {
+      "name": "J.P. Crawford",
+      "mlbId": 641487
+    },
+    "0311c": {
+      "name": "Devin Williams",
+      "mlbId": 642207
+    },
+    "03120": {
+      "name": "Cody Bellinger",
+      "mlbId": 641355
+    },
+    "0312g": {
+      "name": "Tyler Mahle",
+      "mlbId": 641816
+    },
+    "0312l": {
+      "name": "Brad Keller",
+      "mlbId": 641745
+    },
+    "0316j": {
+      "name": "Nick Pivetta",
+      "mlbId": 601713
+    },
+    "0316v": {
+      "name": "Jake Bauers",
+      "mlbId": 641343
+    },
+    "0317q": {
+      "name": "Griffin Jax",
+      "mlbId": 643377
+    },
+    "031bl": {
+      "name": "Kyle Finnegan",
+      "mlbId": 640448
+    },
+    "031cy": {
+      "name": "Emilio Pagan",
+      "mlbId": 641941
+    },
+    "031d4": {
+      "name": "Zack Littell",
+      "mlbId": 641793
+    },
+    "031ey": {
+      "name": "Eric Lauer",
+      "mlbId": 641778
+    },
+    "031t0": {
+      "name": "Gleyber Torres",
+      "mlbId": 650402
+    },
+    "0326s": {
+      "name": "Ketel Marte",
+      "mlbId": 606466
+    },
+    "0374m": {
+      "name": "Tyler Rogers",
+      "mlbId": 643511
+    },
+    "0376h": {
+      "name": "Tyler Alexander",
+      "mlbId": 641302
+    },
+    "03aac": {
+      "name": "Walker Buehler",
+      "mlbId": 621111
+    },
+    "03ab0": {
+      "name": "Luis Severino",
+      "mlbId": 622663
+    },
+    "03ae8": {
+      "name": "Dansby Swanson",
+      "mlbId": 621020
+    },
+    "03aqv": {
+      "name": "Raisel Iglesias",
+      "mlbId": 628452
+    },
+    "03aqw": {
+      "name": "Mauricio Dubon",
+      "mlbId": 643289
+    },
+    "03atq": {
+      "name": "Willy Adames",
+      "mlbId": 642715
+    },
+    "03btu": {
+      "name": "Willi Castro",
+      "mlbId": 650489
+    },
+    "03btv": {
+      "name": "Sandy Alcantara",
+      "mlbId": 645261
+    },
+    "03caf": {
+      "name": "Foster Griffin",
+      "mlbId": 656492
+    },
+    "03d6p": {
+      "name": "Grant Holmes",
+      "mlbId": 656550
+    },
+    "03d6s": {
+      "name": "Matt Chapman",
+      "mlbId": 656305
+    },
+    "03d6w": {
+      "name": "Jack Flaherty",
+      "mlbId": 656427
+    },
+    "03d7h": {
+      "name": "Mitch Keller",
+      "mlbId": 656605
+    },
+    "03dau": {
+      "name": "Trevor Megill",
+      "mlbId": 656730
+    },
+    "03db4": {
+      "name": "Jonathan Loaisiga",
+      "mlbId": 642528
+    },
+    "03dbm": {
+      "name": "Logan Webb",
+      "mlbId": 657277
+    },
+    "03dc4": {
+      "name": "Freddy Peralta",
+      "mlbId": 642547
+    },
+    "03de9": {
+      "name": "Rhys Hoskins",
+      "mlbId": 656555
+    },
+    "03deg": {
+      "name": "Justin Steele",
+      "mlbId": 657006
+    },
+    "03dei": {
+      "name": "Lane Thomas",
+      "mlbId": 657041
+    },
+    "03df2": {
+      "name": "Dylan Cease",
+      "mlbId": 656302
+    },
+    "03dgq": {
+      "name": "Ryan OHearn",
+      "mlbId": 656811
+    },
+    "03div": {
+      "name": "Jake Latz",
+      "mlbId": 656641
+    },
+    "03dp8": {
+      "name": "Ramon Laureano",
+      "mlbId": 657656
+    },
+    "03dpg": {
+      "name": "Kevin Ginkel",
+      "mlbId": 656464
+    },
+    "03e5m": {
+      "name": "Bryan Reynolds",
+      "mlbId": 668804
+    },
+    "03et8": {
+      "name": "Ranger Suarez",
+      "mlbId": 624133
+    },
+    "03fi0": {
+      "name": "Ozzie Albies",
+      "mlbId": 645277
+    },
+    "03i81": {
+      "name": "Reynaldo Lopez",
+      "mlbId": 625643
+    },
+    "03m6o": {
+      "name": "Yandy Diaz",
+      "mlbId": 650490
+    },
+    "03mew": {
+      "name": "Luis Arraez",
+      "mlbId": 650333
+    },
+    "03mnq": {
+      "name": "Carlos Estevez",
+      "mlbId": 608032
+    },
+    "03nmw": {
+      "name": "Ian Happ",
+      "mlbId": 664023
+    },
+    "03nri": {
+      "name": "Lourdes Gurriel Jr.",
+      "mlbId": 666971
+    },
+    "03nru": {
+      "name": "Jesus Sanchez",
+      "mlbId": 660821
+    },
+    "03nuc": {
+      "name": "Luis Castillo",
+      "mlbId": 622491
+    },
+    "03oh0": {
+      "name": "Willson Contreras",
+      "mlbId": 575929
+    },
+    "03ojr": {
+      "name": "Vladimir Guerrero Jr.",
+      "mlbId": 665489
+    },
+    "03pdw": {
+      "name": "Andrew Benintendi",
+      "mlbId": 643217
+    },
+    "03pir": {
+      "name": "Kyle Tucker",
+      "mlbId": 663656
+    },
+    "03pj4": {
+      "name": "Cody Ponce",
+      "mlbId": 664074
+    },
+    "03pjd": {
+      "name": "Josh Naylor",
+      "mlbId": 647304
+    },
+    "03pje": {
+      "name": "Taylor Ward",
+      "mlbId": 621493
+    },
+    "03pjf": {
+      "name": "Michael Soroka",
+      "mlbId": 647336
+    },
+    "03pom": {
+      "name": "Austin Riley",
+      "mlbId": 663586
+    },
+    "03poo": {
+      "name": "Peter Lambert",
+      "mlbId": 663567
+    },
+    "03poq": {
+      "name": "Tony Santillan",
+      "mlbId": 663574
+    },
+    "03pov": {
+      "name": "Brady Singer",
+      "mlbId": 663903
+    },
+    "03pzn": {
+      "name": "Andres Gimenez",
+      "mlbId": 665926
+    },
+    "03qju": {
+      "name": "Garrett Cleavinger",
+      "mlbId": 664076
+    },
+    "03qjv": {
+      "name": "Harrison Bader",
+      "mlbId": 664056
+    },
+    "03qjz": {
+      "name": "Taylor Clarke",
+      "mlbId": 664199
+    },
+    "03ql5": {
+      "name": "Ryan Helsley",
+      "mlbId": 664854
+    },
+    "03qo0": {
+      "name": "Pete Fairbanks",
+      "mlbId": 664126
+    },
+    "03qr0": {
+      "name": "Cedric Mullins",
+      "mlbId": 656775
+    },
+    "03qt6": {
+      "name": "Tyler Phillips",
+      "mlbId": 663969
+    },
+    "03qwa": {
+      "name": "Phil Maton",
+      "mlbId": 664208
+    },
+    "03qxr": {
+      "name": "Cole Sands",
+      "mlbId": 663485
+    },
+    "03qyv": {
+      "name": "Jake McCarthy",
+      "mlbId": 664983
+    },
+    "03sef": {
+      "name": "Seth Lugo",
+      "mlbId": 607625
+    },
+    "03svw": {
+      "name": "Bryan Hudson",
+      "mlbId": 663542
+    },
+    "03wha": {
+      "name": "Ronald Acuna Jr.",
+      "mlbId": 660670
+    },
+    "03whq": {
+      "name": "Ty France",
+      "mlbId": 664034
+    },
+    "03y4y": {
+      "name": "Enyel De Los Santos",
+      "mlbId": 660853
+    },
+    "03ynj": {
+      "name": "Juan Soto",
+      "mlbId": 665742
+    },
+    "03yrz": {
+      "name": "William Contreras",
+      "mlbId": 661388
+    },
+    "03yui": {
+      "name": "Alex Lange",
+      "mlbId": 656638
+    },
+    "03zcy": {
+      "name": "Mark Vientos",
+      "mlbId": 668901
+    },
+    "03zlh": {
+      "name": "Oneil Cruz",
+      "mlbId": 665833
+    },
+    "04022": {
+      "name": "Tim Hill",
+      "mlbId": 657612
+    },
+    "0406v": {
+      "name": "Esteury Ruiz",
+      "mlbId": 665923
+    },
+    "04071": {
+      "name": "Isaac Paredes",
+      "mlbId": 670623
+    },
+    "040b5": {
+      "name": "Randy Arozarena",
+      "mlbId": 668227
+    },
+    "0414g": {
+      "name": "Luis Garcia Jr.",
+      "mlbId": 671277
+    },
+    "041am": {
+      "name": "Lucas Erceg",
+      "mlbId": 668674
+    },
+    "041e2": {
+      "name": "Mickey Moniak",
+      "mlbId": 666160
+    },
+    "041g5": {
+      "name": "Elvis Alvarado",
+      "mlbId": 665660
+    },
+    "041ma": {
+      "name": "Cole Ragans",
+      "mlbId": 666142
+    },
+    "041mb": {
+      "name": "Anthony Kay",
+      "mlbId": 641743
+    },
+    "041ps": {
+      "name": "Nick Lodolo",
+      "mlbId": 666157
+    },
+    "041pz": {
+      "name": "Pete Alonso",
+      "mlbId": 624413
+    },
+    "041q8": {
+      "name": "Brandon Marsh",
+      "mlbId": 669016
+    },
+    "041qb": {
+      "name": "Bo Bichette",
+      "mlbId": 666182
+    },
+    "041qo": {
+      "name": "Zac Gallen",
+      "mlbId": 668678
+    },
+    "041r1": {
+      "name": "Jesus Luzardo",
+      "mlbId": 666200
+    },
+    "041r5": {
+      "name": "Dustin May",
+      "mlbId": 669160
+    },
+    "041rd": {
+      "name": "Corbin Burnes",
+      "mlbId": 669203
+    },
+    "041rf": {
+      "name": "Shane Bieber",
+      "mlbId": 669456
+    },
+    "041sq": {
+      "name": "Tommy Edman",
+      "mlbId": 669242
+    },
+    "041ts": {
+      "name": "Luke Raley",
+      "mlbId": 670042
+    },
+    "041vm": {
+      "name": "Dylan Lee",
+      "mlbId": 669276
+    },
+    "041w4": {
+      "name": "Bryan Baker",
+      "mlbId": 641329
+    },
+    "041wc": {
+      "name": "Joel Kuhnel",
+      "mlbId": 669270
+    },
+    "041wv": {
+      "name": "Michael King",
+      "mlbId": 650633
+    },
+    "041x9": {
+      "name": "Graham Ashcraft",
+      "mlbId": 668933
+    },
+    "041xv": {
+      "name": "Nathaniel Lowe",
+      "mlbId": 663993
+    },
+    "041yb": {
+      "name": "Dean Kremer",
+      "mlbId": 665152
+    },
+    "0423c": {
+      "name": "Carlos Cortes",
+      "mlbId": 666126
+    },
+    "0425t": {
+      "name": "Bailey Ober",
+      "mlbId": 641927
+    },
+    "042sz": {
+      "name": "Will Smith",
+      "mlbId": 669257
+    },
+    "0433b": {
+      "name": "Ildemaro Vargas",
+      "mlbId": 545121
+    },
+    "04355": {
+      "name": "Yordan Alvarez",
+      "mlbId": 670541
+    },
+    "043ia": {
+      "name": "Adrian Morejon",
+      "mlbId": 670970
+    },
+    "045gu": {
+      "name": "TJ Friedl",
+      "mlbId": 670770
+    },
+    "045qo": {
+      "name": "Jazz Chisholm Jr.",
+      "mlbId": 665862
+    },
+    "046yd": {
+      "name": "Dennis Santana",
+      "mlbId": 642701
+    },
+    "0473n": {
+      "name": "Tyler Wells",
+      "mlbId": 669330
+    },
+    "047l7": {
+      "name": "Luis Robert Jr.",
+      "mlbId": 673357
+    },
+    "04a2t": {
+      "name": "Kodai Senga",
+      "mlbId": 673540
+    },
+    "04aee": {
+      "name": "Jo Adell",
+      "mlbId": 666176
+    },
+    "04ai4": {
+      "name": "Nolan Gorman",
+      "mlbId": 669357
+    },
+    "04ak5": {
+      "name": "Trevor Rogers",
+      "mlbId": 669432
+    },
+    "04ali": {
+      "name": "Edward Cabrera",
+      "mlbId": 665795
+    },
+    "04alp": {
+      "name": "Ernie Clement",
+      "mlbId": 676391
+    },
+    "04aok": {
+      "name": "Gregory Soto",
+      "mlbId": 642397
+    },
+    "04apj": {
+      "name": "Jhoan Duran",
+      "mlbId": 661395
+    },
+    "04aq4": {
+      "name": "Adolis Garcia",
+      "mlbId": 666969
+    },
+    "04aqc": {
+      "name": "David Bednar",
+      "mlbId": 670280
+    },
+    "04auk": {
+      "name": "Seranthony Dominguez",
+      "mlbId": 622554
+    },
+    "04azu": {
+      "name": "Kumar Rocker",
+      "mlbId": 677958
+    },
+    "04azv": {
+      "name": "Jake Burger",
+      "mlbId": 669394
+    },
+    "04b00": {
+      "name": "Brice Turang",
+      "mlbId": 668930
+    },
+    "04b02": {
+      "name": "Seiya Suzuki",
+      "mlbId": 673548
+    },
+    "04c0o": {
+      "name": "Jose Soriano",
+      "mlbId": 667755
+    },
+    "04cd5": {
+      "name": "MacKenzie Gore",
+      "mlbId": 669022
+    },
+    "04cwf": {
+      "name": "Shane Baz",
+      "mlbId": 669358
+    },
+    "04e2u": {
+      "name": "Brent Rooker",
+      "mlbId": 667670
+    },
+    "04ee8": {
+      "name": "Heliot Ramos",
+      "mlbId": 671218
+    },
+    "04eej": {
+      "name": "Gavin Sheets",
+      "mlbId": 657757
+    },
+    "04ehz": {
+      "name": "Jeremiah Estrada",
+      "mlbId": 669093
+    },
+    "04eig": {
+      "name": "Jose Caballero",
+      "mlbId": 676609
+    },
+    "04ej3": {
+      "name": "Riley OBrien",
+      "mlbId": 676617
+    },
+    "04em6": {
+      "name": "Will Vest",
+      "mlbId": 676684
+    },
+    "04enz": {
+      "name": "Robert Garcia",
+      "mlbId": 676395
+    },
+    "04eor": {
+      "name": "Cade Smith",
+      "mlbId": 671922
+    },
+    "04eos": {
+      "name": "Joey Cantillo",
+      "mlbId": 676282
+    },
+    "04eqa": {
+      "name": "Garrett Whitlock",
+      "mlbId": 676477
+    },
+    "04etg": {
+      "name": "Janson Junk",
+      "mlbId": 676083
+    },
+    "04eud": {
+      "name": "Shane Drohan",
+      "mlbId": 675660
+    },
+    "04fq2": {
+      "name": "Javier Assad",
+      "mlbId": 665871
+    },
+    "04g1x": {
+      "name": "David Peterson",
+      "mlbId": 656849
+    },
+    "04ggi": {
+      "name": "Andrew Kittredge",
+      "mlbId": 552640
+    },
+    "04hyc": {
+      "name": "Ivan Herrera",
+      "mlbId": 671056
+    },
+    "04k0w": {
+      "name": "Camilo Doval",
+      "mlbId": 666808
+    },
+    "04lgp": {
+      "name": "Bobby Witt Jr.",
+      "mlbId": 677951
+    },
+    "04mjn": {
+      "name": "Eduard Bazardo",
+      "mlbId": 660825
+    },
+    "04ml0": {
+      "name": "Yusei Kikuchi",
+      "mlbId": 579328
+    },
+    "04mlf": {
+      "name": "Casey Mize",
+      "mlbId": 663554
+    },
+    "04mlr": {
+      "name": "Jeffrey Springs",
+      "mlbId": 605488
+    },
+    "04mlx": {
+      "name": "Matthew Liberatore",
+      "mlbId": 669461
+    },
+    "04mn5": {
+      "name": "Alec Bohm",
+      "mlbId": 664761
+    },
+    "04mnw": {
+      "name": "Ryan Weathers",
+      "mlbId": 677960
+    },
+    "04mra": {
+      "name": "Ezequiel Tovar",
+      "mlbId": 678662
+    },
+    "04my4": {
+      "name": "Cal Raleigh",
+      "mlbId": 663728
+    },
+    "04n0m": {
+      "name": "Logan Gilbert",
+      "mlbId": 669302
+    },
+    "04n8z": {
+      "name": "Xavier Edwards",
+      "mlbId": 669364
+    },
+    "04nb2": {
+      "name": "Riley Greene",
+      "mlbId": 682985
+    },
+    "04nky": {
+      "name": "Trevor Larnach",
+      "mlbId": 663616
+    },
+    "04nq4": {
+      "name": "Blaze Jordan",
+      "mlbId": 691458
+    },
+    "04nqx": {
+      "name": "Ezequiel Duran",
+      "mlbId": 677649
+    },
+    "04nx3": {
+      "name": "Jonathan India",
+      "mlbId": 663697
+    },
+    "04o2w": {
+      "name": "Ben Brown",
+      "mlbId": 676962
+    },
+    "04o4s": {
+      "name": "Shea Langeliers",
+      "mlbId": 669127
+    },
+    "04o78": {
+      "name": "Matt Wallner",
+      "mlbId": 670242
+    },
+    "04paj": {
+      "name": "Cole Winn",
+      "mlbId": 668390
+    },
+    "04pbq": {
+      "name": "Geraldo Perdomo",
+      "mlbId": 672695
+    },
+    "04pko": {
+      "name": "Grayson Rodriguez",
+      "mlbId": 680570
+    },
+    "04pkr": {
+      "name": "Nico Hoerner",
+      "mlbId": 663538
+    },
+    "04pks": {
+      "name": "Matt McLain",
+      "mlbId": 680574
+    },
+    "04pkt": {
+      "name": "J.T. Ginn",
+      "mlbId": 669372
+    },
+    "04pmb": {
+      "name": "Kris Bubic",
+      "mlbId": 663460
+    },
+    "04pmq": {
+      "name": "Braxton Ashcraft",
+      "mlbId": 677952
+    },
+    "04pmt": {
+      "name": "Jeremiah Jackson",
+      "mlbId": 669236
+    },
+    "04pmu": {
+      "name": "Ryan Jeffers",
+      "mlbId": 680777
+    },
+    "04ppi": {
+      "name": "Kody Clemens",
+      "mlbId": 665019
+    },
+    "04ppj": {
+      "name": "Jeremy Pena",
+      "mlbId": 665161
+    },
+    "04pps": {
+      "name": "Hogan Harris",
+      "mlbId": 663687
+    },
+    "04pq4": {
+      "name": "Kyle Bradish",
+      "mlbId": 680694
+    },
+    "04pr1": {
+      "name": "Steven Kwan",
+      "mlbId": 680757
+    },
+    "04prt": {
+      "name": "Lawrence Butler",
+      "mlbId": 671732
+    },
+    "04ps7": {
+      "name": "Joe Ryan",
+      "mlbId": 657746
+    },
+    "04pse": {
+      "name": "Brendan Donovan",
+      "mlbId": 680977
+    },
+    "04pst": {
+      "name": "Jarren Duran",
+      "mlbId": 680776
+    },
+    "04pt2": {
+      "name": "Lars Nootbaar",
+      "mlbId": 663457
+    },
+    "04ptt": {
+      "name": "Tarik Skubal",
+      "mlbId": 669373
+    },
+    "04pvl": {
+      "name": "Mike Burrows",
+      "mlbId": 681347
+    },
+    "04pvs": {
+      "name": "Blaze Alexander",
+      "mlbId": 677942
+    },
+    "04pvu": {
+      "name": "Stephen Kolek",
+      "mlbId": 663568
+    },
+    "04pxf": {
+      "name": "Davis Martin",
+      "mlbId": 663436
+    },
+    "04pxo": {
+      "name": "Erik Sabrowski",
+      "mlbId": 681870
+    },
+    "04pxp": {
+      "name": "Victor Vodnik",
+      "mlbId": 680767
+    },
+    "04pxq": {
+      "name": "Gus Varland",
+      "mlbId": 681402
+    },
+    "04q05": {
+      "name": "Alex Vesia",
+      "mlbId": 681911
+    },
+    "04q1w": {
+      "name": "Caleb Kilian",
+      "mlbId": 668873
+    },
+    "04q2n": {
+      "name": "Adley Rutschman",
+      "mlbId": 668939
+    },
+    "04qii": {
+      "name": "Addison Barger",
+      "mlbId": 680718
+    },
+    "04qk8": {
+      "name": "CJ Abrams",
+      "mlbId": 682928
+    },
+    "04qnd": {
+      "name": "Noelvi Marte",
+      "mlbId": 682622
+    },
+    "04ru5": {
+      "name": "Andy Pages",
+      "mlbId": 681624
+    },
+    "04s1g": {
+      "name": "Gabriel Moreno",
+      "mlbId": 672515
+    },
+    "04s1h": {
+      "name": "Luis Gil",
+      "mlbId": 661563
+    },
+    "04si2": {
+      "name": "Andrew Vaughn",
+      "mlbId": 683734
+    },
+    "04si3": {
+      "name": "Brayan Rocchio",
+      "mlbId": 677587
+    },
+    "04t3y": {
+      "name": "Alejandro Kirk",
+      "mlbId": 672386
+    },
+    "04t40": {
+      "name": "Brayan Bello",
+      "mlbId": 678394
+    },
+    "04t9b": {
+      "name": "Michael Busch",
+      "mlbId": 683737
+    },
+    "04tji": {
+      "name": "Edwin Uceta",
+      "mlbId": 670955
+    },
+    "04tjl": {
+      "name": "Otto Lopez",
+      "mlbId": 672640
+    },
+    "04tlv": {
+      "name": "Bryan Abreu",
+      "mlbId": 650556
+    },
+    "04up9": {
+      "name": "Heriberto Hernandez",
+      "mlbId": 681715
+    },
+    "04xne": {
+      "name": "Yoendrys Gomez",
+      "mlbId": 672782
+    },
+    "04y4e": {
+      "name": "Corbin Carroll",
+      "mlbId": 682998
+    },
+    "04y76": {
+      "name": "Jacob Webb",
+      "mlbId": 657097
+    },
+    "04y8z": {
+      "name": "Erik Miller",
+      "mlbId": 669062
+    },
+    "04y95": {
+      "name": "JJ Bleday",
+      "mlbId": 668709
+    },
+    "04y97": {
+      "name": "Kyle Stowers",
+      "mlbId": 669065
+    },
+    "04y9o": {
+      "name": "Jack Leiter",
+      "mlbId": 683004
+    },
+    "04y9p": {
+      "name": "Anthony Volpe",
+      "mlbId": 683011
+    },
+    "04ya4": {
+      "name": "Nasim Nunez",
+      "mlbId": 683083
+    },
+    "04ydd": {
+      "name": "Angel Martinez",
+      "mlbId": 682657
+    },
+    "04yi8": {
+      "name": "Spencer Jones",
+      "mlbId": 682987
+    },
+    "04yib": {
+      "name": "Brett Baty",
+      "mlbId": 683146
+    },
+    "04yid": {
+      "name": "Ryne Nelson",
+      "mlbId": 669194
+    },
+    "04yie": {
+      "name": "George Kirby",
+      "mlbId": 669923
+    },
+    "04yig": {
+      "name": "Brooks Lee",
+      "mlbId": 686797
+    },
+    "04yk2": {
+      "name": "Spencer Torkelson",
+      "mlbId": 679529
+    },
+    "04z6m": {
+      "name": "Agustin Ramirez",
+      "mlbId": 682663
+    },
+    "050c3": {
+      "name": "Jasson Dominguez",
+      "mlbId": 691176
+    },
+    "050ok": {
+      "name": "Yennier Cano",
+      "mlbId": 666974
+    },
+    "050w9": {
+      "name": "Gunnar Henderson",
+      "mlbId": 683002
+    },
+    "0510l": {
+      "name": "Emerson Hancock",
+      "mlbId": 676106
+    },
+    "0512e": {
+      "name": "Spencer Steer",
+      "mlbId": 668715
+    },
+    "0512m": {
+      "name": "Ryan Pepiot",
+      "mlbId": 686752
+    },
+    "0512u": {
+      "name": "Jack Kochanowicz",
+      "mlbId": 686799
+    },
+    "05133": {
+      "name": "Andre Pallante",
+      "mlbId": 669467
+    },
+    "05135": {
+      "name": "Jake Mangum",
+      "mlbId": 663968
+    },
+    "05138": {
+      "name": "Matt Brash",
+      "mlbId": 666374
+    },
+    "0513c": {
+      "name": "Joey Ortiz",
+      "mlbId": 687401
+    },
+    "0513l": {
+      "name": "Brenton Doyle",
+      "mlbId": 686668
+    },
+    "05143": {
+      "name": "Hunter Gaddis",
+      "mlbId": 683769
+    },
+    "05144": {
+      "name": "Hunter Brown",
+      "mlbId": 686613
+    },
+    "0515o": {
+      "name": "Brandon Sproat",
+      "mlbId": 687075
+    },
+    "05161": {
+      "name": "Dominic Canzone",
+      "mlbId": 686527
+    },
+    "0516n": {
+      "name": "Isaac Collins",
+      "mlbId": 686555
+    },
+    "05184": {
+      "name": "Vinnie Pasquantino",
+      "mlbId": 686469
+    },
+    "0518g": {
+      "name": "Trevor McDonald",
+      "mlbId": 686790
+    },
+    "051b4": {
+      "name": "Jordan Beck",
+      "mlbId": 687597
+    },
+    "051d0": {
+      "name": "Troy Johnston",
+      "mlbId": 687859
+    },
+    "051eh": {
+      "name": "Kevin Kelly",
+      "mlbId": 687330
+    },
+    "051em": {
+      "name": "Kerry Carpenter",
+      "mlbId": 681481
+    },
+    "051ia": {
+      "name": "Spencer Horwitz",
+      "mlbId": 687462
+    },
+    "051ui": {
+      "name": "Jacob Lopez",
+      "mlbId": 682052
+    },
+    "051wv": {
+      "name": "Pete Crow-Armstrong",
+      "mlbId": 691718
+    },
+    "05249": {
+      "name": "Austin Martin",
+      "mlbId": 668885
+    },
+    "0524l": {
+      "name": "Yainer Diaz",
+      "mlbId": 673237
+    },
+    "057n0": {
+      "name": "Anthony Nunez",
+      "mlbId": 689296
+    },
+    "0596g": {
+      "name": "Reid Detmers",
+      "mlbId": 672282
+    },
+    "0597k": {
+      "name": "Nick Gonzales",
+      "mlbId": 693304
+    },
+    "059bx": {
+      "name": "Brady House",
+      "mlbId": 691781
+    },
+    "05a1v": {
+      "name": "Keider Montero",
+      "mlbId": 672456
+    },
+    "05a2d": {
+      "name": "Max Meyer",
+      "mlbId": 676974
+    },
+    "05ahe": {
+      "name": "Curtis Mead",
+      "mlbId": 678554
+    },
+    "05ahg": {
+      "name": "Austin Wells",
+      "mlbId": 669224
+    },
+    "05ajg": {
+      "name": "Ha-seong Kim",
+      "mlbId": 673490
+    },
+    "05ajh": {
+      "name": "Garrett Crochet",
+      "mlbId": 676979
+    },
+    "05aoc": {
+      "name": "Eury Perez",
+      "mlbId": 691587
+    },
+    "05g3x": {
+      "name": "Maikel Garcia",
+      "mlbId": 672580
+    },
+    "05g4k": {
+      "name": "Mick Abel",
+      "mlbId": 690953
+    },
+    "05gbf": {
+      "name": "Jordan Walker",
+      "mlbId": 691023
+    },
+    "05gdz": {
+      "name": "Roki Sasaki",
+      "mlbId": 808963
+    },
+    "05ge9": {
+      "name": "Shota Imanaga",
+      "mlbId": 684007
+    },
+    "05gef": {
+      "name": "Cade Cavalli",
+      "mlbId": 676917
+    },
+    "05gsc": {
+      "name": "Jordan Westburg",
+      "mlbId": 676059
+    },
+    "05gsi": {
+      "name": "Ceddanne Rafaela",
+      "mlbId": 678882
+    },
+    "05gww": {
+      "name": "Cade Horton",
+      "mlbId": 690990
+    },
+    "05gwy": {
+      "name": "Masyn Winn",
+      "mlbId": 691026
+    },
+    "05gx4": {
+      "name": "Dillon Dingler",
+      "mlbId": 693307
+    },
+    "05h2u": {
+      "name": "Jared Jones",
+      "mlbId": 683003
+    },
+    "05itb": {
+      "name": "Randy Vasquez",
+      "mlbId": 681190
+    },
+    "05jnq": {
+      "name": "Clayton Beeter",
+      "mlbId": 690925
+    },
+    "05joq": {
+      "name": "Connor Prielipp",
+      "mlbId": 687570
+    },
+    "05jp4": {
+      "name": "Casey Schmitt",
+      "mlbId": 669477
+    },
+    "05jp9": {
+      "name": "Bryce Elder",
+      "mlbId": 693821
+    },
+    "05jpd": {
+      "name": "Ian Seymour",
+      "mlbId": 693855
+    },
+    "05jpk": {
+      "name": "Joe Boyle",
+      "mlbId": 671212
+    },
+    "05jq2": {
+      "name": "Andrew Abbott",
+      "mlbId": 671096
+    },
+    "05jq3": {
+      "name": "Joey Wiemer",
+      "mlbId": 686894
+    },
+    "05jr0": {
+      "name": "Alec Burleson",
+      "mlbId": 676475
+    },
+    "05jrh": {
+      "name": "Colt Keith",
+      "mlbId": 690993
+    },
+    "05js3": {
+      "name": "Kyle Harrison",
+      "mlbId": 690986
+    },
+    "05js4": {
+      "name": "Yohandy Morales",
+      "mlbId": 691002
+    },
+    "05js5": {
+      "name": "Coby Mayo",
+      "mlbId": 691723
+    },
+    "05jsg": {
+      "name": "Owen Caissie",
+      "mlbId": 683357
+    },
+    "05lg3": {
+      "name": "Brandon Pfaadt",
+      "mlbId": 694297
+    },
+    "05m1b": {
+      "name": "Denzer Guzman",
+      "mlbId": 694203
+    },
+    "05m1e": {
+      "name": "Jackson Chourio",
+      "mlbId": 694192
+    },
+    "05m49": {
+      "name": "Jung Hoo Lee",
+      "mlbId": 808982
+    },
+    "05mdt": {
+      "name": "Evan Carter",
+      "mlbId": 694497
+    },
+    "05mre": {
+      "name": "Spencer Strider",
+      "mlbId": 675911
+    },
+    "05nso": {
+      "name": "Abner Uribe",
+      "mlbId": 682842
+    },
+    "05oqe": {
+      "name": "Ty Madden",
+      "mlbId": 680744
+    },
+    "05r01": {
+      "name": "Robert Suarez",
+      "mlbId": 663158
+    },
+    "05r1m": {
+      "name": "Jordan Lawlar",
+      "mlbId": 691783
+    },
+    "05r3i": {
+      "name": "Andrew Painter",
+      "mlbId": 691725
+    },
+    "05r8n": {
+      "name": "Yoshinobu Yamamoto",
+      "mlbId": 808967
+    },
+    "05r9j": {
+      "name": "Marcelo Mayer",
+      "mlbId": 691785
+    },
+    "05rat": {
+      "name": "James Wood",
+      "mlbId": 695578
+    },
+    "05rau": {
+      "name": "Kahlil Watson",
+      "mlbId": 696135
+    },
+    "05rb0": {
+      "name": "Jackson Jobe",
+      "mlbId": 695549
+    },
+    "05rb1": {
+      "name": "Sal Frelick",
+      "mlbId": 686217
+    },
+    "05rbs": {
+      "name": "Moises Ballesteros",
+      "mlbId": 694208
+    },
+    "05rbv": {
+      "name": "Samuel Basallo",
+      "mlbId": 694212
+    },
+    "05rbw": {
+      "name": "Esmerlyn Valdez",
+      "mlbId": 699013
+    },
+    "05rcd": {
+      "name": "Joe Mack",
+      "mlbId": 691788
+    },
+    "05rcf": {
+      "name": "Joshua Baez",
+      "mlbId": 695491
+    },
+    "05rcg": {
+      "name": "Braden Montgomery",
+      "mlbId": 695731
+    },
+    "05rch": {
+      "name": "Colson Montgomery",
+      "mlbId": 695657
+    },
+    "05rcj": {
+      "name": "Edwin Arroyo",
+      "mlbId": 695490
+    },
+    "05rfu": {
+      "name": "Kyle Manzardo",
+      "mlbId": 700932
+    },
+    "05rik": {
+      "name": "Bubba Chandler",
+      "mlbId": 696149
+    },
+    "05rkq": {
+      "name": "Jose Fernandez",
+      "mlbId": 699912
+    },
+    "05sr2": {
+      "name": "Michael McGreevy",
+      "mlbId": 700241
+    },
+    "05t2b": {
+      "name": "Daylen Lile",
+      "mlbId": 695734
+    },
+    "05t9g": {
+      "name": "Gage Jump",
+      "mlbId": 695611
+    },
+    "05t9l": {
+      "name": "Max Muncy",
+      "mlbId": 691777
+    },
+    "05t9n": {
+      "name": "Carson Williams",
+      "mlbId": 700246
+    },
+    "05t9v": {
+      "name": "Jonathan Aranda",
+      "mlbId": 666018
+    },
+    "05tp7": {
+      "name": "Tommy White",
+      "mlbId": 695720
+    },
+    "05tq1": {
+      "name": "Spencer Schwellenbach",
+      "mlbId": 680885
+    },
+    "05tzn": {
+      "name": "Parker Messick",
+      "mlbId": 800048
+    },
+    "05tzo": {
+      "name": "J.R. Ritchie",
+      "mlbId": 702275
+    },
+    "05tzp": {
+      "name": "Jacob Gonzalez",
+      "mlbId": 694378
+    },
+    "05u2k": {
+      "name": "Hao-Yu Lee",
+      "mlbId": 701678
+    },
+    "05u2v": {
+      "name": "Hunter Goodman",
+      "mlbId": 696100
+    },
+    "05u3u": {
+      "name": "Konnor Griffin",
+      "mlbId": 804606
+    },
+    "05u3v": {
+      "name": "Walker Jenkins",
+      "mlbId": 805805
+    },
+    "05u4l": {
+      "name": "Daniel Palencia",
+      "mlbId": 694037
+    },
+    "05u6q": {
+      "name": "Cam Schlittler",
+      "mlbId": 693645
+    },
+    "05u6r": {
+      "name": "Robert Gasser",
+      "mlbId": 688107
+    },
+    "05u96": {
+      "name": "Bryce Eldridge",
+      "mlbId": 805811
+    },
+    "05u9o": {
+      "name": "Sal Stewart",
+      "mlbId": 701398
+    },
+    "05u9q": {
+      "name": "Jac Caglianone",
+      "mlbId": 695506
+    },
+    "05u9y": {
+      "name": "Max Clark",
+      "mlbId": 703601
+    },
+    "05u9z": {
+      "name": "Roman Anthony",
+      "mlbId": 701350
+    },
+    "05ua7": {
+      "name": "Jackson Merrill",
+      "mlbId": 701538
+    },
+    "05uc7": {
+      "name": "Noah Schultz",
+      "mlbId": 702273
+    },
+    "05ucd": {
+      "name": "Mason Miller",
+      "mlbId": 695243
+    },
+    "05uei": {
+      "name": "Chase DeLauter",
+      "mlbId": 800050
+    },
+    "05uo2": {
+      "name": "Logan Henderson",
+      "mlbId": 701656
+    },
+    "05vy6": {
+      "name": "Bryce Miller",
+      "mlbId": 682243
+    },
+    "05wru": {
+      "name": "Paul Skenes",
+      "mlbId": 694973
+    },
+    "05wxy": {
+      "name": "Kyle Teel",
+      "mlbId": 691019
+    },
+    "05xod": {
+      "name": "Sean Burke",
+      "mlbId": 680732
+    },
+    "05xor": {
+      "name": "Christian Encarnacion-Strand",
+      "mlbId": 687952
+    },
+    "05xpq": {
+      "name": "Christian Scott",
+      "mlbId": 681035
+    },
+    "05xsm": {
+      "name": "Chase Silseth",
+      "mlbId": 681217
+    },
+    "05xty": {
+      "name": "Dylan Beavers",
+      "mlbId": 687637
+    },
+    "05xtz": {
+      "name": "Dalton Rushing",
+      "mlbId": 687221
+    },
+    "05xu5": {
+      "name": "Zach Neto",
+      "mlbId": 687263
+    },
+    "05xu8": {
+      "name": "Tyler Locklear",
+      "mlbId": 682988
+    },
+    "05xz4": {
+      "name": "Michael Petersen",
+      "mlbId": 656848
+    },
+    "05y0j": {
+      "name": "Spencer Arrighetti",
+      "mlbId": 681293
+    },
+    "05y2k": {
+      "name": "Mason Montgomery",
+      "mlbId": 682254
+    },
+    "05y2l": {
+      "name": "Emmet Sheehan",
+      "mlbId": 686218
+    },
+    "05y30": {
+      "name": "Justin Crawford",
+      "mlbId": 702222
+    },
+    "05y3u": {
+      "name": "Munetaka Murakami",
+      "mlbId": 808959
+    },
+    "05y62": {
+      "name": "Bryan Woo",
+      "mlbId": 693433
+    },
+    "05y72": {
+      "name": "Landen Roupp",
+      "mlbId": 694738
+    },
+    "05y7s": {
+      "name": "Nolan McLean",
+      "mlbId": 690997
+    },
+    "05y7t": {
+      "name": "Henry Bolte",
+      "mlbId": 703607
+    },
+    "05y9r": {
+      "name": "Justin Wrobleski",
+      "mlbId": 680736
+    },
+    "05yaz": {
+      "name": "Will Warren",
+      "mlbId": 701542
+    },
+    "05yb8": {
+      "name": "Chad Patrick",
+      "mlbId": 694477
+    },
+    "05ybv": {
+      "name": "Jackson Holliday",
+      "mlbId": 702616
+    },
+    "05yby": {
+      "name": "Kevin McGonigle",
+      "mlbId": 805808
+    },
+    "05ycf": {
+      "name": "Noah Cameron",
+      "mlbId": 702070
+    },
+    "05ydo": {
+      "name": "Juan Morillo",
+      "mlbId": 666661
+    },
+    "05ydp": {
+      "name": "Kade Anderson",
+      "mlbId": 807739
+    },
+    "05ydz": {
+      "name": "Tristan Peters",
+      "mlbId": 671976
+    },
+    "05yj0": {
+      "name": "Chase Dollander",
+      "mlbId": 801403
+    },
+    "05yj1": {
+      "name": "Nolan Schanuel",
+      "mlbId": 694384
+    },
+    "05ylp": {
+      "name": "Jared Koenig",
+      "mlbId": 657649
+    },
+    "05ynb": {
+      "name": "Liam Hicks",
+      "mlbId": 689414
+    },
+    "05yo5": {
+      "name": "Ben Rice",
+      "mlbId": 700250
+    },
+    "05zde": {
+      "name": "Travis Bazzana",
+      "mlbId": 683953
+    },
+    "060eu": {
+      "name": "Ben Joyce",
+      "mlbId": 690829
+    },
+    "060i2": {
+      "name": "Jake Bennett",
+      "mlbId": 687562
+    },
+    "060jo": {
+      "name": "Cam Smith",
+      "mlbId": 701358
+    },
+    "060la": {
+      "name": "Jett Williams",
+      "mlbId": 702518
+    },
+    "060pm": {
+      "name": "Wyatt Langford",
+      "mlbId": 694671
+    },
+    "060ub": {
+      "name": "Colt Emerson",
+      "mlbId": 806068
+    },
+    "060x1": {
+      "name": "Wilyer Abreu",
+      "mlbId": 677800
+    },
+    "061bo": {
+      "name": "Rhett Lowder",
+      "mlbId": 695076
+    },
+    "061mh": {
+      "name": "Robby Snelling",
+      "mlbId": 702281
+    },
+    "061zv": {
+      "name": "Josue De Paula",
+      "mlbId": 800543
+    },
+    "0622t": {
+      "name": "Jacob Wilson",
+      "mlbId": 805779
+    },
+    "0622w": {
+      "name": "Chandler Simpson",
+      "mlbId": 802415
+    },
+    "062cx": {
+      "name": "Ethan Holliday",
+      "mlbId": 815787
+    },
+    "062k5": {
+      "name": "Nick Kurtz",
+      "mlbId": 701762
+    },
+    "062ob": {
+      "name": "Jose Ferrer",
+      "mlbId": 678606
+    },
+    "062pm": {
+      "name": "Owen Murphy",
+      "mlbId": 702566
+    },
+    "062pn": {
+      "name": "David Sandlin",
+      "mlbId": 689818
+    },
+    "0630d": {
+      "name": "Drake Baldwin",
+      "mlbId": 686948
+    },
+    "063vu": {
+      "name": "Matt Shaw",
+      "mlbId": 807713
+    },
+    "0648n": {
+      "name": "Chase Meidroth",
+      "mlbId": 805367
+    },
+    "0648z": {
+      "name": "Victor Scott",
+      "mlbId": 687363
+    },
+    "064n8": {
+      "name": "Nathan Church",
+      "mlbId": 701675
+    },
+    "064zm": {
+      "name": "Didier Fuentes",
+      "mlbId": 800311
+    },
+    "0657l": {
+      "name": "Jack Perkins",
+      "mlbId": 678022
+    },
+    "0658b": {
+      "name": "Jonah Tong",
+      "mlbId": 804636
+    },
+    "065ji": {
+      "name": "Jakob Marsee",
+      "mlbId": 805300
+    },
+    "066cf": {
+      "name": "Zebby Matthews",
+      "mlbId": 805673
+    },
+    "066eo": {
+      "name": "Cole Carrigg",
+      "mlbId": 694249
+    },
+    "066ir": {
+      "name": "James Tibbs III",
+      "mlbId": 696486
+    },
+    "066n3": {
+      "name": "Ryan Walker",
+      "mlbId": 676254
+    },
+    "067xj": {
+      "name": "Cooper Pratt",
+      "mlbId": 806198
+    },
+    "067yc": {
+      "name": "Leo De Vries",
+      "mlbId": 815888
+    },
+    "06alk": {
+      "name": "Charlie Condon",
+      "mlbId": 809707
+    },
+    "06apx": {
+      "name": "Trey Yesavage",
+      "mlbId": 702056
+    },
+    "06aw3": {
+      "name": "JJ Wetherholt",
+      "mlbId": 802139
+    },
+    "06dlz": {
+      "name": "Ryan Waldschmidt",
+      "mlbId": 814439
+    },
+    "06dqb": {
+      "name": "Shane Smith",
+      "mlbId": 681343
+    },
+    "06dsa": {
+      "name": "Kyle Karros",
+      "mlbId": 691720
+    },
+    "06ekq": {
+      "name": "Zac Thornton",
+      "mlbId": 804267
+    },
+    "06elo": {
+      "name": "Matt Svanson",
+      "mlbId": 694335
+    },
+    "06f0p": {
+      "name": "Cooper Ingle",
+      "mlbId": 694876
+    },
+    "06f1r": {
+      "name": "Connelly Early",
+      "mlbId": 813349
+    },
+    "06fzu": {
+      "name": "Kazuma Okamoto",
+      "mlbId": 672960
+    },
+    "06guh": {
+      "name": "Brandyn Garcia",
+      "mlbId": 805299
+    },
+    "06gwk": {
+      "name": "Payton Tolle",
+      "mlbId": 801139
+    },
+    "06ibv": {
+      "name": "Jesus Made",
+      "mlbId": 815908
+    },
+    "06in4": {
+      "name": "Hyeseong Kim",
+      "mlbId": 808975
+    },
+    "06mi0": {
+      "name": "Bryan King",
+      "mlbId": 687911
+    },
+    "06nue": {
+      "name": "Joshua Kuroda-Grauer",
+      "mlbId": 811965
+    },
+    "000dp": {
+      "name": "Justin Verlander",
+      "mlbId": 434378
+    },
+    "004ee": {
+      "name": "Max Scherzer",
+      "mlbId": 453286
+    },
+    "005ih": {
+      "name": "Clayton Kershaw",
+      "mlbId": 477132
+    },
+    "005jn": {
+      "name": "Charlie Morton",
+      "mlbId": 450203
+    },
+    "01c5l": {
+      "name": "Yu Darvish",
+      "mlbId": 506433
+    },
+    "01cfr": {
+      "name": "Carlos Santana",
+      "mlbId": 467793
+    },
+    "01cgt": {
+      "name": "Wilmer Flores",
+      "mlbId": 527038
+    },
+    "01fhm": {
+      "name": "Martin Perez",
+      "mlbId": 527048
+    },
+    "01sbv": {
+      "name": "Shelby Miller",
+      "mlbId": 571946
+    },
+    "01sfi": {
+      "name": "DJ LeMahieu",
+      "mlbId": 518934
+    },
+    "01spl": {
+      "name": "Jurickson Profar",
+      "mlbId": 595777
+    },
+    "01t5w": {
+      "name": "Miguel Rojas",
+      "mlbId": 500743
+    },
+    "01ub8": {
+      "name": "Liam Hendriks",
+      "mlbId": 521230
+    },
+    "01ucb": {
+      "name": "Drew Pomeranz",
+      "mlbId": 519141
+    },
+    "01vja": {
+      "name": "Max Kepler",
+      "mlbId": 596146
+    },
+    "025ey": {
+      "name": "Luke Jackson",
+      "mlbId": 592426
+    },
+    "025kd": {
+      "name": "Jose Quintana",
+      "mlbId": 500779
+    },
+    "026mn": {
+      "name": "Javier Baez",
+      "mlbId": 595879
+    },
+    "026mq": {
+      "name": "Tyler Anderson",
+      "mlbId": 542881
+    },
+    "02brc": {
+      "name": "Adrian Houser",
+      "mlbId": 605288
+    },
+    "02bsw": {
+      "name": "Mike Clevinger",
+      "mlbId": 605182
+    },
+    "02buh": {
+      "name": "Scott Barlow",
+      "mlbId": 605130
+    },
+    "02bve": {
+      "name": "Blake Treinen",
+      "mlbId": 595014
+    },
+    "02ccf": {
+      "name": "Tommy Kahnle",
+      "mlbId": 592454
+    },
+    "02hir": {
+      "name": "Michael Lorenzen",
+      "mlbId": 547179
+    },
+    "02i1q": {
+      "name": "Orlando Arcia",
+      "mlbId": 606115
+    },
+    "02mv0": {
+      "name": "Andrew Heaney",
+      "mlbId": 571760
+    },
+    "02mwk": {
+      "name": "Jose Berrios",
+      "mlbId": 621244
+    },
+    "02myt": {
+      "name": "Steven Okert",
+      "mlbId": 595345
+    },
+    "02n3l": {
+      "name": "Taylor Rogers",
+      "mlbId": 573124
+    },
+    "02n9l": {
+      "name": "Dietrich Enns",
+      "mlbId": 608650
+    },
+    "02w16": {
+      "name": "Anthony Santander",
+      "mlbId": 623993
+    },
+    "02yh5": {
+      "name": "Amed Rosario",
+      "mlbId": 642708
+    },
+    "02yk4": {
+      "name": "Tyler ONeill",
+      "mlbId": 641933
+    },
+    "02z0e": {
+      "name": "Yimi Garcia",
+      "mlbId": 554340
+    },
+    "02z0t": {
+      "name": "Michael Conforto",
+      "mlbId": 624424
+    },
+    "02zif": {
+      "name": "Ryan Pressly",
+      "mlbId": 519151
+    },
+    "0310n": {
+      "name": "Ryan McMahon",
+      "mlbId": 641857
+    },
+    "0314j": {
+      "name": "Ryan Yarbrough",
+      "mlbId": 642232
+    },
+    "0317o": {
+      "name": "Jeff McNeil",
+      "mlbId": 643446
+    },
+    "0319c": {
+      "name": "Mark Leiter Jr.",
+      "mlbId": 643410
+    },
+    "031b2": {
+      "name": "Jonah Heim",
+      "mlbId": 641680
+    },
+    "031dw": {
+      "name": "Mike Yastrzemski",
+      "mlbId": 573262
+    },
+    "0374o": {
+      "name": "Chad Green",
+      "mlbId": 643338
+    },
+    "03aay": {
+      "name": "Thairo Estrada",
+      "mlbId": 642731
+    },
+    "03aoy": {
+      "name": "Sean Murphy",
+      "mlbId": 669221
+    },
+    "03avk": {
+      "name": "Luis Rengifo",
+      "mlbId": 650859
+    },
+    "03bin": {
+      "name": "Nestor Cortes Jr.",
+      "mlbId": 641482
+    },
+    "03btm": {
+      "name": "Jose Alvarado",
+      "mlbId": 621237
+    },
+    "03c65": {
+      "name": "Victor Robles",
+      "mlbId": 645302
+    },
+    "03d6n": {
+      "name": "Erick Fedde",
+      "mlbId": 607200
+    },
+    "03d6v": {
+      "name": "Michael Kopech",
+      "mlbId": 656629
+    },
+    "03djk": {
+      "name": "Tanner Houck",
+      "mlbId": 656557
+    },
+    "03dpt": {
+      "name": "Reed Garrett",
+      "mlbId": 657585
+    },
+    "03lua": {
+      "name": "Brendan Rodgers",
+      "mlbId": 663898
+    },
+    "03moe": {
+      "name": "Jesus Tinoco",
+      "mlbId": 622786
+    },
+    "03pix": {
+      "name": "Tyler Stephenson",
+      "mlbId": 663886
+    },
+    "03pjl": {
+      "name": "Ryan Mountcastle",
+      "mlbId": 663624
+    },
+    "03ql8": {
+      "name": "Bailey Falter",
+      "mlbId": 663559
+    },
+    "03qmh": {
+      "name": "Jake Cronenworth",
+      "mlbId": 630105
+    },
+    "03qml": {
+      "name": "Dylan Moore",
+      "mlbId": 664238
+    },
+    "03qne": {
+      "name": "Chris Paddack",
+      "mlbId": 663978
+    },
+    "03qqf": {
+      "name": "Alexis Diaz",
+      "mlbId": 664747
+    },
+    "03qto": {
+      "name": "Evan Phillips",
+      "mlbId": 623465
+    },
+    "03rmz": {
+      "name": "Keibert Ruiz",
+      "mlbId": 660688
+    },
+    "03vcw": {
+      "name": "Jordan Hicks",
+      "mlbId": 663855
+    },
+    "03yso": {
+      "name": "A.J. Puk",
+      "mlbId": 640462
+    },
+    "03zcx": {
+      "name": "Will Benson",
+      "mlbId": 666181
+    },
+    "0414h": {
+      "name": "Gabriel Arias",
+      "mlbId": 672356
+    },
+    "041ah": {
+      "name": "Josh Lowe",
+      "mlbId": 666139
+    },
+    "041ai": {
+      "name": "Gavin Lux",
+      "mlbId": 666158
+    },
+    "041q6": {
+      "name": "Nolan Jones",
+      "mlbId": 666134
+    },
+    "041qs": {
+      "name": "Austin Hays",
+      "mlbId": 669720
+    },
+    "041sz": {
+      "name": "Tobias Myers",
+      "mlbId": 668964
+    },
+    "041v6": {
+      "name": "Tony Gonsolin",
+      "mlbId": 664062
+    },
+    "041w3": {
+      "name": "Eli White",
+      "mlbId": 642201
+    },
+    "0421k": {
+      "name": "Bowden Francis",
+      "mlbId": 670102
+    },
+    "0421q": {
+      "name": "Greg Weissert",
+      "mlbId": 669711
+    },
+    "0423e": {
+      "name": "Anthony Bender",
+      "mlbId": 669622
+    },
+    "043f9": {
+      "name": "Pablo Lopez",
+      "mlbId": 641154
+    },
+    "045kb": {
+      "name": "Cristian Javier",
+      "mlbId": 664299
+    },
+    "0473m": {
+      "name": "Zach McKinstry",
+      "mlbId": 656716
+    },
+    "048tn": {
+      "name": "Carlos Narvaez",
+      "mlbId": 665966
+    },
+    "04alq": {
+      "name": "Pavin Smith",
+      "mlbId": 656976
+    },
+    "04aoq": {
+      "name": "Jason Foley",
+      "mlbId": 671345
+    },
+    "04b01": {
+      "name": "Tomoyuki Sugano",
+      "mlbId": 608372
+    },
+    "04de1": {
+      "name": "Triston Casas",
+      "mlbId": 671213
+    },
+    "04ee7": {
+      "name": "Clarke Schmidt",
+      "mlbId": 657376
+    },
+    "04eek": {
+      "name": "Griffin Canning",
+      "mlbId": 656288
+    },
+    "04efc": {
+      "name": "Tyler Freeman",
+      "mlbId": 671289
+    },
+    "04ehj": {
+      "name": "Dane Myers",
+      "mlbId": 667472
+    },
+    "04ekf": {
+      "name": "Calvin Faucher",
+      "mlbId": 676534
+    },
+    "04eld": {
+      "name": "J.P. Sears",
+      "mlbId": 676664
+    },
+    "04emt": {
+      "name": "Jake Meyers",
+      "mlbId": 676694
+    },
+    "04emu": {
+      "name": "Eric Wagaman",
+      "mlbId": 676572
+    },
+    "04ep8": {
+      "name": "Kutter Crawford",
+      "mlbId": 676710
+    },
+    "04fqi": {
+      "name": "George Valera",
+      "mlbId": 671655
+    },
+    "04fyo": {
+      "name": "Ronny Mauricio",
+      "mlbId": 677595
+    },
+    "04mn4": {
+      "name": "Joey Bart",
+      "mlbId": 663698
+    },
+    "04naz": {
+      "name": "Tyler Holton",
+      "mlbId": 663947
+    },
+    "04ok3": {
+      "name": "Michael Toglia",
+      "mlbId": 669911
+    },
+    "04pbp": {
+      "name": "Christopher Morel",
+      "mlbId": 666624
+    },
+    "04pmn": {
+      "name": "Parker Meadows",
+      "mlbId": 678009
+    },
+    "04ppz": {
+      "name": "Jake Irvin",
+      "mlbId": 663623
+    },
+    "04pqq": {
+      "name": "Matt Vierling",
+      "mlbId": 663837
+    },
+    "04px8": {
+      "name": "Reese Olson",
+      "mlbId": 681857
+    },
+    "04q08": {
+      "name": "Kyle Leahy",
+      "mlbId": 681517
+    },
+    "04q56": {
+      "name": "Logan OHoppe",
+      "mlbId": 681351
+    },
+    "04qow": {
+      "name": "Kevin Alcantara",
+      "mlbId": 682634
+    },
+    "04tk1": {
+      "name": "Slade Cecconi",
+      "mlbId": 677944
+    },
+    "04tzu": {
+      "name": "Ronny Henriquez",
+      "mlbId": 678692
+    },
+    "04ug5": {
+      "name": "Emmanuel Clase",
+      "mlbId": 661403
+    },
+    "04y9h": {
+      "name": "Kameron Misner",
+      "mlbId": 670224
+    },
+    "04ya2": {
+      "name": "Daniel Espino",
+      "mlbId": 682982
+    },
+    "04ydi": {
+      "name": "Ronel Blanco",
+      "mlbId": 669854
+    },
+    "04yi7": {
+      "name": "Matt Allan",
+      "mlbId": 682929
+    },
+    "04yrs": {
+      "name": "Jhonkensy Noel",
+      "mlbId": 678877
+    },
+    "04ysv": {
+      "name": "Adael Amador",
+      "mlbId": 691182
+    },
+    "04ywk": {
+      "name": "Tylor Megill",
+      "mlbId": 656731
+    },
+    "04z6k": {
+      "name": "Luisangel Acuna",
+      "mlbId": 682668
+    },
+    "050s0": {
+      "name": "Kyren Paris",
+      "mlbId": 677347
+    },
+    "050vn": {
+      "name": "Quinn Priester",
+      "mlbId": 682990
+    },
+    "05110": {
+      "name": "Yiddi Cappe",
+      "mlbId": 691268
+    },
+    "0512q": {
+      "name": "Justin Slaten",
+      "mlbId": 686580
+    },
+    "05131": {
+      "name": "Tyler Fitzgerald",
+      "mlbId": 666149
+    },
+    "0514f": {
+      "name": "Hayden Wesneski",
+      "mlbId": 669713
+    },
+    "0515v": {
+      "name": "David Hamilton",
+      "mlbId": 666152
+    },
+    "0518s": {
+      "name": "Ryan Gusto",
+      "mlbId": 687473
+    },
+    "051aa": {
+      "name": "Porter Hodge",
+      "mlbId": 687863
+    },
+    "051am": {
+      "name": "Easton Lucas",
+      "mlbId": 687922
+    },
+    "052ru": {
+      "name": "Josh Smith",
+      "mlbId": 669701
+    },
+    "054p6": {
+      "name": "Emmanuel Rodriguez",
+      "mlbId": 691181
+    },
+    "0596f": {
+      "name": "Heston Kjerstad",
+      "mlbId": 677008
+    },
+    "05acp": {
+      "name": "Justin Martinez",
+      "mlbId": 679885
+    },
+    "05gbg": {
+      "name": "Zac Veen",
+      "mlbId": 691728
+    },
+    "05gss": {
+      "name": "Jeferson Quero",
+      "mlbId": 691620
+    },
+    "05jpx": {
+      "name": "Tink Hence",
+      "mlbId": 693311
+    },
+    "05jqy": {
+      "name": "Mitchell Parker",
+      "mlbId": 680730
+    },
+    "05mx9": {
+      "name": "Felnin Celesten",
+      "mlbId": 806958
+    },
+    "05nsq": {
+      "name": "Deyvison De Los Santos",
+      "mlbId": 691277
+    },
+    "05oek": {
+      "name": "Elijah Green",
+      "mlbId": 701327
+    },
+    "05ojj": {
+      "name": "Matt Mervis",
+      "mlbId": 670223
+    },
+    "05oz7": {
+      "name": "Jose Butto",
+      "mlbId": 676130
+    },
+    "05r5e": {
+      "name": "Angel Genao",
+      "mlbId": 694197
+    },
+    "05rav": {
+      "name": "Richard Fitts",
+      "mlbId": 690916
+    },
+    "05rc3": {
+      "name": "Masataka Yoshida",
+      "mlbId": 807799
+    },
+    "05rc5": {
+      "name": "Termarr Johnson",
+      "mlbId": 702261
+    },
+    "05rfc": {
+      "name": "Lazaro Montes",
+      "mlbId": 703155
+    },
+    "05rk4": {
+      "name": "Brandon Walter",
+      "mlbId": 687888
+    },
+    "05t64": {
+      "name": "Felix Bautista",
+      "mlbId": 642585
+    },
+    "05t6u": {
+      "name": "Beau Brieske",
+      "mlbId": 689225
+    },
+    "05tce": {
+      "name": "Connor Norby",
+      "mlbId": 681393
+    },
+    "05tdk": {
+      "name": "Druw Jones",
+      "mlbId": 702258
+    },
+    "05u1y": {
+      "name": "Cam Collier",
+      "mlbId": 702253
+    },
+    "05u36": {
+      "name": "Aidan Miller",
+      "mlbId": 805795
+    },
+    "05uy5": {
+      "name": "AJ Smith-Shawver",
+      "mlbId": 700363
+    },
+    "05w9g": {
+      "name": "Randy Rodriguez",
+      "mlbId": 678495
+    },
+    "05wy1": {
+      "name": "Brayden Taylor",
+      "mlbId": 694966
+    },
+    "05xsq": {
+      "name": "Luis Ortiz",
+      "mlbId": 682847
+    },
+    "05y3p": {
+      "name": "Arjun Nimmala",
+      "mlbId": 805796
+    },
+    "05y4k": {
+      "name": "Ben Casparius",
+      "mlbId": 676508
+    },
+    "05y7n": {
+      "name": "Jarlin Susana",
+      "mlbId": 703186
+    },
+    "05ybr": {
+      "name": "Ethan Salas",
+      "mlbId": 806956
+    },
+    "05yid": {
+      "name": "Michael Arroyo",
+      "mlbId": 703197
+    },
+    "05yix": {
+      "name": "Jaison Chourio",
+      "mlbId": 702693
+    },
+    "05ym7": {
+      "name": "Fernando Cruz",
+      "mlbId": 518585
+    },
+    "05zd4": {
+      "name": "Hagen Smith",
+      "mlbId": 696146
+    },
+    "05zq4": {
+      "name": "Ryan Johnson",
+      "mlbId": 696270
+    },
+    "060gd": {
+      "name": "Quinn Mathews",
+      "mlbId": 687273
+    },
+    "060ml": {
+      "name": "Huascar Brazoban",
+      "mlbId": 623211
+    },
+    "061wi": {
+      "name": "Yu-Min Lin",
+      "mlbId": 801179
+    },
+    "0637j": {
+      "name": "Josue Briceno",
+      "mlbId": 800522
+    },
+    "06491": {
+      "name": "Orion Kerkering",
+      "mlbId": 689147
+    },
+    "0662o": {
+      "name": "Sebastian Walcott",
+      "mlbId": 806964
+    },
+    "06650": {
+      "name": "Hayden Birdsong",
+      "mlbId": 806185
+    },
+    "066ip": {
+      "name": "Mike Sirota",
+      "mlbId": 701527
+    },
+    "066mz": {
+      "name": "Brailer Guerrero",
+      "mlbId": 806967
+    },
+    "066sx": {
+      "name": "Jonny Farmelo",
+      "mlbId": 806071
+    },
+    "067zb": {
+      "name": "Jace LaViolette",
+      "mlbId": 702593
+    },
+    "06b72": {
+      "name": "George Lombard Jr.",
+      "mlbId": 806146
+    },
+    "06bs4": {
+      "name": "Daniel Schneemann",
+      "mlbId": 682177
+    },
+    "06c79": {
+      "name": "Eduardo Quintero",
+      "mlbId": 808234
+    },
+    "06c7i": {
+      "name": "Tai Peete",
+      "mlbId": 806191
+    },
+    "06cq8": {
+      "name": "Christian Moore",
+      "mlbId": 695681
+    },
+    "06eyu": {
+      "name": "Zyhir Hope",
+      "mlbId": 814307
+    },
+    "06f0q": {
+      "name": "Kristian Campbell",
+      "mlbId": 692225
+    },
+    "06fqx": {
+      "name": "Seth Halvorsen",
+      "mlbId": 678020
+    },
+    "06ho7": {
+      "name": "Paulino Santana",
+      "mlbId": 815889
+    },
+    "06hv8": {
+      "name": "Logan Evans",
+      "mlbId": 688138
+    },
+    "06j3f": {
+      "name": "Luis Pena",
+      "mlbId": 821270
+    },
+    "06kkf": {
+      "name": "Braylon Payne",
+      "mlbId": 815520
+    },
+    "06mh4": {
+      "name": "Edward Florentino",
+      "mlbId": 821273
+    },
+    "06nv7": {
+      "name": "Victor Figueroa",
+      "mlbId": 809372
+    },
+    "06psm": {
+      "name": "Andrew Salas",
+      "mlbId": 829035
+    },
+    "06rkk": {
+      "name": "Eduardo Valencia",
+      "mlbId": 680664
+    },
+    "04y9f": {
+      "name": "Ryan Zeferjahn",
+      "mlbId": 666171
+    },
+    "04mn2": {
+      "name": "Conine, Griffin",
+      "mlbId": 643377
+    }
   }
- }
 }
