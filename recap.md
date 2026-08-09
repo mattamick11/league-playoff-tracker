@@ -1,64 +1,52 @@
-**PLAYOFF WEEK 1 — SATURDAY: RYAN FLIPS THE CUT LINE**
+**SUNDAY MIDDAY — WEEK 1 ELIMINATION CHECKPOINT**
 
-All 15 Saturday games are final. One day remains before the first elimination.
+Snapshot: board is live as of 1:39 PM Pacific. Nine games are still unresolved and none of this is final — Toronto–Philadelphia is in the 12th, Cleveland–Chicago is **suspended by rain in the 2nd**, and the three afternoon games plus Houston–San Diego are still ahead. No category is settled.
 
-**Saturday-night all-play board**
+**PLAYOFF BOARD**
+Chase Sapphire — 51-26-19 (60.5)
+Landen Poop — 50-28-18 (59.0)
+hubba hubba bubba bubba 🔒 — 48-30-18 (57.0)
+Nick Kurtz in Paris — 48-33-15 (55.5)
+Small Balls — 32-47-17 (40.5)
+Yordan Redemption Tour 🔒 — 31-48-17 (39.5)
+Return of Belt to Ass — 17-65-14 (24.0)
 
-Corey — 57-25-14 | **64.0**  
-Sawyer — 49-30-17 | **57.5**  
-Tory — 45-35-16 | **53.0**  
-Bryce 🔒 — 44-37-15 | **51.5**  
-Ryan — 34-44-18 | **43.0**  
-Will 🔒 — 31-46-19 | **40.5**  
-Keller — 17-60-19 | **26.5**
+The morning belonged to the bombs. Tory got a 3-for-3, two-homer, four-RBI eruption from Pete Alonso. Sawyer answered with two homers, four RBI and a steal from Kyle Schwarber. Bryce got two homers and three RBI from Griffin Conine, plus Cam Schlittler's 7 IP/1 ER/11 K gem and a second quality start from J.T. Ginn. Corey sits second after Matthew Boyd supplied seven innings and a quality start.
 
-**The elimination race changed completely in one day.** Keller entered Saturday three points ahead of Ryan. He exits **16.5 behind him** — a **19.5-point cut-line reversal**.
+**THE CUT LINE:** Keller trails Ryan by 16.5 as of 1:39 PT. Because Ryan owns the higher-seed tiebreak, Keller has to pass him outright — a 17-point relative swing, not 16.5. Jackson Chourio's homer and CJ Abrams' steal helped, but Rocker and McGreevy combined for 8⅔ IP, 15 H and 9 ER with zero quality starts. Keller's staff ERA is 6.75. Meanwhile Logan Webb is working for Ryan.
 
-Ryan did it without a starting pitcher. Small Balls went **20-for-44 (.455) with 11 runs, 10 RBI and three steals**. Jake McCarthy supplied the week's loudest individual day: **4-for-5, two homers, four runs, three RBI and two steals**. Remove McCarthy alone and Ryan loses 11.5 record points across 14 category comparisons. Jake Mangum and Iván Herrera added three hits and two runs apiece.
+On the odds: the overnight model had Keller around 2%, roughly one in 57. Codex's live-conditioned rerun at midday put him near 0.1% — the collapse is almost entirely Rocker and McGreevy, since the overnight path ran through Keller's rotation outperforming Ryan's. Treat both as directional, not exact. The gap has also moved four times in the last hour, so read the tracker, not this number.
 
-Keller's lineup moved the opposite way: 10 hits, but only two runs, zero homers, two RBI and zero steals. His entire pitching day was Hogan Harris — 1⅓ IP, 1 ER, 2 K and a save. Ryan gained eight points; Keller lost 11.5. One Saturday turned Ryan from the team in danger into the clear favorite to survive.
+**WHAT'S LEFT**
 
-**What Keller actually needs Sunday**
+CLE–CWS: suspended, rain, bottom 2nd. Whatever plate appearances remain here are unresolved and sitting outside every projection below.
 
-Because Ryan owns the higher-seed tiebreak, Keller needs a **17.0-point relative swing** to survive; merely tying Ryan is not enough.
+DET–SF: Ryan's Logan Webb is working, with Willy Adames also active. Keller has Spencer Torkelson. This is the biggest cut-line game, because every clean Webb inning attacks Keller's IP/K route. In the loser's bracket, Matt has Troy Melton opposite Webb; Cousin has Riley Greene, Max Clark and Rafael Devers.
 
-Keller has Kumar Rocker vs. Baltimore and Michael McGreevy vs. Colorado. Ryan has Logan Webb vs. Detroit. That two-start advantage helps IP, K and QS — Keller already leads Ryan 4-2 in quality starts and 43-42 in strikeouts — but it does not solve the problem by itself.
+LAD–ARI: Keller has Freddie Freeman; Ryan has Nolan Arenado; Tory has Corbin Carroll and Justin Wrobleski; Bryce has Mookie Betts and Teoscar Hernández; Will has Ketel Marte, Geraldo Perdomo and Gabriel Moreno. Jack has Shohei Ohtani and active starter Eduardo Rodriguez, while Burz has Tommy Edman and Andy Pages.
 
-I ran 10,000 direction-only simulations using each starter's actual 2026 game logs, with hitting and relief frozen. **Keller survived zero times.** The median rotation outcome still left him 17.5 points short. Even the most favorable draw — Rocker and McGreevy combining for 12 IP, 2 ER, 11 K and two QS while Webb allowed seven runs in three innings — still left Keller four points below Ryan.
+TB–SEA: Keller's biggest remaining offensive weapons are Cal Raleigh and Taylor Ward, with Logan Gilbert and Eduard Bazardo behind them. Ryan has Randy Arozarena. Corey has both active starters, Ian Seymour and Emerson Hancock. Matt has Julio Rodríguez and Andrés Muñoz; Burz has relief options; Jack has Josh Naylor and Dominic Canzone.
 
-So Keller needs essentially all of this:
+HOU–SD tonight: Keller has Manny Machado and Ty France. Ryan has Josh Hader and Robbie Ray. Tory has Jeremy Peña; Will has Yordan Alvarez, Christian Walker and Isaac Paredes; Corey has Mason Miller. In the escape race, Matt has Fernando Tatis Jr., Burz has Gavin Sheets, Cousin has Cristian Javier and Con has Michael King.
 
-- Two strong starts, ideally **two QS and 10+ combined strikeouts**.
-- A genuine Webb blowup, not merely an average start.
-- A major hitting reversal. Keller is last in runs, tied last in homers and trails Ryan by two RBI and two steals. Three RBI can move him through the current middle cluster; two steals would tie Ryan; his AVG edge over Bryce is under a fifth of a hit and can go either way; and a power day could move both HR and OPS.
-- Bullpen help. Keller leads Ryan only 2.0 to 1.5 in SVH3, so even that small edge is not safe.
+Keller's clearest paths are RBI (31, two behind Ryan), SB (6, tied with Ryan) and the bunched IP/K/SVH3 standings, where he already leads Ryan 160–144, 55–46 and 3.0–1.5. But he has no announced starter left after Rocker and McGreevy, while Webb is currently strengthening Ryan's side. Keller needs a genuinely chaotic finish.
 
-ERA probably cannot rescue him. Keller sits at 6.54; even 12 scoreless innings from his starters would only lower it to roughly 5.14. His path is IP/K/QS plus several hitting flips and a quiet day from Ryan.
+**LOSER'S BRACKET — ONE TEAM ESCAPES TONIGHT** (separate tracker, as of 1:22 PT)
 
-**Around the rest of the field**
+Girl Dad #6 — 34-19-11 (39.5)
+Julio's Last Hurrah — 34-20-10 (39.0)
+Guerrero Warfare — 27-22-15 (34.5)
+Beat CWill — 26-28-10 (31.0)
+Girl Dad #5 — 10-42-12 (16.0)
 
-**Corey** still controls the week despite a quiet Saturday. His lineup went 9-for-48 (.188), and Jake Bennett allowed four runs in 5⅓. Kyle Tucker homered and Jacob Wilson scored twice, but Corey gave back 3.5 record points and still leads Sawyer by 6.5.
+Burz leads Matt by only half a point. A tie is enough for Matt because he owns the higher-seed tiebreak. Burz got a monster 7 IP/2 ER/12 K quality start from Jesús Luzardo. Matt countered with Misiorowski's 6 IP/3 ER/9 K quality start, homers from Francisco Alvarez and Matt Olson, and three hits from Alex Bregman.
 
-**Sawyer** held second, but Saturday hurt. Chase Burns, Gavin Williams and Walbert Ureña combined for 13⅓ innings and 11 earned runs. Williams was solid (5⅔ IP, 2 ER, 7 K); Burns and Ureña were not. Sawyer's full staff allowed 13 earned runs without a quality start, and his offense went 8-for-43.
+Do not ignore Cousin. Sean Manaea went 7 IP/1 ER with 11 strikeouts, while Brandon Nimmo, Kody Clemens and Jake Bauers all homered. That surge moved Cousin within five points and gave him a real late escape path.
 
-**Tory** had the day's most complete pitching performance. Gage Jump struck out 11 over six innings and Kyle Bradish added six innings of one-run ball. Together: **12 IP, 3 ER, 15 K and two quality starts**. Xavier Edwards drove in three, Cole Carrigg added two RBI and a steal, and Tory climbed 7.5 points into third.
+Matt and Burz are still 7-7-2 head-to-head. Matt leads R, HR, AVG, OPS, IP, K and SVH3; Burz leads RBI, hitter SO, SB, QS, H allowed, BB allowed and ERA. The fragile margins are AVG (.252 to .248), SVH3 (3.0 to 2.5) and the all-play pitching grid. Clean Melton innings add IP/K for Matt; traffic damages the ratio categories Burz controls. One Burz save or hold can also flip SVH3.
 
-**Bryce** gained 8.5 points behind the best pitching day in the field. Sandy Alcantara threw seven scoreless with eight strikeouts, and Yoshinobu Yamamoto followed with 5⅔ scoreless and six K — the classic one-out-short QS. Bryce's staff finished with **14⅔ IP, 1 ER and 18 K**. Ronald Acuña Jr. and Jordan Walker both homered.
+The live model made it Burz 50%, Matt 36%, Cousin 14% at the 1:22 PT cutoff, everyone else under 1%. Directional only — several games are live and one homer, steal or ugly inning can move multiple all-play decisions at once.
 
-**Will** is protected, which is fortunate because the field moved around him. Jac Caglianone went 4-for-4 with two homers and four RBI, while Chris Sale supplied a six-inning quality start with eight strikeouts. It was a good real-life day that still cost Will five all-play points.
-
-**Sunday's announced active starters**
-
-Bryce — Cam Schlittler vs. Atlanta; J.T. Ginn at Boston  
-Corey — Matthew Boyd at Kansas City; Emerson Hancock vs. Tampa Bay  
-Keller — Kumar Rocker vs. Baltimore; Michael McGreevy vs. Colorado  
-Ryan — Logan Webb vs. Detroit  
-Tory — Justin Wrobleski at Arizona  
-Will — no announced active starter  
-Sawyer — no announced active starter
-
-Ian Seymour is also lined up at Seattle for Corey, but MLB still has not officially named Tampa Bay's probable. Corey has Brady Singer and Shane Bieber starting from reserve; Will has Grant Holmes reserved.
-
-Keller is not mathematically eliminated. But Sunday now requires the pitching ceiling, a lineup explosion and help from Ryan — all at once.
+Next checkpoint: after the afternoon games, once we know whether Cleveland–Chicago resumes and whether the week really does come down to the active Astros and Padres in Sunday Night Baseball.
 
 **Live tracker:** https://mattamick11.github.io/league-playoff-tracker
