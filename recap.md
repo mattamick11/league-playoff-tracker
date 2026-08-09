@@ -1,55 +1,64 @@
-**PLAYOFF WEEK 1 — SATURDAY MORNING RESET**
+**PLAYOFF WEEK 1 — SATURDAY: RYAN FLIPS THE CUT LINE**
 
-We missed two nights, so here is the clean version: what changed Thursday and Friday, what is still moving, and the full pitching board for the final two days of Week 1.
+All 15 Saturday games are final. One day remains before the first elimination.
 
-**Standings through Friday**
+**Saturday-night all-play board**
 
-Corey — 59-20-17, 67.5 points (-2.0 since Wednesday)
-Sawyer — 52-25-19, 61.5 (+16.0)
-Will — 38-43-15, 45.5 (-1.0)
-Tory — 38-43-15, 45.5 (-8.0)
-Bryce — 33-43-20, 43.0 (-7.0)
-Keller — 30-50-16, 38.0 (+7.5)
-Ryan — 27-53-16, 35.0 (-5.5)
+Corey — 57-25-14 | **64.0**  
+Sawyer — 49-30-17 | **57.5**  
+Tory — 45-35-16 | **53.0**  
+Bryce 🔒 — 44-37-15 | **51.5**  
+Ryan — 34-44-18 | **43.0**  
+Will 🔒 — 31-46-19 | **40.5**  
+Keller — 17-60-19 | **26.5**
 
-Will and Bryce are protected from the Week 1 elimination. Among the other five, Ryan enters Saturday in last place, three record points behind Keller. If they finish tied, Ryan survives as the higher seed.
+**The elimination race changed completely in one day.** Keller entered Saturday three points ahead of Ryan. He exits **16.5 behind him** — a **19.5-point cut-line reversal**.
 
-**The two-day review**
+Ryan did it without a starting pitcher. Small Balls went **20-for-44 (.455) with 11 runs, 10 RBI and three steals**. Jake McCarthy supplied the week's loudest individual day: **4-for-5, two homers, four runs, three RBI and two steals**. Remove McCarthy alone and Ryan loses 11.5 record points across 14 category comparisons. Jake Mangum and Iván Herrera added three hits and two runs apiece.
 
-**Sawyer was the landslide mover.** Chase Sapphire gained 16 points in two days and went from fifth to second. Drew Rasmussen gave him seven scoreless with eight strikeouts, and Friday's lineup went 15-for-41 with 10 runs, two homers and two steals. He now leads the field in runs, AVG, OPS, ERA and fewest hits allowed. Corey still has first place, but this is suddenly a real race at the top.
+Keller's lineup moved the opposite way: 10 hits, but only two runs, zero homers, two RBI and zero steals. His entire pitching day was Hogan Harris — 1⅓ IP, 1 ER, 2 K and a save. Ryan gained eight points; Keller lost 11.5. One Saturday turned Ryan from the team in danger into the clear favorite to survive.
 
-**Keller climbed off the cut line.** Dylan Cease delivered seven scoreless with 10 strikeouts, Logan Gilbert added a quality start, Angel Martinez drove in eight runs over the two days and Jackson Chourio homered twice. That was worth a 7.5-point jump, moving the defending champion three points ahead of Ryan.
+**What Keller actually needs Sunday**
 
-**Corey remains in command.** His total slipped two points, but Payton Tolle's six innings, one earned run and absurd 14 strikeouts helped preserve a six-point lead. Corey still leads HR, RBI, IP and K and is tied for the QS lead. The weekend gives him the largest projected rotation too, so everyone chasing him needs his volume to come with some collateral damage in H, BB or ERA.
+Because Ryan owns the higher-seed tiebreak, Keller needs a **17.0-point relative swing** to survive; merely tying Ryan is not enough.
 
-**The board was roughest on Tory, Bryce and Ryan.** Tory lost eight points despite Kevin McGonigle going 5-for-7 with a homer and four runs, plus five RBI from Wilyer Abreu; on Friday, those two and Kyle Stowers supplied all nine of his hits while the rest of the lineup went 0-for-36. Bryce dropped seven even with quality starts from Shane Baz and Kevin Gausman and two Ronald Acuña Jr. homers. Ryan fell 5.5: Francisco Lindor supplied a homer, four RBI and a steal, but Friday's four starters combined for 22⅔ innings, 24 hits, 15 walks, 10 earned runs and zero quality starts. Will was almost unchanged and remains protected.
+Keller has Kumar Rocker vs. Baltimore and Michael McGreevy vs. Colorado. Ryan has Logan Webb vs. Detroit. That two-start advantage helps IP, K and QS — Keller already leads Ryan 4-2 in quality starts and 43-42 in strikeouts — but it does not solve the problem by itself.
 
-**The weekend rotation board**
+I ran 10,000 direction-only simulations using each starter's actual 2026 game logs, with hitting and relief frozen. **Keller survived zero times.** The median rotation outcome still left him 17.5 points short. Even the most favorable draw — Rocker and McGreevy combining for 12 IP, 2 ER, 11 K and two QS while Webb allowed seven runs in three innings — still left Keller four points below Ryan.
 
-These are projected ACTIVE starts: 19 are official MLB probables. Ian Seymour is the one rotation-based projection because Tampa Bay has not formally named its Sunday starter. The stat lines use each pitcher's 2026 starts and recent form. The last number is expected additional SVH3 from the active bullpen—not a promise of fractional saves.
+So Keller needs essentially all of this:
 
-**Corey — five projected starts:** Saturday Griffin Jax at Seattle and Jake Bennett vs. Oakland; Sunday Emerson Hancock vs. Tampa Bay, Matthew Boyd at Kansas City and projected Ian Seymour at Seattle. Forecast: about **26⅔ IP, 24 H, 7 BB, 25 K, 10 ER, 2.0 QS and 1.3 SVH3**.
+- Two strong starts, ideally **two QS and 10+ combined strikeouts**.
+- A genuine Webb blowup, not merely an average start.
+- A major hitting reversal. Keller is last in runs, tied last in homers and trails Ryan by two RBI and two steals. Three RBI can move him through the current middle cluster; two steals would tie Ryan; his AVG edge over Bryce is under a fifth of a hit and can go either way; and a power day could move both HR and OPS.
+- Bullpen help. Keller leads Ryan only 2.0 to 1.5 in SVH3, so even that small edge is not safe.
 
-**Bryce — four starts:** Saturday Sandy Alcantara vs. the Angels and Yoshinobu Yamamoto at Arizona; Sunday Cam Schlittler vs. Atlanta and J.T. Ginn at Boston. Forecast: about **24½ IP, 18 H, 8 BB, 24 K, 9 ER, 2.7 QS and 1.5 SVH3**.
+ERA probably cannot rescue him. Keller sits at 6.54; even 12 scoreless innings from his starters would only lower it to roughly 5.14. His path is IP/K/QS plus several hitting flips and a quiet day from Ryan.
 
-**Sawyer — three starts, all Saturday:** Chase Burns at Washington, Gavin Williams at the White Sox and Walbert Ureña at Miami. Forecast: about **17⅓ IP, 11 H, 6 BB, 20 K, 5 ER, 1.5 QS and 1.2 SVH3**.
+**Around the rest of the field**
 
-**Tory — three starts:** Saturday Gage Jump at Boston and Kyle Bradish at Texas; Sunday Justin Wrobleski at Arizona. Forecast: about **16⅔ IP, 16 H, 6 BB, 17 K, 8 ER, 1.4 QS and 2.4 SVH3**.
+**Corey** still controls the week despite a quiet Saturday. His lineup went 9-for-48 (.188), and Jake Bennett allowed four runs in 5⅓. Kyle Tucker homered and Jacob Wilson scored twice, but Corey gave back 3.5 record points and still leads Sawyer by 6.5.
 
-**Will — two starts, both Saturday:** Chris Sale at the Yankees and Peter Lambert at San Diego. Forecast: about **11⅓ IP, 9 H, 3 BB, 13 K, 3 ER, 1.1 QS and 1.3 SVH3**.
+**Sawyer** held second, but Saturday hurt. Chase Burns, Gavin Williams and Walbert Ureña combined for 13⅓ innings and 11 earned runs. Williams was solid (5⅔ IP, 2 ER, 7 K); Burns and Ureña were not. Sawyer's full staff allowed 13 earned runs without a quality start, and his offense went 8-for-43.
 
-**Keller — two starts, both Sunday:** Kumar Rocker vs. Baltimore and Michael McGreevy vs. Colorado. Forecast: about **10½ IP, 11 H, 3 BB, 9 K, 5 ER, 0.9 QS and 1.2 SVH3**.
+**Tory** had the day's most complete pitching performance. Gage Jump struck out 11 over six innings and Kyle Bradish added six innings of one-run ball. Together: **12 IP, 3 ER, 15 K and two quality starts**. Xavier Edwards drove in three, Cole Carrigg added two RBI and a steal, and Tory climbed 7.5 points into third.
 
-**Ryan — one start, Sunday:** Logan Webb vs. Detroit. Forecast: about **6⅓ IP, 5 H, 2 BB, 5 K, 3 ER, 0.6 QS and 1.3 SVH3**.
+**Bryce** gained 8.5 points behind the best pitching day in the field. Sandy Alcantara threw seven scoreless with eight strikeouts, and Yoshinobu Yamamoto followed with 5⅔ scoreless and six K — the classic one-out-short QS. Bryce's staff finished with **14⅔ IP, 1 ER and 18 K**. Ronald Acuña Jr. and Jordan Walker both homered.
 
-**What can still swing?**
+**Will** is protected, which is fortunate because the field moved around him. Jac Caglianone went 4-for-4 with two homers and four RBI, while Chris Sale supplied a six-inning quality start with eight strikeouts. It was a good real-life day that still cost Will five all-play points.
 
-Corey's grip on IP and K is the strongest on the board; the model has him finishing around 74 IP and 80 K. Sawyer is heavily favored to hold ERA and has the inside track on fewest hits allowed. Tory's six SVH3 already banked make him the favorite there, although Will is still alive with five.
+**Sunday's announced active starters**
 
-The messy categories are **QS and BB allowed**. Corey and Keller currently share the QS lead at four, with Tory on three; Corey has the most remaining volume, but Keller, Bryce, Tory and Sawyer all have realistic paths to reshuffle it. Tory has allowed only nine walks and Will 13, and their remaining projected walks are close enough that the BB lead is nowhere near settled.
+Bryce — Cam Schlittler vs. Atlanta; J.T. Ginn at Boston  
+Corey — Matthew Boyd at Kansas City; Emerson Hancock vs. Tampa Bay  
+Keller — Kumar Rocker vs. Baltimore; Michael McGreevy vs. Colorado  
+Ryan — Logan Webb vs. Detroit  
+Tory — Justin Wrobleski at Arizona  
+Will — no announced active starter  
+Sawyer — no announced active starter
 
-The hitting board is even tighter: only nine runs separate first from last, six homers separate first from last, nine RBI separate first from last and the entire SB category is packed within three steals. Bryce has the cleanest hold on fewest hitter strikeouts; Sawyer has meaningful but not untouchable cushions in AVG and OPS.
+Ian Seymour is also lined up at Seattle for Corey, but MLB still has not officially named Tampa Bay's probable. Corey has Brady Singer and Shane Bieber starting from reserve; Will has Grant Holmes reserved.
 
-**The cut-line read:** Keller and Ryan are actually tied 7-7-2 against each other. Keller's three-point advantage comes entirely from how each compares with the other five teams. Keller has two Sunday starters to Ryan's one, which gives him more QS/K/IP upside—but also more H/BB/ERA exposure. Ryan's most realistic escape route is probably his offense and bullpen: several R, HR, RBI, SB and SVH3 comparisons are one or two events from flipping. After four days of chaos, Week 1 is coming down to a very sweaty weekend.
+Keller is not mathematically eliminated. But Sunday now requires the pitching ceiling, a lineup explosion and help from Ryan — all at once.
 
 **Live tracker:** https://mattamick11.github.io/league-playoff-tracker
