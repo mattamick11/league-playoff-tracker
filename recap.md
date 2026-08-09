@@ -1,52 +1,54 @@
-**SUNDAY MIDDAY — WEEK 1 ELIMINATION CHECKPOINT**
+**SUNDAY NIGHT — WEEK 1 ON THE BRINK**
 
-Snapshot: board is live as of 1:39 PM Pacific. Nine games are still unresolved and none of this is final — Toronto–Philadelphia is in the 12th, Cleveland–Chicago is **suspended by rain in the 2nd**, and the three afternoon games plus Houston–San Diego are still ahead. No category is settled.
+Snapshot: 4:29 PM Pacific. The delayed Cleveland–Chicago game is finally over. Now it really is down to one game: Astros–Padres. These are live standings, not final results.
 
 **PLAYOFF BOARD**
-Chase Sapphire — 51-26-19 (60.5)
-Landen Poop — 50-28-18 (59.0)
-hubba hubba bubba bubba 🔒 — 48-30-18 (57.0)
-Nick Kurtz in Paris — 48-33-15 (55.5)
-Small Balls — 32-47-17 (40.5)
-Yordan Redemption Tour 🔒 — 31-48-17 (39.5)
-Return of Belt to Ass — 17-65-14 (24.0)
+Landen Poop — 54-29-13 (60.5)
+Chase Sapphire — 50-27-19 (59.5)
+hubba hubba bubba bubba 🔒 — 48-31-17 (56.5)
+Nick Kurtz in Paris — 46-35-15 (53.5)
+Small Balls — 36-46-14 (43.0)
+Yordan Redemption Tour 🔒 — 30-49-17 (38.5)
+Return of Belt to Ass — 17-64-15 (24.5)
 
-The morning belonged to the bombs. Tory got a 3-for-3, two-homer, four-RBI eruption from Pete Alonso. Sawyer answered with two homers, four RBI and a steal from Kyle Schwarber. Bryce got two homers and three RBI from Griffin Conine, plus Cam Schlittler's 7 IP/1 ER/11 K gem and a second quality start from J.T. Ginn. Corey sits second after Matthew Boyd supplied seven innings and a quality start.
+**Corey grabbed the lead.** Ian Seymour delivered 6 IP/1 ER/7 K and a quality start, Yandy Díaz went 4-for-5, and Corey climbed to 60.5 despite Emerson Hancock allowing nine hits and stopping one out short of five innings. Sawyer is only one point back, but he has nobody left tonight; Corey still has Mason Miller.
 
-**THE CUT LINE:** Keller trails Ryan by 16.5 as of 1:39 PT. Because Ryan owns the higher-seed tiebreak, Keller has to pass him outright — a 17-point relative swing, not 16.5. Jackson Chourio's homer and CJ Abrams' steal helped, but Rocker and McGreevy combined for 8⅔ IP, 15 H and 9 ER with zero quality starts. Keller's staff ERA is 6.75. Meanwhile Logan Webb is working for Ryan.
+**Ryan slammed the door on Keller.** Logan Webb went eight innings with one earned run and a quality start, then Kenley Jansen added a clean inning with three strikeouts. Keller got two hits from Spencer Torkelson, a Taylor Ward triple and 1⅔ scoreless innings from Eduard Bazardo, but he now trails Ryan by 18.5 points and loses the seed tiebreak.
 
-On the odds: the overnight model had Keller around 2%, roughly one in 57. Codex's live-conditioned rerun at midday put him near 0.1% — the collapse is almost entirely Rocker and McGreevy, since the overnight path ran through Keller's rotation outperforming Ryan's. Treat both as directional, not exact. The gap has also moved four times in the last hour, so read the tracker, not this number.
+Keller still has Manny Machado and Ty France tonight; Ryan has Josh Hader available. So this is not a formal elimination until the final box score. But the updated model found **zero Keller survivals in 50,000 ordinary-game simulations**. That is a real tightening from his roughly 2% chance entering Sunday, not a model contradiction: Webb banked eight excellent innings and almost the entire slate is now gone. At this point Keller needs an outlier Machado/France eruption, damage to several Ryan categories and simultaneous movement against the rest of the league. The plausible paths are gone; only chaos remains.
 
-**WHAT'S LEFT**
+Elsewhere, Ketel Marte's homer helped Will, who is protected and carries every Week 1 result forward. Bryce is also protected and sits third. Tory remains comfortably clear of the cut line in fourth.
 
-CLE–CWS: suspended, rain, bottom 2nd. Whatever plate appearances remain here are unresolved and sitting outside every projection below.
+**LOSER'S BRACKET — THIS IS THE REAL SUNDAY-NIGHT FIGHT**
+Julio's Last Hurrah — 33-20-11 (38.5)
+Girl Dad #6 — 33-22-9 (37.5)
+Guerrero Warfare — 30-20-14 (37.0)
+Beat CWill — 25-29-10 (30.0)
+Girl Dad #5 — 12-42-10 (17.0)
 
-DET–SF: Ryan's Logan Webb is working, with Willy Adames also active. Keller has Spencer Torkelson. This is the biggest cut-line game, because every clean Webb inning attacks Keller's IP/K route. In the loser's bracket, Matt has Troy Melton opposite Webb; Cousin has Riley Greene, Max Clark and Rafael Devers.
+Matt leads Burz by one point after Troy Melton threw six scoreless innings with five strikeouts and a quality start. Then José Ramírez changed the race with a late ninth-inning sacrifice fly, moving Cousin into a tie with Burz for the RBI lead, taking half a point from Burz and adding a full point to Cousin. Cousin is now only 1.5 back, and the higher-seed tiebreak means he wins if he draws even with Matt.
 
-LAD–ARI: Keller has Freddie Freeman; Ryan has Nolan Arenado; Tory has Corbin Carroll and Justin Wrobleski; Bryce has Mookie Betts and Teoscar Hernández; Will has Ketel Marte, Geraldo Perdomo and Gabriel Moreno. Jack has Shohei Ohtani and active starter Eduardo Rodriguez, while Burz has Tommy Edman and Andy Pages.
+The entire escape race now runs through three players: **Fernando Tatis Jr. for Matt, Gavin Sheets for Burz and Cristian Javier for Cousin.**
 
-TB–SEA: Keller's biggest remaining offensive weapons are Cal Raleigh and Taylor Ward, with Logan Gilbert and Eduard Bazardo behind them. Ryan has Randy Arozarena. Corey has both active starters, Ian Seymour and Emerson Hancock. Matt has Julio Rodríguez and Andrés Muñoz; Burz has relief options; Jack has Josh Naylor and Dominic Canzone.
+Matt and Burz remain 7-7-2 head-to-head. Matt leads R, HR, AVG, OPS, IP, K and SVH3; Burz leads RBI, hitter SO, SB, QS, H allowed, BB allowed and ERA. Their batting averages are separated by barely one point: .244 to .243. If Sheets outhits Tatis by one hit over comparable at-bats, that category is likely to flip. A Tatis RBI can also begin rescuing Matt from last place in RBI, while two Tatis steals would pull him even with Burz's league-leading 10.
 
-HOU–SD tonight: Keller has Manny Machado and Ty France. Ryan has Josh Hader and Robbie Ray. Tory has Jeremy Peña; Will has Yordan Alvarez, Christian Walker and Isaac Paredes; Corey has Mason Miller. In the escape race, Matt has Fernando Tatis Jr., Burz has Gavin Sheets, Cousin has Cristian Javier and Con has Michael King.
+Javier is the night’s biggest lever. Cousin currently has 63 K, four quality starts and the league's best 12 walks allowed. **A Javier quality start by itself adds 1.5 all-play points — exactly enough to tie Matt and send Cousin through on seed, as long as he protects the other categories.** Four strikeouts would pass Matt and add another point; seven would pass both Matt and Con. Walks are the counterweight: one costs half a BB point and two cost a full point. Seven scoreless innings would also move Cousin ahead of Matt in ERA, while a short or ugly start can kill the rally.
 
-Keller's clearest paths are RBI (31, two behind Ryan), SB (6, tied with Ryan) and the bunched IP/K/SVH3 standings, where he already leads Ryan 160–144, 55–46 and 3.0–1.5. But he has no announced starter left after Rocker and McGreevy, while Webb is currently strengthening Ryan's side. Keller needs a genuinely chaotic finish.
+The final 50,000-run model makes the escape race **Cousin 43%, Burz 39%, Matt 19%**. Yes, Matt leads right now — but Cousin still has an entire starting-pitcher line coming, while the Tatis–Sheets duel puts Matt's razor-thin AVG advantage directly in play. These are directional odds, not destiny. One Tatis or Sheets hit, one Javier walk, or one late reliever decision can change who gets out.
 
-**LOSER'S BRACKET — ONE TEAM ESCAPES TONIGHT** (separate tracker, as of 1:22 PT)
+**SUNDAY NIGHT ROSTER WATCH**
+Will — Yordan Alvarez, Isaac Paredes, Christian Walker
+Tory — Jeremy Peña
+Corey — Mason Miller
+Ryan — Josh Hader available
+Keller — Manny Machado, Ty France
 
-Girl Dad #6 — 34-19-11 (39.5)
-Julio's Last Hurrah — 34-20-10 (39.0)
-Guerrero Warfare — 27-22-15 (34.5)
-Beat CWill — 26-28-10 (31.0)
-Girl Dad #5 — 10-42-12 (16.0)
+Matt — Fernando Tatis Jr.
+Burz — Gavin Sheets
+Cousin — Cristian Javier starting
+Con — Michael King available
+Jack — Jackson Merrill
 
-Burz leads Matt by only half a point. A tie is enough for Matt because he owns the higher-seed tiebreak. Burz got a monster 7 IP/2 ER/12 K quality start from Jesús Luzardo. Matt countered with Misiorowski's 6 IP/3 ER/9 K quality start, homers from Francisco Alvarez and Matt Olson, and three hits from Alex Bregman.
-
-Do not ignore Cousin. Sean Manaea went 7 IP/1 ER with 11 strikeouts, while Brandon Nimmo, Kody Clemens and Jake Bauers all homered. That surge moved Cousin within five points and gave him a real late escape path.
-
-Matt and Burz are still 7-7-2 head-to-head. Matt leads R, HR, AVG, OPS, IP, K and SVH3; Burz leads RBI, hitter SO, SB, QS, H allowed, BB allowed and ERA. The fragile margins are AVG (.252 to .248), SVH3 (3.0 to 2.5) and the all-play pitching grid. Clean Melton innings add IP/K for Matt; traffic damages the ratio categories Burz controls. One Burz save or hold can also flip SVH3.
-
-The live model made it Burz 50%, Matt 36%, Cousin 14% at the 1:22 PT cutoff, everyone else under 1%. Directional only — several games are live and one homer, steal or ugly inning can move multiple all-play decisions at once.
-
-Next checkpoint: after the afternoon games, once we know whether Cleveland–Chicago resumes and whether the week really does come down to the active Astros and Padres in Sunday Night Baseball.
+One game left. Keller needs a miracle to survive; Matt, Burz and Cousin are about to decide who escapes the loser's bracket on national television.
 
 **Live tracker:** https://mattamick11.github.io/league-playoff-tracker
