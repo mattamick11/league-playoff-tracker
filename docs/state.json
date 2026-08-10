@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-10T16:51:17-07:00",
+ "generated": "2026-08-10T16:58:30-07:00",
  "leagueName": "League of Lords",
  "teams": {
   "71lgikv0mm9mb3pu": {
@@ -55,34 +55,34 @@
  ],
  "weekRecords": {
   "71lgikv0mm9mb3pu": [
-   4,
-   17,
-   59
+   6,
+   20,
+   54
   ],
   "o6otuk5lmm9mb3pv": [
    15,
-   15,
-   50
+   19,
+   46
   ],
   "zwna71lqmm9mb3pv": [
-   6,
-   11,
-   63
+   16,
+   10,
+   54
   ],
   "urshjvwwmm9mb3pv": [
-   8,
-   10,
-   62
+   16,
+   16,
+   48
   ],
   "tvfy2y7hmm9mb3pv": [
    9,
-   9,
-   62
+   14,
+   57
   ],
   "d49e5b6bmm9mb3pv": [
-   29,
-   9,
-   42
+   28,
+   11,
+   41
   ]
  },
  "weekValues": {
@@ -113,14 +113,14 @@
    "CYC": 0,
    "NH": 0,
    "QS": 0,
-   "HA": 2,
+   "HA": 3,
    "BBA": 0,
-   "K": 2,
-   "IP": 2,
+   "K": 3,
+   "IP": 3,
    "SVH3": 0.0,
    "AVG": 0.0,
    "OPS": 0.0,
-   "ERA": 0.0
+   "ERA": 18.0
   },
   "zwna71lqmm9mb3pv": {
    "R": 0,
@@ -136,11 +136,29 @@
    "K": 0,
    "IP": 0,
    "SVH3": 0.0,
-   "AVG": 0.0,
-   "OPS": 0.0,
+   "AVG": 0.5,
+   "OPS": 1.5,
    "ERA": Infinity
   },
   "urshjvwwmm9mb3pv": {
+   "R": 0,
+   "HR": 0,
+   "RBI": 0,
+   "SO": 0,
+   "SB": 0,
+   "CYC": 0,
+   "NH": 0,
+   "QS": 0,
+   "HA": 1,
+   "BBA": 1,
+   "K": 1,
+   "IP": 3,
+   "SVH3": 0.0,
+   "AVG": 0.0,
+   "OPS": 0.3333333333333333,
+   "ERA": 0.0
+  },
+  "tvfy2y7hmm9mb3pv": {
    "R": 0,
    "HR": 0,
    "RBI": 0,
@@ -158,24 +176,6 @@
    "OPS": 0.3333333333333333,
    "ERA": Infinity
   },
-  "tvfy2y7hmm9mb3pv": {
-   "R": 0,
-   "HR": 0,
-   "RBI": 0,
-   "SO": 0,
-   "SB": 0,
-   "CYC": 0,
-   "NH": 0,
-   "QS": 0,
-   "HA": 0,
-   "BBA": 0,
-   "K": 0,
-   "IP": 0,
-   "SVH3": 0.0,
-   "AVG": 0.0,
-   "OPS": 0.5,
-   "ERA": Infinity
-  },
   "d49e5b6bmm9mb3pv": {
    "R": 2,
    "HR": 0,
@@ -188,7 +188,7 @@
    "HA": 1,
    "BBA": 0,
    "K": 2,
-   "IP": 8,
+   "IP": 9,
    "SVH3": 0.0,
    "AVG": 0.2,
    "OPS": 0.8285714285714285,
@@ -215,34 +215,34 @@
  },
  "cumulative": {
   "71lgikv0mm9mb3pu": [
-   33,
-   67,
-   76
+   35,
+   70,
+   71
   ],
   "o6otuk5lmm9mb3pv": [
    64,
-   45,
-   67
+   49,
+   63
   ],
   "zwna71lqmm9mb3pv": [
-   42,
-   57,
-   77
+   52,
+   56,
+   68
   ],
   "urshjvwwmm9mb3pv": [
+   61,
    53,
-   47,
-   76
+   62
   ],
   "tvfy2y7hmm9mb3pv": [
    64,
-   37,
-   75
+   42,
+   70
   ],
   "d49e5b6bmm9mb3pv": [
-   80,
-   36,
-   60
+   79,
+   38,
+   59
   ],
   "dyfhxlh1mm9mb3pu": [
    17,
