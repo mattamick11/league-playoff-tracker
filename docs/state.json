@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-14T13:54:27-07:00",
+ "generated": "2026-08-14T14:05:24-07:00",
  "leagueName": "League of Lords",
  "teams": {
   "71lgikv0mm9mb3pu": {
@@ -56,13 +56,13 @@
  "weekRecords": {
   "71lgikv0mm9mb3pu": [
    46,
-   19,
-   15
+   18,
+   16
   ],
   "o6otuk5lmm9mb3pv": [
-   39,
+   38,
    29,
-   12
+   13
   ],
   "zwna71lqmm9mb3pv": [
    21,
@@ -97,12 +97,12 @@
    "QS": 3,
    "HA": 22,
    "BBA": 9,
-   "K": 27,
-   "IP": 96,
-   "SVH3": 3.0,
+   "K": 28,
+   "IP": 98,
+   "SVH3": 4.0,
    "AVG": 0.2945205479452055,
    "OPS": 0.8392474005611487,
-   "ERA": 3.65625
+   "ERA": 3.5816326530612246
   },
   "o6otuk5lmm9mb3pv": {
    "R": 25,
@@ -216,13 +216,13 @@
  "cumulative": {
   "71lgikv0mm9mb3pu": [
    75,
-   69,
-   32
+   68,
+   33
   ],
   "o6otuk5lmm9mb3pv": [
-   88,
+   87,
    59,
-   29
+   30
   ],
   "zwna71lqmm9mb3pv": [
    57,
