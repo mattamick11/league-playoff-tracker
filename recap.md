@@ -1,29 +1,28 @@
-**WEDNESDAY — PLAYOFF WEEK 2**
+**THURSDAY — PLAYOFF WEEK 2**
 
-Bryce owned Wednesday. Hubba hubba hit **.436/1.279** with 12 runs, 3 homers and 13 RBI, pushing Bryce from 92.0 to **106.5 cumulative points**. Mookie Betts was perfect at the plate, Liam Hicks drove in three and Seiya Suzuki added two runs and two RBI. Shane Baz gave back five runs in three innings, but the offense more than covered it.
+Sawyer detonated the standings Thursday. Chase Sapphire hit .310/.931 with 3 homers and 9 RBI—Kyle Schwarber went deep twice, Caleb Durbin drove in five—and Walbert Ureña added six scoreless. Sawyer jumped from 84.0 to 95.0 cumulative points and climbed above the current survival line.
 
-Tory stayed close with an 11-run, three-homer night led by Corbin Carroll, Zack Gelof and Endy Rodríguez. Corey reached 101.5 behind Ben Rice’s three runs, Alec Burleson’s three RBI and a Cade Smith save. Will went the other direction: four runs, no homers and a five-run Will Warren start dropped him from 96.0 to 86.5.
+Bryce absorbed the opposite swing: hubba hit .167/.394 with one run, while Kevin Gausman allowed six earned in 4⅔ innings. That dropped Bryce from 106.5 to 97.5. Corey’s offense did not score, but Payton Tolle’s eight scoreless kept him close. Tory still owns the cumulative lead despite a quiet Thursday. Will squeezed six runs and two homers from just 11 at-bats, but late relief damage cost him a point and a half. Ryan hit .361/.966 and picked up ground. The Friday lineup reset now matters: Ryan enters the weekend 17.0 points behind Will.
 
-Ryan received quality starts from José Soriano and Zac Thornton, but his hitters went **6-for-49 (.122)**. Sawyer hit .320 and stole twice, yet neither team homered. Ryan now trails Sawyer’s survival line by 14.0 with four scoring days remaining.
-
-**Cumulative snapshot:** Bryce 106.5; Tory 103.0; Corey 101.5; Will 86.5; Sawyer 84.0; Ryan 70.0.
+**Cumulative snapshot:** Tory 100.5; Bryce 97.5; Sawyer 95.0; Corey 94.5; Will 90.5; Ryan 73.5.
 
 **Top 3 Hitters**
-1. Mookie Betts (Bryce) — 3-for-3, HR, 2 RBI, BB
-2. Liam Hicks (Bryce) — 3-for-5, HR, 3 RBI
-3. Ben Rice (Corey) — 2-for-4, 3 R, RBI, SB, BB
+1. Caleb Durbin (Sawyer) — 3-for-5, HR, 5 RBI
+2. Kyle Schwarber (Sawyer) — 2-for-5, 2 HR, 3 RBI
+3. Sal Stewart (Will) — 2-for-3, HR, 4 R, 2 RBI
 
 **Top 3 Pitchers**
-1. José Soriano (Ryan) — 6 IP, 1 ER, 4 K, QS
-2. Cade Smith (Corey) — 1⅓ scoreless, 3 K, SV
-3. Zac Thornton (Ryan) — 6 IP, 3 ER, 2 K, QS
+1. Payton Tolle (Corey) — 8 IP, 0 ER, 2 H, 4 K, QS
+2. Walbert Ureña (Sawyer) — 6 IP, 0 ER, 2 H, 5 K, QS
+3. Clayton Beeter (Will) — 1 scoreless IP, 1 K
 
-**Thursday starters**
-Will — no announced probable starter
-Bryce — Kevin Gausman at Washington
-Ryan — no announced probable starter
-Tory — no announced probable starter
-Corey — Payton Tolle at Toronto
-Sawyer — Walbert Ureña vs. Texas
+**Friday probable starters — currently active**
+Will — Peter Lambert vs. Seattle
+Bryce — Sandy Alcantara at Cincinnati
+Bryce — Yoshinobu Yamamoto vs. Milwaukee
+Corey — Jake Bennett at Pittsburgh
+Corey — Landen Roupp vs. Colorado
+Sawyer — Gavin Williams vs. San Diego
+Sawyer — Chase Burns vs. Miami
 
 **Live tracker:** https://mattamick11.github.io/league-playoff-tracker
