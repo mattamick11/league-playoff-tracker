@@ -1,53 +1,34 @@
-**FRIDAY MORNING — WEEK 2 WEEKEND PREVIEW**
+**Friday Night — Week 2 Playoff Recap**
 
-Lineups lock with Cardinals–Cubs at **11:20 AM PT**, so every Friday-through-Sunday decision has to be made before then.
+Friday flipped the cumulative board. Will gained 8.5 points and vaulted into the lead after his lineup went 19-for-48 (.396) with 3 homers, 14 RBI and only five strikeouts. Jac Caglianone drove in five, Christian Walker added three, and Chris Sale supplied nine strikeouts and a quality start. That is a proper one-day takeover.
 
-**Cumulative snapshot:** Tory 100.5; Bryce 97.5; Sawyer 95.0; Corey 94.5; Will 90.5; Ryan 73.5.
+Sawyer somehow gained two points despite going 4-for-36 and allowing eight earned runs. Chase Burns carried the operation with seven scoreless innings, while Sawyer's staff accumulated 15⅔ innings, 17 strikeouts, a quality start and two holds. He gained ground in the pitching counting categories while actively setting fire to AVG and hits allowed. All-play baseball remains deeply stupid and completely accurate.
 
-Nobody is mathematically safe, but the board has clear tiers. Tory is in the strongest position, while Bryce, Sawyer and Corey have meaningful cushions. Will owns the survival line. Ryan is 17 points back—but after modeling the remaining hitters, starters and bullpen usage, the schedule makes Ryan–Will much tighter than that number looks.
+Ryan remains the team in real danger, 18.5 points behind Corey. His cleanest weekend openings are compressed: one homer would tie Sawyer, his .719 OPS is only .001 behind Sawyer's .720, and Logan Webb, Tarik Skubal and Eury Pérez give him a legitimate pitching push. But he needs several category jumps—not one lucky result. Only 7.5 points separate Will in first from Corey in fifth, so everyone above Ryan still has plenty to play for.
 
-**Ryan’s path:** his four starts are excellent: Logan Webb against Colorado on Saturday, then Tarik Skubal, Shota Imanaga and Eury Pérez on Sunday. That should defend his leads in innings and strikeouts and gives him a real quality-start route. But Ryan already owns the maximum five all-play points in both IP and K; those categories alone cannot create the comeback. He needs the offense to move from .257/.741, climb out of last at 10 RBI, and add power or speed. Byron Buxton was activated Thursday and is exactly the kind of HR/SB swing piece Ryan needs. His relievers also matter: Ryan has only 1.0 SVH3, so a productive weekend from Hader, Jansen, Bryan Abreu or Brandyn Garcia could flip several comparisons.
+**Cumulative snapshot:** Will 99.0; Sawyer 97.0; Tory 96.0; Bryce 95.0; Corey 91.5; Ryan 73.0.
 
-**Will’s defense:** he currently owns all five opponent points in RBI, hitter strikeouts, AVG and OPS. Those are valuable—but volatile over three full days. Will’s best counter is to hold the rate categories, keep collecting bullpen points, and strongly consider activating Randy Dobnak for a fourth start. If Will’s offense stays efficient, Ryan has to be almost perfect elsewhere.
+**Top 3 Hitters**
+1. Jac Caglianone (Will) — 3-for-4, 2 R, HR, 5 RBI
+2. Christian Walker (Will) — 2-for-5, 2 R, HR, 3 RBI
+3. Seiya Suzuki (Bryce) — 2-for-4, R, HR, 3 RBI
 
-**The teams above them:** Tory has enough cushion to protect his 2.51 ERA instead of blindly chasing every available inning. Bryce’s 8.10 ERA and zero quality starts look ugly, but his four-start slate gives him plenty of recovery runway. Sawyer has only three starts, but all three matchups are playable. Corey has the weekend’s biggest volume-versus-ratios decision: he owns a 1.50 ERA and only 18 hits allowed, but also just 18 strikeouts. Matt Boyd is the cleanest extra activation; Shane Bieber against the Yankees is the true risk/reward call.
+**Top 3 Pitchers**
+1. Chase Burns (Sawyer) — 7 IP, 0 ER, 4 H, 0 BB, 8 K, QS
+2. Chris Sale (Will) — 6 IP, 1 ER, 5 H, 0 BB, 9 K, QS
+3. Yoshinobu Yamamoto (Bryce) — 6 IP, 1 ER, 4 H, 2 BB, 9 K, QS
 
-**Weekend starter board**
-
-Will — Friday: Peter Lambert vs. Seattle — ACTIVE
-Will — Saturday: Hayden Wesneski vs. Seattle — ACTIVE
-Will — Saturday: Randy Dobnak at Los Angeles Angels — RESERVE, lean activate
-Will — Sunday: Sean Burke at Detroit — ACTIVE
-
-Bryce — Friday: Sandy Alcantara at Cincinnati — ACTIVE
-Bryce — Friday: Yoshinobu Yamamoto vs. Milwaukee — ACTIVE
-Bryce — Saturday: Cam Schlittler at Toronto — ACTIVE
-Bryce — Sunday: Christian Scott vs. Washington — ACTIVE
-
-Ryan — Saturday: Logan Webb vs. Colorado — ACTIVE
-Ryan — Sunday: Tarik Skubal vs. Milwaukee — ACTIVE
-Ryan — Sunday: Shota Imanaga vs. St. Louis — ACTIVE
-Ryan — Sunday: Eury Pérez at Cincinnati — ACTIVE
-
-Tory — Friday: Jackson Jobe vs. Chicago White Sox — RESERVE, lean activate
-Tory — Saturday: Reid Detmers vs. Kansas City — ACTIVE
-Tory — Saturday: MacKenzie Gore at Athletics — ACTIVE
-Tory — Sunday: Bryan Woo at Houston — ACTIVE
-Tory — Sunday: Logan Henderson at Los Angeles Dodgers — ACTIVE
-Tory — Friday: Clay Holmes vs. St. Louis — RESERVE, optional volume/ratio call
-Tory — Saturday: Justin Wrobleski vs. Milwaukee — RESERVE, optional volume/ratio call
-
-Corey — Friday: Jake Bennett at Pittsburgh — ACTIVE
-Corey — Friday: Landen Roupp vs. Colorado — ACTIVE
-Corey — Saturday: Matt Boyd vs. St. Louis — RESERVE, lean activate
-Corey — Saturday: Emerson Hancock at Houston — ACTIVE
-Corey — Saturday: Ian Seymour vs. Baltimore — ACTIVE
-Corey — Saturday: Brady Singer vs. Miami — ACTIVE
-Corey — Sunday: Noah Cameron at Los Angeles Angels — ACTIVE
-Corey — Friday: Shane Bieber vs. New York Yankees — RESERVE, optional ratio risk
-
-Sawyer — Friday: Gavin Williams vs. San Diego — ACTIVE
-Sawyer — Friday: Chase Burns vs. Miami — ACTIVE
-Sawyer — Saturday: Sonny Gray at Pittsburgh — ACTIVE
+**Saturday probable starters**
+Will — Hayden Wesneski vs. Seattle
+Will — Grant Holmes vs. Arizona
+Bryce — J.T. Ginn vs. Texas
+Bryce — Cam Schlittler at Toronto
+Ryan — Logan Webb vs. Colorado
+Tory — Reid Detmers vs. Kansas City
+Tory — Justin Wrobleski vs. Milwaukee
+Corey — Emerson Hancock at Houston
+Corey — Ian Seymour vs. Baltimore
+Corey — Brady Singer vs. Miami
+Sawyer — Sonny Gray at Pittsburgh
 
 **Live tracker:** https://mattamick11.github.io/league-playoff-tracker
