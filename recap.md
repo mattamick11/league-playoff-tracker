@@ -1,39 +1,29 @@
-**Saturday Night — Week 2 Playoff Recap**
+**ONE GAME LEFT**
 
-Saturday reordered the entire board. Tory went 18-for-51 (.353) with 8 runs and two homers while his staff threw 17 innings, 21 strikeouts and a 2.12 ERA. Reid Detmers did most of it alone: 8 innings, 2 hits, 0 runs, 11 strikeouts. Tory gained 7.5 points and moved from third to first.
+Fourteen finals are in. Only Seattle–Houston is still going, and Randy Arozarena opened it with a home run for Ryan.
 
-Will went the other way, and it was entirely the rotation. His bats were fine — 12-for-43 with 7 runs — but Hayden Wesneski and Grant Holmes combined for 7⅔ innings, 13 hits and 11 earned runs. His week ERA went from 3.22 to 4.56, which turned a category he was winning 5-0 into one he now loses 0-5. Nine points gone in an afternoon, first place to fifth.
+Corey 107.5
+Tory 104.0
+Bryce 96.5
+Sawyer 85.5
+Will 83.0
+Ryan 75.0
 
-Corey banked three quality starts (Hancock, Seymour, Singer) for +2.0. Bryce added 19 strikeouts and a Jake Latz save for +2.5. Sawyer lost 2.5 despite Sonny Gray's seven shutout innings, because his hitters went 7-for-46 (.152).
+Ryan is in the elimination seat and needs **8.5 points** on Will. A tie sends him home, so it has to be clean.
 
-Ryan got Logan Webb's quality start and almost nothing else — 13-for-49 with 3 runs and 15 strikeouts. He lost half a point on a day he needed several.
+He has three men left in the game: Arozarena, Josh Hader, Bryan Abreu. Will has three: Paredes, Walker, Alvarez.
 
-**Cumulative snapshot:** Tory 103.5; Bryce 97.5; Sawyer 94.5; Corey 93.5; Will 90.0; Ryan 72.5.
+**What Ryan can win himself**
+Hader save — worth 1.5. He's tied with Tory at 2.0 and a save clears Corey too.
+Abreu hold behind it — another 1.0.
+A second Arozarena homer — 1.0. He's tied with Bryce at 8.
+Two steals — 1.5. That catches Will and Sawyer at 6.
 
-**Top 3 Hitters**
-1. Isaac Paredes (Will) — 3-for-4, R, HR, 2 RBI
-2. Wilyer Abreu (Tory) — 3-for-4, R, HR, 2 2B, RBI
-3. Alec Burleson (Corey) — 1-for-3, 3 R, HR, 2 RBI, BB
+That's five of the eight and a half. **The rest has to come off Will, and none of it is Ryan's to control:**
+Will's three bats striking out three times — costs him 1.5. He's tied with Corey at 45.
+A Bryan Woo quality start — costs him 1.5. Will is tied with Tory at 4, and ahead by two outs in innings.
+Jeremy Peña scoring twice — costs him 1.0. Will leads Tory 43 to 42 in runs.
 
-**Top 3 Pitchers**
-1. Reid Detmers (Tory) — 8 IP, 0 ER, 2 H, 0 BB, 11 K, QS
-2. Sonny Gray (Sawyer) — 7 IP, 0 ER, 6 H, 1 BB, 7 K, QS
-3. Emerson Hancock (Corey) — 7 IP, 2 ER, 5 H, 2 BB, 8 K, QS
-
-**SUNDAY — LAST DAY OF WEEK 2**
-
-Week 2 ends tonight and the lowest cumulative total is eliminated. Ryan trails Will by 17.5, and a tie goes to the higher seed, so he needs a full 18.0-point swing. He does have the best arms left on the board — Skubal and Eury Pérez — but he is 3-10-3 head-to-head against Will right now, and RBI (17 to 46) and AVG (.253 to .312) are not one-day gaps.
-
-Sawyer has no announced starter, so his league-best 2.76 ERA is locked in while IP, quality starts and strikeouts erode around him. Only 13.5 points separate Tory in first from Will in fifth, and everyone still has Week 3 to survive.
-
-**Sunday probable starters**
-Ryan — Tarik Skubal vs. Milwaukee
-Ryan — Eury Pérez at Cincinnati
-Tory — Logan Henderson at the Dodgers
-Tory — Bryan Woo at Houston (last game, 4:20 PT)
-Bryce — Christian Scott vs. Washington
-Will — Sean Burke at Detroit
-Corey — Noah Cameron at the Angels
-Sawyer — none announced
+Every one of those has to land. Nothing here is final until Houston is.
 
 **Live tracker:** https://mattamick11.github.io/league-playoff-tracker
