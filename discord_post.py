@@ -24,6 +24,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 HISTORY = os.path.join(ROOT, "docs", "history.json")
+STATE = os.path.join(ROOT, "docs", "state.json")
 MARKER = os.path.join(ROOT, "docs", "last_discord_post.json")
 PAGE_URL = "https://mattamick11.github.io/league-playoff-tracker/"
 
@@ -46,6 +47,26 @@ def current_slot(now):
     if not passed:
         return None
     return f"{now.date().isoformat()}T{max(passed):02d}"
+
+
+def eliminated_names():
+    """Team names already knocked out, so the snapshot only lists live teams.
+
+    Reads docs/state.json, which tracker.py rewrites on every run. A team lands
+    in `eliminated` once the week that knocked it out is complete, so this
+    drops each week's loser by itself the morning after -- no edit needed here
+    when the field shrinks. Fails open: if state is unreadable we post everyone
+    rather than post nothing.
+    """
+    try:
+        with open(STATE, encoding="utf-8") as f:
+            state = json.load(f)
+        teams = state.get("teams", {})
+        return {teams[t]["name"] for t in state.get("eliminated", [])
+                if t in teams}
+    except Exception as e:  # noqa: BLE001
+        print(f"! could not read eliminated list ({e}); showing all teams")
+        return set()
 
 
 def already_posted(slot):
@@ -96,7 +117,16 @@ def main():
         print("Playoffs not underway - skipping Discord post.")
         return
 
-    order = sorted(records.items(), key=lambda kv: -points(kv[1]))
+    out = eliminated_names()
+    live = {n: r for n, r in records.items() if n not in out}
+    if not live:
+        print("Every team reads as eliminated - skipping rather than "
+              "posting an empty board.")
+        return
+    if out:
+        print(f"Omitting eliminated: {', '.join(sorted(out))}")
+
+    order = sorted(live.items(), key=lambda kv: -points(kv[1]))
     lead = points(order[0][1])
     medals = ["\U0001F947", "\U0001F948", "\U0001F949"]
     lines = [f"\U0001F3C6 **League of Lords Playoffs — {week} update**", ""]
