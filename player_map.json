@@ -18,7 +18,22 @@
       "06rkk": "Eduardo Valencia, MLB 680664, C-DET, debuted 2026-07-09. Added to Small Balls 2026-08-02 (dropped Jo Adell). Absent from the Aug 2 player_pool snapshot because he debuted after it. Identified from Matt's Fantrax transaction screenshot + UT lineup slot (only hitter among the three adds).",
       "04y9f": "Ryan Zeferjahn, MLB 666171, RP-CHC, debuted 2024-08-25. Added to Small Balls 2026-08-03 2:13PM (dropped Robert Suarez). RP slot, RESERVE."
     },
-    "players_total": 783
+    "players_total": 783,
+    "corrections": [
+      {
+        "fantraxId": "0529l",
+        "was": {
+          "name": "Rodriguez, Endy",
+          "mlbId": 677594
+        },
+        "now": {
+          "name": "Endy Rodriguez",
+          "mlbId": 682848
+        },
+        "date": "2026-08-16",
+        "why": "MLB people/search on the surname-first string \"Rodriguez, Endy\" returned Julio Rodriguez (677594) first; the resolver took the first active hit without verifying the returned name matched. Julio Rodriguez was being scored for Nick Kurtz in Paris for all of Week 2 while the real Endy Rodriguez (682848) had not played since 2026-08-07."
+      }
+    ]
   },
   "players": {
     "04efa": {
@@ -3162,8 +3177,8 @@
       "mlbId": 655316
     },
     "0529l": {
-      "name": "Rodriguez, Endy",
-      "mlbId": 677594
+      "name": "Endy Rodriguez",
+      "mlbId": 682848
     }
   }
 }
