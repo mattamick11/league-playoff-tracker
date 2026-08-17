@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16T23:54:11-07:00",
+ "generated": "2026-08-17T00:04:15-07:00",
  "leagueName": "League of Lords",
  "teams": {
   "71lgikv0mm9mb3pu": {
@@ -31,198 +31,192 @@
    "seed": 7
   }
  },
- "currentWeek": "Week 2",
+ "currentWeek": "Week 3",
  "isChampionship": false,
  "periods": [
   {
-   "period": 41,
-   "start": "2026-08-10",
-   "end": "2026-08-13"
+   "period": 43,
+   "start": "2026-08-17",
+   "end": "2026-08-20"
   },
   {
-   "period": 42,
-   "start": "2026-08-14",
-   "end": "2026-08-16"
+   "period": 44,
+   "start": "2026-08-21",
+   "end": "2026-08-23"
   }
  ],
  "participants": [
   "71lgikv0mm9mb3pu",
   "o6otuk5lmm9mb3pv",
-  "zwna71lqmm9mb3pv",
   "urshjvwwmm9mb3pv",
   "tvfy2y7hmm9mb3pv",
   "d49e5b6bmm9mb3pv"
  ],
  "weekRecords": {
   "71lgikv0mm9mb3pu": [
-   37,
-   31,
-   12
+   0,
+   0,
+   64
   ],
   "o6otuk5lmm9mb3pv": [
-   33,
-   35,
-   12
-  ],
-  "zwna71lqmm9mb3pv": [
-   24,
-   43,
-   13
+   0,
+   0,
+   64
   ],
   "urshjvwwmm9mb3pv": [
-   50,
-   15,
-   15
+   0,
+   0,
+   64
   ],
   "tvfy2y7hmm9mb3pv": [
-   40,
-   29,
-   11
+   0,
+   0,
+   64
   ],
   "d49e5b6bmm9mb3pv": [
-   18,
-   49,
-   13
+   0,
+   0,
+   64
   ]
  },
  "weekValues": {
   "71lgikv0mm9mb3pu": {
-   "R": 43,
-   "HR": 11,
-   "RBI": 50,
-   "SO": 49,
-   "SB": 6,
+   "R": 0,
+   "HR": 0,
+   "RBI": 0,
+   "SO": 0,
+   "SB": 0,
    "CYC": 0,
    "NH": 0,
-   "QS": 4,
-   "HA": 51,
-   "BBA": 21,
-   "K": 56,
-   "IP": 173,
-   "SVH3": 5.5,
-   "AVG": 0.2872340425531915,
-   "OPS": 0.8212269051813705,
-   "ERA": 4.838150289017341
+   "QS": 0,
+   "HA": 0,
+   "BBA": 0,
+   "K": 0,
+   "IP": 0,
+   "SVH3": 0.0,
+   "AVG": -1.0,
+   "OPS": -1.0,
+   "ERA": Infinity
   },
   "o6otuk5lmm9mb3pv": {
-   "R": 36,
-   "HR": 8,
-   "RBI": 40,
-   "SO": 50,
-   "SB": 9,
+   "R": 0,
+   "HR": 0,
+   "RBI": 0,
+   "SO": 0,
+   "SB": 0,
    "CYC": 0,
    "NH": 0,
-   "QS": 3,
-   "HA": 48,
-   "BBA": 17,
-   "K": 59,
-   "IP": 159,
-   "SVH3": 6.0,
-   "AVG": 0.27058823529411763,
-   "OPS": 0.7997985495568091,
-   "ERA": 4.245283018867925
+   "QS": 0,
+   "HA": 0,
+   "BBA": 0,
+   "K": 0,
+   "IP": 0,
+   "SVH3": 0.0,
+   "AVG": -1.0,
+   "OPS": -1.0,
+   "ERA": Infinity
   },
   "zwna71lqmm9mb3pv": {
-   "R": 38,
-   "HR": 8,
-   "RBI": 21,
-   "SO": 62,
-   "SB": 4,
+   "R": 0,
+   "HR": 0,
+   "RBI": 0,
+   "SO": 0,
+   "SB": 0,
    "CYC": 0,
    "NH": 0,
-   "QS": 6,
-   "HA": 52,
-   "BBA": 22,
-   "K": 62,
-   "IP": 196,
-   "SVH3": 2.0,
-   "AVG": 0.25517241379310346,
-   "OPS": 0.7169278996865204,
-   "ERA": 3.1683673469387754
+   "QS": 0,
+   "HA": 0,
+   "BBA": 0,
+   "K": 0,
+   "IP": 0,
+   "SVH3": 0.0,
+   "AVG": -1.0,
+   "OPS": -1.0,
+   "ERA": Infinity
   },
   "urshjvwwmm9mb3pv": {
-   "R": 43,
-   "HR": 12,
-   "RBI": 36,
-   "SO": 47,
-   "SB": 9,
+   "R": 0,
+   "HR": 0,
+   "RBI": 0,
+   "SO": 0,
+   "SB": 0,
    "CYC": 0,
    "NH": 0,
-   "QS": 5,
-   "HA": 43,
-   "BBA": 16,
-   "K": 68,
-   "IP": 187,
-   "SVH3": 2.0,
-   "AVG": 0.2988505747126437,
-   "OPS": 0.898177174039243,
-   "ERA": 3.0320855614973263
+   "QS": 0,
+   "HA": 0,
+   "BBA": 0,
+   "K": 0,
+   "IP": 0,
+   "SVH3": 0.0,
+   "AVG": -1.0,
+   "OPS": -1.0,
+   "ERA": Infinity
   },
   "tvfy2y7hmm9mb3pv": {
-   "R": 45,
-   "HR": 10,
-   "RBI": 36,
-   "SO": 45,
-   "SB": 3,
+   "R": 0,
+   "HR": 0,
+   "RBI": 0,
+   "SO": 0,
+   "SB": 0,
    "CYC": 0,
    "NH": 0,
-   "QS": 7,
-   "HA": 49,
-   "BBA": 23,
-   "K": 61,
-   "IP": 207,
-   "SVH3": 3.0,
-   "AVG": 0.21933085501858737,
-   "OPS": 0.6748067892780278,
-   "ERA": 2.739130434782609
+   "QS": 0,
+   "HA": 0,
+   "BBA": 0,
+   "K": 0,
+   "IP": 0,
+   "SVH3": 0.0,
+   "AVG": -1.0,
+   "OPS": -1.0,
+   "ERA": Infinity
   },
   "d49e5b6bmm9mb3pv": {
-   "R": 34,
-   "HR": 9,
-   "RBI": 37,
-   "SO": 83,
-   "SB": 6,
+   "R": 0,
+   "HR": 0,
+   "RBI": 0,
+   "SO": 0,
+   "SB": 0,
    "CYC": 0,
    "NH": 0,
-   "QS": 5,
-   "HA": 52,
-   "BBA": 24,
-   "K": 50,
-   "IP": 179,
-   "SVH3": 3.5,
-   "AVG": 0.21754385964912282,
-   "OPS": 0.652501624431449,
-   "ERA": 2.8659217877094973
+   "QS": 0,
+   "HA": 0,
+   "BBA": 0,
+   "K": 0,
+   "IP": 0,
+   "SVH3": 0.0,
+   "AVG": -1.0,
+   "OPS": -1.0,
+   "ERA": Infinity
   },
   "dyfhxlh1mm9mb3pu": {
-   "R": 30,
-   "HR": 6,
-   "RBI": 20,
-   "SO": 74,
-   "SB": 5,
+   "R": 0,
+   "HR": 0,
+   "RBI": 0,
+   "SO": 0,
+   "SB": 0,
    "CYC": 0,
    "NH": 0,
-   "QS": 6,
-   "HA": 47,
-   "BBA": 28,
-   "K": 56,
-   "IP": 186,
-   "SVH3": 3.0,
-   "AVG": 0.2196969696969697,
-   "OPS": 0.6324242424242423,
-   "ERA": 2.7580645161290325
+   "QS": 0,
+   "HA": 0,
+   "BBA": 0,
+   "K": 0,
+   "IP": 0,
+   "SVH3": 0.0,
+   "AVG": -1.0,
+   "OPS": -1.0,
+   "ERA": Infinity
   }
  },
  "cumulative": {
   "71lgikv0mm9mb3pu": [
    66,
    81,
-   29
+   93
   ],
   "o6otuk5lmm9mb3pv": [
    82,
    65,
-   29
+   93
   ],
   "zwna71lqmm9mb3pv": [
    60,
@@ -232,17 +226,17 @@
   "urshjvwwmm9mb3pv": [
    95,
    52,
-   29
+   93
   ],
   "tvfy2y7hmm9mb3pv": [
    95,
    57,
-   24
+   88
   ],
   "d49e5b6bmm9mb3pv": [
    69,
    76,
-   31
+   95
   ],
   "dyfhxlh1mm9mb3pu": [
    17,
@@ -251,6 +245,7 @@
   ]
  },
  "eliminated": [
-  "dyfhxlh1mm9mb3pu"
+  "dyfhxlh1mm9mb3pu",
+  "zwna71lqmm9mb3pv"
  ]
 }
