@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T11:26:42-07:00",
+ "generated": "2026-08-17T11:37:46-07:00",
  "leagueName": "League of Lords",
  "teams": {
   "71lgikv0mm9mb3pu": {
@@ -167,7 +167,7 @@
    "IP": 0,
    "SVH3": 0.0,
    "AVG": 1.0,
-   "OPS": 3.0,
+   "OPS": 2.5,
    "ERA": Infinity
   },
   "d49e5b6bmm9mb3pv": {
