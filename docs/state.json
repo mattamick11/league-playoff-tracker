@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T15:59:09-07:00",
+ "generated": "2026-08-17T16:10:19-07:00",
  "leagueName": "League of Lords",
  "teams": {
   "71lgikv0mm9mb3pu": {
@@ -55,28 +55,28 @@
  "weekRecords": {
   "71lgikv0mm9mb3pu": [
    7,
-   15,
-   42
+   16,
+   41
   ],
   "o6otuk5lmm9mb3pv": [
-   7,
-   12,
-   45
+   10,
+   11,
+   43
   ],
   "urshjvwwmm9mb3pv": [
-   18,
-   12,
-   34
+   17,
+   15,
+   32
   ],
   "tvfy2y7hmm9mb3pv": [
-   23,
+   22,
    4,
-   37
+   38
   ],
   "d49e5b6bmm9mb3pv": [
-   3,
+   5,
    15,
-   46
+   44
   ]
  },
  "weekValues": {
@@ -99,7 +99,7 @@
    "ERA": Infinity
   },
   "o6otuk5lmm9mb3pv": {
-   "R": 0,
+   "R": 1,
    "HR": 0,
    "RBI": 0,
    "SO": 2,
@@ -184,8 +184,8 @@
    "K": 0,
    "IP": 0,
    "SVH3": 0.0,
-   "AVG": 0.0,
-   "OPS": 0.0,
+   "AVG": 0.2,
+   "OPS": 0.4,
    "ERA": Infinity
   },
   "dyfhxlh1mm9mb3pu": {
@@ -210,13 +210,13 @@
  "cumulative": {
   "71lgikv0mm9mb3pu": [
    73,
-   96,
-   71
+   97,
+   70
   ],
   "o6otuk5lmm9mb3pv": [
-   89,
-   77,
-   74
+   92,
+   76,
+   72
   ],
   "zwna71lqmm9mb3pv": [
    60,
@@ -224,19 +224,19 @@
    27
   ],
   "urshjvwwmm9mb3pv": [
-   113,
-   64,
-   63
-  ],
-  "tvfy2y7hmm9mb3pv": [
-   118,
-   61,
+   112,
+   67,
    61
   ],
+  "tvfy2y7hmm9mb3pv": [
+   117,
+   61,
+   62
+  ],
   "d49e5b6bmm9mb3pv": [
-   72,
+   74,
    91,
-   77
+   75
   ],
   "dyfhxlh1mm9mb3pu": [
    17,
