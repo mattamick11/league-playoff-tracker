@@ -1,55 +1,35 @@
-**PLAYOFFS WEEK 2: TORY TAKES THE WEEK AND FIRST PLACE, RYAN GOES HOME**
+**PLAYOFFS WEEK 3, MIDWEEK: COREY PULLS AWAY AND THE CUT LINE SHRINKS TO A POINT AND A HALF**
 
-Week 2 belonged to Tory from Saturday on. He went 50-15-15 for 57.5 points of a possible 80 — the highest share anyone has won in either week — and that was enough to run down Corey's Week 1 cushion and take the cumulative lead outright. At the other end, Ryan got the best pitching week of his playoffs and almost nothing else, and he is the second team eliminated. Will survived at the cut line despite a 4.84 staff ERA, which tells you plenty about the week Sawyer had.
+Two days into the last week before the Championship block, and the top of the board and the bottom of the board are telling completely different stories. Corey has been the best team in the field again. And the fifth and final elimination has turned into a coin flip between Sawyer and Will.
 
-**FINAL CUMULATIVE BOARD**
-1. Nick Kurtz in Paris — 95-52-29, **109.5 pts**
-2. Landen Poop — 95-57-24, **107.0**
-3. hubba hubba bubba bubba — 82-65-29, **96.5**
-4. Chase Sapphire — 69-76-31, **84.5**
-5. Yordan Redemption Tour — 66-81-29, **80.5**
-6. Small Balls — 60-89-27, **73.5 — ELIMINATED**
+**CUMULATIVE BOARD (Weeks 1-2-3)**
+1. Landen Poop — 133-71-36, **151.0**
+2. Nick Kurtz in Paris — 119-79-42, **140.0**
+3. hubba hubba bubba bubba — 108-87-45, **130.5**
+4. Chase Sapphire — 86-108-46, **109.0**
+5. Yordan Redemption Tour — 86-111-43, **107.5**
 
-**Nick Kurtz in Paris — 57.5 on the week**
-Tory led the field in six categories outright — homers, average, OPS, strikeouts, fewest hits allowed and fewest walks allowed — and tied Bryce for the steals lead. Pete Alonso hit .545 with a 1.493 OPS, Corbin Carroll posted a 1.519, and Zack Gelof added three homers and seven runs. The rotation was the difference — Reid Detmers threw 14 innings with 17 strikeouts and a 0.64 ERA, Logan Henderson added 13⅓ and two quality starts, and Bryan Woo closed the week with six innings of two-run ball in Houston. Jackson Jobe's 3⅔-inning, six-run outing was the only real blemish.
+**WEEK 3 SO FAR** (of 64 available)
+Corey 44.0 · Bryce 34.0 · Tory 30.5 · Will 27.0 · Sawyer 24.5
 
-**Landen Poop — 45.5**
-Corey ran the same playbook that won him Week 1 and it still nearly held: a field-high 69 innings, seven quality starts and a 2.74 ERA, the best in the league. Alec Burleson drove in 12 with a 1.298 OPS, Yandy Díaz hit .357, and Noah Cameron gave him 14⅔ innings of 2.45 ball. The problem was the same one all week — a .219 average and a .675 OPS. He got outscored on the rate categories by a team that also matched him on volume, and a 5.5-point lead became a 2.5-point deficit.
+**Landen Poop — 44.0**
+Corey leads six of the sixteen outright: runs (17), homers (4), average (.310), OPS (.879), fewest hits allowed (4) and fewest walks allowed (2). Bobby Witt Jr. is 4-for-7 with a homer, four runs, four driven in and a steal — a 1.843 OPS. Yandy Diaz added a homer going 4-for-7, and Walker Buehler gave him six innings of two-run ball with two hits and four strikeouts. The one soft spot is volume: he is last in the field in innings (8) and last in strikeouts (6). He is winning on rates, not workload.
 
-**hubba hubba bubba bubba — 39.0**
-Bryce stayed comfortably in third without ever threatening the top. Seiya Suzuki hit .333 with a 1.135 OPS, Mookie Betts added a 1.027, and Jake Latz picked up two saves in three perfect innings. But he threw the fewest innings in the field by a wide margin — 53 — and a 4.25 ERA followed. Shane Baz gave up nine hits and five runs in three innings, and Christian Scott's 6.10 ERA over 10⅓ undid the good work behind him.
+**Nick Kurtz in Paris — 30.5**
+Tory owns the two pitching prizes and nobody is close. A 0.61 staff ERA, and a 6.0 in saves-plus-holds when the next-best team has 2.0 — Riley O'Brien has two saves in two scoreless innings with four strikeouts, Yoendrys Gomez has two more, and Bryan Baker and Mason Montgomery have one each. The problem is everything the bats are doing: last in average (.236), last in OPS (.674), and tied for the most strikeouts (21). Kevin McGonigle homered going 3-for-10 and Pete Alonso is 3-for-9 with a homer, and that has been most of it.
+
+**hubba hubba bubba bubba — 34.0**
+Bryce is the volume leader and it is not close: 19 1/3 innings, two quality starts and 22 strikeouts, all three category leads. Shane Baz struck out ten in 6 1/3 and Tyler Mahle went 6 2/3 giving up two. Willson Contreras is 4-for-8 with a homer and three runs, Nico Hoerner is 5-for-9, and Jordan Walker is 6-for-13. He sits second in both average (.280) and OPS (.745). The bill for all those innings is 17 hits allowed, tied for the most in the field.
+
+**Yordan Redemption Tour — 27.0**
+Will leads the league in RBI with 13 and is tied for the fewest strikeouts (18), and his pitching has been genuinely good — a 0.69 ERA, Kyle Leahy throwing five scoreless with six strikeouts, Nolan McLean going six innings of one-run ball for the quality start. Max Muncy homered and drove in four, Gabriel Moreno also drove in four, Jac Caglianone is 5-for-9. And none of it matters much next to this: **he has scored six runs.** Everyone else has at least twelve. He also has zero saves-plus-holds and has walked the most batters in the field (7).
 
 **Chase Sapphire — 24.5**
-The collapse of the week. Sawyer's offense simply stopped: last in average (.218), last in OPS (.653), and a staggering 83 strikeouts, 21 more than anyone else. Junior Caminero drove in eight and Kyle Schwarber hit two homers, but the lineup went 62-for-285 as a group. The pitching was genuinely good — Sonny Gray threw 13 innings with two quality starts and a 1.38 ERA, Chase Burns and Walbert Ureña combined for 13 scoreless — and a 2.87 team ERA still only produced 24.5 points. He fell from second to fourth and is now the closest team to the new cut line.
+Last on the week, and he is the team on the wrong side of the line by the smallest margin. The good news is short: he leads steals (4) and has the second-fewest walks allowed (4). The staff has an 8.31 ERA. Framber Valdez gave up four in 5 2/3, Michael Wacha four in five, and Yennier Cano came in, retired nobody and surrendered three. He is last in RBI (10). Willi Castro homered with four runs and Caleb Durbin is 4-for-7 with two steals, which is not enough to cover an 8.31.
 
-**Yordan Redemption Tour — 43.0**
-Will made the cut on his bats. He led the league with 50 RBI, Jac Caglianone went 9-for-22 with nine driven in, Isaac Paredes hit .417 without a single strikeout, and Max Muncy added eight RBI. The staff was another story: a 4.84 ERA, worst in the field, with Grant Holmes surrendering six runs in 3⅔ and Hayden Wesneski adding five in four on Saturday. Chris Sale's six-inning, nine-strikeout quality start was the lone clean start. He survives with a four-point margin and no protection left.
+**THE CUT LINE**
+Sawyer 109.0, Will 107.5. **One and a half points**, five days to play — the rest of this roster period Wednesday and Thursday, then the weekend. Bryce is 21.5 clear of the line, which is a lot and is still not a mathematical guarantee.
 
-**Small Balls — 30.5, eliminated**
-Ryan's pitching was the second-best week in the league and it wasn't close to enough. Eury Pérez threw 13 innings without an earned run and two quality starts, Tarik Skubal added 11 innings and 13 strikeouts, and the staff finished second in innings (65⅓) and second in quality starts (6). The offense never arrived: **21 RBI, fifteen fewer than any other team.** Randy Arozarena hit three homers and Francisco Lindor posted a 1.143 OPS, but a lineup that scored 38 runs and drove in 21 cannot survive an all-play format. He led off Sunday's final game with a home run and finished 2-for-5 — a fitting end to a week where he did just enough to make it interesting and never enough to close.
-
-**THE LOSERS BRACKET — MATT ESCAPES**
-Matt is out, and this time it wasn't close. He finished at **66.5 to Cousin's 56.5**, with Con at 48.5 and Jack at 44.5. Week 1's half-point heartbreak against Burz turned into a ten-point cushion: Alex Bregman hit four homers with eight RBI, Miguel Vargas added four more homers, and Louis Varland collected four saves. Jacob Misiorowski and Cristopher Sánchez each turned in a quality start after the roster change that Friday. Matt led the bracket in runs, homers, steals and saves-plus-holds. Cousin, Con and Jack now reset for the two-week final.
-
-**TOP 5 HITTERS OF WEEK 2**
-1. Pete Alonso, Tory — 12-for-22, 5 R, 2 HR, 5 RBI, **.545/1.493**
-2. Alec Burleson, Corey — 9-for-22, 7 R, 2 HR, **12 RBI**, 1.298 OPS
-3. Corbin Carroll, Tory — 9-for-22, 5 R, 2 HR, SB, **1.519 OPS**
-4. Jac Caglianone, Will — 9-for-22, 5 R, 2 HR, 9 RBI, 2 SB, 1.140
-5. Zack Gelof, Tory — 7-for-23, 7 R, **3 HR**, 5 RBI, 1.124
-
-Honorable mention: Isaac Paredes, 10-for-24 with seven RBI and zero strikeouts.
-
-**TOP 5 PITCHERS OF WEEK 2**
-1. Reid Detmers, Tory — 14 IP, 1 ER, 5 H, **17 K**, 2 QS, **0.64 ERA**
-2. Eury Pérez, Ryan — 13 IP, **0 ER**, 5 H, 12 K, 2 QS
-3. Sonny Gray, Sawyer — 13 IP, 2 ER, 11 K, 2 QS, 1.38
-4. Logan Henderson, Tory — 13⅓ IP, 4 ER, 13 K, 2 QS, 2.70
-5. Noah Cameron, Corey — 14⅔ IP, 4 ER, 10 K, QS, 2.45
-
-Honorable mention: Bryan Woo, 11 innings and 10 strikeouts across two starts, the second of which quietly took the innings category away from Will on Sunday night.
-
-**WEEK 3 SETUP**
-Five teams left and nothing resets — Week 3 is scored on the combined Week 1-2-3 record across periods 43 and 44, Monday through Sunday. Tory starts on top by 2.5 over Corey. The new cut line is Will at 80.5, with Sawyer only 4.0 above him and Bryce a further 12.0 clear. Next Sunday the lowest cumulative survivor joins Keller and Ryan on the sidelines, and the four that remain go to the Championship block.
+And a reminder of what this is actually for: on Sunday the lowest cumulative total is eliminated, and the four teams left go to the Championship block, Aug 24 through Sep 6, where **records reset to zero.** Corey's eleven-point cushion over Tory buys him nothing the moment this week ends. The only thing Week 3 decides is who is still standing to play for it.
 
 **Live tracker:** https://mattamick11.github.io/league-playoff-tracker
