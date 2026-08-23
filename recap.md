@@ -1,35 +1,17 @@
-**CUT LINE DOWN TO TWO POINTS — WILL'S STARTERS ARE DEALING AND SAWYER HASN'T THROWN A PITCH**
+**MINI UPDATE — THE WALKS GOT HIM**
 
-Sunday afternoon check-in on the last day of the knockout rounds. Seven games are in progress, seven have not started, and the gap for the final playoff spot has gone from five points this morning to **two.**
+Cut line has gone the wrong way for Will, hard. It was two points this morning. It is now **7.5.**
 
-**CUMULATIVE BOARD (Weeks 1-2-3)**
-1. Landen Poop — 134-70-36, **152.0**
-2. Nick Kurtz in Paris — 118-83-39, **137.5**
-3. hubba hubba bubba bubba — 109-90-41, **129.5**
-4. Chase Sapphire — 90-109-41, **110.5**
-5. Yordan Redemption Tour — 89-112-39, **108.5**
+Corey 150.0 · Tory 136.0 · Bryce 133.5 · **Sawyer 113.0** · **Will 105.5**
 
-**WHAT HAPPENED**
-Will has two starters on the mound right now and both are throwing shutouts. **Kyle Leahy: three innings, no runs, one hit, four strikeouts. Nolan McLean: one inning, no runs, no hits, two strikeouts.** Four innings between them, zero earned runs, one baserunner, six punchouts.
+Nolan McLean threw **six shutout innings, one hit, six strikeouts** — the best start anybody has had today. He also walked four. Will came into the afternoon leading all four opponents in fewest walks allowed at 19, worth four points. He is now at 24: **tied with Bryce, and losing to Tory (21), Corey (21) and Sawyer (22).** Four wins turned into one tie and three losses. **That is minus 3.5 points off the one category that was his tightrope all afternoon**, and it cost him more than the margin he was chasing.
 
-Meanwhile **not one of Sawyer's nine active pitchers has appeared in a box score today.** Wacha, Framber Valdez, Sonny Gray, McClanahan, Tanner Scott, Grant Taylor, Cano — all of them still to come, none of them starting. His pitching line has not moved a decimal since this morning.
+The cruel part is the start itself was excellent. His ERA is now 3.74, second-best in the field, ahead of Corey and Bryce. He still owns batting average at .310 and fewest hits allowed at 47. He won the argument and lost the week.
 
-That is the whole three-point swing. Will is gaining on categories Sawyer physically cannot answer yet.
+Sawyer, meanwhile, still has not gotten a single meaningful inning out of his staff — his pitching line has been frozen at 61 2/3 innings since this morning. His bats did all of it: up 2.5 on the day.
 
-**WHERE WILL NOW STANDS**
-He has taken over the batting average lead outright at **.310**, ahead of Corey's .301. He still leads the field in fewest hits allowed (45) and fewest walks allowed (19). And he has **passed Sawyer in ERA, 4.18 to 4.52** — that was the eight-hundredths coin flip this morning and it is now a third of a run in his favor.
+One thing still pending: McLean's six scoreless should register as a quality start once his game finalizes. Fantrax has not credited it yet. That is worth half a point back.
 
-**THE TWO POINTS HE NEEDS**
-The cheapest ones are sitting right there. **He is dead even with Corey in quality starts (2 apiece) and dead even with Corey in steals (3 apiece)** — win either and it is half a point, win both and it is one. Neither Leahy nor McLean has six innings yet, so both quality starts are still live. And he **trails Sawyer by exactly one homer, 4 to 5** — two swings takes that one straight off the man he is chasing.
-
-**THE WAY IT GOES WRONG**
-His walk lead is **one single walk** over both Tory and Corey. Nineteen to twenty, twice. One more free pass from either starter and two points evaporate — which is more than the margin he is trying to close. The thing keeping him alive is also the thing that could bury him in a single at-bat.
-
-**WHAT SAWYER STILL HAS**
-His floor is high because most of his damage is already done: last in RBI (22), last in quality starts (1), most hits allowed (58). Those are not getting worse. His strikeout lead is eleven and safe, his steal lead is real.
-
-But he is **tied with Bryce in walks allowed (22) and tied with Bryce in runs (34)**, and he **trails Bryce by one in saves-plus-holds.** With his entire bullpen still to pitch, those three are all live in both directions — a save helps him, a walk costs him.
-
-Nothing is settled. Half the slate has not thrown a pitch.
+Twelve games are still in progress and one has not started. Will needs 7.5 with his rotation already spent.
 
 **Live tracker:** https://mattamick11.github.io/league-playoff-tracker
