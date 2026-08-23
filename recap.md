@@ -1,34 +1,40 @@
-**PLAYOFFS WEEK 3, WEDNESDAY: SAWYER BUYS HIMSELF SOME ROOM, WILL RUNS OUT OF CATEGORIES**
+**FINAL DAY: WILL NEEDS FIVE POINTS ON SAWYER, AND HE HAS EXACTLY ONE WAY TO GET THEM**
 
-Wednesday was the first day of this week that actually moved the elimination race, and it moved it in Sawyer's favor. He threw three starters at it, picked up two more saves behind them, and turned a point-and-a-half hole into a five-point cushion. Will had the quietest day of the five and is now alone at the bottom with four days left.
+Last day of the knockout rounds. Four games are in the first inning and the rest of the slate has not started, so effectively the whole Sunday is still to play. One team goes home tonight, and it is down to two.
 
 **CUMULATIVE BOARD (Weeks 1-2-3)**
-1. Landen Poop — 133-71-36, **151.0**
-2. Nick Kurtz in Paris — 116-82-42, **137.0** (-3.0)
-3. hubba hubba bubba bubba — 113-85-42, **134.0** (+3.5)
-4. Chase Sapphire — 89-108-43, **110.5** (+1.5)
-5. Yordan Redemption Tour — 86-115-39, **105.5** (-2.0)
+1. Landen Poop — 133-69-38, **152.0**
+2. Nick Kurtz in Paris — 116-83-41, **136.5**
+3. hubba hubba bubba bubba — 108-89-43, **129.5**
+4. Chase Sapphire — 93-108-39, **112.5**
+5. Yordan Redemption Tour — 88-113-39, **107.5**
 
-**WEEK 3 SO FAR** (of 64) — Corey 44.0 · Bryce 37.5 · Tory 27.5 · Sawyer 26.0 · Will 25.0
+Corey, Tory and Bryce are all through barring something absurd. **Sawyer leads Will by 5.0 for the last spot.**
 
-**Landen Poop — 44.0, unchanged**
-Corey did not lose a single point on the day and now leads **eight of the sixteen** outright: runs (26), homers (8), RBI (20), fewest strikeouts (25), average (.311), OPS (.939), fewest hits allowed (11) and fewest walks allowed (4). Wednesday was a four-homer day — Luis Arraez, Mickey Moniak, Yandy Diaz and Ben Rice all went deep, and Arraez and Moniak each drove in two. Payton Tolle struck out six in five innings and Jhoan Duran closed it. The only cracks are still the same two: he is last in innings (15) and last in strikeouts (15).
+**THE ONE THING THAT MATTERS**
+Will does not need to beat Sawyer head to head. He needs **five net points of category swings**, and they can come from any of his four matchups — a category he takes off Corey counts exactly as much as one he takes off Sawyer, and every category Sawyer coughs up to anybody helps too.
 
-**hubba hubba bubba bubba — 37.5, up 3.5**
-Bryce had the best day of anyone and has cut Tory's hold on second to three points. Mookie Betts went 3-for-5 with a homer, two runs and two driven in, Jordan Walker homered, and Sandy Alcantara gave him six innings. David Bednar and Emilio Pagan both saved games. He owns quality starts (3) outright and sits second in innings (27 1/3), strikeouts (24), average (.277) and OPS (.773). The 27 hits allowed are still the second-most in the field.
+**WHY TODAY IS SET UP FOR WILL**
+Will has **two starting pitchers going: Kyle Leahy, already underway in Philadelphia, and Nolan McLean in Chicago.** Sawyer has **none** — not one of his nine active arms is starting a game today. Everything Sawyer gets from his staff comes out of the bullpen.
 
-**Nick Kurtz in Paris — 27.5, down 3.0**
-Tory keeps the two pitching prizes and has stretched one of them absurdly: **8.0 in saves-plus-holds, more than double anybody else**, after Bryan Baker and Yoendrys Gomez each closed one out. His 0.84 staff ERA is still the best, and Jackson Jobe and Clay Holmes both went 5 1/3 giving up one. But the bats have gotten worse, not better — he is now **last in average (.233), last in OPS (.645) and has struck out the most (36)**. Pete Alonso's homer was most of the offense. He is losing ground while leading two categories by a mile.
+That matters because Will's whole deficit is volume. He has thrown 43 innings this week to Sawyer's 61 2/3, and struck out 37 to Sawyer's 67. Those two gaps are too big to close in one day. What is close:
 
-**Chase Sapphire — 26.0, up 1.5**
-The day that may save his season, and it was entirely pitching. Chase Burns struck out eight in five, Walbert Urena struck out seven in five, and Drew Rasmussen took the beating (five earned in five) that kept the ERA ugly. Add saves from Grant Taylor and Tanner Scott. That is **17 1/3 innings and 23 strikeouts in one day**, and it flipped him into the lead in both innings (30 1/3) and strikeouts (33). He also leads steals (5). The cost of pitching that much shows up everywhere else: worst ERA (6.53), most hits allowed (34), most walks allowed (11), and still last in RBI (12).
+**ERA — Will 4.60, Sawyer 4.52.** Eight hundredths apart. Will has given up 22 earned runs in 43 innings. If Leahy and McLean give him twelve innings and five earned runs or fewer, he takes this category off Sawyer. Hold it to two earned and he passes Bryce (3.98) as well, and that is two points from one lever.
 
-**Yordan Redemption Tour — 25.0, down 2.0**
-Here is the problem, stated plainly: **Will does not lead a single category.** Not one of the sixteen. His best columns are second place — 18 RBI, a 1.59 ERA, 12 hits allowed — and the rest is the bottom of the board: last in runs (10), last in steals (0), last in saves-plus-holds (0). Sal Stewart homered and drove in three, Gabriel Moreno drove in two, and Will Warren struck out five in four innings, which was a perfectly decent day that lost him ground anyway. That is what happens when you are second at everything and first at nothing.
+**QS — Will 2, Sawyer 1.** Two quality starts today puts Will at four: he takes the category off Corey, pulls level with Tory, and keeps it from Sawyer. Another point.
 
-**THE CUT LINE**
-Sawyer 110.5, Will 105.5 — **five points**, four days left. Bryce is 28.5 clear of last and is close to safe without being mathematically there. Thursday closes this roster period, then the weekend decides it.
+**And the close bats:** he trails Bryce by one run (30 to 31), trails Sawyer by one homer (4 to 5), and is dead even with Corey in both steals and quality starts. Those are all one swing each.
 
-Sunday the lowest cumulative total goes home and the last four go to the Championship block, Aug 24 through Sep 6, with **records reset to zero**. Corey's fourteen-point lead and Tory's grip on second are both worth nothing on Monday. Survive first.
+**THE TRAP**
+Here is the cruel part. Will currently leads **all four opponents** in fewest hits allowed (44) and fewest walks allowed (18) — and he leads them *because he has not pitched.* Those eight points are the only reason he is within five.
+
+The margins are paper thin. He is ahead of Bryce, Tory and Corey by exactly **two walks**. If his two starters issue two walks between them, three wins become three ties and he loses a point and a half. Three walks and he loses all three outright — three points, gone, in the same afternoon he is trying to gain five. On hits he has more room: six hits allowed keeps him clear of everybody, seven ties Bryce and Tory, eight loses both.
+
+So Will does not just need his starters to be good. He needs them to be **efficient** — six innings, one run, four hits, no walks is the shape that saves him. Six innings of three-run, seven-hit, three-walk ball is a perfectly respectable outing that eliminates him.
+
+**WHAT SAWYER HAS GOING FOR HIM**
+Mostly that his bad news is already priced in. He is last in RBI (22), last in quality starts (1), and last in both hits and walks allowed — those points are already lost and cannot get much worse. His wins are the safe kind: he leads strikeouts by eleven and steals by two, and the innings lead over Will is 56 outs deep. Schwarber, Stott and Caminero are already hitting; Sonny Gray, Framber Valdez, Wacha, Tanner Scott and Grant Taylor are all still to come out of the pen.
+
+He does not need to do anything. He needs Will's two starts to be ordinary.
 
 **Live tracker:** https://mattamick11.github.io/league-playoff-tracker
