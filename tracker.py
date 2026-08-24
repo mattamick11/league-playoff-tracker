@@ -716,7 +716,8 @@ def render_champ_hero(teams, champ, seed):
     if not parts:
         h.append('<div class="pending">Field is not set yet \u2014 '
                  'three knockout weeks to go.</div>')
-    elif not champ.get("started"):
+    elif not champ.get("started") or not any(
+            champ["records"][t][0] or champ["records"][t][1] for t in parts):
         for i, tid in enumerate(sorted(parts, key=seed)):
             first = ' first' if i == 0 else ''
             h.append(f'<div class="crow{first}"><span class="pos">\u2013</span>'
@@ -724,20 +725,31 @@ def render_champ_hero(teams, champ, seed):
                      f'{esc(teams[tid]["name"])}</span>'
                      f'<span class="rec">not started</span>'
                      f'<span class="pts">0</span></div>')
-        h.append(f'<div class="pending">Begins {esc(span.split(chr(8211))[0].strip())}'
-                 ' \u00b7 nobody has a point yet.</div>')
+        started = champ.get("started")
+        h.append('<div class="pending">'
+                 + ('First pitch tonight' if started else
+                    'Begins ' + esc(span.split(chr(8211))[0].strip()))
+                 + ' \u00b7 nobody has a point yet.</div>')
     else:
         recs = champ["records"]
         order = sorted(parts, key=lambda t: (-points(recs[t]), seed(t)))
         top = points(recs[order[0]]) or 1.0
+        n_top = sum(1 for t in parts if points(recs[t]) == points(recs[order[0]]))
+        all_tied = n_top == len(order)
         for i, tid in enumerate(order):
             rec = recs[tid]
             p = points(rec)
             gb = top - p
-            gbtxt = "leader" if gb == 0 else f"{gb:g} back"
+            gbtxt = ("tied" if n_top > 1 else "leader") if gb == 0 \
+                else f"{gb:g} back"
             pct = max(2, round(100.0 * p / top)) if top else 2
-            cls = "crow first lead" if i == 0 else "crow"
-            h.append(f'<div class="{cls}"><span class="pos">{i + 1}</span>'
+            if all_tied:
+                cls = "crow first" if i == 0 else "crow"
+                pos = "\u2013"
+            else:
+                cls = "crow first lead" if i == 0 else "crow"
+                pos = str(i + 1)
+            h.append(f'<div class="{cls}"><span class="pos">{pos}</span>'
                      f'<span class="nm"><span class="seed">{seed(tid)}</span>'
                      f'{esc(teams[tid]["name"])}</span>'
                      f'<span class="rec">{rec_str(rec)} \u00b7 {gbtxt}</span>'
