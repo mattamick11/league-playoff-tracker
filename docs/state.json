@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-23T23:55:29-07:00",
+ "generated": "2026-08-24T00:06:40-07:00",
  "leagueName": "League of Lords",
  "teams": {
   "71lgikv0mm9mb3pu": {
@@ -31,180 +31,130 @@
    "seed": 7
   }
  },
- "currentWeek": "Week 3",
- "isChampionship": false,
+ "currentWeek": "Championship",
+ "isChampionship": true,
  "periods": [
   {
-   "period": 43,
-   "start": "2026-08-17",
-   "end": "2026-08-20"
+   "period": 45,
+   "start": "2026-08-24",
+   "end": "2026-08-27"
   },
   {
-   "period": 44,
-   "start": "2026-08-21",
-   "end": "2026-08-23"
+   "period": 46,
+   "start": "2026-08-28",
+   "end": "2026-08-30"
+  },
+  {
+   "period": 47,
+   "start": "2026-08-31",
+   "end": "2026-09-03"
+  },
+  {
+   "period": 48,
+   "start": "2026-09-04",
+   "end": "2026-09-06"
   }
  ],
  "participants": [
-  "71lgikv0mm9mb3pu",
   "o6otuk5lmm9mb3pv",
   "urshjvwwmm9mb3pv",
   "tvfy2y7hmm9mb3pv",
   "d49e5b6bmm9mb3pv"
  ],
  "weekRecords": {
-  "71lgikv0mm9mb3pu": [
-   20,
-   34,
-   10
-  ],
   "o6otuk5lmm9mb3pv": [
-   28,
-   26,
-   10
+   0,
+   0,
+   48
   ],
   "urshjvwwmm9mb3pv": [
-   20,
-   32,
-   12
+   0,
+   0,
+   48
   ],
   "tvfy2y7hmm9mb3pv": [
-   39,
-   13,
-   12
+   0,
+   0,
+   48
   ],
   "d49e5b6bmm9mb3pv": [
-   26,
-   28,
-   10
+   0,
+   0,
+   48
   ]
  },
  "weekValues": {
-  "71lgikv0mm9mb3pu": {
-   "R": 35,
-   "HR": 6,
-   "RBI": 39,
-   "SO": 61,
-   "SB": 3,
-   "CYC": 0,
-   "NH": 0,
-   "QS": 3,
-   "HA": 47,
-   "BBA": 24,
-   "K": 47,
-   "IP": 159,
-   "SVH3": 2.0,
-   "AVG": 0.29770992366412213,
-   "OPS": 0.825381679389313,
-   "ERA": 3.7358490566037736
-  },
   "o6otuk5lmm9mb3pv": {
-   "R": 40,
-   "HR": 10,
-   "RBI": 40,
-   "SO": 75,
-   "SB": 9,
+   "R": 0,
+   "HR": 0,
+   "RBI": 0,
+   "SO": 0,
+   "SB": 0,
    "CYC": 0,
    "NH": 0,
-   "QS": 5,
-   "HA": 57,
-   "BBA": 25,
-   "K": 61,
-   "IP": 183,
-   "SVH3": 6.0,
-   "AVG": 0.23102310231023102,
-   "OPS": 0.6801196248657124,
-   "ERA": 3.9836065573770494
-  },
-  "zwna71lqmm9mb3pv": {
-   "R": 37,
-   "HR": 7,
-   "RBI": 21,
-   "SO": 69,
-   "SB": 5,
-   "CYC": 0,
-   "NH": 0,
-   "QS": 2,
-   "HA": 27,
-   "BBA": 19,
-   "K": 46,
-   "IP": 106,
-   "SVH3": 3.5,
-   "AVG": 0.22267206477732793,
-   "OPS": 0.6912678165381843,
-   "ERA": 4.0754716981132075
+   "QS": 0,
+   "HA": 0,
+   "BBA": 0,
+   "K": 0,
+   "IP": 0,
+   "SVH3": 0.0,
+   "AVG": -1.0,
+   "OPS": -1.0,
+   "ERA": Infinity
   },
   "urshjvwwmm9mb3pv": {
-   "R": 29,
-   "HR": 8,
-   "RBI": 36,
-   "SO": 77,
-   "SB": 3,
+   "R": 0,
+   "HR": 0,
+   "RBI": 0,
+   "SO": 0,
+   "SB": 0,
    "CYC": 0,
    "NH": 0,
-   "QS": 4,
-   "HA": 57,
-   "BBA": 21,
-   "K": 52,
-   "IP": 180,
-   "SVH3": 12.0,
-   "AVG": 0.23157894736842105,
-   "OPS": 0.6645993965806235,
-   "ERA": 3.15
+   "QS": 0,
+   "HA": 0,
+   "BBA": 0,
+   "K": 0,
+   "IP": 0,
+   "SVH3": 0.0,
+   "AVG": -1.0,
+   "OPS": -1.0,
+   "ERA": Infinity
   },
   "tvfy2y7hmm9mb3pv": {
-   "R": 50,
-   "HR": 12,
-   "RBI": 38,
-   "SO": 57,
-   "SB": 4,
+   "R": 0,
+   "HR": 0,
+   "RBI": 0,
+   "SO": 0,
+   "SB": 0,
    "CYC": 0,
    "NH": 0,
-   "QS": 4,
-   "HA": 64,
-   "BBA": 21,
-   "K": 66,
-   "IP": 231,
-   "SVH3": 6.0,
-   "AVG": 0.3003533568904594,
-   "OPS": 0.8420800069798892,
-   "ERA": 3.5064935064935066
+   "QS": 0,
+   "HA": 0,
+   "BBA": 0,
+   "K": 0,
+   "IP": 0,
+   "SVH3": 0.0,
+   "AVG": -1.0,
+   "OPS": -1.0,
+   "ERA": Infinity
   },
   "d49e5b6bmm9mb3pv": {
-   "R": 50,
-   "HR": 9,
-   "RBI": 35,
-   "SO": 55,
-   "SB": 8,
+   "R": 0,
+   "HR": 0,
+   "RBI": 0,
+   "SO": 0,
+   "SB": 0,
    "CYC": 0,
    "NH": 0,
-   "QS": 1,
-   "HA": 62,
-   "BBA": 24,
-   "K": 70,
-   "IP": 194,
-   "SVH3": 4.5,
-   "AVG": 0.2837370242214533,
-   "OPS": 0.7593101211072664,
-   "ERA": 4.453608247422681
-  },
-  "dyfhxlh1mm9mb3pu": {
-   "R": 26,
-   "HR": 3,
-   "RBI": 26,
-   "SO": 63,
-   "SB": 8,
-   "CYC": 0,
-   "NH": 0,
-   "QS": 1,
-   "HA": 27,
-   "BBA": 18,
-   "K": 31,
-   "IP": 104,
-   "SVH3": 4.5,
-   "AVG": 0.2788844621513944,
-   "OPS": 0.7271612849302093,
-   "ERA": 4.153846153846154
+   "QS": 0,
+   "HA": 0,
+   "BBA": 0,
+   "K": 0,
+   "IP": 0,
+   "SVH3": 0.0,
+   "AVG": -1.0,
+   "OPS": -1.0,
+   "ERA": Infinity
   }
  },
  "cumulative": {
@@ -246,6 +196,7 @@
  },
  "eliminated": [
   "dyfhxlh1mm9mb3pu",
-  "zwna71lqmm9mb3pv"
+  "zwna71lqmm9mb3pv",
+  "71lgikv0mm9mb3pu"
  ]
 }
