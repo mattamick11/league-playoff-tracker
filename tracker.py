@@ -503,48 +503,106 @@ def run_playoffs(cfg, fetcher, today):
 
 # ---------------------------------------------------------------- HTML
 CSS = """
-:root{--bg:#0d1117;--panel:#161d26;--accent:#4dd0c4;--blue:#58a6ff;
---text:#c9d1d9;--dim:#8b949e;--red:#f85149;--line:#2b3542}
-*{box-sizing:border-box}body{background:var(--bg);color:var(--text);
+:root{--bg:#0b0f14;--panel:#151c25;--card:#151c25;--elev:#1b2430;
+--accent:#4dd0c4;--blue:#58a6ff;--gold:#e8c469;
+--text:#c9d1d9;--bright:#e6edf3;--dim:#8b949e;--red:#f85149;--line:#2b3542}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--text);line-height:1.5;
 font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-margin:0;padding:24px 16px;max-width:1280px;margin:0 auto}
-h1{color:var(--accent);font-size:22px;letter-spacing:1px;text-align:center;
-margin:8px 0 4px}.updated{text-align:center;color:var(--dim);font-size:12px;
-margin-bottom:22px}h2{color:var(--blue);font-size:15px;letter-spacing:1px;
-text-transform:uppercase;margin:28px 0 10px}
-.bracket{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+margin:0 auto;padding:22px 16px 40px;max-width:1320px}
+h1{color:var(--accent);font-size:21px;letter-spacing:.14em;text-align:center;
+text-transform:uppercase;font-weight:700;margin:6px 0 4px}
+.updated{text-align:center;color:var(--dim);font-size:12px;margin-bottom:26px}
+.sec{margin:36px 0 14px;display:flex;align-items:center;gap:12px}
+.sec:first-of-type{margin-top:6px}
+.sec h2{color:var(--blue);font-size:13px;letter-spacing:.16em;font-weight:700;
+text-transform:uppercase;margin:0;white-space:nowrap}
+.sec .sub{color:var(--dim);font-size:11px;white-space:nowrap}
+.sec .rule{flex:1;height:1px;background:var(--line)}
+h2.plain{color:var(--blue);font-size:12px;letter-spacing:.14em;font-weight:700;
+text-transform:uppercase;margin:22px 0 8px}
+.hero{background:linear-gradient(180deg,#18232e 0%,var(--panel) 62%);
+border:1px solid var(--accent);border-radius:14px;padding:18px 20px 16px;
+box-shadow:0 0 0 1px rgba(77,208,196,.10),0 8px 28px rgba(0,0,0,.38)}
+.hero .htop{display:flex;justify-content:space-between;align-items:baseline;
+gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.hero .htitle{color:var(--accent);font-size:15px;font-weight:700;
+letter-spacing:.14em;text-transform:uppercase}
+.hero .hdates{color:var(--bright);font-size:13px}
+.hero .hnote{color:var(--dim);font-size:10px;text-transform:uppercase;
+letter-spacing:.10em}
+.crow{display:grid;grid-template-columns:22px 1fr auto 64px;gap:10px;
+align-items:center;padding:10px 0 6px;border-top:1px solid var(--line)}
+.crow.first{border-top:none}
+.crow .pos{color:var(--dim);font-size:12px;text-align:right;
+font-variant-numeric:tabular-nums}
+.crow .nm{color:var(--bright);font-size:15px;font-weight:600}
+.crow .rec{color:var(--dim);font-size:12px;font-variant-numeric:tabular-nums}
+.crow .pts{color:var(--accent);font-size:17px;font-weight:700;text-align:right;
+font-variant-numeric:tabular-nums}
+.crow.lead .pts{color:var(--gold)}
+.bar{grid-column:2/-1;height:4px;background:#0d141c;border-radius:3px;
+overflow:hidden}
+.bar span{display:block;height:100%;background:var(--accent);border-radius:3px}
+.crow.lead .bar span{background:var(--gold)}
+.hero .pending{color:var(--dim);font-size:12px;text-align:center;
+padding:12px 0 2px;border-top:1px solid var(--line);margin-top:6px}
+.champban{margin-top:14px;border-top:1px solid var(--line);padding-top:14px;
+text-align:center}
+.champban .lbl{color:var(--dim);font-size:10px;letter-spacing:.16em;
+text-transform:uppercase}
+.champban .who{color:var(--gold);font-size:23px;font-weight:800;margin-top:5px}
+.bracket{display:flex;gap:10px;flex-wrap:wrap}
 .stage{background:var(--panel);border:1px solid var(--line);border-radius:10px;
-padding:12px 14px;min-width:200px;flex:1 1 200px;max-width:250px}
-.stage h3{color:var(--blue);font-size:12px;text-transform:uppercase;
-letter-spacing:1px;margin:0 0 8px;border-bottom:1px solid var(--line);
-padding-bottom:6px}.stage .tm{display:flex;justify-content:space-between;
-font-size:13px;padding:3px 0}.stage .tm .rec{color:var(--dim)}
-.stage .out{text-decoration:line-through;color:var(--red)}
+padding:11px 13px;min-width:190px;flex:1 1 190px;max-width:280px}
+.stage h3{color:var(--blue);font-size:11px;text-transform:uppercase;
+letter-spacing:.10em;margin:0 0 7px;border-bottom:1px solid var(--line);
+padding-bottom:6px}
+.stage .tm{display:flex;justify-content:space-between;gap:8px;font-size:13px;
+padding:3px 0}
+.stage .tm .rec{color:var(--dim);font-variant-numeric:tabular-nums}
+.stage .out{color:var(--red)}
+.stage .out span:first-child{text-decoration:line-through}
 .stage .out .rec{color:var(--red)}
 .seed{color:var(--accent);font-weight:600;margin-right:6px}
-.champbox{border-color:var(--accent)}.champbox .winner{color:var(--accent);
-font-size:16px;font-weight:700;text-align:center;padding:14px 0}
-table{border-collapse:collapse;width:100%;background:var(--panel);
-border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:13px}
-th{background:#101720;color:var(--blue);padding:8px 6px;text-align:right;
-font-size:11px;text-transform:uppercase;letter-spacing:.5px}
-th:first-child,td:first-child{text-align:left;padding-left:12px}
-td{padding:7px 6px;text-align:right;border-top:1px solid var(--line)}
-tr.out td{color:var(--red)}tr.out td:first-child{text-decoration:line-through}
-.wrap{overflow-x:auto;margin-bottom:8px}
-footer{text-align:center;color:var(--dim);font-size:12px;margin-top:34px;
+.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;
+background:var(--panel);margin-bottom:6px}
+table{border-collapse:separate;border-spacing:0;width:100%;font-size:13px;
+background:transparent}
+th{background:#101720;color:var(--blue);padding:8px 7px;text-align:right;
+font-size:10px;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap;
+cursor:pointer;user-select:none;-webkit-user-select:none}
+th:hover{color:var(--accent)}
+th.sort-asc::after{content:" \u25B2";font-size:7px;opacity:.85}
+th.sort-desc::after{content:" \u25BC";font-size:7px;opacity:.85}
+th:first-child,td:first-child{text-align:left;padding-left:12px;
+position:sticky;left:0;background:var(--panel)}
+th:first-child{background:#101720;z-index:2}
+td:first-child{z-index:1}
+td{padding:7px 7px;text-align:right;border-top:1px solid var(--line);
+font-variant-numeric:tabular-nums;white-space:nowrap}
+tbody tr:hover td,tbody tr:hover td:first-child{background:var(--elev)}
+tr.out td{color:var(--red)}
+tr.out td:first-child{text-decoration:line-through}
+.tnote{color:var(--dim);font-size:11px;margin:0 0 16px}
+footer{text-align:center;color:var(--dim);font-size:12px;margin-top:38px;
 border-top:1px solid var(--line);padding-top:14px}
-.commentary{background:var(--card);border:1px solid var(--line);border-radius:10px;
-padding:16px 20px;margin:0 0 22px;max-width:1000px}
+.commentary{background:var(--card);border:1px solid var(--line);
+border-radius:10px;padding:16px 20px;margin:0 0 4px}
 .commentary h3{margin:0 0 4px;font-size:13px;letter-spacing:.10em;
 text-transform:uppercase;color:var(--accent)}
 .commentary .cmeta{color:var(--dim);font-size:11px;margin-bottom:10px}
-.commentary p{margin:0 0 10px;line-height:1.55;font-size:14px}
+.commentary p{margin:0 0 10px;line-height:1.6;font-size:14px}
 .commentary p:last-child{margin-bottom:0}
-.commentary strong{color:#e6edf3}
+.commentary strong{color:var(--bright)}
 .commentary .tag{display:inline-block;font-size:10px;letter-spacing:.08em;
 text-transform:uppercase;background:#1f2d3d;color:var(--accent);
 border-radius:4px;padding:2px 7px;margin-left:8px;vertical-align:middle}
+@media(max-width:620px){
+h1{font-size:17px}.hero{padding:15px 14px}
+.crow{grid-template-columns:20px 1fr auto 54px;gap:8px}
+.crow .nm{font-size:14px}.crow .pts{font-size:15px}
+.stage{max-width:none}}
 """
 
 HEAT_JS = """
@@ -569,7 +627,50 @@ document.querySelectorAll('table.heat').forEach(function(tbl){
     });
   });
 });
+document.querySelectorAll('table.sortable').forEach(function(tbl){
+  var ths=Array.prototype.slice.call(tbl.querySelectorAll('thead th'));
+  var body=tbl.querySelector('tbody');
+  if(!body)return;
+  ths.forEach(function(th,ci){
+    th.addEventListener('click',function(){
+      var dir;
+      if(th.classList.contains('sort-desc'))dir='asc';
+      else if(th.classList.contains('sort-asc'))dir='desc';
+      else dir=(th.getAttribute('data-dir')==='asc')?'asc':'desc';
+      if(th.getAttribute('data-sort')==='text')dir=
+        th.classList.contains('sort-asc')?'desc':'asc';
+      ths.forEach(function(o){o.classList.remove('sort-asc','sort-desc');});
+      th.classList.add(dir==='asc'?'sort-asc':'sort-desc');
+      var rows=Array.prototype.slice.call(body.querySelectorAll('tr'));
+      var txt=th.getAttribute('data-sort')==='text';
+      rows.sort(function(ra,rb){
+        var a=ra.children[ci],b=rb.children[ci];
+        if(!a||!b)return 0;
+        if(txt){
+          var x=(a.getAttribute('data-name')||a.textContent||'').trim();
+          var y=(b.getAttribute('data-name')||b.textContent||'').trim();
+          if(x===y)return 0;
+          return dir==='asc'?(x<y?-1:1):(x>y?-1:1);
+        }
+        function num(td){
+          var v=parseFloat(td.getAttribute('data-v'));
+          if(isNaN(v))v=parseFloat((td.textContent||'').replace(/[^0-9.eE+-]/g,''));
+          return v;
+        }
+        var va=num(a),vb=num(b);
+        if(isNaN(va)&&isNaN(vb))return 0;
+        if(isNaN(va))return 1;
+        if(isNaN(vb))return -1;
+        return dir==='asc'?va-vb:vb-va;
+      });
+      rows.forEach(function(r){body.appendChild(r);});
+    });
+  });
+});
 """
+
+
+DASH = "\u2014"
 
 
 def esc(s):
@@ -591,14 +692,77 @@ def render_stage_card(title, rows, note=None):
     return "".join(h)
 
 
+def fmt_span(week):
+    """'Aug 24 - Sep 6' for a week's full period range."""
+    if not week:
+        return ""
+    a = parse_date(week["periods"][0]["start"])
+    b = parse_date(week["periods"][-1]["end"])
+    f = "%b %-d" if os.name != "nt" else "%b %d"
+    return f"{a.strftime(f)} \u2013 {b.strftime(f)}"
+
+
+def render_champ_hero(teams, champ, seed):
+    """The championship panel: the focus of the page."""
+    week = champ.get("week") or {}
+    label = week.get("label", "Championship")
+    span = fmt_span(week)
+    parts = champ.get("participants") or []
+    h = ['<div class="hero"><div class="htop">',
+         f'<span class="htitle">{esc(label)}</span>',
+         f'<span class="hdates">{esc(span)}</span>',
+         '<span class="hnote">records reset \u00b7 one combined block</span>',
+         '</div>']
+    if not parts:
+        h.append('<div class="pending">Field is not set yet \u2014 '
+                 'three knockout weeks to go.</div>')
+    elif not champ.get("started"):
+        for i, tid in enumerate(sorted(parts, key=seed)):
+            first = ' first' if i == 0 else ''
+            h.append(f'<div class="crow{first}"><span class="pos">\u2013</span>'
+                     f'<span class="nm"><span class="seed">{seed(tid)}</span>'
+                     f'{esc(teams[tid]["name"])}</span>'
+                     f'<span class="rec">not started</span>'
+                     f'<span class="pts">0</span></div>')
+        h.append(f'<div class="pending">Begins {esc(span.split(chr(8211))[0].strip())}'
+                 ' \u00b7 nobody has a point yet.</div>')
+    else:
+        recs = champ["records"]
+        order = sorted(parts, key=lambda t: (-points(recs[t]), seed(t)))
+        top = points(recs[order[0]]) or 1.0
+        for i, tid in enumerate(order):
+            rec = recs[tid]
+            p = points(rec)
+            gb = top - p
+            gbtxt = "leader" if gb == 0 else f"{gb:g} back"
+            pct = max(2, round(100.0 * p / top)) if top else 2
+            cls = "crow first lead" if i == 0 else "crow"
+            h.append(f'<div class="{cls}"><span class="pos">{i + 1}</span>'
+                     f'<span class="nm"><span class="seed">{seed(tid)}</span>'
+                     f'{esc(teams[tid]["name"])}</span>'
+                     f'<span class="rec">{rec_str(rec)} \u00b7 {gbtxt}</span>'
+                     f'<span class="pts">{p:g}</span>'
+                     f'<div class="bar"><span style="width:{pct}%"></span></div>'
+                     '</div>')
+    if champ.get("champion"):
+        h.append('<div class="champban"><div class="lbl">Champion</div>'
+                 f'<div class="who">\U0001F3C6 '
+                 f'{esc(teams[champ["champion"]]["name"])}</div></div>')
+    h.append('</div>')
+    return "".join(h)
+
+
 def render_table(title, teams, order, records, values, out_set):
     """Standings table: Team, W, L, T, GB, PCT + 16 categories."""
     if not order:
         return ""
     lead = max(points(records[t]) for t in order)
-    h = [f"<h2>{esc(title)}</h2>", '<div class="wrap">',
-         '<table class="heat"><thead><tr><th>Team</th><th>W</th><th>L</th>'
-         '<th>T</th><th>GB</th><th>PCT</th>']
+    h = [f'<h2 class="plain">{esc(title)}</h2>', '<div class="wrap">',
+         '<table class="heat sortable"><thead><tr>'
+         '<th data-sort="text" title="Sort by team name">Team</th>'
+         '<th data-dir="desc">W</th><th data-dir="asc">L</th>'
+         '<th data-dir="desc">T</th><th data-dir="asc">GB</th>'
+         '<th data-dir="desc">PCT</th>']
     for key, label, lower in CATEGORIES:
         d = "asc" if lower else "desc"
         h.append(f'<th data-heat="1" data-dir="{d}">{label}</th>')
@@ -609,11 +773,16 @@ def render_table(title, teams, order, records, values, out_set):
         gb = lead - pts
         pct = pts / dec if dec else 0.0
         cls = ' class="out"' if tid in out_set else ""
-        h.append(f'<tr{cls}><td><span class="seed">{team["seed"]}</span>'
-                 f'{esc(team["name"])}</td><td>{rec[0]}</td><td>{rec[1]}</td>'
-                 f'<td>{rec[2]}</td>'
-                 f'<td>{"—" if gb == 0 else f"{gb:g}"}</td>'
-                 f'<td>{pct:.3f}</td>')
+        h.append(f'<tr{cls}>'
+                 f'<td data-name="{esc(team["name"]).lower()}">'
+                 f'<span class="seed">{team["seed"]}</span>'
+                 f'{esc(team["name"])}</td>'
+                 f'<td data-v="{rec[0]}">{rec[0]}</td>'
+                 f'<td data-v="{rec[1]}">{rec[1]}</td>'
+                 f'<td data-v="{rec[2]}">{rec[2]}</td>'
+                 f'<td data-v="{gb:g}">'
+                 f'{DASH if gb == 0 else f"{gb:g}"}</td>'
+                 f'<td data-v="{pct:.5f}">{pct:.3f}</td>')
         v = values.get(tid) if values else None
         for key, _label, _lower in CATEGORIES:
             if v is None:
@@ -634,8 +803,45 @@ def generate_html(cfg, state, now):
     teams = state["teams"]
     seed = lambda tid: teams[tid]["seed"]  # noqa: E731
     stages, champ = state["stages"], state["champ"]
+    out_all = {s["eliminated"] for s in stages if s["eliminated"]}
+    body = []
 
-    # ---- bracket cards: Week 1 / Weeks 1-2 / Weeks 1-3 / Championship ----
+    # ================= 1. CHAMPIONSHIP (the focus) =================
+    body.append(render_champ_hero(teams, champ, seed))
+
+    # ================= 2. its category board =======================
+    if champ["started"] and champ["participants"]:
+        order = sorted(champ["participants"],
+                       key=lambda t: (-points(champ["records"][t]), seed(t)))
+        body.append(render_table(
+            f"{champ['week']['label']} \u2014 "
+            f"{'final' if champ['complete'] else 'live'} category board",
+            teams, order, champ["records"], champ["values"], set()))
+        body.append('<div class="tnote">Every category, every team, over the '
+                    'whole block. Green is good.</div>')
+    else:
+        # championship not underway: keep the live round visible up top
+        current = None
+        for stg in stages:
+            if stg["started"]:
+                current = stg
+        if current is not None:
+            order = sorted(current["participants"],
+                           key=lambda t: (-points(current["records"][t]),
+                                          seed(t)))
+            body.append(render_table(
+                f"Current round \u2014 {current['week']['label']} "
+                f"({'final' if current['complete'] else 'live'})",
+                teams, order, current["records"], current["values"], set()))
+        else:
+            body.append('<div class="tnote">The category board appears once '
+                        'play begins.</div>')
+
+    # ================= 3. the road here ===========================
+    body.append('<div class="sec"><h2>The road here</h2>'
+                '<span class="sub">Weeks 1\u20133 \u00b7 knockout rounds'
+                '</span><span class="rule"></span></div>')
+
     cards = []
     titles = ["Week 1", "Weeks 1-2", "Weeks 1-3"]
     for i, stg in enumerate(stages):
@@ -644,63 +850,36 @@ def generate_html(cfg, state, now):
         parts = sorted(stg["participants"],
                        key=lambda t: (-points(snap[t]), seed(t)))
         for tid in parts:
-            rec = rec_str(snap[tid]) if stg["started"] else "—"
+            rec = rec_str(snap[tid]) if stg["started"] else "\u2014"
             rows.append((seed(tid), teams[tid]["name"], rec,
                          tid == stg["eliminated"]))
-        cards.append(render_stage_card(titles[i] if i < 3 else
-                                       stg["week"]["label"], rows))
-    # championship card
-    ch_rows = []
-    if len(champ["participants"]) == 4:
-        parts = sorted(champ["participants"],
-                       key=lambda t: (-points(champ["records"][t]), seed(t)))
-        for tid in parts:
-            rec = rec_str(champ["records"][tid]) if champ["started"] else "—"
-            ch_rows.append((seed(tid), teams[tid]["name"], rec, False))
-    else:
-        ch_rows = [("—", "TBD", "—", False)] * 4
-    cards.append(render_stage_card("Championship", ch_rows,
-                                   note="records reset"))
-    champion_html = (esc(teams[champ["champion"]]["name"])
-                     if champ.get("champion") else "TBD")
-    cards.append(f'<div class="stage champbox"><h3>Champion</h3>'
-                 f'<div class="winner">🏆 {champion_html}</div></div>')
+        note = None
+        if stg["eliminated"]:
+            note = f"out: {teams[stg['eliminated']]['name']}"
+        cards.append(render_stage_card(
+            titles[i] if i < 3 else stg["week"]["label"], rows, note=note))
+    body.append(f'<div class="bracket">{"".join(cards)}</div>')
 
-    # ---- current stage tables ----
-    current = None
-    for stg in stages:
-        if stg["started"]:
-            current = stg
+    # the final knockout week, only when the championship has taken over
     if champ["started"]:
-        current = None  # championship table rendered instead
+        last = None
+        for stg in stages:
+            if stg["started"]:
+                last = stg
+        if last is not None:
+            order = sorted(last["participants"],
+                           key=lambda t: (-points(last["records"][t]), seed(t)))
+            body.append(render_table(
+                f"{last['week']['label']} \u2014 final standings", teams,
+                order, last["records"], last["values"], set()))
 
-    tables = []
-    out_all = {t for s in stages if s["eliminated"] for t in [s["eliminated"]]}
-    if champ["started"]:
-        order = sorted(champ["participants"],
-                       key=lambda t: (-points(champ["records"][t]), seed(t)))
-        tables.append(render_table(
-            f"Championship — live standings", teams, order,
-            champ["records"], champ["values"], set()))
-    elif current is not None:
-        order = sorted(current["participants"],
-                       key=lambda t: (-points(current["records"][t]), seed(t)))
-        tables.append(render_table(
-            f"{current['week']['label']} — "
-            f"{'final' if current['complete'] else 'live'} standings",
-            teams, order, current["records"], current["values"], set()))
-
-    # cumulative table across regular weeks (all 7 teams, eliminated in red)
     if any(s["started"] for s in stages):
         cum_vals = {t: derive_values(state["cum_raw"][t]) for t in teams}
         order = sorted(teams, key=lambda t: (-points(state["cumulative"][t]),
                                              seed(t)))
-        tables.append(render_table("Cumulative standings (Weeks 1-3)", teams,
-                                   order, state["cumulative"], cum_vals,
-                                   out_all))
-    if not tables:
-        tables.append('<h2>Standings</h2><p style="color:var(--dim)">'
-                      'Playoffs have not started yet.</p>')
+        body.append(render_table(
+            "Cumulative \u2014 Weeks 1-3, all seven teams", teams, order,
+            state["cumulative"], cum_vals, out_all))
 
     ts = now.strftime("%A, %B %-d, %Y at %-I:%M %p Pacific") \
         if os.name != "nt" else now.strftime("%A, %B %d, %Y %I:%M %p Pacific")
@@ -709,14 +888,13 @@ def generate_html(cfg, state, now):
             "initial-scale=1'>"
             f"<title>{esc(cfg['leagueName'])} Playoffs</title>"
             f"<style>{CSS}</style></head><body>"
-            f"<h1>2026 FANTASY BASEBALL PLAYOFFS — "
+            f"<h1>2026 Fantasy Baseball Playoffs \u2014 "
             f"{esc(cfg['leagueName'])}</h1>"
             f"<div class='updated'>Updated {ts}</div>"
             "<!--COMMENTARY-->"
-            f"<div class='bracket'>{''.join(cards)}</div>"
-            f"{''.join(tables)}"
-            "<footer>Auto-updated through the day · Fantrax lineups × MLB live "
-            "stats</footer>"
+            f"{''.join(body)}"
+            "<footer>Auto-updated through the day \u00b7 Fantrax lineups "
+            "\u00d7 MLB live stats</footer>"
             f"<script>{HEAT_JS}</script></body></html>")
     return html
 
