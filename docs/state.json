@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-24T16:38:54-07:00",
+ "generated": "2026-08-24T16:44:09-07:00",
  "leagueName": "League of Lords",
  "teams": {
   "71lgikv0mm9mb3pu": {
@@ -95,8 +95,8 @@
    "QS": 0,
    "HA": 2,
    "BBA": 0,
-   "K": 3,
-   "IP": 10,
+   "K": 4,
+   "IP": 12,
    "SVH3": 0.0,
    "AVG": 0.0,
    "OPS": 0.0,
