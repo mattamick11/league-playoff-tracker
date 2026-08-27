@@ -1,23 +1,41 @@
-**CHAMPIONSHIP: TWO DAYS DOWN, TWELVE TO GO**
+🏆 **CHAMPIONSHIP — WEDNESDAY RECAP**
 
-Both slates are final — a 10-game Monday and a full Tuesday, nothing postponed. Two of fourteen days in, and the team everyone had pegged as a one-trick specialist is running away with it.
+Three days in, and Corey has taken the slimmest possible lead. Matthew Boyd gave him the night's best start — 6 IP, 1 ER, 5 K, **the first quality start Corey has had all championship** — while Ben Rice homered and scored three times. Corey now owns the best run total in the field (16) and has walked the fewest batters (5).
 
-**Nick Kurtz in Paris 27-14-7 — 30.5**
-Landen Poop 22-18-8 — 26.0
-Chase Sapphire 17-24-7 — 20.5
-hubba hubba bubba bubba 15-25-8 — 19.0
+Tory is a half-point back and still controls the loudest offensive categories: 6 homers and 17 RBI, with Cole Carrigg and Pete Alonso both going deep Wednesday. But **Kyle Bradish's seven earned runs in 4⅓ innings** took Tory's ERA from 2.53 to 4.72 and his hits allowed from 17 to 28 — two categories he had been winning outright, both gone. He led by 4.5 on Tuesday night.
 
-**TORY, 30.5 — the bats showed up**
-The preview said his offense was the problem. Instead he **swept home runs, RBI, steals and OPS** — beat all three opponents in every one. Jake Burger hit two homers, Pete Alonso went 4-for-4 with a homer and four RBI, Jeremy Peña added another. Clay Holmes threw seven shutout innings. And the category nobody else is contesting arrived on schedule: three saves, three different arms. He lost exactly one thing to everybody — strikeouts at the plate, 27, most in the field.
+Sawyer got a lift from Kyle Schwarber's 2-for-5 with a homer and three RBI, and he now leads the field in batting average. His staff has still allowed 43 hits and a 6.37 ERA across 29⅔ innings. Bryce sits last, but his pitching is the best here by a distance: 2.45 ERA, 17 hits, six walks, two quality starts. He is still waiting on his first championship home run.
 
-**COREY, 26.0 — .306 and not one quality start**
-Steven Kwan went **7-for-10 with four runs**, which is most of that .306 team average by himself. Corey swept runs, average and batter strikeouts, and walked the fewest — four sweeps. The other end of the board is the problem: he lost RBI, steals and quality starts to all three. Payton Tolle went 5⅓, Ian Seymour 5⅔ — eleven innings between them and **zero quality starts**, each missing by an out or two.
-**SAWYER, 20.5 — the volume cost him**
-He led the field in innings, which was the plan, and it became the problem. Drew Rasmussen gave six innings and one run; Framber Valdez six and three. Then Gavin Williams, Chase Burns and Walbert Ureña combined for **13 earned runs and 20 hits in 8⅔ innings.** He finished last in hits allowed (33), walks (9) and ERA (7.36) — to everybody. Ian Happ's homer and four RBI kept the offense respectable.
+**THE BOARD**
+Corey — 22-17-9 (26.5)
+Tory — 22-18-8 (26.0)
+Sawyer — 18-21-9 (22.5)
+Bryce — 16-22-10 (21.0)
 
-**BRYCE, 19.0 — best arms, worst record**
-Kevin Gausman: seven innings, no runs. Sandy Alcantara: seven innings, one run. **A 1.20 ERA and ten hits allowed, and he swept both.** Then nothing else. No home runs at all, a .233 average, a .538 OPS, and he lost runs, homers, average, OPS, strikeouts on the mound and saves-plus-holds to all three — six categories where he went 0-for-3. Fifteen innings pitched, tied for fewest.
+The field was 11.5 points wide on Tuesday night. It is 5.5 wide now.
+**TEAM LINES — THROUGH WEDNESDAY**
+*hitting · pitching*
+**Corey** .246, .641 OPS, 16 R, 2 HR, 8 RBI, 15 SO, 1 SB · 22.0 IP, 3.27 ERA, 18 H, 5 BB, 25 K, 1 QS, 2.0 SVH3
+**Tory** .214, .704 OPS, 15 R, 6 HR, 17 RBI, 37 SO, 3 SB · 26.2 IP, 4.72 ERA, 28 H, 10 BB, 22 K, 1 QS, 3.0 SVH3
+**Sawyer** .252, .699 OPS, 12 R, 3 HR, 14 RBI, 33 SO, 1 SB · 29.2 IP, 6.37 ERA, 43 H, 14 BB, 23 K, 2 QS, 1.0 SVH3
+**Bryce** .230, .583 OPS, 10 R, 0 HR, 12 RBI, 17 SO, 3 SB · 22.0 IP, 2.45 ERA, 17 H, 6 BB, 17 K, 2 QS, 1.0 SVH3
 
-The board is upside down: the best pitching in the field is in last place, and the most innings belong to the worst ERA. Twelve days left, 11.5 points between first and last, and nobody has thrown away anything yet.
+**TOP 3 HITTERS — WEDNESDAY**
+1. Kyle Schwarber (Sawyer) — 2-for-5, HR, 2 R, 3 RBI
+2. Jazz Chisholm Jr. (Bryce) — 3-for-3, BB, R, RBI, SB
+3. Cole Carrigg (Tory) — 2-for-6, HR, 2 R, 2 RBI
+
+**TOP 3 PITCHERS — WEDNESDAY**
+1. Matthew Boyd (Corey) — 6 IP, 1 ER, 5 K, QS
+2. Sonny Gray (Sawyer) — 5 IP, 2 ER, 5 K
+3. Emilio Pagán (Bryce) — 1 IP, 0 ER, 2 K, SV
+**THURSDAY STARTERS**
+Tory — Trevor Rogers at St. Louis, 2:15 ET
+Corey — Noah Cameron at Toronto, 7:07 ET
+Bryce — Yoshinobu Yamamoto at Atlanta, 7:15 ET
+Corey — Landen Roupp vs Arizona, 9:45 ET
+Sawyer — nobody.
+
+Corey has two arms going today and a half-point lead. Sawyer has none and the most innings in the field. Eleven days left.
 
 **Tracker:** https://mattamick11.github.io/league-playoff-tracker
