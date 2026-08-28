@@ -1,41 +1,38 @@
-🏆 **CHAMPIONSHIP — WEDNESDAY RECAP**
+🏆 **CHAMPIONSHIP — THURSDAY NIGHT**
 
-Three days in, and Corey has taken the slimmest possible lead. Matthew Boyd gave him the night's best start — 6 IP, 1 ER, 5 K, **the first quality start Corey has had all championship** — while Ben Rice homered and scored three times. Corey now owns the best run total in the field (16) and has walked the fewest batters (5).
+All seven games final. Four days down, ten to go, and Corey has turned a half-point lead into a rout.
 
-Tory is a half-point back and still controls the loudest offensive categories: 6 homers and 17 RBI, with Cole Carrigg and Pete Alonso both going deep Wednesday. But **Kyle Bradish's seven earned runs in 4⅓ innings** took Tory's ERA from 2.53 to 4.72 and his hits allowed from 17 to 28 — two categories he had been winning outright, both gone. He led by 4.5 on Tuesday night.
+**Landen Poop 28-11-9 — 32.5** (+6.0)
+Nick Kurtz in Paris 21-21-6 — 24.0 (−2.0)
+hubba hubba bubba bubba 19-21-8 — 23.0 (+2.0)
+Chase Sapphire 12-27-9 — 16.5 (−6.0)
 
-Sawyer got a lift from Kyle Schwarber's 2-for-5 with a homer and three RBI, and he now leads the field in batting average. His staff has still allowed 43 hits and a 6.37 ERA across 29⅔ innings. Bryce sits last, but his pitching is the best here by a distance: 2.45 ERA, 17 hits, six walks, two quality starts. He is still waiting on his first championship home run.
+Corey gained six points in a single day and now leads by **8.5**. He sweeps six categories outright — runs, batter strikeouts, average, OPS, innings and strikeouts — and the only thing he loses to all three is stolen bases.
 
-**THE BOARD**
-Corey — 22-17-9 (26.5)
-Tory — 22-18-8 (26.0)
-Sawyer — 18-21-9 (22.5)
-Bryce — 16-22-10 (21.0)
+**LANDEN POOP — 32.5**
+Thursday was the best day anyone has had: **10-for-25 with eight runs**, plus eleven innings from two starters. George Springer went 2-for-3 with a homer and two RBI, Bobby Witt Jr. 2-for-5 with three runs and a steal, Alec Burleson and Ben Rice two hits apiece. Noah Cameron threw six innings of two-run ball for the quality start; Landen Roupp added five innings and one run.
+Through Thu — .273, .717 OPS, 24 R, 3 HR, 12 RBI, 18 SO, 2 SB · 33.0 IP, 3.00 ERA, 28 H, 9 BB, 31 K, 2 QS, 2.0 SVH3
+**NICK KURTZ IN PARIS — 24.0**
+A genuinely miserable night. The bats went **2-for-24** — Jeremy Peña's homer was one of the two hits — and Trevor Rogers gave up six earned in five innings, the second start in two days to blow a hole in Tory's ratios. His team average is down to **.194**, last in the field, and he now loses average, batter strikeouts and quality starts to everybody. He still owns homers, RBI and saves-plus-holds.
+Through Thu — .194, .658 OPS, 17 R, 7 HR, 18 RBI, 47 SO, 4 SB · 32.2 IP, 5.51 ERA, 36 H, 11 BB, 30 K, 1 QS, 4.0 SVH3
 
-The field was 11.5 points wide on Tuesday night. It is 5.5 wide now.
-**TEAM LINES — THROUGH WEDNESDAY**
-*hitting · pitching*
-**Corey** .246, .641 OPS, 16 R, 2 HR, 8 RBI, 15 SO, 1 SB · 22.0 IP, 3.27 ERA, 18 H, 5 BB, 25 K, 1 QS, 2.0 SVH3
-**Tory** .214, .704 OPS, 15 R, 6 HR, 17 RBI, 37 SO, 3 SB · 26.2 IP, 4.72 ERA, 28 H, 10 BB, 22 K, 1 QS, 3.0 SVH3
-**Sawyer** .252, .699 OPS, 12 R, 3 HR, 14 RBI, 33 SO, 1 SB · 29.2 IP, 6.37 ERA, 43 H, 14 BB, 23 K, 2 QS, 1.0 SVH3
-**Bryce** .230, .583 OPS, 10 R, 0 HR, 12 RBI, 17 SO, 3 SB · 22.0 IP, 2.45 ERA, 17 H, 6 BB, 17 K, 2 QS, 1.0 SVH3
+**HUBBA HUBBA BUBBA BUBBA — 23.0**
+Yoshinobu Yamamoto was the best arm of the night: **6⅓ innings, one run, eight strikeouts.** The bats then went 6-for-18 and scored **zero runs and zero RBI**, which is how you throw a gem and gain two points instead of five. Bryce now sweeps five categories — steals, quality starts, hits allowed, walks allowed and ERA — and is shut out in runs, homers, OPS and innings. Four days in, still no home run.
+Through Thu — .244, .622 OPS, 10 R, 0 HR, 12 RBI, 22 SO, 5 SB · 28.1 IP, 2.22 ERA, 21 H, 7 BB, 25 K, 3 QS, 1.0 SVH3
+**CHASE SAPPHIRE — 16.5**
+A second straight day without a starting pitcher. Sawyer threw **zero innings** Thursday and took eleven at-bats, and the rest of the field kept accumulating. He dropped six points, sweeps nothing at all now, and loses hits allowed, walks, strikeouts and ERA to all three. Sixteen points out with ten days left.
+Through Thu — .246, .678 OPS, 13 R, 3 HR, 14 RBI, 38 SO, 3 SB · 29.2 IP, 6.37 ERA, 43 H, 14 BB, 23 K, 2 QS, 1.0 SVH3
+**THE WEEKEND — NEW ROSTER PERIOD**
+Aug 28–30 is a fresh lineup window and all four managers have already reset. 15 games Friday, 17 Saturday, 14 Sunday.
 
-**TOP 3 HITTERS — WEDNESDAY**
-1. Kyle Schwarber (Sawyer) — 2-for-5, HR, 2 R, 3 RBI
-2. Jazz Chisholm Jr. (Bryce) — 3-for-3, BB, R, RBI, SB
-3. Cole Carrigg (Tory) — 2-for-6, HR, 2 R, 2 RBI
+**Announced starters so far**
+**Sawyer (5)** — Fri: Michael Wacha (KC at CLE), Shane McClanahan (TB vs SD), Brandon Young (BAL at ATH) · Sun: Drew Rasmussen (TB vs SD), Chase Burns (CIN at CHC)
+**Bryce (5)** — Fri: Christian Scott (NYM vs HOU), Cam Schlittler (NYY vs BOS) · Sat: Kevin Gausman (CHC vs CIN), Sandy Alcantara (MIA at WSH) · Sun: Tyler Mahle (ATL vs COL)
+**Tory (3)** — Fri: Logan Henderson (MIL vs TEX), Andrew Painter (PHI at LAA), Reid Detmers (LAA vs PHI)
+**Corey (3)** — Sat: Jake Bennett (BOS at NYY), Walker Buehler (SD at TB), Martín Pérez (ATL vs COL)
 
-**TOP 3 PITCHERS — WEDNESDAY**
-1. Matthew Boyd (Corey) — 6 IP, 1 ER, 5 K, QS
-2. Sonny Gray (Sawyer) — 5 IP, 2 ER, 5 K
-3. Emilio Pagán (Bryce) — 1 IP, 0 ER, 2 K, SV
-**THURSDAY STARTERS**
-Tory — Trevor Rogers at St. Louis, 2:15 ET
-Corey — Noah Cameron at Toronto, 7:07 ET
-Bryce — Yoshinobu Yamamoto at Atlanta, 7:15 ET
-Corey — Landen Roupp vs Arizona, 9:45 ET
-Sawyer — nobody.
+After two days without a single starter, Sawyer has three going Friday alone — he has clearly decided volume is the only road back. Bryce gets Gausman and Alcantara back-to-back Saturday, the two arms that built that 2.22 ERA. Tory's Friday is strange: **Painter and Detmers start the same game against each other**, so whatever one gains the other partly hands back. And Corey, sitting on an 8.5-point lead, has nothing announced until Saturday.
 
-Corey has two arms going today and a half-point lead. Sawyer has none and the most innings in the field. Eleven days left.
+Sunday's probables are still filling in league-wide, so those counts will grow.
 
 **Tracker:** https://mattamick11.github.io/league-playoff-tracker
