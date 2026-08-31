@@ -1,38 +1,44 @@
-🏆 **CHAMPIONSHIP — THURSDAY NIGHT**
+🏆 **CHAMPIONSHIP — WEEK 1 COMPLETE**
 
-All seven games final. Four days down, ten to go, and Corey has turned a half-point lead into a rout.
+Seven days down, seven to go. The team that was last on Thursday is now first, the team that led by 8.5 is now last, and **all four are still alive.**
 
-**Landen Poop 28-11-9 — 32.5** (+6.0)
-Nick Kurtz in Paris 21-21-6 — 24.0 (−2.0)
-hubba hubba bubba bubba 19-21-8 — 23.0 (+2.0)
-Chase Sapphire 12-27-9 — 16.5 (−6.0)
+**hubba hubba bubba bubba 25-13-10 — 30.0** (+7.0)
+Nick Kurtz in Paris 19-19-10 — 24.0 (even)
+Chase Sapphire 18-22-8 — 22.0 (+5.5)
+Landen Poop 17-25-6 — 20.0 (−12.5)
 
-Corey gained six points in a single day and now leads by **8.5**. He sweeps six categories outright — runs, batter strikeouts, average, OPS, innings and strikeouts — and the only thing he loses to all three is stolen bases.
+Ten points covers the entire field with half the block left, and **six of the fourteen live categories are essentially tied**: hits allowed is 47-47, runs is 37-34-34-34, all four OPS marks sit inside 33 points, strikeouts 62 to 61, innings 67⅓ to 66. Nobody is out of this.
+**HUBBA HUBBA BUBBA BUBBA — 30.0**
+Hit .315 as a team over the weekend and jumped from a .244 average to a league-best .282. Sweeps steals, average, OPS, strikeouts and ERA. Two home runs in seven days is the one hole.
+⚾ Jazz Chisholm Jr. 7-for-17, 5 R, 3 RBI, **6 SB** · Seiya Suzuki 9-for-26, 1 HR, 7 R, 5 RBI · Jeff McNeil 8-for-25, 3 R, 4 RBI
+🥎 Kevin Gausman 12 IP, 5 ER, 13 K, 1 QS · Tyler Mahle 6⅔ IP, 1 ER, 9 K, 1 QS · Yoshinobu Yamamoto 6⅓ IP, 1 ER, 8 K, 1 QS
 
-**LANDEN POOP — 32.5**
-Thursday was the best day anyone has had: **10-for-25 with eight runs**, plus eleven innings from two starters. George Springer went 2-for-3 with a homer and two RBI, Bobby Witt Jr. 2-for-5 with three runs and a steal, Alec Burleson and Ben Rice two hits apiece. Noah Cameron threw six innings of two-run ball for the quality start; Landen Roupp added five innings and one run.
-Through Thu — .273, .717 OPS, 24 R, 3 HR, 12 RBI, 18 SO, 2 SB · 33.0 IP, 3.00 ERA, 28 H, 9 BB, 31 K, 2 QS, 2.0 SVH3
 **NICK KURTZ IN PARIS — 24.0**
-A genuinely miserable night. The bats went **2-for-24** — Jeremy Peña's homer was one of the two hits — and Trevor Rogers gave up six earned in five innings, the second start in two days to blow a hole in Tory's ratios. His team average is down to **.194**, last in the field, and he now loses average, batter strikeouts and quality starts to everybody. He still owns homers, RBI and saves-plus-holds.
-Through Thu — .194, .658 OPS, 17 R, 7 HR, 18 RBI, 47 SO, 4 SB · 32.2 IP, 5.51 ERA, 36 H, 11 BB, 30 K, 1 QS, 4.0 SVH3
+Exactly the 24.0 he had Thursday, but Friday was superb: three quality starts in one night, with Painter and Detmers starting *against each other* and both getting one. Owns homers, RBI and saves-plus-holds. The .219 average is what's holding him down.
+⚾ Jeremy Peña 7-for-25, 3 HR, 6 R, 5 RBI · Pete Alonso 6-for-23, 2 HR, 5 R, 6 RBI · Jake Burger 6-for-21, 2 HR, 4 RBI
+🥎 Clay Holmes 7 IP, 0 ER, 5 K, 1 QS · Logan Henderson 7 IP, 1 ER, 7 K, 1 QS · Mason Montgomery 4⅓ IP, 0 ER, 5 K, 2 SV
+**CHASE SAPPHIRE — 22.0**
+The staff that carried a 6.37 ERA on Thursday is at 3.88 now — three quality starts over the weekend. Leads the field in innings and quality starts. Still last in hits allowed and strikeouts at the plate.
+⚾ Michael Harris II 7-for-21, 1 HR, 6 RBI, 3 SB · Junior Caminero 9-for-22, 2 HR, 5 R, 4 RBI · Kyle Schwarber 6-for-25, 1 HR, 4 R, 4 RBI
+🥎 Drew Rasmussen 12 IP, 3 ER, 11 K, 2 QS · Michael Wacha 8 IP, 0 ER, 10 K, 1 QS · Brandon Young 7 IP, 1 ER, 4 K, 1 QS
 
-**HUBBA HUBBA BUBBA BUBBA — 23.0**
-Yoshinobu Yamamoto was the best arm of the night: **6⅓ innings, one run, eight strikeouts.** The bats then went 6-for-18 and scored **zero runs and zero RBI**, which is how you throw a gem and gain two points instead of five. Bryce now sweeps five categories — steals, quality starts, hits allowed, walks allowed and ERA — and is shut out in runs, homers, OPS and innings. Four days in, still no home run.
-Through Thu — .244, .622 OPS, 10 R, 0 HR, 12 RBI, 22 SO, 5 SB · 28.1 IP, 2.22 ERA, 21 H, 7 BB, 25 K, 3 QS, 1.0 SVH3
-**CHASE SAPPHIRE — 16.5**
-A second straight day without a starting pitcher. Sawyer threw **zero innings** Thursday and took eleven at-bats, and the rest of the field kept accumulating. He dropped six points, sweeps nothing at all now, and loses hits allowed, walks, strikeouts and ERA to all three. Sixteen points out with ten days left.
-Through Thu — .246, .678 OPS, 13 R, 3 HR, 14 RBI, 38 SO, 3 SB · 29.2 IP, 6.37 ERA, 43 H, 14 BB, 23 K, 2 QS, 1.0 SVH3
-**THE WEEKEND — NEW ROSTER PERIOD**
-Aug 28–30 is a fresh lineup window and all four managers have already reset. 15 games Friday, 17 Saturday, 14 Sunday.
+**LANDEN POOP — 20.0**
+A twelve-and-a-half point fall. The bats went 33-for-141 with 13 runs across the weekend and the staff threw only 25⅔ innings with zero saves or holds. Still leads runs outright and walks the fewest batters — the pieces are there, the innings weren't. He has been the team with the fewest scheduled starts three windows running, and it is the whole story of his week.
+⚾ George Springer 10-for-19, 2 HR, 5 R, 4 RBI · Steven Kwan 12-for-26, 7 R · Ben Rice 8-for-23, 1 HR, 6 R, 4 RBI
+🥎 Jake Bennett 6 IP, 0 ER, 7 K, 1 QS · Matthew Boyd 6 IP, 1 ER, 5 K, 1 QS · Cade Smith 3 IP, 1 ER, 5 K, 2 SV
+**🏅 WEEK 1 — BEST OF THE FIELD**
+**Hitters**
+1. **George Springer** (Landen Poop) — 10-for-19, **.526**, 2 HR, 5 R, 4 RBI, 19 total bases in 19 at-bats
+2. **Jeremy Peña** (Nick Kurtz in Paris) — 7-for-25, 3 HR, 6 R, 5 RBI
+3. **Jazz Chisholm Jr.** (hubba hubba bubba bubba) — 7-for-17, .412, 5 R, 6 stolen bases
+**Pitchers**
+1. **Drew Rasmussen** (Chase Sapphire) — 12 IP, 3 ER, 11 K, **two quality starts**, 2.25 ERA
+2. **Michael Wacha** (Chase Sapphire) — 8 IP, 0 ER, 10 K, the best single start of the week
+3. **Kevin Gausman** (hubba hubba bubba bubba) — 12 IP, 13 K, 1 QS
 
-**Announced starters so far**
-**Sawyer (5)** — Fri: Michael Wacha (KC at CLE), Shane McClanahan (TB vs SD), Brandon Young (BAL at ATH) · Sun: Drew Rasmussen (TB vs SD), Chase Burns (CIN at CHC)
-**Bryce (5)** — Fri: Christian Scott (NYM vs HOU), Cam Schlittler (NYY vs BOS) · Sat: Kevin Gausman (CHC vs CIN), Sandy Alcantara (MIA at WSH) · Sun: Tyler Mahle (ATL vs COL)
-**Tory (3)** — Fri: Logan Henderson (MIL vs TEX), Andrew Painter (PHI at LAA), Reid Detmers (LAA vs PHI)
-**Corey (3)** — Sat: Jake Bennett (BOS at NYY), Walker Buehler (SD at TB), Martín Pérez (ATL vs COL)
+**THE WEEK TO COME — Aug 31 to Sep 6**
+97 games and a new roster period, so every lineup resets twice more before this ends. Bryce is in front but still hasn't hit a home run in a week. Tory has the power and the bullpen and needs about forty points of batting average. Sawyer has the most innings and the most quality starts in the field — if his ratios hold he climbs. Corey has the most runs, the fewest walks allowed, and a rotation that has to actually take the mound this time.
 
-After two days without a single starter, Sawyer has three going Friday alone — he has clearly decided volume is the only road back. Bryce gets Gausman and Alcantara back-to-back Saturday, the two arms that built that 2.22 ERA. Tory's Friday is strange: **Painter and Detmers start the same game against each other**, so whatever one gains the other partly hands back. And Corey, sitting on an 8.5-point lead, has nothing announced until Saturday.
-
-Sunday's probables are still filling in league-wide, so those counts will grow.
+Six categories are tied or within one. This comes down to the last weekend.
 
 **Tracker:** https://mattamick11.github.io/league-playoff-tracker
