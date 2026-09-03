@@ -1,31 +1,29 @@
-🏆 **CHAMPIONSHIP — MONDAY NIGHT**
+🏆 **CHAMPIONSHIP — WEDNESDAY NIGHT**
 
-Day 8 of 14. First night of the final week, and the standings just got tighter at the top and a lot uglier at the bottom.
+Day 10 of 14. Four days left, and Bryce just had the single best day anybody has had in this block.
 
-**hubba hubba bubba bubba 25-14-9 — 29.5** (−0.5)
-Nick Kurtz in Paris 22-19-7 — **25.5** (+2.5)
-Chase Sapphire 19-20-9 — 23.5 (+0.5)
-Landen Poop 13-26-9 — 17.5 (−2.5)
+**hubba hubba bubba bubba 32-10-6 — 35.0** (+5.5)
+Nick Kurtz in Paris 23-18-7 — 26.5 (+1.0)
+Chase Sapphire 15-24-9 — 19.5 (−4.0)
+Landen Poop 11-29-8 — 15.0 (−2.5)
 
-Tory had the night of the slate and is now the only team within striking distance. Corey lost ground in five separate head-to-heads and is the first team who genuinely needs help.
+Here's the part that stings: **Sawyer was in first place last night.** He went to bed Tuesday at 30.0 points with a three-and-a-half point lead, then put up eight hits, zero homers, zero RBI and *two innings* of pitching on Wednesday. Bryce beat him 11-2-3 on the day. Sawyer is now third, fifteen and a half points back.
+⚾ **HUBBA HUBBA BUBBA BUBBA** — 16-for-51, 4 HR, 10 R, 4 SB
+Twenty-three innings and **28 strikeouts** out of one pitching staff in a single day. Cam Schlittler 8 IP, 1 ER, 9 K. Jacob Lopez 6 IP, 2 ER, 7 K. Yamamoto 7 IP, 8 K. Henry Bolte went 3-for-4 with **two homers and 4 RBI**, Acuña added a homer and 3 more.
 
-**RUNS IS A THREE-WAY TIE.** Bryce, Corey and Sawyer are all sitting on exactly 38, with Tory two back at 36. Steals are level at 10-10 between Bryce and Tory. Saves-plus-holds is knotted at 3-3 between Corey and Sawyer. Hits allowed is 51 to 52.
-**WHAT ACTUALLY MOVED**
-Tory flipped four: quality starts past Bryce, strikeouts past Corey, and ERA past *both* Corey and Sawyer. Sawyer took strikeouts off Bryce. Bryce picked up runs and hits allowed against Tory but lost his outright steals lead. Corey's only gain all night was pulling level with Sawyer in saves-plus-holds.
+He now **sweeps eight categories** — runs, steals, average, OPS, innings, hits allowed, strikeouts and saves-plus-holds — and the only thing he loses to everybody is walks allowed.
 
-⚾ **HUBBA HUBBA BUBBA BUBBA** — 9-for-36, 2 HR, 4 R
-Seiya Suzuki 3-for-5 with a homer and 3 runs, Nico Hoerner added another. Then David Bednar wore it: **1 inning, 3 earned**, the team's entire pitching contribution for the day. That alone took the ERA from 3.00 to 3.36.
+⚾ **NICK KURTZ IN PARIS** — 15-for-54, 4 HR, 8 RBI
+Quietly excellent and the only one keeping this interesting. Andrew Painter **7 shutout innings, 6 K**; Reid Detmers 7 IP, 1 ER, 8 K. Carter Jensen hit **two homers**. Tory owns homers, RBI and a **2.86 ERA** that leads the field outright.
+⚾ **CHASE SAPPHIRE** — 8-for-42, no homers, no RBI
+The collapse. Two innings pitched all day, and Tanner Scott took an earned run in the tenth of that Dodgers marathon. Christian Yelich's 2-for-3 was the highlight. **Sawyer does not sweep a single category** and is shut out in strikeouts and innings.
 
-⚾ **NICK KURTZ IN PARIS** — 8-for-38, 4 RBI
-Clay Holmes was the night: **6 shutout innings, 8 strikeouts**, quality start. Aroldis Chapman followed with a clean inning and 2 more. Ten punchouts and zero earned runs from two arms.
-⚾ **CHASE SAPPHIRE** — 9-for-35, 2 HR
-Walbert Ureña went **7 innings, 1 earned, 8 K** for the sixth quality start of the block — most in the field. Michael Harris II and Bryson Stott both homered. The 12 strikeouts at the plate are the problem: 95 for the block now, worst by twelve.
+⚾ **LANDEN POOP** — 11-for-46, 10 RBI
+Vladimir Guerrero Jr. was terrific — 3-for-4, homer, **5 RBI** — and Landen Roupp gave him 5 innings of one-run ball. It wasn't close to enough. Corey is now shut out in **six** categories: HR, RBI, OPS, quality starts, hits allowed and ERA.
 
-⚾ **LANDEN POOP** — 6-for-33, 1 R
-The bats went quiet and Payton Tolle couldn't hold it — 5⅔ innings, 4 earned. A Duran homered and a Duran saved it (Jarren and Jhoan, no relation), and that was the whole night. Corey now trails the entire field in RBI, steals, OPS, quality starts and strikeouts.
+**THURSDAY — a 9-game slate**
+Sawyer has the most to gain with three arms going: Wacha (KC vs MIA), Brandon Young (BAL vs BOS), McClanahan (TB at TEX). Tory runs Quantrill and Logan Henderson. Bryce has Alcántara, Corey has Bennett. Nine of Sawyer's 22 actives have no game at all.
 
-**TUESDAY**
-Tory: MacKenzie Gore (TEX vs ATH). Sawyer: Gavin Williams (CLE vs TOR). Corey: Matthew Boyd (CHC vs MIL) and Randy Dobnak (KC vs MIA).
-**Bryce has no starter at all.** All 30 probables are announced and not one of his six active starters is among them — a full day of conceding innings, strikeouts and quality starts with only Bednar, Pagán and Latz available.
+Still live: quality starts are **tied 7-7**, saves-plus-holds tied 3-3 at the bottom, hits allowed 66 to 68, and three teams sit within 2⅓ innings of each other. Friday brings the last roster change of the year.
 
 **Tracker:** https://mattamick11.github.io/league-playoff-tracker
