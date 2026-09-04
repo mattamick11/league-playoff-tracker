@@ -27,7 +27,7 @@
       "05xq2": "Mitch Bratt, MLB 683352, SP-ARI, Guerrero Warfare (eliminated). Unmapped in the Aug 3 pool snapshot; resolved 2026-08-31 via Fantrax getPlayerIds + MLB sports/1/players (exactly one name candidate, position match).",
       "06nuj": "Jackson Kent, MLB 800600, SP-WSH, Beat CWill (eliminated). Unmapped in the Aug 3 pool snapshot; resolved 2026-08-31 via Fantrax getPlayerIds + MLB sports/1/players (exactly one name candidate, position match)."
     },
-    "players_total": 799,
+    "players_total": 800,
     "corrections": [
       {
         "fantraxId": "0529l",
@@ -41,6 +41,58 @@
         },
         "date": "2026-08-16",
         "why": "MLB people/search on the surname-first string \"Rodriguez, Endy\" returned Julio Rodriguez (677594) first; the resolver took the first active hit without verifying the returned name matched. Julio Rodriguez was being scored for Nick Kurtz in Paris for all of Week 2 while the real Endy Rodriguez (682848) had not played since 2026-08-07."
+      },
+      {
+        "fantraxId": "03yxh",
+        "was": {
+          "mlbId": 663728,
+          "resolvedTo": "Cal RALEIGH"
+        },
+        "now": {
+          "name": "Cal Quantrill",
+          "mlbId": 615698
+        },
+        "date": "2026-09-03",
+        "why": "Runtime resolver took a surname-first Fantrax string and returned Cal RALEIGH (663728) on a shared name token, then PERSISTED that id into player_map.json. on Nick Kurtz in Paris (Tory) period 47 ACTIVE - LIVE IMPACT."
+      },
+      {
+        "fantraxId": "05vy9",
+        "was": {
+          "mlbId": 608070,
+          "resolvedTo": "Jose Ramirez"
+        },
+        "now": {
+          "name": "Pedro Ramirez",
+          "mlbId": 699393
+        },
+        "date": "2026-09-03",
+        "why": "Runtime resolver took a surname-first Fantrax string and returned Jose Ramirez (608070) on a shared name token, then PERSISTED that id into player_map.json. not on a championship roster - latent."
+      },
+      {
+        "fantraxId": "04eep",
+        "was": {
+          "mlbId": 650333,
+          "resolvedTo": "Luis Arraez"
+        },
+        "now": {
+          "name": "Luis Campusano",
+          "mlbId": 669134
+        },
+        "date": "2026-09-03",
+        "why": "Runtime resolver took a surname-first Fantrax string and returned Luis Arraez (650333) on a shared name token, then PERSISTED that id into player_map.json. not on a championship roster - latent."
+      },
+      {
+        "fantraxId": "05uv5",
+        "was": {
+          "mlbId": 687401,
+          "resolvedTo": "Joey Ortiz"
+        },
+        "now": {
+          "name": "Abimelec Ortiz",
+          "mlbId": 694673
+        },
+        "date": "2026-09-03",
+        "why": "Runtime resolver took a surname-first Fantrax string and returned Joey Ortiz (687401) on a shared name token, then PERSISTED that id into player_map.json. not on a championship roster - latent."
       }
     ]
   },
@@ -3194,16 +3246,16 @@
       "mlbId": 696519
     },
     "04eep": {
-      "name": "Campusano, Luis",
-      "mlbId": 650333
+      "name": "Luis Campusano",
+      "mlbId": 669134
     },
     "05vy9": {
-      "name": "Ramirez, Pedro",
-      "mlbId": 608070
+      "name": "Pedro Ramirez",
+      "mlbId": 699393
     },
     "05uv5": {
-      "name": "Ortiz, Abimelec",
-      "mlbId": 687401
+      "name": "Abimelec Ortiz",
+      "mlbId": 694673
     },
     "067xm": {
       "name": "George Klassen",
@@ -3242,8 +3294,8 @@
       "mlbId": 800600
     },
     "03yxh": {
-      "name": "Quantrill, Cal",
-      "mlbId": 663728
+      "name": "Cal Quantrill",
+      "mlbId": 615698
     }
   }
 }
