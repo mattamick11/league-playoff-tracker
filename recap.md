@@ -1,33 +1,52 @@
-🚨 **THE LEAD HAS CHANGED** 🚨
+**🏆 FRIDAY NIGHT — THE LEAD IS GONE 🏆**
 
-**Nick Kurtz in Paris 28-13-7 — 31.5**
-hubba hubba bubba bubba 28-14-6 — 31.0
-Chase Sapphire 17-23-8 — 21.0
-Landen Poop 9-32-7 — 12.5
+Eleven days ago these four teams reset to 0-0. Tonight, with two days left in the season:
 
-Read that again. **Half a point.** Bryce woke up Thursday with an eight-and-a-half point cushion and a coronation scheduled, and went to bed in second place. Tory gained 5.0, Bryce lost 4.0, and the head-to-head between them is now **7-7-2 — perfectly, agonizingly tied.**
+**hubba hubba bubba bubba — 31.5**
+**Nick Kurtz in Paris — 31.5**
 
-Three days left. Forty-six games. One weekend.
-⚾ **NICK KURTZ IN PARIS** — the day that flipped it
-10-for-38 with **four home runs**, 9 runs, 8 RBI. Carter Jensen 3-for-4 with a homer and 3 driven in, Gelof and Alonso went deep too. Then the arms: **Cal Quantrill 7 shutout innings**, Logan Henderson 7 IP and 7 K, and *two saves* on top. Sixteen innings, 15 punchouts, a 2.25 ERA for the day.
-He now owns homers, RBI, ERA and saves-plus-holds outright.
+Dead. Even. And Bryce holds the tiebreaker as the 2-seed, which means as of this second he is the champion.
 
-⚾ **HUBBA HUBBA BUBBA BUBBA** — one pitcher. One.
-Sandy Alcántara, 6 innings, 4 earned, 2 strikeouts. That was the entire staff. The bats were fine — Altuve homered, McNeil and Teoscar chipped in — but you cannot win a Thursday with two strikeouts. Still sweeps runs, steals, average, OPS and hits allowed. Still loses walks allowed to everybody.
-⚾ **CHASE SAPPHIRE** — 17⅔ innings and **zero runs scored**
-Three starters went (Brandon Young, Wacha, McClanahan), 17 strikeouts, and the offense responded by going 4-for-27 without crossing the plate a single time. Not one run. He leads innings and strikeouts and is dead last in average. Poetic.
+Head-to-head is **7 categories to 7**. Not a single tie. Fourteen live categories and they have split them exactly down the middle.
 
-⚾ **LANDEN POOP** — 4-for-24
-Jake Bennett's 6 innings and 7 K deserved better. Corey is now **shut out in nine of the fourteen live categories.** At this point he's less a contender and more a category donor.
+**HOW BRYCE ERASED IT IN ONE DAY**
 
-🔥 **THE WEEKEND**
-Bryce and Tory are separated by half a point with 46 games to go. Sawyer needs a miracle and has the pitching to maybe build one. Corey is playing spoiler and doesn't know it yet.
+19-for-53. A .358 team average, 8 runs, 2 homers, 10 RBI. Gleyber Torres went 4-for-9 with 4 runs in the Detroit doubleheader. Acuña 3-for-5, Hoerner 3-for-4, Josh Bell and Jeff McNeil both went deep.
 
-⏰ **SET YOUR LINEUPS — AND SET THEM EARLY**
-New roster period starts Friday. First pitch is **11:10 AM Pacific / 2:10 PM Eastern** — Tigers at Guardians, a getaway-day matinee that starts a full **four hours** before the next game on the board.
+Then **Shane Baz** — the one starter Bryce committed to all weekend — went 6⅓ of one-run ball with 6 K and banked the quality start. One earned run in 7⅓ team innings on the day.
 
-**Every single one of you has a player in it.** Bryce has Gleyber Torres. Tory has Jo Adell and McGonigle. Corey has Kwan, Colt Keith and Cade Smith. Sawyer has Gavin Williams — and Framber Valdez sitting on his bench.
+**TORY'S FRIDAY**
 
-Half a point. Don't lose a title to a lineup you forgot to set before lunch.
+12-for-56. A .214 day with 17 strikeouts. Zebby Matthews got touched up for 4 earned in 5 and never got to a QS. Bryan Baker came in, recorded **zero outs**, walked two and gave up a run.
 
-**Tracker:** https://mattamick11.github.io/league-playoff-tracker
+Chapman and Montgomery both slammed the door for saves, so the SVH3 lead grew to 10.0-7.0. But it was not close to enough.
+
+⚠️ **Two games are still going out west.** The Dodgers and the A's-Mariners game are in the 8th and 9th right now, and **twelve active players are still on the field** — six of them Bryce's, three of them Tory's. Betts, Teoscar and Bolte are all still hitting. These numbers will not be the numbers you wake up to.
+
+**WHERE IT ACTUALLY STANDS**
+
+Bryce owns the bat: **.298 to .231**, .815 OPS to .732, more runs, more steals, 31 fewer strikeouts. He also gives up the fewest hits in the field at 77, and he just took the strikeout edge back from Tory, 102-100 (Sawyer still leads everyone at 104).
+
+Tory owns the arm: 3 more innings, 2 more quality starts, a 3.00 ERA to 3.26, and 3 more SVH3. Plus 23 homers to 14 and a 5-RBI edge.
+
+Seven and seven. Whoever blinks first loses a title.
+
+**SATURDAY: BRYCE GOES DARK**
+
+Here is the part that should make everyone's stomach hurt. **Bryce does not have a single starting pitcher going tomorrow.** Not one. He committed to three starts for the weekend, spent one on Baz tonight, and both of his others — Mahle and Christian Scott — go Sunday.
+
+Tory has **Anthony Kay**. One start, all day, uncontested.
+
+Sawyer runs out **three** — Sonny Gray, Drew Rasmussen and Framber Valdez — and Corey has Martin Perez. Those innings matter even though neither of them is winning this: every inning they throw moves the IP, K and QS ladders that Bryce and Tory are standing on.
+
+So tomorrow Bryce plays defense with his bats and hopes Kay doesn't go seven.
+
+**SUNDAY DECIDES A CHAMPION**
+
+Mahle and Christian Scott for Bryce. Gore and Woo for Tory, with Clay Holmes still unannounced and very much due. Randy Dobnak, Gage Jump and Payton Tolle all going for Corey.
+
+Eleven days, 48 category decisions, and it comes down to a Sunday.
+
+Mahle throws the first pitch at 10:10am Pacific. One of you is going to watch a Tyler Mahle start like it's Game 7.
+
+Because it is. 🍿
