@@ -8,14 +8,16 @@ concurrency:
   cancel-in-progress: true
 
 on:
-  schedule:
-    # Every 30 minutes across the MLB day, in UTC.
-    # Verified against the real Aug 5-11 2026 schedule: earliest first pitch
-    # 16:15 UTC (Sunday), latest game ends about 05:45 UTC the next day.
-    # That is 9:00am to 11:00pm Pacific.
-    - cron: '*/30 16-23 * * *'
-    - cron: '*/30 0-6 * * *'
-    # DISABLED 2026-08-04 (no auto-commentary until the API key exists) - cron: '30 4 * * *'
+  # SEASON OVER 2026-09-06. Automatic standings posts to Discord are OFF.
+  # Both crons below are disabled; nothing runs on a schedule any more.
+  # To restart for the 2027 season, uncomment the two cron lines.
+  # schedule:
+  #   # Every 30 minutes across the MLB day, in UTC.
+  #   # Verified against the real Aug 5-11 2026 schedule: earliest first pitch
+  #   # 16:15 UTC (Sunday), latest game ends about 05:45 UTC the next day.
+  #   # That is 9:00am to 11:00pm Pacific.
+  #   - cron: '*/30 16-23 * * *'
+  #   - cron: '*/30 0-6 * * *'
   workflow_dispatch:
     inputs:
       commentary:
@@ -58,7 +60,9 @@ jobs:
             PASS=$((PASS+1))
             echo "--- pass $PASS ---"
             python tracker.py || echo "tracker failed this pass"
-            python discord_post.py || echo "discord skipped this pass"
+            if [ "${{ github.event_name }}" = "schedule" ]; then
+              python discord_post.py || echo "discord skipped this pass"
+            fi
             git add docs/ player_map.json
             if git commit -m "auto-update (pass $PASS)"; then
               git pull --rebase --autostash || true
@@ -76,6 +80,7 @@ jobs:
       # It must run BEFORE the commit so that marker file is persisted, otherwise
       # the next run would post the same slot again.
       - name: Post standings to Discord
+        if: github.event_name == 'schedule'
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python discord_post.py
